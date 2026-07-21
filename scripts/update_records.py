@@ -161,15 +161,52 @@ def choose_record_of_day(records: list[dict[str, Any]], target: date) -> dict[st
 
 def build_highlights(records: list[dict[str, Any]]) -> list[dict[str, Any]]:
     output = []
+
     for region, codes in REGIONS.items():
-        group = [r for r in records if r["province"] in codes]
+        group = [record for record in records if record["province"] in codes]
+
         if not group:
             continue
-        counts = Counter(r["type"] for r in group)
-        leading_type, leading_count = counts.most_common(1)[0]
-        communities = len({r["community"] for r in group})
-        text = f"{len(group)} records across {communities} communities; {leading_count} were {TYPE_LABELS[leading_type]} events."
-        output.append({"region": region, "count": len(group), "leadingType": leading_type, "text": text})
+
+        total = len(group)
+        communities = len({record["community"] for record in group})
+        broken_count = sum(record["status"] == "broken" for record in group)
+        tied_count = sum(record["status"] == "tied" for record in group)
+
+        type_counts = Counter(record["type"] for record in group)
+        leading_type, leading_count = type_counts.most_common(1)[0]
+
+        record_word = "record" if total == 1 else "records"
+        community_word = "community" if communities == 1 else "communities"
+
+        status_text = (
+            f"{total} {record_word} across {communities} {community_word}: "
+            f"{broken_count} broken, {tied_count} tied."
+        )
+
+        if total == 1:
+            type_text = f"It was a {TYPE_LABELS[leading_type]}."
+        elif leading_count == total:
+            type_text = (
+                f"All {total} were {TYPE_LABELS[leading_type]} events."
+            )
+        else:
+            type_text = (
+                f"The most common type was {TYPE_LABELS[leading_type]} "
+                f"({leading_count} of {total})."
+            )
+
+        output.append(
+            {
+                "region": region,
+                "count": total,
+                "brokenCount": broken_count,
+                "tiedCount": tied_count,
+                "leadingType": leading_type,
+                "text": f"{status_text} {type_text}",
+            }
+        )
+
     return sorted(output, key=lambda item: item["count"], reverse=True)
 
 
