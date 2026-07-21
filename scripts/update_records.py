@@ -115,7 +115,11 @@ def normalize_record(feature: dict[str, Any], fields: FieldMap, target: date) ->
     coordinates = geometry.get("coordinates")
     if value is None or previous is None or not isinstance(coordinates, list) or len(coordinates) < 2:
         return None
-
+        
+    # A zero precipitation or snowfall value is not a meaningful record event.
+    if fields.type in {"precipitation", "snowfall"} and value <= 0:
+        return None
+        
     difference = round(value - previous, 2)
     tied = math.isclose(value, previous, abs_tol=0.049)
     province = str(props.get("PROVINCE_CODE") or "").upper()
