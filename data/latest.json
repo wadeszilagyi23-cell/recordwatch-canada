@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-07-20",
+  "latestAvailableDate": "2026-07-20",
+  "generatedAt": "2026-07-21T11:30:00-04:00",
+  "sourceLastUpdated": "Demonstration data",
+  "source": "Demonstration data shaped like ECCC LTCE output",
+  "isDemo": true,
+  "summary": {"totalRecords": 12, "communities": 10, "tiedRecords": 2, "oldestRecordAge": 96},
+  "recordOfDay": {"id":"kingston-high-max","date":"2026-07-20","community":"Kingston Area","province":"ON","provinceName":"Ontario","type":"high_max","status":"broken","value":35.2,"unit":"°C","previousValue":34.1,"previousYear":1930,"difference":1.1,"recordBeginYear":1872,"periodYears":155,"coordinates":[-76.49,44.23]},
+  "story": {"description":"Kingston Area, ON recorded 35.2 °C, exceeding the previous daily high-maximum temperature record of 34.1 °C from 1930."},
+  "highlights": [
+    {"region":"Ontario","count":5,"leadingType":"high_max","text":"Five demonstration records, led by high maximum temperatures in southern Ontario."},
+    {"region":"Prairies","count":3,"leadingType":"high_min","text":"Three demonstration records, including warm overnight temperatures and one low maximum."},
+    {"region":"Atlantic Canada","count":2,"leadingType":"precipitation","text":"Two demonstration records, including heavy rainfall and a tied temperature record."},
+    {"region":"British Columbia","count":2,"leadingType":"precipitation","text":"Two demonstration records representing precipitation and cool daytime conditions."}
+  ],
+  "records": [
+    {"id":"kingston-high-max","date":"2026-07-20","community":"Kingston Area","province":"ON","provinceName":"Ontario","type":"high_max","status":"broken","value":35.2,"unit":"°C","previousValue":34.1,"previousYear":1930,"difference":1.1,"recordBeginYear":1872,"periodYears":155,"coordinates":[-76.49,44.23]},
+    {"id":"windsor-high-min","date":"2026-07-20","community":"Windsor Area","province":"ON","provinceName":"Ontario","type":"high_min","status":"broken","value":24.6,"unit":"°C","previousValue":23.8,"previousYear":2011,"difference":0.8,"recordBeginYear":1940,"periodYears":87,"coordinates":[-83.03,42.31]},
+    {"id":"ottawa-high-max","date":"2026-07-20","community":"Ottawa Area","province":"ON","provinceName":"Ontario","type":"high_max","status":"tied","value":34.4,"unit":"°C","previousValue":34.4,"previousYear":1955,"difference":0.0,"recordBeginYear":1889,"periodYears":138,"coordinates":[-75.70,45.42]},
+    {"id":"sudbury-precip","date":"2026-07-20","community":"Sudbury Area","province":"ON","provinceName":"Ontario","type":"precipitation","status":"broken","value":52.4,"unit":"mm","previousValue":41.6,"previousYear":1987,"difference":10.8,"recordBeginYear":1887,"periodYears":140,"coordinates":[-80.99,46.49]},
+    {"id":"thunder-low-min","date":"2026-07-20","community":"Thunder Bay Area","province":"ON","provinceName":"Ontario","type":"low_min","status":"broken","value":4.1,"unit":"°C","previousValue":5.0,"previousYear":1971,"difference":-0.9,"recordBeginYear":1877,"periodYears":150,"coordinates":[-89.25,48.38]},
+    {"id":"winnipeg-high-min","date":"2026-07-20","community":"Winnipeg Area","province":"MB","provinceName":"Manitoba","type":"high_min","status":"broken","value":23.2,"unit":"°C","previousValue":22.4,"previousYear":2006,"difference":0.8,"recordBeginYear":1872,"periodYears":155,"coordinates":[-97.14,49.90]},
+    {"id":"regina-high-max","date":"2026-07-20","community":"Regina Area","province":"SK","provinceName":"Saskatchewan","type":"high_max","status":"broken","value":37.0,"unit":"°C","previousValue":36.1,"previousYear":1960,"difference":0.9,"recordBeginYear":1883,"periodYears":144,"coordinates":[-104.62,50.45]},
+    {"id":"edmonton-low-max","date":"2026-07-20","community":"Edmonton Area","province":"AB","provinceName":"Alberta","type":"low_max","status":"broken","value":12.8,"unit":"°C","previousValue":13.7,"previousYear":1993,"difference":-0.9,"recordBeginYear":1880,"periodYears":147,"coordinates":[-113.49,53.55]},
+    {"id":"vancouver-precip","date":"2026-07-20","community":"Vancouver Area","province":"BC","provinceName":"British Columbia","type":"precipitation","status":"broken","value":34.8,"unit":"mm","previousValue":28.9,"previousYear":1998,"difference":5.9,"recordBeginYear":1896,"periodYears":131,"coordinates":[-123.12,49.28]},
+    {"id":"prince-george-low-max","date":"2026-07-20","community":"Prince George Area","province":"BC","provinceName":"British Columbia","type":"low_max","status":"broken","value":11.3,"unit":"°C","previousValue":12.0,"previousYear":1977,"difference":-0.7,"recordBeginYear":1912,"periodYears":115,"coordinates":[-122.75,53.92]},
+    {"id":"halifax-precip","date":"2026-07-20","community":"Halifax Area","province":"NS","provinceName":"Nova Scotia","type":"precipitation","status":"broken","value":61.2,"unit":"mm","previousValue":49.5,"previousYear":1967,"difference":11.7,"recordBeginYear":1871,"periodYears":156,"coordinates":[-63.58,44.65]},
+    {"id":"stjohns-high-min","date":"2026-07-20","community":"St. John's Area","province":"NL","provinceName":"Newfoundland and Labrador","type":"high_min","status":"tied","value":18.7,"unit":"°C","previousValue":18.7,"previousYear":1945,"difference":0.0,"recordBeginYear":1874,"periodYears":153,"coordinates":[-52.71,47.56]}
+  ],
+  "notes": ["This is demonstration data and not an official record report."]
+}

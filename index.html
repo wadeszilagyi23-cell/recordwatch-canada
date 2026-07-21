@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Explore Canadian communities that established or tied daily weather records on the latest completed climate day.">
+  <title>RecordWatch Canada — Yesterday's Record-Breaking Weather</title>
+  <link rel="preconnect" href="https://unpkg.com">
+  <link rel="preconnect" href="https://tile.openstreetmap.org">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="RecordWatch Canada home">
+      <span class="brand-leaf" aria-hidden="true">🍁</span>
+      <span><strong>RecordWatch <em>Canada</em></strong><small>Yesterday's Record-Breaking Weather</small></span>
+    </a>
+    <button class="menu-button" id="menuButton" type="button" aria-expanded="false" aria-controls="mainNav">☰</button>
+    <nav id="mainNav" class="main-nav" aria-label="Primary navigation">
+      <a class="active" href="#top">Home</a><a href="#highlights">News</a><a href="#recordMap">Maps</a><a href="#methods">Data &amp; Methods</a><a href="#articles">Climate Context</a><a href="#footer">FAQ</a><a href="#footer">Contact</a>
+    </nav>
+  </header>
+
+  <main id="top" class="page-shell">
+    <section class="toolbar card" aria-label="Date and community controls">
+      <label class="date-control"><span>Climate date</span><input id="datePicker" type="date"></label>
+      <button class="primary-button" id="previousRecordsButton" type="button">← Previous Records</button>
+      <label class="search-control"><span class="sr-only">Search for a community</span><input id="communitySearch" type="search" placeholder="Search for a community, province, or record…" list="communityOptions"><datalist id="communityOptions"></datalist></label>
+      <span class="local-note">◷ All times local</span>
+    </section>
+
+    <p id="statusMessage" class="status-message" role="status" aria-live="polite"></p>
+
+    <section class="top-grid">
+      <article class="record-story card">
+        <div class="story-copy"><span class="eyebrow">Record of the Day</span><h1 id="storyHeadline">Loading Canada's latest weather records…</h1><p id="storyDescription">The automated daily summary will appear here.</p><a class="primary-button link-button" href="#recordsTable">See record details →</a></div>
+        <div class="story-visual" role="img" aria-label="Stylized Canadian waterfront weather illustration"><span id="storyValue">—</span><small id="storyBadge">Daily record</small></div>
+      </article>
+
+      <section class="stat-grid" aria-label="Daily record summary">
+        <article class="stat-card card"><span class="stat-icon red">▥</span><strong id="statTotal">0</strong><span>Total records</span></article>
+        <article class="stat-card card"><span class="stat-icon orange">●</span><strong id="statCommunities">0</strong><span>Communities affected</span></article>
+        <article class="stat-card card"><span class="stat-icon gray">◇</span><strong id="statTies">0</strong><span>Tied records</span></article>
+        <article class="stat-card card"><span class="stat-icon purple">▣</span><strong id="statOldest">—</strong><span>Oldest record broken</span></article>
+      </section>
+
+      <aside class="sponsor-card card" aria-label="Advertisement placeholder"><span>Sponsored</span><strong>Advertisement</strong><small>Reserved for a future sponsor or AdSense placement.</small></aside>
+    </section>
+
+    <section class="map-layout">
+      <div class="map-column">
+        <div id="parameterFilters" class="filter-row" role="group" aria-label="Filter map by weather parameter">
+          <button class="filter-chip active" data-filter="all" type="button">All Record Types</button>
+          <button class="filter-chip" data-filter="high_max" type="button"><i class="dot high-max"></i>High Max Temp</button>
+          <button class="filter-chip" data-filter="high_min" type="button"><i class="dot high-min"></i>High Min Temp</button>
+          <button class="filter-chip" data-filter="low_max" type="button"><i class="dot low-max"></i>Low Max Temp</button>
+          <button class="filter-chip" data-filter="low_min" type="button"><i class="dot low-min"></i>Low Min Temp</button>
+          <button class="filter-chip" data-filter="precipitation" type="button"><i class="dot precipitation"></i>Precipitation</button>
+          <button class="filter-chip" data-filter="snowfall" type="button"><i class="dot snowfall"></i>Snowfall</button>
+          <button class="filter-chip" id="moreFiltersButton" type="button">☷ More Filters</button>
+        </div>
+
+        <section class="map-card card">
+          <div id="recordMap" aria-label="Map of Canadian weather records"></div>
+          <div class="map-legend" id="mapLegend"><strong>Legend</strong></div>
+        </section>
+
+        <section id="highlights" class="highlights card"><h2>Today's Weather Record Highlights</h2><div id="highlightGrid" class="highlight-grid"></div></section>
+      </div>
+
+      <aside class="side-column">
+        <section class="side-card card"><h2>⌖ Find a community</h2><input id="sideSearch" type="search" placeholder="Search by community…"><button id="browseCommunities" class="text-button" type="button">Browse all communities →</button></section>
+        <section id="archivePanel" class="side-card card"><h2>▣ Explore Previous Records</h2><p>Browse snapshots archived by this site after launch.</p><input id="archiveDate" type="date"><button id="viewArchiveButton" class="primary-button" type="button">View Previous Records</button><select id="archiveSelect" aria-label="Available archived dates"><option value="">Available archive dates</option></select></section>
+        <section class="side-card card"><h2>✉ Stay informed</h2><p>Newsletter signup can be connected after launch.</p><input type="email" placeholder="Enter your email…"><button class="primary-button" type="button" disabled>Subscribe</button><small>Coming in a later version.</small></section>
+      </aside>
+    </section>
+
+    <section id="articles" class="article-grid" aria-label="Featured articles">
+      <article class="article-card heat"><div><h2>Why heat records are falling more often</h2><p>Exploring long-term changes in extreme heat.</p><a href="#methods">Read more →</a></div></article>
+      <article class="article-card instruments"><div><h2>How weather records are calculated</h2><p>Understanding the data, standards, and quality checks.</p><a href="#methods">Read more →</a></div></article>
+      <article class="article-card storms"><div><h2>This week in Canadian extremes</h2><p>A future automated weekly recap of notable records.</p><a href="#recordsTable">Read more →</a></div></article>
+    </section>
+
+    <section id="recordsTable" class="table-card card">
+      <div class="section-heading"><div><h2 id="tableTitle">Recent Records</h2><p id="tableSubtitle"></p></div><div><button id="downloadButton" class="secondary-button" type="button">↓ Download CSV</button></div></div>
+      <div class="table-wrap"><table><thead><tr><th>Community</th><th>Province/Territory</th><th>Record Type</th><th>New Value</th><th>Previous Record</th><th>Difference</th><th>Period of Record</th></tr></thead><tbody id="recordRows"></tbody></table></div>
+      <p id="tableCount" class="table-count"></p>
+    </section>
+
+    <section id="methods" class="method-card card">
+      <h2>Data and automation</h2>
+      <p>RecordWatch Canada is designed to create a daily snapshot from Environment and Climate Change Canada's Long Term Climate Extremes collections. Automated output should always be presented as preliminary because official climate data can be revised.</p>
+    </section>
+  </main>
+
+  <footer id="footer"><strong>RecordWatch Canada</strong><span>Data source: Environment and Climate Change Canada / MSC GeoMet. Map © OpenStreetMap contributors.</span></footer>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
