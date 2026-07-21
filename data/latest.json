@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "date": "2026-07-20",
   "latestAvailableDate": "2026-07-20",
-  "generatedAt": "2026-07-21T14:21:42-04:00",
+  "generatedAt": "2026-07-21T14:50:07-04:00",
   "sourceLastUpdated": "2026-07-21T12:19:42Z",
   "source": "Environment and Climate Change Canada — MSC GeoMet LTCE",
   "isDemo": false,
@@ -41,20 +41,26 @@
     {
       "region": "British Columbia",
       "count": 5,
+      "brokenCount": 3,
+      "tiedCount": 2,
       "leadingType": "high_max",
-      "text": "5 records across 5 communities; 5 were record high maximum temperature events."
+      "text": "5 records across 5 communities: 3 broken, 2 tied. All 5 were record high maximum temperature events."
     },
     {
       "region": "Northern Canada",
       "count": 3,
+      "brokenCount": 2,
+      "tiedCount": 1,
       "leadingType": "high_max",
-      "text": "3 records across 3 communities; 3 were record high maximum temperature events."
+      "text": "3 records across 3 communities: 2 broken, 1 tied. All 3 were record high maximum temperature events."
     },
     {
       "region": "Atlantic Canada",
       "count": 1,
+      "brokenCount": 1,
+      "tiedCount": 0,
       "leadingType": "precipitation",
-      "text": "1 records across 1 communities; 1 were daily precipitation record events."
+      "text": "1 record across 1 community: 1 broken, 0 tied. It was a daily precipitation record."
     }
   ],
   "records": [
