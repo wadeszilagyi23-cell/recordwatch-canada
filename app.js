@@ -225,3 +225,29 @@ document.addEventListener('DOMContentLoaded', () => {
   $('datePicker').addEventListener('change', (event) => { if (event.target.value === currentData?.latestAvailableDate) loadData(); else if (event.target.value) loadData(archivePath(event.target.value)); });
   $('downloadButton').addEventListener('click', downloadCsv);
 });
+
+document.addEventListener('DOMContentLoaded', () => {
+  const previousButton = document.getElementById('previousRecordsButton');
+  const archivePanel = document.getElementById('archivePanel');
+  const archiveDate = document.getElementById('archiveDate');
+
+  previousButton.addEventListener(
+    'click',
+    (event) => {
+      event.preventDefault();
+      event.stopImmediatePropagation();
+
+      archivePanel.scrollIntoView({
+        behavior: 'smooth',
+        block: 'nearest'
+      });
+
+      archiveDate.focus({ preventScroll: true });
+
+      if (typeof archiveDate.showPicker === 'function') {
+        archiveDate.showPicker();
+      }
+    },
+    true
+  );
+});
