@@ -616,3 +616,40 @@ renderHighlights = function () {
 
   originalRenderHighlightsWithoutCommunityCounts();
 };
+
+
+function cleanCommunityName(value) {
+  return String(value ?? '')
+    .replace(/\s+Area$/i, '')
+    .trim();
+}
+
+const originalRenderAllWithAreaNames = renderAll;
+
+renderAll = function () {
+  if (currentData) {
+    if (Array.isArray(currentData.records)) {
+      currentData.records.forEach((record) => {
+        record.community =
+          cleanCommunityName(record.community);
+      });
+    }
+
+    if (currentData.recordOfDay) {
+      currentData.recordOfDay.community =
+        cleanCommunityName(
+          currentData.recordOfDay.community
+        );
+    }
+
+    if (currentData.story?.description) {
+      currentData.story.description =
+        currentData.story.description.replace(
+          /\s+Area(?=,|\s+recorded\b|$)/gi,
+          ''
+        );
+    }
+  }
+
+  originalRenderAllWithAreaNames();
+};
