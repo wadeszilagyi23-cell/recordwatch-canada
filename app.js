@@ -653,3 +653,253 @@ renderAll = function () {
 
   originalRenderAllWithAreaNames();
 };
+
+
+function statisticRecordAge(record) {
+  const currentYear = Number(
+    String(currentData?.date || '').slice(0, 4)
+  );
+
+  const previousYear = Number(record?.previousYear);
+
+  if (
+    !Number.isFinite(currentYear) ||
+    !Number.isFinite(previousYear)
+  ) {
+    return -1;
+  }
+
+  return Math.max(0, currentYear - previousYear);
+}
+
+function statisticRecordMargin(record) {
+  const margin = Math.abs(Number(record?.difference));
+
+  return Number.isFinite(margin) ? margin : -1;
+}
+
+function configureClickableStatistic(
+  valueElementId,
+  record,
+  statisticName
+) {
+  const valueElement = $(valueElementId);
+  const card = valueElement?.closest('.stat-card');
+
+  if (!card) return;
+
+  if (!record) {
+    delete card.dataset.recordId;
+    card.classList.remove('clickable-stat');
+    card.removeAttribute('role');
+    card.removeAttribute('tabindex');
+    card.removeAttribute('aria-label');
+    card.removeAttribute('title');
+    return;
+  }
+
+  const location =
+    `${record.community}, ${record.province}`;
+
+  card.dataset.recordId = record.id;
+  card.classList.add('clickable-stat');
+  card.setAttribute('role', 'button');
+  card.setAttribute('tabindex', '0');
+
+  card.setAttribute(
+    'aria-label',
+    `${statisticName}: ${location}. View this record on the map.`
+  );
+
+  card.title =
+    `${statisticName}: ${location}. ` +
+    `Click to view this record on the map.`;
+}
+
+function renderStats() {
+  const summary = currentData?.summary || {};
+  const records = currentData?.records || [];
+
+  const brokenRecords = records.filter(
+    (record) => record.status === 'broken'
+  );
+
+  const tiedRecords = records.filter(
+    (record) => record.status === 'tied'
+  );
+
+  const largestMarginRecord = brokenRecords.reduce(
+    (largest, record) => {
+      if (!largest) return record;
+
+      return statisticRecordMargin(record) >
+        statisticRecordMargin(largest)
+        ? record
+        : largest;
+    },
+    null
+  );
+
+  const oldestBrokenRecord = brokenRecords.reduce(
+    (oldest, record) => {
+      if (!oldest) return record;
+
+      const recordAge =
+        statisticRecordAge(record);
+
+      const oldestAge =
+        statisticRecordAge(oldest);
+
+      if (recordAge > oldestAge) {
+        return record;
+      }
+
+      if (
+        recordAge === oldestAge &&
+        statisticRecordMargin(record) >
+          statisticRecordMargin(oldest)
+      ) {
+        return record;
+      }
+
+      return oldest;
+    },
+    null
+  );
+
+  // Broken records
+  $('statTotal').textContent =
+    brokenRecords.length;
+
+  // Largest record margin
+  if (largestMarginRecord) {
+    const margin =
+      statisticRecordMargin(largestMarginRecord);
+
+    $('statCommunities').textContent =
+      `${margin.toFixed(1)} ${largestMarginRecord.unit}`;
+  } else {
+    $('statCommunities').textContent = '—';
+  }
+
+  // Tied records
+  $('statTies').textContent =
+    tiedRecords.length;
+
+  // Oldest record broken
+  if (oldestBrokenRecord) {
+    const age =
+      statisticRecordAge(oldestBrokenRecord);
+
+    $('statOldest').textContent =
+      `${age} yrs`;
+  } else {
+    $('statOldest').textContent =
+      summary.oldestRecordAge
+        ? `${summary.oldestRecordAge} yrs`
+        : '—';
+  }
+
+  configureClickableStatistic(
+    'statCommunities',
+    largestMarginRecord,
+    'Largest record margin'
+  );
+
+  configureClickableStatistic(
+    'statOldest',
+    oldestBrokenRecord,
+    'Oldest record broken'
+  );
+}
+
+function openStatisticRecordOnMap(card) {
+  const recordId = card?.dataset?.recordId;
+
+  if (!recordId || !currentData) return;
+
+  const record = currentData.records.find(
+    (item) => item.id === recordId
+  );
+
+  if (
+    !record ||
+    !Array.isArray(record.coordinates) ||
+    record.coordinates.length !== 2
+  ) {
+    return;
+  }
+
+  /*
+   * Restore All Record Types when the selected
+   * record is hidden by a parameter filter.
+   */
+  if (
+    activeFilter !== 'all' &&
+    activeFilter !== record.type
+  ) {
+    activeFilter = 'all';
+
+    document
+      .querySelectorAll('.filter-chip[data-filter]')
+      .forEach((button) => {
+        button.classList.toggle(
+          'active',
+          button.dataset.filter === 'all'
+        );
+      });
+
+    renderMap();
+    renderTable();
+  }
+
+  const [longitude, latitude] =
+    record.coordinates;
+
+  $('recordMap').scrollIntoView({
+    behavior: 'smooth',
+    block: 'center'
+  });
+
+  window.setTimeout(() => {
+    map.setView([latitude, longitude], 8);
+
+    markerLayer.eachLayer((layer) => {
+      if (layer.recordId === record.id) {
+        layer.openPopup();
+      }
+    });
+  }, 400);
+
+  $('statusMessage').classList.remove('error');
+
+  $('statusMessage').textContent =
+    `Showing ${record.community}, ` +
+    `${record.province} on the map.`;
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+  [
+    'statCommunities',
+    'statOldest'
+  ].forEach((valueElementId) => {
+    const card =
+      $(valueElementId)?.closest('.stat-card');
+
+    if (!card) return;
+
+    card.addEventListener('click', () => {
+      openStatisticRecordOnMap(card);
+    });
+
+    card.addEventListener('keydown', (event) => {
+      if (
+        event.key === 'Enter' ||
+        event.key === ' '
+      ) {
+        event.preventDefault();
+        openStatisticRecordOnMap(card);
+      }
+    });
+  });
+});
