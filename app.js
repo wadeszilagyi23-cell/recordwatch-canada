@@ -358,3 +358,64 @@ async function loadData(path = 'data/latest.json') {
     }
   }
 }
+
+function downloadCsv() {
+  if (!currentData) return;
+
+  const rows = [[
+    'Date',
+    'Community',
+    'Province',
+    'Record Type',
+    'Status',
+    'New Value',
+    'Unit',
+    'Previous Record',
+    'Previous Year',
+    'Difference',
+    'Record Begin Year',
+    'Latitude',
+    'Longitude'
+  ]];
+
+  filteredRecords().forEach((record) => {
+    rows.push([
+      record.date,
+      record.community,
+      record.province,
+      TYPE_INFO[record.type].label,
+      record.status,
+      record.value,
+      record.unit,
+      record.previousValue,
+      record.previousYear,
+      record.difference,
+      record.recordBeginYear,
+      record.coordinates[1],
+      record.coordinates[0]
+    ]);
+  });
+
+  const csv = rows
+    .map((row) =>
+      row
+        .map((cell) =>
+          `"${String(cell ?? '').replaceAll('"', '""')}"`
+        )
+        .join(',')
+    )
+    .join('\r\n');
+
+  // UTF-8 BOM allows Excel to display characters such as ° correctly.
+  const blob = new Blob(
+    ['\uFEFF', csv],
+    { type: 'text/csv;charset=utf-8' }
+  );
+
+  const link = document.createElement('a');
+  link.href = URL.createObjectURL(blob);
+  link.download = `recordwatch-${currentData.date}.csv`;
+  link.click();
+
+  URL.revokeObjectURL(link.href);
+}
