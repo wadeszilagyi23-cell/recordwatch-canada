@@ -123,7 +123,12 @@ def normalize_record(feature: dict[str, Any], fields: FieldMap, target: date) ->
     difference = round(value - previous, 2)
     tied = math.isclose(value, previous, abs_tol=0.049)
     province = str(props.get("PROVINCE_CODE") or "").upper()
-    community = str(props.get("VIRTUAL_STATION_NAME_E") or "Unknown Area").title()
+    community = str(
+        props.get("VIRTUAL_STATION_NAME_E") or "Unknown"
+    ).title()
+
+    if community.lower().endswith(" area"):
+        community = community[:-5].rstrip()
     begin_year = year_from_date(props.get(fields.begin), target.year)
     station_id = props.get("VIRTUAL_CLIMATE_ID") or feature.get("id") or community
     return {
