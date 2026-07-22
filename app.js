@@ -511,3 +511,68 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   });
 });
+
+function renderStats() {
+  const summary = currentData?.summary || {};
+  const records = currentData?.records || [];
+
+  const brokenRecords = records.filter(
+    (record) => record.status === 'broken'
+  );
+
+  const tiedRecords = records.filter(
+    (record) => record.status === 'tied'
+  );
+
+  const largestMarginRecord = brokenRecords.reduce(
+    (largest, record) => {
+      const margin = Math.abs(Number(record.difference));
+
+      if (!Number.isFinite(margin)) {
+        return largest;
+      }
+
+      if (!largest) {
+        return record;
+      }
+
+      const largestMargin = Math.abs(
+        Number(largest.difference)
+      );
+
+      return margin > largestMargin ? record : largest;
+    },
+    null
+  );
+
+  // First card: Broken records
+  $('statTotal').textContent = brokenRecords.length;
+
+  // Second card: Largest record margin
+  if (largestMarginRecord) {
+    const margin = Math.abs(
+      Number(largestMarginRecord.difference)
+    );
+
+    $('statCommunities').textContent =
+      `${margin.toFixed(1)} ${largestMarginRecord.unit}`;
+
+    $('statCommunities').title =
+      `${largestMarginRecord.community}, ` +
+      `${largestMarginRecord.province} — ` +
+      `${TYPE_INFO[largestMarginRecord.type]?.label || 'Record'}`;
+  } else {
+    $('statCommunities').textContent = '—';
+    $('statCommunities').title = '';
+  }
+
+  // Third card: Tied records
+  $('statTies').textContent =
+    summary.tiedRecords ?? tiedRecords.length;
+
+  // Fourth card: Oldest record broken
+  $('statOldest').textContent =
+    summary.oldestRecordAge
+      ? `${summary.oldestRecordAge} yrs`
+      : '—';
+}
