@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "date": "2026-07-21",
   "latestAvailableDate": "2026-07-21",
-  "generatedAt": "2026-07-22T14:07:01-04:00",
+  "generatedAt": "2026-07-22T15:22:38-04:00",
   "sourceLastUpdated": "2026-07-22T12:19:21Z",
   "source": "Environment and Climate Change Canada — MSC GeoMet LTCE",
   "isDemo": false,
@@ -44,7 +44,7 @@
       "brokenCount": 9,
       "tiedCount": 0,
       "leadingType": "precipitation",
-      "text": "9 records across 9 communities: 9 broken, 0 tied. The most common type was daily precipitation record (8 of 9)."
+      "text": "9 records broken, 0 tied. The most common type was daily precipitation record (8 of 9)."
     },
     {
       "region": "British Columbia",
@@ -52,7 +52,7 @@
       "brokenCount": 8,
       "tiedCount": 1,
       "leadingType": "high_max",
-      "text": "9 records across 9 communities: 8 broken, 1 tied. The most common type was record high maximum temperature (6 of 9)."
+      "text": "8 records broken, 1 tied. The most common type was record high maximum temperature (6 of 9)."
     },
     {
       "region": "Prairies",
@@ -60,7 +60,7 @@
       "brokenCount": 3,
       "tiedCount": 0,
       "leadingType": "high_min",
-      "text": "3 records across 3 communities: 3 broken, 0 tied. All 3 were record high minimum temperature events."
+      "text": "3 records broken, 0 tied. All 3 were record high minimum temperature events."
     },
     {
       "region": "Quebec",
@@ -68,7 +68,7 @@
       "brokenCount": 3,
       "tiedCount": 0,
       "leadingType": "precipitation",
-      "text": "3 records across 3 communities: 3 broken, 0 tied. All 3 were daily precipitation record events."
+      "text": "3 records broken, 0 tied. All 3 were daily precipitation record events."
     },
     {
       "region": "Northern Canada",
@@ -76,7 +76,7 @@
       "brokenCount": 2,
       "tiedCount": 0,
       "leadingType": "high_max",
-      "text": "2 records across 1 community: 2 broken, 0 tied. The most common type was record high maximum temperature (1 of 2)."
+      "text": "2 records broken, 0 tied. The most common type was record high maximum temperature (1 of 2)."
     },
     {
       "region": "Atlantic Canada",
@@ -84,7 +84,7 @@
       "brokenCount": 1,
       "tiedCount": 0,
       "leadingType": "low_min",
-      "text": "1 record across 1 community: 1 broken, 0 tied. It was a record low minimum temperature."
+      "text": "1 record broken, 0 tied. It was a record low minimum temperature."
     }
   ],
   "records": [
