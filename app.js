@@ -576,3 +576,29 @@ function renderStats() {
       ? `${summary.oldestRecordAge} yrs`
       : '—';
 }
+
+
+/* Remove community counts from current and archived highlights */
+const originalRenderHighlightsWithoutCommunityCounts =
+  renderHighlights;
+
+renderHighlights = function () {
+  const highlights = currentData?.highlights || [];
+
+  highlights.forEach((item) => {
+    item.text = String(item.text || '').replace(
+      /^\d+\s+records?\s+across\s+\d+\s+communit(?:y|ies):\s+(\d+)\s+broken,\s+(\d+)\s+tied\./i,
+      (_, broken, tied) => {
+        const recordWord =
+          Number(broken) === 1 ? 'record' : 'records';
+
+        return (
+          `${broken} ${recordWord} broken, ` +
+          `${tied} tied.`
+        );
+      }
+    );
+  });
+
+  originalRenderHighlightsWithoutCommunityCounts();
+};
