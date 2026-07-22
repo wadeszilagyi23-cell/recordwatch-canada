@@ -151,11 +151,11 @@ def process_features(payload: dict[str, Any], fields: list[FieldMap], target: da
 def choose_record_of_day(records: list[dict[str, Any]], target: date) -> dict[str, Any] | None:
     if not records:
         return None
-    def score(record: dict[str, Any]) -> tuple[int, float, int]:
+    def score(record: dict[str, Any]) -> tuple[int, int, float]:
         previous_year = int(record.get("previousYear") or target.year)
         age = max(0, target.year - previous_year)
         margin = abs(float(record.get("difference") or 0))
-        return (age, margin, 1 if record["status"] == "broken" else 0)
+        return (1 if record["status"] == "broken" else 0, age, margin)
     return max(records, key=score)
 
 
