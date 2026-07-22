@@ -2,13 +2,13 @@
   "schemaVersion": 1,
   "date": "2026-07-21",
   "latestAvailableDate": "2026-07-21",
-  "generatedAt": "2026-07-22T15:22:38-04:00",
-  "sourceLastUpdated": "2026-07-22T12:19:21Z",
+  "generatedAt": "2026-07-22T15:33:34-04:00",
+  "sourceLastUpdated": "2026-07-22T18:33:48Z",
   "source": "Environment and Climate Change Canada — MSC GeoMet LTCE",
   "isDemo": false,
   "summary": {
-    "totalRecords": 27,
-    "communities": 26,
+    "totalRecords": 29,
+    "communities": 28,
     "tiedRecords": 1,
     "oldestRecordAge": 131
   },
@@ -40,11 +40,11 @@
   "highlights": [
     {
       "region": "Ontario",
-      "count": 9,
-      "brokenCount": 9,
+      "count": 11,
+      "brokenCount": 11,
       "tiedCount": 0,
       "leadingType": "precipitation",
-      "text": "9 records broken, 0 tied. The most common type was daily precipitation record (8 of 9)."
+      "text": "11 records broken. The most common type was daily precipitation record (10 of 11)."
     },
     {
       "region": "British Columbia",
@@ -60,7 +60,7 @@
       "brokenCount": 3,
       "tiedCount": 0,
       "leadingType": "high_min",
-      "text": "3 records broken, 0 tied. All 3 were record high minimum temperature events."
+      "text": "3 records broken. All 3 were record high minimum temperature events."
     },
     {
       "region": "Quebec",
@@ -68,7 +68,7 @@
       "brokenCount": 3,
       "tiedCount": 0,
       "leadingType": "precipitation",
-      "text": "3 records broken, 0 tied. All 3 were daily precipitation record events."
+      "text": "3 records broken. All 3 were daily precipitation record events."
     },
     {
       "region": "Northern Canada",
@@ -76,7 +76,7 @@
       "brokenCount": 2,
       "tiedCount": 0,
       "leadingType": "high_max",
-      "text": "2 records broken, 0 tied. The most common type was record high maximum temperature (1 of 2)."
+      "text": "2 records broken. The most common type was record high maximum temperature (1 of 2)."
     },
     {
       "region": "Atlantic Canada",
@@ -84,7 +84,7 @@
       "brokenCount": 1,
       "tiedCount": 0,
       "leadingType": "low_min",
-      "text": "1 record broken, 0 tied. It was a record low minimum temperature."
+      "text": "1 record broken. It was a record low minimum temperature."
     }
   ],
   "records": [
@@ -107,7 +107,7 @@
         -114.47,
         51.21
       ],
-      "sourceUpdated": "2026-07-22T12:19:21Z",
+      "sourceUpdated": "2026-07-22T18:33:48Z",
       "sourceId": "VSAB1VV-7-21"
     },
     {
@@ -129,7 +129,7 @@
         -113.54,
         53.34
       ],
-      "sourceUpdated": "2026-07-22T12:19:21Z",
+      "sourceUpdated": "2026-07-22T18:33:48Z",
       "sourceId": "VSAB71V-7-21"
     },
     {
@@ -151,7 +151,7 @@
         -114.64,
         51.8
       ],
-      "sourceUpdated": "2026-07-22T12:19:21Z",
+      "sourceUpdated": "2026-07-22T18:33:48Z",
       "sourceId": "VSAB53V-7-21"
     },
     {
@@ -173,7 +173,7 @@
         -121.32,
         50.81
       ],
-      "sourceUpdated": "2026-07-22T12:19:21Z",
+      "sourceUpdated": "2026-07-22T18:33:48Z",
       "sourceId": "VSBC55V-7-21"
     },
     {
@@ -195,7 +195,7 @@
         -122.7,
         58.81
       ],
-      "sourceUpdated": "2026-07-22T12:19:21Z",
+      "sourceUpdated": "2026-07-22T18:33:48Z",
       "sourceId": "VSBC83V-7-21"
     },
     {
@@ -217,7 +217,7 @@
         -123.5,
         49.4
       ],
-      "sourceUpdated": "2026-07-22T12:19:21Z",
+      "sourceUpdated": "2026-07-22T18:33:48Z",
       "sourceId": "VSBC1VV-7-21"
     },
     {
@@ -239,7 +239,7 @@
         -121.44,
         49.38
       ],
-      "sourceUpdated": "2026-07-22T12:19:21Z",
+      "sourceUpdated": "2026-07-22T18:33:48Z",
       "sourceId": "VSBC36V-7-21"
     },
     {
@@ -261,7 +261,7 @@
         -122.66,
         49.1
       ],
-      "sourceUpdated": "2026-07-22T12:19:21Z",
+      "sourceUpdated": "2026-07-22T18:33:48Z",
       "sourceId": "VSBC100-7-21"
     },
     {
@@ -283,7 +283,7 @@
         -123.77,
         49.47
       ],
-      "sourceUpdated": "2026-07-22T12:19:21Z",
+      "sourceUpdated": "2026-07-22T18:33:48Z",
       "sourceId": "VSBC3VV-7-21"
     },
     {
@@ -305,7 +305,7 @@
         -127.17,
         54.78
       ],
-      "sourceUpdated": "2026-07-22T12:19:21Z",
+      "sourceUpdated": "2026-07-22T18:33:48Z",
       "sourceId": "VSBC82V-7-21"
     },
     {
@@ -327,7 +327,7 @@
         -128.6,
         54.52
       ],
-      "sourceUpdated": "2026-07-22T12:19:21Z",
+      "sourceUpdated": "2026-07-22T18:33:48Z",
       "sourceId": "VSBC80V-7-21"
     },
     {
@@ -349,7 +349,7 @@
         -123.16,
         49.33
       ],
-      "sourceUpdated": "2026-07-22T12:19:21Z",
+      "sourceUpdated": "2026-07-22T18:33:48Z",
       "sourceId": "VSBC99V-7-21"
     },
     {
@@ -371,7 +371,7 @@
         -62.54,
         44.92
       ],
-      "sourceUpdated": "2026-07-22T12:19:21Z",
+      "sourceUpdated": "2026-07-22T18:33:48Z",
       "sourceId": "VSNS10V-7-21"
     },
     {
@@ -393,7 +393,7 @@
         -93.39,
         48.61
       ],
-      "sourceUpdated": "2026-07-22T12:19:21Z",
+      "sourceUpdated": "2026-07-22T18:33:48Z",
       "sourceId": "VSON159-7-21"
     },
     {
@@ -439,6 +439,28 @@
       ],
       "sourceUpdated": null,
       "sourceId": "VSON74V-7-21"
+    },
+    {
+      "id": "VSON47V-2026-07-21-precipitation",
+      "date": "2026-07-21",
+      "community": "Lincoln Area",
+      "province": "ON",
+      "provinceName": "Ontario",
+      "type": "precipitation",
+      "status": "broken",
+      "value": 108.6,
+      "unit": "mm",
+      "previousValue": 56.6,
+      "previousYear": 1925,
+      "difference": 52.0,
+      "recordBeginYear": 1874,
+      "periodYears": 153,
+      "coordinates": [
+        -79.42,
+        43.15
+      ],
+      "sourceUpdated": null,
+      "sourceId": "VSON47V-7-21"
     },
     {
       "id": "VSON25V-2026-07-21-precipitation",
@@ -551,6 +573,28 @@
       "sourceId": "VSON106-7-21"
     },
     {
+      "id": "VSON109-2026-07-21-precipitation",
+      "date": "2026-07-21",
+      "community": "Vineland Area",
+      "province": "ON",
+      "provinceName": "Ontario",
+      "type": "precipitation",
+      "status": "broken",
+      "value": 108.6,
+      "unit": "mm",
+      "previousValue": 23.8,
+      "previousYear": 1980,
+      "difference": 84.8,
+      "recordBeginYear": 1874,
+      "periodYears": 153,
+      "coordinates": [
+        -79.39,
+        43.15
+      ],
+      "sourceUpdated": null,
+      "sourceId": "VSON109-7-21"
+    },
+    {
       "id": "VSON155-2026-07-21-precipitation",
       "date": "2026-07-21",
       "community": "Winchester Area",
@@ -657,7 +701,7 @@
         -139.84,
         67.57
       ],
-      "sourceUpdated": "2026-07-22T12:19:21Z",
+      "sourceUpdated": "2026-07-22T18:33:48Z",
       "sourceId": "VSYT11V-7-21"
     },
     {
@@ -679,7 +723,7 @@
         -139.84,
         67.57
       ],
-      "sourceUpdated": "2026-07-22T12:19:21Z",
+      "sourceUpdated": "2026-07-22T18:33:48Z",
       "sourceId": "VSYT11V-7-21"
     }
   ],
