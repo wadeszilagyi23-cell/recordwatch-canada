@@ -176,10 +176,13 @@ def build_highlights(records: list[dict[str, Any]]) -> list[dict[str, Any]]:
 
         broken_word = "record" if broken_count == 1 else "records"
 
-        status_text = (
-            f"{broken_count} {broken_word} broken, "
-            f"{tied_count} tied."
-)
+        if tied_count > 0:
+            status_text = (
+                f"{broken_count} {broken_word} broken, "
+                f"{tied_count} tied."
+            )
+        else:
+            status_text = f"{broken_count} {broken_word} broken."
 
         if total == 1:
             type_text = f"It was a {TYPE_LABELS[leading_type]}."
