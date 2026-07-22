@@ -151,7 +151,6 @@ function renderSearchOptions() {
 function renderAll() {
   $('datePicker').value = currentData.date;
   $('datePicker').max = currentData.latestAvailableDate || currentData.date;
-  $('archiveDate').value = currentData.date;
   renderStory(); renderStats(); renderHighlights(); renderMap(); renderTable(); renderSearchOptions();
   $('statusMessage').textContent = currentData.isDemo ? 'The starter currently displays demonstration records. Run the GitHub Action to replace them with the latest ECCC snapshot.' : `Displaying records for ${formatDate(currentData.date)}.`;
 }
@@ -211,43 +210,17 @@ function downloadCsv() {
 }
 
 document.addEventListener('DOMContentLoaded', () => {
-  initializeMap(); loadData(); loadArchiveIndex();
+  initializeMap(); loadData();
   $('menuButton').addEventListener('click', () => { const nav = $('mainNav'); const open = nav.classList.toggle('open'); $('menuButton').setAttribute('aria-expanded', String(open)); });
   $('parameterFilters').addEventListener('click', (event) => { const button = event.target.closest('[data-filter]'); if (!button) return; activeFilter = button.dataset.filter; document.querySelectorAll('.filter-chip[data-filter]').forEach((chip) => chip.classList.toggle('active', chip === button)); renderMap(); renderTable(); });
   $('moreFiltersButton').addEventListener('click', () => $('statusMessage').textContent = 'Province, tied-record, and date-range filters are planned for the next version.');
   $('communitySearch').addEventListener('change', (event) => findCommunity(event.target.value));
   $('communitySearch').addEventListener('keydown', (event) => { if (event.key === 'Enter') findCommunity(event.target.value); });
-  $('sideSearch').addEventListener('keydown', (event) => { if (event.key === 'Enter') findCommunity(event.target.value); });
-  $('browseCommunities').addEventListener('click', () => { $('communitySearch').focus(); window.scrollTo({ top: 0, behavior: 'smooth' }); });
-  $('previousRecordsButton').addEventListener('click', () => $('archivePanel').scrollIntoView({ behavior: 'smooth', block: 'center' }));
-  $('viewArchiveButton').addEventListener('click', () => { const date = $('archiveDate').value; if (date) loadData(archivePath(date)); });
-  $('archiveSelect').addEventListener('change', (event) => { if (event.target.value) { $('archiveDate').value = event.target.value; loadData(archivePath(event.target.value)); } });
-  $('datePicker').addEventListener('change', (event) => { if (event.target.value === currentData?.latestAvailableDate) loadData(); else if (event.target.value) loadData(archivePath(event.target.value)); });
+  $('previousRecordsButton').addEventListener('click', () => {
+    const date = $('datePicker').value;
+    if (!date) return;
+    if (date === currentData?.latestAvailableDate) loadData();
+    else loadData(archivePath(date));
+  });
   $('downloadButton').addEventListener('click', downloadCsv);
-});
-
-document.addEventListener('DOMContentLoaded', () => {
-  const previousButton = document.getElementById('previousRecordsButton');
-  const archivePanel = document.getElementById('archivePanel');
-  const archiveDate = document.getElementById('archiveDate');
-
-  previousButton.addEventListener(
-    'click',
-    (event) => {
-      event.preventDefault();
-      event.stopImmediatePropagation();
-
-      archivePanel.scrollIntoView({
-        behavior: 'smooth',
-        block: 'nearest'
-      });
-
-      archiveDate.focus({ preventScroll: true });
-
-      if (typeof archiveDate.showPicker === 'function') {
-        archiveDate.showPicker();
-      }
-    },
-    true
-  );
 });
