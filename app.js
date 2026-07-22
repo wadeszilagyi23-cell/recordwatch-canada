@@ -224,3 +224,79 @@ document.addEventListener('DOMContentLoaded', () => {
   });
   $('downloadButton').addEventListener('click', downloadCsv);
 });
+
+
+function normalizeRecordSearch(value) {
+  return String(value ?? '')
+    .toLowerCase()
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .replace(/[^a-z0-9]+/g, ' ')
+    .trim();
+}
+
+function findCommunity(query) {
+  if (!currentData || !query.trim()) return;
+
+  const searchValue = normalizeRecordSearch(query);
+
+  const exactRecord = currentData.records.find((item) => {
+    const communityName = normalizeRecordSearch(
+      `${item.community}, ${item.province}`
+    );
+
+    return communityName === searchValue;
+  });
+
+  const partialRecord = currentData.records.find((item) => {
+    const typeInfo = TYPE_INFO[item.type] || {};
+
+    const searchableText = normalizeRecordSearch(
+      `${item.community} ${item.province} ${item.provinceName || ''} ` +
+      `${typeInfo.label || ''} ${typeInfo.short || ''}`
+    );
+
+    return searchableText.includes(searchValue);
+  });
+
+  const record = exactRecord || partialRecord;
+
+  if (!record) {
+    $('statusMessage').classList.add('error');
+    $('statusMessage').textContent =
+      `No displayed record matches “${query}”.`;
+    return;
+  }
+
+  $('statusMessage').classList.remove('error');
+
+  // Show all parameter types if the matching record is currently filtered out.
+  if (activeFilter !== 'all' && activeFilter !== record.type) {
+    activeFilter = 'all';
+
+    document
+      .querySelectorAll('.filter-chip[data-filter]')
+      .forEach((button) => {
+        button.classList.toggle(
+          'active',
+          button.dataset.filter === 'all'
+        );
+      });
+
+    renderMap();
+    renderTable();
+  }
+
+  const [longitude, latitude] = record.coordinates;
+
+  map.setView([latitude, longitude], 8);
+
+  markerLayer.eachLayer((layer) => {
+    if (layer.recordId === record.id) {
+      layer.openPopup();
+    }
+  });
+
+  $('statusMessage').textContent =
+    `Located ${record.community}, ${record.province}.`;
+}
