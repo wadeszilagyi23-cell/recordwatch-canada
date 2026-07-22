@@ -586,18 +586,32 @@ renderHighlights = function () {
   const highlights = currentData?.highlights || [];
 
   highlights.forEach((item) => {
-    item.text = String(item.text || '').replace(
-      /^\d+\s+records?\s+across\s+\d+\s+communit(?:y|ies):\s+(\d+)\s+broken,\s+(\d+)\s+tied\./i,
-      (_, broken, tied) => {
-        const recordWord =
-          Number(broken) === 1 ? 'record' : 'records';
+    item.text = String(item.text || '')
+      .replace(
+        /^\d+\s+records?\s+across\s+\d+\s+communit(?:y|ies):\s+(\d+)\s+broken,\s+(\d+)\s+tied\./i,
+        (_, broken, tied) => {
+          const brokenNumber = Number(broken);
+          const tiedNumber = Number(tied);
+          const recordWord =
+            brokenNumber === 1 ? 'record' : 'records';
 
-        return (
-          `${broken} ${recordWord} broken, ` +
-          `${tied} tied.`
-        );
-      }
-    );
+          if (tiedNumber > 0) {
+            return `${brokenNumber} ${recordWord} broken, ${tiedNumber} tied.`;
+          }
+
+          return `${brokenNumber} ${recordWord} broken.`;
+        }
+      )
+      .replace(
+        /^(\d+)\s+records?\s+broken,\s+0\s+tied\./i,
+        (_, broken) => {
+          const brokenNumber = Number(broken);
+          const recordWord =
+            brokenNumber === 1 ? 'record' : 'records';
+
+          return `${brokenNumber} ${recordWord} broken.`;
+        }
+      );
   });
 
   originalRenderHighlightsWithoutCommunityCounts();
