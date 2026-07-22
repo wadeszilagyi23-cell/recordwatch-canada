@@ -419,3 +419,58 @@ function downloadCsv() {
 
   URL.revokeObjectURL(link.href);
 }
+
+document.addEventListener('DOMContentLoaded', async () => {
+  let latestRecordDate = null;
+
+  try {
+    const response = await fetch(
+      `data/latest.json?v=${Date.now()}`
+    );
+
+    if (response.ok) {
+      const latestData = await response.json();
+
+      latestRecordDate =
+        latestData.latestAvailableDate || latestData.date;
+
+      if (latestRecordDate) {
+        $('datePicker').max = latestRecordDate;
+      }
+    }
+  } catch (_) {
+    // The normal data loader will display any loading error.
+  }
+
+  const viewRecordsButton = $('previousRecordsButton');
+
+  if (!viewRecordsButton) return;
+
+  viewRecordsButton.addEventListener(
+    'click',
+    async (event) => {
+      event.preventDefault();
+      event.stopImmediatePropagation();
+
+      const selectedDate = $('datePicker').value;
+
+      if (!selectedDate) return;
+
+      if (
+        latestRecordDate &&
+        selectedDate === latestRecordDate
+      ) {
+        await loadData();
+      } else {
+        await loadData(archivePath(selectedDate));
+      }
+
+      // Do not allow an older archive snapshot to lower
+      // the maximum selectable date.
+      if (latestRecordDate) {
+        $('datePicker').max = latestRecordDate;
+      }
+    },
+    true
+  );
+});
