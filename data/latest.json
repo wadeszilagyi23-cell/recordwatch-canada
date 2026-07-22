@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "date": "2026-07-21",
   "latestAvailableDate": "2026-07-21",
-  "generatedAt": "2026-07-22T15:33:34-04:00",
+  "generatedAt": "2026-07-22T15:48:46-04:00",
   "sourceLastUpdated": "2026-07-22T18:33:48Z",
   "source": "Environment and Climate Change Canada — MSC GeoMet LTCE",
   "isDemo": false,
@@ -15,7 +15,7 @@
   "recordOfDay": {
     "id": "VSON106-2026-07-21-precipitation",
     "date": "2026-07-21",
-    "community": "Smiths Falls Area",
+    "community": "Smiths Falls",
     "province": "ON",
     "provinceName": "Ontario",
     "type": "precipitation",
@@ -35,7 +35,7 @@
     "sourceId": "VSON106-7-21"
   },
   "story": {
-    "description": "Smiths Falls Area, ON recorded 44.4 mm. It exceeded the previous daily precipitation record of 26.7 mm from 1895."
+    "description": "Smiths Falls, ON recorded 44.4 mm. It exceeded the previous daily precipitation record of 26.7 mm from 1895."
   },
   "highlights": [
     {
@@ -91,7 +91,7 @@
     {
       "id": "VSAB1VV-2026-07-21-high_min",
       "date": "2026-07-21",
-      "community": "Cochrane Area",
+      "community": "Cochrane",
       "province": "AB",
       "provinceName": "Alberta",
       "type": "high_min",
@@ -113,7 +113,7 @@
     {
       "id": "VSAB71V-2026-07-21-high_min",
       "date": "2026-07-21",
-      "community": "Edmonton (Int'L Aprt) Area",
+      "community": "Edmonton (Int'L Aprt)",
       "province": "AB",
       "provinceName": "Alberta",
       "type": "high_min",
@@ -135,7 +135,7 @@
     {
       "id": "VSAB53V-2026-07-21-high_min",
       "date": "2026-07-21",
-      "community": "Sundre Area",
+      "community": "Sundre",
       "province": "AB",
       "provinceName": "Alberta",
       "type": "high_min",
@@ -157,7 +157,7 @@
     {
       "id": "VSBC55V-2026-07-21-high_max",
       "date": "2026-07-21",
-      "community": "Cache Creek Area",
+      "community": "Cache Creek",
       "province": "BC",
       "provinceName": "British Columbia",
       "type": "high_max",
@@ -179,7 +179,7 @@
     {
       "id": "VSBC83V-2026-07-21-high_max",
       "date": "2026-07-21",
-      "community": "Fort Nelson Area",
+      "community": "Fort Nelson",
       "province": "BC",
       "provinceName": "British Columbia",
       "type": "high_max",
@@ -201,7 +201,7 @@
     {
       "id": "VSBC1VV-2026-07-21-high_max",
       "date": "2026-07-21",
-      "community": "Gibsons Area",
+      "community": "Gibsons",
       "province": "BC",
       "provinceName": "British Columbia",
       "type": "high_max",
@@ -223,7 +223,7 @@
     {
       "id": "VSBC36V-2026-07-21-high_min",
       "date": "2026-07-21",
-      "community": "Hope Area",
+      "community": "Hope",
       "province": "BC",
       "provinceName": "British Columbia",
       "type": "high_min",
@@ -245,7 +245,7 @@
     {
       "id": "VSBC100-2026-07-21-high_min",
       "date": "2026-07-21",
-      "community": "Langley Area",
+      "community": "Langley",
       "province": "BC",
       "provinceName": "British Columbia",
       "type": "high_min",
@@ -267,7 +267,7 @@
     {
       "id": "VSBC3VV-2026-07-21-high_max",
       "date": "2026-07-21",
-      "community": "Sechelt Area",
+      "community": "Sechelt",
       "province": "BC",
       "provinceName": "British Columbia",
       "type": "high_max",
@@ -289,7 +289,7 @@
     {
       "id": "VSBC82V-2026-07-21-high_max",
       "date": "2026-07-21",
-      "community": "Smithers Area",
+      "community": "Smithers",
       "province": "BC",
       "provinceName": "British Columbia",
       "type": "high_max",
@@ -311,7 +311,7 @@
     {
       "id": "VSBC80V-2026-07-21-high_max",
       "date": "2026-07-21",
-      "community": "Terrace Area",
+      "community": "Terrace",
       "province": "BC",
       "provinceName": "British Columbia",
       "type": "high_max",
@@ -333,7 +333,7 @@
     {
       "id": "VSBC99V-2026-07-21-high_min",
       "date": "2026-07-21",
-      "community": "West Vancouver Area",
+      "community": "West Vancouver",
       "province": "BC",
       "provinceName": "British Columbia",
       "type": "high_min",
@@ -355,7 +355,7 @@
     {
       "id": "VSNS10V-2026-07-21-low_min",
       "date": "2026-07-21",
-      "community": "Sheet Harbour Area",
+      "community": "Sheet Harbour",
       "province": "NS",
       "provinceName": "Nova Scotia",
       "type": "low_min",
@@ -377,7 +377,7 @@
     {
       "id": "VSON159-2026-07-21-low_max",
       "date": "2026-07-21",
-      "community": "Fort Frances Area",
+      "community": "Fort Frances",
       "province": "ON",
       "provinceName": "Ontario",
       "type": "low_max",
@@ -399,7 +399,7 @@
     {
       "id": "VSON5VV-2026-07-21-precipitation",
       "date": "2026-07-21",
-      "community": "Guelph Area",
+      "community": "Guelph",
       "province": "ON",
       "provinceName": "Ontario",
       "type": "precipitation",
@@ -421,7 +421,7 @@
     {
       "id": "VSON74V-2026-07-21-precipitation",
       "date": "2026-07-21",
-      "community": "Kemptville Area",
+      "community": "Kemptville",
       "province": "ON",
       "provinceName": "Ontario",
       "type": "precipitation",
@@ -443,7 +443,7 @@
     {
       "id": "VSON47V-2026-07-21-precipitation",
       "date": "2026-07-21",
-      "community": "Lincoln Area",
+      "community": "Lincoln",
       "province": "ON",
       "provinceName": "Ontario",
       "type": "precipitation",
@@ -465,7 +465,7 @@
     {
       "id": "VSON25V-2026-07-21-precipitation",
       "date": "2026-07-21",
-      "community": "Newmarket Area",
+      "community": "Newmarket",
       "province": "ON",
       "provinceName": "Ontario",
       "type": "precipitation",
@@ -487,7 +487,7 @@
     {
       "id": "VSON121-2026-07-21-precipitation",
       "date": "2026-07-21",
-      "community": "Peterborough Area",
+      "community": "Peterborough",
       "province": "ON",
       "provinceName": "Ontario",
       "type": "precipitation",
@@ -509,7 +509,7 @@
     {
       "id": "VSON149-2026-07-21-precipitation",
       "date": "2026-07-21",
-      "community": "Port Perry Area",
+      "community": "Port Perry",
       "province": "ON",
       "provinceName": "Ontario",
       "type": "precipitation",
@@ -531,7 +531,7 @@
     {
       "id": "VSON147-2026-07-21-precipitation",
       "date": "2026-07-21",
-      "community": "Sarnia Area",
+      "community": "Sarnia",
       "province": "ON",
       "provinceName": "Ontario",
       "type": "precipitation",
@@ -553,7 +553,7 @@
     {
       "id": "VSON106-2026-07-21-precipitation",
       "date": "2026-07-21",
-      "community": "Smiths Falls Area",
+      "community": "Smiths Falls",
       "province": "ON",
       "provinceName": "Ontario",
       "type": "precipitation",
@@ -575,7 +575,7 @@
     {
       "id": "VSON109-2026-07-21-precipitation",
       "date": "2026-07-21",
-      "community": "Vineland Area",
+      "community": "Vineland",
       "province": "ON",
       "provinceName": "Ontario",
       "type": "precipitation",
@@ -597,7 +597,7 @@
     {
       "id": "VSON155-2026-07-21-precipitation",
       "date": "2026-07-21",
-      "community": "Winchester Area",
+      "community": "Winchester",
       "province": "ON",
       "provinceName": "Ontario",
       "type": "precipitation",
@@ -619,7 +619,7 @@
     {
       "id": "VSQC158-2026-07-21-precipitation",
       "date": "2026-07-21",
-      "community": "La Grande Rivière Area",
+      "community": "La Grande Rivière",
       "province": "QC",
       "provinceName": "Quebec",
       "type": "precipitation",
@@ -641,7 +641,7 @@
     {
       "id": "VSQCC0V-2026-07-21-precipitation",
       "date": "2026-07-21",
-      "community": "Saint-Michel-Des-Saints Area",
+      "community": "Saint-Michel-Des-Saints",
       "province": "QC",
       "provinceName": "Quebec",
       "type": "precipitation",
@@ -663,7 +663,7 @@
     {
       "id": "VSQC33V-2026-07-21-precipitation",
       "date": "2026-07-21",
-      "community": "Sainte-Agathe Area",
+      "community": "Sainte-Agathe",
       "province": "QC",
       "provinceName": "Quebec",
       "type": "precipitation",
@@ -685,7 +685,7 @@
     {
       "id": "VSYT11V-2026-07-21-high_max",
       "date": "2026-07-21",
-      "community": "Old Crow Area",
+      "community": "Old Crow",
       "province": "YT",
       "provinceName": "Yukon",
       "type": "high_max",
@@ -707,7 +707,7 @@
     {
       "id": "VSYT11V-2026-07-21-high_min",
       "date": "2026-07-21",
-      "community": "Old Crow Area",
+      "community": "Old Crow",
       "province": "YT",
       "provinceName": "Yukon",
       "type": "high_min",
