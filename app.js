@@ -310,3 +310,51 @@ function findCommunity(query) {
   $('statusMessage').textContent =
     `Located ${record.community}, ${record.province}.`;
 }
+
+
+async function loadData(path = 'data/latest.json') {
+  const statusMessage = $('statusMessage');
+  const isArchiveRequest = path !== 'data/latest.json';
+
+  statusMessage.classList.remove('error');
+  statusMessage.textContent = 'Loading record data…';
+
+  try {
+    const separator = path.includes('?') ? '&' : '?';
+    const response = await fetch(
+      `${path}${separator}v=${Date.now()}`
+    );
+
+    if (!response.ok) {
+      throw new Error(`Data file not found (${response.status})`);
+    }
+
+    currentData = await response.json();
+    activeFilter = 'all';
+
+    document
+      .querySelectorAll('.filter-chip[data-filter]')
+      .forEach((button) => {
+        button.classList.toggle(
+          'active',
+          button.dataset.filter === 'all'
+        );
+      });
+
+    renderAll();
+  } catch (error) {
+    statusMessage.classList.add('error');
+
+    if (isArchiveRequest && currentData?.date) {
+      $('datePicker').value = currentData.date;
+
+      statusMessage.textContent =
+        `No records are archived for the selected date. ` +
+        `Continuing to display records for ` +
+        `${formatDate(currentData.date)}.`;
+    } else {
+      statusMessage.textContent =
+        `Unable to load record data: ${error.message}`;
+    }
+  }
+}
