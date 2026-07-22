@@ -166,9 +166,19 @@ async function loadData(path = 'data/latest.json') {
     document.querySelectorAll('.filter-chip[data-filter]').forEach((button) => button.classList.toggle('active', button.dataset.filter === 'all'));
     renderAll();
   } catch (error) {
-    $('statusMessage').classList.add('error');
-    $('statusMessage').textContent = `Unable to load that record snapshot: ${error.message}`;
+  $('statusMessage').classList.add('error');
+
+  if (currentData?.date) {
+    $('datePicker').value = currentData.date;
+
+    $('statusMessage').textContent =
+      `No records are archived for the selected date. ` +
+      `Continuing to display records for ${formatDate(currentData.date)}.`;
+  } else {
+    $('statusMessage').textContent =
+      `Unable to load record data: ${error.message}`;
   }
+}
 }
 
 async function loadArchiveIndex() {
