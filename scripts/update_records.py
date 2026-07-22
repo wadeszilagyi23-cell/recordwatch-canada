@@ -169,20 +169,17 @@ def build_highlights(records: list[dict[str, Any]]) -> list[dict[str, Any]]:
             continue
 
         total = len(group)
-        communities = len({record["community"] for record in group})
         broken_count = sum(record["status"] == "broken" for record in group)
         tied_count = sum(record["status"] == "tied" for record in group)
-
         type_counts = Counter(record["type"] for record in group)
         leading_type, leading_count = type_counts.most_common(1)[0]
 
-        record_word = "record" if total == 1 else "records"
-        community_word = "community" if communities == 1 else "communities"
+        broken_word = "record" if broken_count == 1 else "records"
 
         status_text = (
-            f"{total} {record_word} across {communities} {community_word}: "
-            f"{broken_count} broken, {tied_count} tied."
-        )
+            f"{broken_count} {broken_word} broken, "
+            f"{tied_count} tied."
+)
 
         if total == 1:
             type_text = f"It was a {TYPE_LABELS[leading_type]}."
