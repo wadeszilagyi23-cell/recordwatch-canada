@@ -88,3 +88,24 @@
 .highlights h2 {
   font-size: 24px;
 }
+
+
+/* Improve important label readability */
+.toolbar label span {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+/* Emphasize the Record of the Day heading */
+.eyebrow {
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.06em;
+}
+
+/* Enlarge the status below the featured record value */
+.story-visual > small {
+  font-size: 16px;
+  line-height: 1.2;
+  top: 78px;
+}
