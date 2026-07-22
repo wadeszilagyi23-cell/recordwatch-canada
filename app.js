@@ -474,3 +474,40 @@ document.addEventListener('DOMContentLoaded', async () => {
     true
   );
 });
+
+document.addEventListener('DOMContentLoaded', () => {
+  const datePicker = $('datePicker');
+
+  if (!datePicker) return;
+
+  datePicker.addEventListener('change', async () => {
+    const selectedDate = datePicker.value;
+
+    // If the browser's Clear option is used,
+    // return to the currently displayed date.
+    if (!selectedDate) {
+      if (currentData?.date) {
+        datePicker.value = currentData.date;
+      }
+
+      return;
+    }
+
+    const latestDate =
+      datePicker.max ||
+      currentData?.latestAvailableDate ||
+      currentData?.date;
+
+    if (latestDate && selectedDate === latestDate) {
+      await loadData();
+    } else {
+      await loadData(archivePath(selectedDate));
+    }
+
+    // Preserve access to the newest available climate date
+    // after an older archived date is loaded.
+    if (latestDate) {
+      datePicker.max = latestDate;
+    }
+  });
+});
