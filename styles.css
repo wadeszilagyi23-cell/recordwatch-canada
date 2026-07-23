@@ -511,3 +511,12 @@
     height: 0;
   }
 }
+
+
+/* Keep the updated-source line readable on phones */
+@media (max-width: 700px) {
+  #tableSubtitle {
+    line-height: 1.45;
+    overflow-wrap: anywhere;
+  }
+}
