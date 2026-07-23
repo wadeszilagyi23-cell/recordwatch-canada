@@ -495,3 +495,19 @@
     color: var(--muted);
   }
 }
+
+
+/* Cleaner horizontally scrolling map filters on mobile */
+@media (max-width: 700px) {
+  .filter-row {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .filter-row::-webkit-scrollbar {
+    display: none;
+    width: 0;
+    height: 0;
+  }
+}
