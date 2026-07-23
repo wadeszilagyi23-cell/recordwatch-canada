@@ -1,0 +1,1006 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1"
+  >
+
+  <title>
+    Why Heat Records Are Falling More Often | RecordWatch Canada
+  </title>
+
+  <meta
+    name="description"
+    content="Why record high temperatures and warm-night records are becoming more common in Canada as the climate warms."
+  >
+
+  <link
+    rel="stylesheet"
+    href="styles.css?v=heat-records-1"
+  >
+
+  <style>
+    .heat-shell {
+      max-width: 1060px;
+    }
+
+    .heat-back {
+      margin-left: auto;
+      padding: 10px 15px;
+      border: 1px solid #cfd7e5;
+      border-radius: 8px;
+      color: var(--blue);
+      font-size: 14px;
+      font-weight: 800;
+      text-decoration: none;
+      white-space: nowrap;
+    }
+
+    .heat-back:hover {
+      background: #f3f7fd;
+    }
+
+    .heat-hero {
+      position: relative;
+      overflow: hidden;
+      padding: 42px;
+      background:
+        radial-gradient(
+          circle at 92% 10%,
+          rgba(255, 199, 90, 0.55) 0 85px,
+          transparent 86px
+        ),
+        linear-gradient(
+          135deg,
+          #2b0f0d 0%,
+          #7b250c 48%,
+          #e48400 100%
+        );
+      color: #fff;
+    }
+
+    .heat-hero::after {
+      content: "";
+      position: absolute;
+      right: -70px;
+      bottom: -120px;
+      width: 390px;
+      height: 260px;
+      border-radius: 50%;
+      background: rgba(255, 221, 138, 0.18);
+      transform: rotate(-12deg);
+    }
+
+    .heat-kicker {
+      position: relative;
+      z-index: 1;
+      display: inline-block;
+      margin-bottom: 10px;
+      color: #ffe7ad;
+      font-size: 14px;
+      font-weight: 900;
+      letter-spacing: 0.07em;
+      text-transform: uppercase;
+    }
+
+    .heat-hero h1 {
+      position: relative;
+      z-index: 1;
+      max-width: 820px;
+      margin: 0 0 16px;
+      font-family: Georgia, serif;
+      font-size: clamp(39px, 6vw, 64px);
+      line-height: 1.02;
+      letter-spacing: -0.025em;
+    }
+
+    .heat-deck {
+      position: relative;
+      z-index: 1;
+      max-width: 780px;
+      margin: 0;
+      color: #fff8e8;
+      font-size: 20px;
+      line-height: 1.55;
+    }
+
+    .article-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px 18px;
+      margin-top: 22px;
+      color: #ffe8b5;
+      font-size: 13px;
+      font-weight: 700;
+    }
+
+    .heat-article {
+      margin-top: 15px;
+      padding: 36px 42px;
+    }
+
+    .heat-article > p,
+    .heat-article li {
+      color: #414d61;
+      font-size: 17px;
+      line-height: 1.72;
+    }
+
+    .heat-article > p:first-child {
+      margin-top: 0;
+      color: #273248;
+      font-size: 20px;
+      line-height: 1.65;
+    }
+
+    .heat-article h2 {
+      margin: 42px 0 14px;
+      color: var(--ink);
+      font-size: 30px;
+      line-height: 1.15;
+    }
+
+    .heat-article h3 {
+      margin: 25px 0 8px;
+      color: var(--ink);
+      font-size: 21px;
+    }
+
+    .heat-article ul {
+      padding-left: 24px;
+    }
+
+    .heat-article li + li {
+      margin-top: 8px;
+    }
+
+    .key-idea {
+      margin: 28px 0;
+      padding: 22px 24px;
+      border-left: 6px solid #e04a1a;
+      border-radius: 0 12px 12px 0;
+      background: #fff6ea;
+    }
+
+    .key-idea strong {
+      display: block;
+      margin-bottom: 6px;
+      color: #922a0c;
+      font-size: 19px;
+    }
+
+    .key-idea p {
+      margin: 0;
+      color: #5d3c2f;
+      font-size: 16px;
+      line-height: 1.6;
+    }
+
+    .shift-figure {
+      margin: 30px 0;
+      padding: 22px;
+      border: 1px solid var(--line);
+      border-radius: 13px;
+      background: #fbfcfe;
+    }
+
+    .shift-figure svg {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+
+    .shift-figure figcaption {
+      margin-top: 12px;
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.5;
+    }
+
+    .evidence-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 13px;
+      margin: 22px 0 10px;
+    }
+
+    .evidence-card {
+      padding: 22px;
+      border-top: 5px solid var(--evidence-colour);
+    }
+
+    .evidence-card strong {
+      display: block;
+      margin-bottom: 7px;
+      color: var(--evidence-colour);
+      font-size: 34px;
+      line-height: 1;
+    }
+
+    .evidence-card span {
+      display: block;
+      color: var(--ink);
+      font-size: 15px;
+      font-weight: 800;
+      line-height: 1.35;
+    }
+
+    .evidence-card p {
+      margin: 9px 0 0;
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.5;
+    }
+
+    .record-types {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 13px;
+      margin: 20px 0;
+    }
+
+    .record-type-card {
+      padding: 22px;
+      border-top: 5px solid var(--record-colour);
+    }
+
+    .record-type-card h3 {
+      margin: 0 0 9px;
+      font-size: 20px;
+    }
+
+    .record-type-card p {
+      margin: 0;
+      color: #4a5669;
+      line-height: 1.55;
+    }
+
+    .weather-climate {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 14px;
+      margin: 22px 0;
+    }
+
+    .weather-climate article {
+      padding: 24px;
+    }
+
+    .weather-climate h3 {
+      margin-top: 0;
+    }
+
+    .weather-climate p {
+      margin-bottom: 0;
+      color: #4a5669;
+      line-height: 1.6;
+    }
+
+    .takeaways {
+      margin-top: 36px;
+      padding: 28px;
+      background:
+        linear-gradient(
+          135deg,
+          rgba(7, 89, 215, 0.07),
+          rgba(255, 138, 0, 0.08)
+        ),
+        #fff;
+    }
+
+    .takeaways h2 {
+      margin-top: 0;
+    }
+
+    .takeaways ul {
+      margin-bottom: 0;
+    }
+
+    .source-list {
+      display: grid;
+      gap: 10px;
+      margin: 15px 0 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .source-list li {
+      margin: 0;
+      padding: 14px 16px;
+      border: 1px solid var(--line);
+      border-radius: 9px;
+      background: #fff;
+      font-size: 14px;
+      line-height: 1.45;
+    }
+
+    .source-list a {
+      color: var(--blue);
+      font-weight: 800;
+    }
+
+    .editorial-note {
+      margin-top: 15px;
+      padding: 20px 24px;
+    }
+
+    .editorial-note h2 {
+      margin: 0 0 8px;
+      font-size: 22px;
+    }
+
+    .editorial-note p {
+      margin: 0;
+      color: #4d596c;
+      line-height: 1.6;
+    }
+
+    @media (max-width: 820px) {
+      .heat-back {
+        padding: 8px 10px;
+        font-size: 12px;
+      }
+
+      .heat-hero {
+        padding: 32px 26px;
+      }
+
+      .heat-article {
+        padding: 28px 26px;
+      }
+
+      .evidence-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .record-types,
+      .weather-climate {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    @media (max-width: 520px) {
+      .heat-back {
+        font-size: 0;
+      }
+
+      .heat-back::after {
+        content: "← Home";
+        font-size: 12px;
+      }
+
+      .heat-hero {
+        padding: 27px 21px;
+      }
+
+      .heat-hero h1 {
+        font-size: 42px;
+      }
+
+      .heat-deck {
+        font-size: 17px;
+      }
+
+      .heat-article {
+        padding: 23px 20px;
+      }
+
+      .heat-article > p,
+      .heat-article li {
+        font-size: 16px;
+      }
+
+      .heat-article > p:first-child {
+        font-size: 18px;
+      }
+
+      .heat-article h2 {
+        font-size: 26px;
+      }
+
+      .shift-figure {
+        padding: 12px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header class="site-header">
+    <a
+      class="brand"
+      href="index.html"
+      aria-label="RecordWatch Canada home"
+    >
+      <span
+        class="brand-leaf"
+        aria-hidden="true"
+      >
+        🍁
+      </span>
+
+      <span>
+        <strong>
+          RecordWatch <em>Canada</em>
+        </strong>
+
+        <small>
+          Yesterday's Record-Breaking Weather
+        </small>
+      </span>
+    </a>
+
+    <a
+      class="heat-back"
+      href="index.html"
+    >
+      ← Back to dashboard
+    </a>
+  </header>
+
+  <main class="page-shell heat-shell">
+    <section class="card heat-hero">
+      <span class="heat-kicker">
+        Climate explainer
+      </span>
+
+      <h1>
+        Why Heat Records Are Falling More Often
+      </h1>
+
+      <p class="heat-deck">
+        Weather still changes from day to day, but the
+        background climate is warming. That shift makes
+        record high temperatures—and especially record-warm
+        nights—more likely than they used to be.
+      </p>
+
+      <div class="article-meta">
+        <span>RecordWatch Canada</span>
+        <span>Evergreen article</span>
+        <span>Based on ECCC and IPCC assessments</span>
+      </div>
+    </section>
+
+    <article class="card heat-article">
+      <p>
+        A weather record is a comparison with the past. At
+        each observing location, today’s maximum or minimum
+        temperature is checked against measurements from the
+        same calendar date in earlier years. When the climate
+        itself becomes warmer, the entire range of possible
+        temperatures shifts upward. Cool days still occur,
+        but the odds increasingly favour new high-temperature
+        records over new low-temperature records.
+      </p>
+
+      <div class="key-idea">
+        <strong>The central idea</strong>
+
+        <p>
+          Climate warming does not make every day hotter than
+          the last. It raises the baseline on which ordinary
+          weather variations occur, increasing the chance
+          that a naturally hot weather pattern will reach or
+          exceed an old record.
+        </p>
+      </div>
+
+      <h2>What does it mean to “break” a heat record?</h2>
+
+      <p>
+        RecordWatch Canada tracks two different kinds of
+        warm-temperature records. They describe different
+        parts of the daily temperature cycle and can occur
+        together at the same location.
+      </p>
+
+      <div class="record-types">
+        <section
+          class="card record-type-card"
+          style="--record-colour: var(--high-max);"
+        >
+          <h3>Record high maximum temperature</h3>
+
+          <p>
+            The day’s highest temperature exceeds the
+            previous highest value observed for that calendar
+            date at the station or climate location.
+          </p>
+        </section>
+
+        <section
+          class="card record-type-card"
+          style="--record-colour: var(--high-min);"
+        >
+          <h3>Record high minimum temperature</h3>
+
+          <p>
+            The day’s lowest temperature—often the overnight
+            low—is warmer than the previous highest minimum
+            for that calendar date.
+          </p>
+        </section>
+      </div>
+
+      <p>
+        A record can be broken by a large margin or by only a
+        fraction of a degree. It can also be tied. The length
+        and completeness of the observing period matter:
+        breaking a record from a long, consistent climate
+        history is more informative than breaking one from a
+        short record.
+      </p>
+
+      <h2>A warming climate shifts the odds</h2>
+
+      <p>
+        Daily temperatures vary because of changing air
+        masses, clouds, wind, soil moisture, snow cover and
+        large-scale atmospheric patterns. Those influences
+        produce the familiar ups and downs of weather. Climate
+        change adds a long-term warming influence beneath
+        those variations.
+      </p>
+
+      <figure class="shift-figure">
+        <svg
+          viewBox="0 0 900 390"
+          role="img"
+          aria-labelledby="shiftTitle shiftDescription"
+        >
+          <title id="shiftTitle">
+            Illustration of a warming temperature distribution
+          </title>
+
+          <desc id="shiftDescription">
+            Two overlapping temperature curves show a warmer
+            climate shifted toward higher temperatures, with a
+            larger area beyond a fixed record threshold.
+          </desc>
+
+          <rect
+            x="0"
+            y="0"
+            width="900"
+            height="390"
+            rx="18"
+            fill="#f8fafc"
+          />
+
+          <line
+            x1="80"
+            y1="315"
+            x2="830"
+            y2="315"
+            stroke="#8994a5"
+            stroke-width="3"
+          />
+
+          <text
+            x="80"
+            y="350"
+            fill="#667085"
+            font-size="20"
+          >
+            Cooler temperatures
+          </text>
+
+          <text
+            x="640"
+            y="350"
+            fill="#667085"
+            font-size="20"
+          >
+            Hotter temperatures
+          </text>
+
+          <path
+            d="M105 315 C170 312 195 230 260 145 C315 73 395 91 445 169 C487 236 515 295 580 315"
+            fill="none"
+            stroke="#3478d4"
+            stroke-width="8"
+            stroke-linecap="round"
+          />
+
+          <path
+            d="M250 315 C315 312 340 230 405 145 C460 73 540 91 590 169 C632 236 660 295 725 315"
+            fill="none"
+            stroke="#e14a1a"
+            stroke-width="8"
+            stroke-linecap="round"
+          />
+
+          <line
+            x1="680"
+            y1="70"
+            x2="680"
+            y2="315"
+            stroke="#a11717"
+            stroke-width="4"
+            stroke-dasharray="11 9"
+          />
+
+          <path
+            d="M680 315 C699 291 713 274 725 315 Z"
+            fill="#e14a1a"
+            opacity="0.25"
+          />
+
+          <text
+            x="145"
+            y="72"
+            fill="#3478d4"
+            font-size="23"
+            font-weight="700"
+          >
+            Earlier climate
+          </text>
+
+          <text
+            x="515"
+            y="72"
+            fill="#e14a1a"
+            font-size="23"
+            font-weight="700"
+          >
+            Warmer climate
+          </text>
+
+          <text
+            x="692"
+            y="105"
+            fill="#a11717"
+            font-size="20"
+            font-weight="700"
+          >
+            Existing heat-record threshold
+          </text>
+
+          <text
+            x="690"
+            y="278"
+            fill="#a11717"
+            font-size="18"
+          >
+            Greater chance
+          </text>
+
+          <text
+            x="690"
+            y="300"
+            fill="#a11717"
+            font-size="18"
+          >
+            of exceeding it
+          </text>
+        </svg>
+
+        <figcaption>
+          This simplified illustration shows the principle,
+          not a forecast. When the temperature distribution
+          shifts toward warmer values, a fixed high-temperature
+          threshold is crossed more often.
+        </figcaption>
+      </figure>
+
+      <p>
+        The Intergovernmental Panel on Climate Change has
+        concluded that hot extremes have become more frequent
+        and more intense across most land regions since the
+        1950s, while cold extremes have generally become less
+        frequent and less severe. Human-caused climate change
+        is the main driver of the observed global increase in
+        hot extremes.
+      </p>
+
+      <h2>What the Canadian evidence shows</h2>
+
+      <p>
+        Canada has warmed more rapidly than the global
+        average, although the amount of warming varies
+        substantially by season and region. Northern Canada
+        has experienced especially rapid warming.
+      </p>
+
+      <div class="evidence-grid">
+        <section
+          class="card evidence-card"
+          style="--evidence-colour: #d84315;"
+        >
+          <strong>60%</strong>
+
+          <span>
+            of assessed Canadian stations showed an increase
+            in annual extreme-heat days
+          </span>
+
+          <p>
+            Environment and Climate Change Canada indicator,
+            1948–2023.
+          </p>
+        </section>
+
+        <section
+          class="card evidence-card"
+          style="--evidence-colour: #f08a00;"
+        >
+          <strong>65%</strong>
+
+          <span>
+            of assessed stations showed an increase in
+            overnight intensity during extreme heat
+          </span>
+
+          <p>
+            Warm nights are an increasingly important part of
+            the Canadian heat story.
+          </p>
+        </section>
+
+        <section
+          class="card evidence-card"
+          style="--evidence-colour: #b21f2d;"
+        >
+          <strong>2×</strong>
+
+          <span>
+            approximately the global-average rate of warming
+            for Canada’s annual mean temperature
+          </span>
+
+          <p>
+            The rate differs across the country and is greater
+            in northern Canada.
+          </p>
+        </section>
+      </div>
+
+      <p>
+        These statistics do not mean that every location warms
+        smoothly or that every year sets new records. Natural
+        variability remains powerful. Some summers are cooler,
+        and individual stations can show different short-term
+        behaviour. The national pattern emerges by examining
+        many locations over long periods.
+      </p>
+
+      <h2>Why record-warm nights matter</h2>
+
+      <p>
+        Heat records are often discussed in terms of afternoon
+        highs, but unusually warm nights can be just as
+        important. When temperatures remain high overnight,
+        buildings and bodies have less opportunity to cool.
+        Environment and Climate Change Canada reports a clearer
+        national increase in overnight intensity during extreme
+        heat events than in daytime intensity over its
+        1948–2023 analysis period.
+      </p>
+
+      <p>
+        Record high minimum temperatures may be encouraged by
+        humid air, persistent cloud cover, warm water nearby,
+        urban heat retention or a large-scale weather pattern
+        that prevents nighttime cooling. Long-term climate
+        warming raises the starting point on which those local
+        influences operate.
+      </p>
+
+      <h2>Weather patterns still decide where records fall</h2>
+
+      <p>
+        Climate change changes the probabilities; it does not
+        dictate the exact weather on a particular date.
+        Individual heat records still depend on meteorology.
+        Common contributors include:
+      </p>
+
+      <ul>
+        <li>
+          persistent ridges of high atmospheric pressure;
+        </li>
+        <li>
+          warm air transported from another region;
+        </li>
+        <li>
+          dry soils that reduce evaporative cooling;
+        </li>
+        <li>
+          downslope winds that warm as air descends;
+        </li>
+        <li>
+          clear skies and strong summer sunshine; and
+        </li>
+        <li>
+          high humidity or cloud cover that limits overnight
+          cooling.
+        </li>
+      </ul>
+
+      <p>
+        A naturally occurring hot pattern can therefore still
+        be the immediate cause of a record. In a warmer climate,
+        however, that same kind of pattern begins from a higher
+        baseline and has a better chance of reaching
+        record-breaking territory.
+      </p>
+
+      <h2>Does one record prove climate change?</h2>
+
+      <div class="weather-climate">
+        <article class="card">
+          <h3>One record is weather</h3>
+
+          <p>
+            A single record at one station cannot, by itself,
+            establish a long-term climate trend. Measurement
+            history, station changes, local conditions and
+            natural variability all need to be considered.
+          </p>
+        </article>
+
+        <article class="card">
+          <h3>The pattern is climate</h3>
+
+          <p>
+            When hot records become more common across many
+            stations and decades, while cold records become
+            less common, that broader imbalance is consistent
+            with a warming climate.
+          </p>
+        </article>
+      </div>
+
+      <p>
+        Event-attribution studies go a step further. They use
+        observations and climate models to compare the chance
+        and intensity of an event in today’s climate with a
+        climate without the same human influence. Environment
+        and Climate Change Canada’s rapid attribution system
+        reported that human-caused climate change made almost
+        all of the 37 major Canadian heat waves it analyzed
+        from June through September 2024 hotter and more
+        likely.
+      </p>
+
+      <h2>How to interpret RecordWatch Canada</h2>
+
+      <p>
+        RecordWatch Canada is a daily discovery and
+        visualization tool. It identifies preliminary daily
+        records reported through Environment and Climate
+        Change Canada’s Long-Term Climate Extremes data and
+        shows where they occurred.
+      </p>
+
+      <p>
+        The daily map is not, on its own, a climate-trend
+        analysis. A cluster of heat records can be noteworthy,
+        but understanding long-term change requires consistent
+        records, quality-controlled datasets and statistical
+        analysis across many years. Daily records are best
+        viewed as individual pieces of a much larger climate
+        picture.
+      </p>
+
+      <section class="card takeaways">
+        <h2>Key takeaways</h2>
+
+        <ul>
+          <li>
+            A warmer climate shifts the range of daily
+            temperatures upward, increasing the odds of record
+            highs.
+          </li>
+
+          <li>
+            Weather variability continues, so cold days and
+            occasional cold records do not disappear.
+          </li>
+
+          <li>
+            Record-warm nights are especially important because
+            they reduce overnight relief from heat.
+          </li>
+
+          <li>
+            One record is not proof of a trend, but the growing
+            frequency and intensity of hot extremes across many
+            regions is a well-established climate signal.
+          </li>
+
+          <li>
+            Daily RecordWatch results are preliminary and
+            should be interpreted alongside long-term,
+            quality-controlled climate information.
+          </li>
+        </ul>
+      </section>
+
+      <h2>Official sources and further reading</h2>
+
+      <ul class="source-list">
+        <li>
+          <a
+            href="https://www.canada.ca/en/environment-climate-change/services/environmental-indicators/extreme-heat-events.html"
+            target="_blank"
+            rel="noopener"
+          >
+            Environment and Climate Change Canada:
+            Extreme heat events
+          </a>
+        </li>
+
+        <li>
+          <a
+            href="https://www.canada.ca/en/environment-climate-change/services/environmental-indicators/temperature-change.html"
+            target="_blank"
+            rel="noopener"
+          >
+            Environment and Climate Change Canada:
+            Temperature change in Canada
+          </a>
+        </li>
+
+        <li>
+          <a
+            href="https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-11/"
+            target="_blank"
+            rel="noopener"
+          >
+            IPCC Sixth Assessment Report:
+            Weather and climate extreme events
+          </a>
+        </li>
+
+        <li>
+          <a
+            href="https://www.canada.ca/en/environment-climate-change/news/2024/10/climate-change-sets-and-breaks-heat-records-across-canada-this-summer.html"
+            target="_blank"
+            rel="noopener"
+          >
+            Environment and Climate Change Canada:
+            Rapid attribution of Canadian heat waves in 2024
+          </a>
+        </li>
+
+        <li>
+          <a
+            href="https://www.canada.ca/en/health-canada/services/climate-change-health/extreme-heat.html"
+            target="_blank"
+            rel="noopener"
+          >
+            Health Canada:
+            Extreme heat events overview
+          </a>
+        </li>
+      </ul>
+    </article>
+
+    <section class="card editorial-note">
+      <h2>About this article</h2>
+
+      <p>
+        This evergreen explainer is intended to help readers
+        interpret daily heat records in a long-term climate
+        context. RecordWatch Canada presents preliminary
+        record information; official climate observations may
+        later be revised.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <strong>RecordWatch Canada</strong>
+
+    <span>
+      Data source: Environment and Climate Change Canada /
+      MSC GeoMet.
+    </span>
+  </footer>
+</body>
+</html>
