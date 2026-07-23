@@ -10,26 +10,26 @@
   ],
   "daysAvailable": 3,
   "isPartial": true,
-  "generatedAt": "2026-07-23T12:10:09-04:00",
+  "generatedAt": "2026-07-23T17:37:55-04:00",
   "summary": {
-    "totalRecords": 69,
-    "brokenRecords": 63,
-    "tiedRecords": 6
+    "totalRecords": 71,
+    "brokenRecords": 64,
+    "tiedRecords": 7
   },
-  "summaryText": "63 records broken, 6 tied. Record High Maximum Temperature was the most common category (31 of 69 record events). British Columbia recorded the most events (29).",
+  "summaryText": "64 records broken, 7 tied. Record High Maximum Temperature was the most common category (32 of 71 record events). British Columbia recorded the most events (30).",
   "typeBreakdown": [
     {
       "type": "high_max",
       "label": "Record High Maximum Temperature",
-      "total": 31,
+      "total": 32,
       "broken": 27,
-      "tied": 4
+      "tied": 5
     },
     {
       "type": "precipitation",
       "label": "Daily Precipitation Record",
-      "total": 19,
-      "broken": 19,
+      "total": 20,
+      "broken": 20,
       "tied": 0
     },
     {
@@ -58,7 +58,7 @@
     {
       "province": "BC",
       "provinceName": "British Columbia",
-      "total": 29
+      "total": 30
     },
     {
       "province": "ON",
@@ -81,13 +81,13 @@
       "total": 4
     },
     {
-      "province": "NL",
-      "provinceName": "Newfoundland and Labrador",
-      "total": 3
-    },
-    {
       "province": "NB",
       "provinceName": "New Brunswick",
+      "total": 4
+    },
+    {
+      "province": "NL",
+      "provinceName": "Newfoundland and Labrador",
       "total": 3
     },
     {
@@ -218,7 +218,7 @@
         -123.71,
         48.78
       ],
-      "sourceUpdated": "2026-07-23T12:19:20Z",
+      "sourceUpdated": "2026-07-23T18:33:58Z",
       "sourceId": "VSBC97V-7-22",
       "previousRecordAge": 98
     },
@@ -241,7 +241,7 @@
         -80.41,
         42.8
       ],
-      "sourceUpdated": "2026-07-23T12:19:20Z",
+      "sourceUpdated": "2026-07-23T18:33:58Z",
       "sourceId": "VSON50V-7-22",
       "previousRecordAge": 90
     }

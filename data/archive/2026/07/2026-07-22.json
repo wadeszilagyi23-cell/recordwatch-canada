@@ -2,14 +2,14 @@
   "schemaVersion": 1,
   "date": "2026-07-22",
   "latestAvailableDate": "2026-07-22",
-  "generatedAt": "2026-07-23T12:10:09-04:00",
-  "sourceLastUpdated": "2026-07-23T12:19:20Z",
+  "generatedAt": "2026-07-23T17:37:54-04:00",
+  "sourceLastUpdated": "2026-07-23T18:33:58Z",
   "source": "Environment and Climate Change Canada — MSC GeoMet LTCE",
   "isDemo": false,
   "summary": {
-    "totalRecords": 31,
-    "communities": 30,
-    "tiedRecords": 2,
+    "totalRecords": 33,
+    "communities": 32,
+    "tiedRecords": 3,
     "oldestRecordAge": 98
   },
   "recordOfDay": {
@@ -31,7 +31,7 @@
       -123.71,
       48.78
     ],
-    "sourceUpdated": "2026-07-23T12:19:20Z",
+    "sourceUpdated": "2026-07-23T18:33:58Z",
     "sourceId": "VSBC97V-7-22"
   },
   "story": {
@@ -40,11 +40,19 @@
   "highlights": [
     {
       "region": "British Columbia",
-      "count": 15,
+      "count": 16,
       "brokenCount": 15,
-      "tiedCount": 0,
+      "tiedCount": 1,
       "leadingType": "high_max",
-      "text": "15 records broken. The most common type was record high maximum temperature (14 of 15)."
+      "text": "15 records broken, 1 tied. The most common type was record high maximum temperature (15 of 16)."
+    },
+    {
+      "region": "Atlantic Canada",
+      "count": 6,
+      "brokenCount": 6,
+      "tiedCount": 0,
+      "leadingType": "precipitation",
+      "text": "6 records broken. The most common type was daily precipitation record (4 of 6)."
     },
     {
       "region": "Ontario",
@@ -53,14 +61,6 @@
       "tiedCount": 2,
       "leadingType": "low_min",
       "text": "3 records broken, 2 tied. The most common type was record low minimum temperature (3 of 5)."
-    },
-    {
-      "region": "Atlantic Canada",
-      "count": 5,
-      "brokenCount": 5,
-      "tiedCount": 0,
-      "leadingType": "precipitation",
-      "text": "5 records broken. The most common type was daily precipitation record (3 of 5)."
     },
     {
       "region": "Quebec",
@@ -107,7 +107,7 @@
         -117.13,
         58.52
       ],
-      "sourceUpdated": "2026-07-23T12:19:20Z",
+      "sourceUpdated": "2026-07-23T18:33:58Z",
       "sourceId": "VSAB24V-7-22"
     },
     {
@@ -129,7 +129,7 @@
         -122.25,
         49.06
       ],
-      "sourceUpdated": "2026-07-23T12:19:20Z",
+      "sourceUpdated": "2026-07-23T18:33:58Z",
       "sourceId": "VSBC81V-7-22"
     },
     {
@@ -151,7 +151,7 @@
         -121.32,
         50.81
       ],
-      "sourceUpdated": "2026-07-23T12:19:20Z",
+      "sourceUpdated": "2026-07-23T18:33:58Z",
       "sourceId": "VSBC55V-7-22"
     },
     {
@@ -173,7 +173,7 @@
         -121.63,
         55.7
       ],
-      "sourceUpdated": "2026-07-23T12:19:20Z",
+      "sourceUpdated": "2026-07-23T18:33:58Z",
       "sourceId": "VSBC23V-7-22"
     },
     {
@@ -195,7 +195,7 @@
         -123.71,
         48.78
       ],
-      "sourceUpdated": "2026-07-23T12:19:20Z",
+      "sourceUpdated": "2026-07-23T18:33:58Z",
       "sourceId": "VSBC97V-7-22"
     },
     {
@@ -217,8 +217,30 @@
         -123.5,
         49.4
       ],
-      "sourceUpdated": "2026-07-23T12:19:20Z",
+      "sourceUpdated": "2026-07-23T18:33:58Z",
       "sourceId": "VSBC1VV-7-22"
+    },
+    {
+      "id": "VSBC31V-2026-07-22-high_max",
+      "date": "2026-07-22",
+      "community": "Hope Slide",
+      "province": "BC",
+      "provinceName": "British Columbia",
+      "type": "high_max",
+      "status": "tied",
+      "value": 34.5,
+      "unit": "°C",
+      "previousValue": 34.5,
+      "previousYear": 2006,
+      "difference": 0.0,
+      "recordBeginYear": 1967,
+      "periodYears": 60,
+      "coordinates": [
+        -121.27,
+        49.3
+      ],
+      "sourceUpdated": "2026-07-23T18:33:58Z",
+      "sourceId": "VSBC31V-7-22"
     },
     {
       "id": "VSBC100-2026-07-22-high_max",
@@ -239,7 +261,7 @@
         -122.66,
         49.1
       ],
-      "sourceUpdated": "2026-07-23T12:19:20Z",
+      "sourceUpdated": "2026-07-23T18:33:58Z",
       "sourceId": "VSBC100-7-22"
     },
     {
@@ -261,7 +283,7 @@
         -121.57,
         50.23
       ],
-      "sourceUpdated": "2026-07-23T12:19:20Z",
+      "sourceUpdated": "2026-07-23T18:33:58Z",
       "sourceId": "VSBC33V-7-22"
     },
     {
@@ -283,7 +305,7 @@
         -123.93,
         49.17
       ],
-      "sourceUpdated": "2026-07-23T12:19:20Z",
+      "sourceUpdated": "2026-07-23T18:33:58Z",
       "sourceId": "VSBC20V-7-22"
     },
     {
@@ -305,7 +327,7 @@
         -119.45,
         49.03
       ],
-      "sourceUpdated": "2026-07-23T12:19:20Z",
+      "sourceUpdated": "2026-07-23T18:33:58Z",
       "sourceId": "VSBC69V-7-22"
     },
     {
@@ -327,7 +349,7 @@
         -122.69,
         49.22
       ],
-      "sourceUpdated": "2026-07-23T12:19:20Z",
+      "sourceUpdated": "2026-07-23T18:33:58Z",
       "sourceId": "VSBC35V-7-22"
     },
     {
@@ -349,7 +371,7 @@
         -124.53,
         49.85
       ],
-      "sourceUpdated": "2026-07-23T12:19:20Z",
+      "sourceUpdated": "2026-07-23T18:33:58Z",
       "sourceId": "VSBC58V-7-22"
     },
     {
@@ -371,7 +393,7 @@
         -124.44,
         49.35
       ],
-      "sourceUpdated": "2026-07-23T12:19:20Z",
+      "sourceUpdated": "2026-07-23T18:33:58Z",
       "sourceId": "VSBC98V-7-22"
     },
     {
@@ -393,7 +415,7 @@
         -123.77,
         49.47
       ],
-      "sourceUpdated": "2026-07-23T12:19:20Z",
+      "sourceUpdated": "2026-07-23T18:33:58Z",
       "sourceId": "VSBC3VV-7-22"
     },
     {
@@ -415,7 +437,7 @@
         -123.16,
         49.33
       ],
-      "sourceUpdated": "2026-07-23T12:19:20Z",
+      "sourceUpdated": "2026-07-23T18:33:58Z",
       "sourceId": "VSBC99V-7-22"
     },
     {
@@ -437,7 +459,7 @@
         -123.16,
         49.33
       ],
-      "sourceUpdated": "2026-07-23T12:19:20Z",
+      "sourceUpdated": "2026-07-23T18:33:58Z",
       "sourceId": "VSBC99V-7-22"
     },
     {
@@ -507,6 +529,28 @@
       "sourceId": "VSNB23V-7-22"
     },
     {
+      "id": "VSNB20V-2026-07-22-precipitation",
+      "date": "2026-07-22",
+      "community": "Tracadie-Sheila",
+      "province": "NB",
+      "provinceName": "New Brunswick",
+      "type": "precipitation",
+      "status": "broken",
+      "value": 17.8,
+      "unit": "mm",
+      "previousValue": 13.2,
+      "previousYear": 2006,
+      "difference": 4.6,
+      "recordBeginYear": 1970,
+      "periodYears": 57,
+      "coordinates": [
+        -64.92,
+        47.51
+      ],
+      "sourceUpdated": null,
+      "sourceId": "VSNB20V-7-22"
+    },
+    {
       "id": "VSNL32V-2026-07-22-high_min",
       "date": "2026-07-22",
       "community": "Cartwright",
@@ -525,7 +569,7 @@
         -57.01,
         53.71
       ],
-      "sourceUpdated": "2026-07-23T12:19:20Z",
+      "sourceUpdated": "2026-07-23T18:33:58Z",
       "sourceId": "VSNL32V-7-22"
     },
     {
@@ -547,7 +591,7 @@
         -61.69,
         56.55
       ],
-      "sourceUpdated": "2026-07-23T12:19:20Z",
+      "sourceUpdated": "2026-07-23T18:33:58Z",
       "sourceId": "VSNL40V-7-22"
     },
     {
@@ -591,7 +635,7 @@
         -80.41,
         42.8
       ],
-      "sourceUpdated": "2026-07-23T12:19:20Z",
+      "sourceUpdated": "2026-07-23T18:33:58Z",
       "sourceId": "VSON50V-7-22"
     },
     {
@@ -613,7 +657,7 @@
         -77.11,
         45.82
       ],
-      "sourceUpdated": "2026-07-23T12:19:20Z",
+      "sourceUpdated": "2026-07-23T18:33:58Z",
       "sourceId": "VSON131-7-22"
     },
     {
@@ -635,7 +679,7 @@
         -77.27,
         45.91
       ],
-      "sourceUpdated": "2026-07-23T12:19:20Z",
+      "sourceUpdated": "2026-07-23T18:33:58Z",
       "sourceId": "VSON112-7-22"
     },
     {
@@ -657,7 +701,7 @@
         -80.31,
         42.84
       ],
-      "sourceUpdated": "2026-07-23T12:19:20Z",
+      "sourceUpdated": "2026-07-23T18:33:58Z",
       "sourceId": "VSON161-7-22"
     },
     {
@@ -679,7 +723,7 @@
         -80.73,
         42.87
       ],
-      "sourceUpdated": "2026-07-23T12:19:20Z",
+      "sourceUpdated": "2026-07-23T18:33:58Z",
       "sourceId": "VSON17V-7-22"
     },
     {
@@ -723,7 +767,7 @@
         -77.63,
         49.75
       ],
-      "sourceUpdated": "2026-07-23T12:19:20Z",
+      "sourceUpdated": "2026-07-23T18:33:58Z",
       "sourceId": "VSQC129-7-22"
     },
     {
@@ -745,7 +789,7 @@
         -79.02,
         48.23
       ],
-      "sourceUpdated": "2026-07-23T12:19:20Z",
+      "sourceUpdated": "2026-07-23T18:33:58Z",
       "sourceId": "VSQC148-7-22"
     },
     {
@@ -767,7 +811,7 @@
         -77.78,
         48.1
       ],
-      "sourceUpdated": "2026-07-23T12:19:20Z",
+      "sourceUpdated": "2026-07-23T18:33:58Z",
       "sourceId": "VSQC149-7-22"
     }
   ],
