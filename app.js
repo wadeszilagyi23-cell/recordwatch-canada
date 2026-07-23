@@ -1379,3 +1379,247 @@ function openStatisticRecordOnMap(card) {
     `Showing ${record.community}, ` +
     `${record.province} on the map.`;
 }
+
+
+/*
+ * Compact mobile Recent Records list.
+ * Records are grouped by community and expand on demand.
+ */
+
+function ensureMobileRecordList() {
+  const tableWrap =
+    document.querySelector('.table-wrap');
+
+  if (!tableWrap) return null;
+
+  let list = $('mobileRecordList');
+
+  if (!list) {
+    list = document.createElement('div');
+    list.id = 'mobileRecordList';
+    list.className = 'mobile-record-list';
+
+    tableWrap.insertAdjacentElement(
+      'afterend',
+      list
+    );
+  }
+
+  return list;
+}
+
+function mobileCommunityKey(record) {
+  return [
+    normalizeRecordSearch(record.community),
+    String(record.province || '').toLowerCase()
+  ].join('|');
+}
+
+function mobileRecordDetailsHtml(record) {
+  const info =
+    TYPE_INFO[record.type] || TYPE_INFO.high_max;
+
+  const statusText =
+    record.status === 'tied'
+      ? 'Tied record'
+      : 'New record';
+
+  return `
+    <article
+      class="mobile-record-detail"
+      style="--mobile-record-color: ${info.color};"
+    >
+      <h4>
+        <span class="mobile-record-detail-dot"></span>
+        ${escapeHtml(info.label)}
+      </h4>
+
+      <dl>
+        <div>
+          <dt>New value</dt>
+          <dd>
+            ${escapeHtml(
+              formatNumber(record.value, record.unit)
+            )}
+          </dd>
+        </div>
+
+        <div>
+          <dt>Previous record</dt>
+          <dd>
+            ${escapeHtml(
+              formatNumber(
+                record.previousValue,
+                record.unit
+              )
+            )}
+            (${escapeHtml(record.previousYear)})
+          </dd>
+        </div>
+
+        <div>
+          <dt>Difference</dt>
+          <dd>
+            ${escapeHtml(formatDifference(record))}
+          </dd>
+        </div>
+
+        <div>
+          <dt>Status</dt>
+          <dd>${statusText}</dd>
+        </div>
+
+        <div>
+          <dt>Period of record</dt>
+          <dd>
+            ${escapeHtml(record.recordBeginYear)}–${
+              escapeHtml(record.date.slice(0, 4))
+            }
+          </dd>
+        </div>
+      </dl>
+    </article>
+  `;
+}
+
+function renderMobileRecordList() {
+  const list = ensureMobileRecordList();
+
+  if (!list) return;
+
+  const records = filteredRecords();
+  const groups = new Map();
+
+  records.forEach((record) => {
+    const key = mobileCommunityKey(record);
+
+    if (!groups.has(key)) {
+      groups.set(key, []);
+    }
+
+    groups.get(key).push(record);
+  });
+
+  const communityGroups =
+    [...groups.values()].sort((a, b) => {
+      const nameA =
+        `${a[0].community}, ${a[0].province}`;
+
+      const nameB =
+        `${b[0].community}, ${b[0].province}`;
+
+      return nameA.localeCompare(nameB);
+    });
+
+  if (!communityGroups.length) {
+    list.innerHTML = `
+      <p class="mobile-record-empty">
+        No records match this filter.
+      </p>
+    `;
+
+    return;
+  }
+
+  list.innerHTML = communityGroups
+    .map((communityRecords) => {
+      const firstRecord = communityRecords[0];
+
+      const typeDots = [
+        ...new Map(
+          communityRecords.map((record) => [
+            record.type,
+            record
+          ])
+        ).values()
+      ]
+        .map((record) => {
+          const info =
+            TYPE_INFO[record.type] ||
+            TYPE_INFO.high_max;
+
+          return `
+            <span
+              class="mobile-community-dot"
+              style="--mobile-dot-color: ${info.color};"
+            ></span>
+          `;
+        })
+        .join('');
+
+      const recordWord =
+        communityRecords.length === 1
+          ? 'record'
+          : 'records';
+
+      return `
+        <details class="mobile-community-record">
+          <summary>
+            <span class="mobile-community-name">
+              <span class="mobile-community-dots">
+                ${typeDots}
+              </span>
+
+              <strong>
+                ${escapeHtml(firstRecord.community)},
+                ${escapeHtml(firstRecord.province)}
+              </strong>
+            </span>
+
+            <span class="mobile-community-count">
+              ${communityRecords.length}
+              ${recordWord}
+            </span>
+
+            <span
+              class="mobile-community-chevron"
+              aria-hidden="true"
+            >
+              ▾
+            </span>
+          </summary>
+
+          <div class="mobile-community-details">
+            ${communityRecords
+              .map(mobileRecordDetailsHtml)
+              .join('')}
+          </div>
+        </details>
+      `;
+    })
+    .join('');
+
+  /*
+   * Keep only one community expanded at a time
+   * to prevent another excessively long section.
+   */
+  list
+    .querySelectorAll('.mobile-community-record')
+    .forEach((details) => {
+      details.addEventListener('toggle', () => {
+        if (!details.open) return;
+
+        list
+          .querySelectorAll(
+            '.mobile-community-record[open]'
+          )
+          .forEach((otherDetails) => {
+            if (otherDetails !== details) {
+              otherDetails.open = false;
+            }
+          });
+      });
+    });
+}
+
+/*
+ * Continue rendering the normal desktop table,
+ * then build the compact mobile community list.
+ */
+const originalRenderTableForMobileList =
+  renderTable;
+
+renderTable = function () {
+  originalRenderTableForMobileList();
+  renderMobileRecordList();
+};
