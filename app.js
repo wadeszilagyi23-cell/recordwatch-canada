@@ -903,3 +903,479 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 });
+
+
+/*
+ * Group multiple records occurring at the same map location.
+ * All Record Types uses numbered grouped markers.
+ * Individual parameter filters retain normal coloured markers.
+ */
+
+function mapLocationKey(record) {
+  if (
+    !Array.isArray(record.coordinates) ||
+    record.coordinates.length !== 2
+  ) {
+    return null;
+  }
+
+  const [longitude, latitude] = record.coordinates;
+
+  if (
+    !Number.isFinite(longitude) ||
+    !Number.isFinite(latitude)
+  ) {
+    return null;
+  }
+
+  /*
+   * Coordinates are rounded slightly so tiny coordinate
+   * differences do not prevent records at the same station
+   * from being grouped.
+   */
+  return [
+    normalizeRecordSearch(record.community),
+    String(record.province || '').toLowerCase(),
+    latitude.toFixed(4),
+    longitude.toFixed(4)
+  ].join('|');
+}
+
+function groupRecordsByLocation(records) {
+  const groups = new Map();
+
+  records.forEach((record) => {
+    const key = mapLocationKey(record);
+
+    if (!key) return;
+
+    if (!groups.has(key)) {
+      groups.set(key, []);
+    }
+
+    groups.get(key).push(record);
+  });
+
+  return [...groups.values()];
+}
+
+function groupedMarkerHtml(records) {
+  const markerDots = [];
+  const usedDots = new Set();
+
+  records.forEach((record) => {
+    const info = TYPE_INFO[record.type] || TYPE_INFO.high_max;
+    const dotKey = `${record.type}-${record.status}`;
+
+    if (usedDots.has(dotKey)) return;
+
+    usedDots.add(dotKey);
+
+    markerDots.push(`
+      <span
+        class="multi-record-dot ${
+          record.status === 'tied' ? 'tied' : ''
+        }"
+        style="--record-dot-color: ${info.color};"
+      ></span>
+    `);
+  });
+
+  return `
+    <div class="multi-record-marker">
+      <span class="multi-record-count">
+        ${records.length}
+      </span>
+
+      <span class="multi-record-dots">
+        ${markerDots.join('')}
+      </span>
+    </div>
+  `;
+}
+
+function groupedPopupHtml(records) {
+  const firstRecord = records[0];
+
+  const orderedRecords = [...records].sort((a, b) => {
+    const typeOrder = Object.keys(TYPE_INFO);
+
+    return (
+      typeOrder.indexOf(a.type) -
+      typeOrder.indexOf(b.type)
+    );
+  });
+
+  const brokenCount = records.filter(
+    (record) => record.status === 'broken'
+  ).length;
+
+  const tiedCount = records.filter(
+    (record) => record.status === 'tied'
+  ).length;
+
+  let summaryText =
+    `${brokenCount} ` +
+    `${brokenCount === 1 ? 'record' : 'records'} broken`;
+
+  if (tiedCount > 0) {
+    summaryText +=
+      `, ${tiedCount} ` +
+      `${tiedCount === 1 ? 'record' : 'records'} tied`;
+  }
+
+  const recordSections = orderedRecords
+    .map((record) => {
+      const info =
+        TYPE_INFO[record.type] || TYPE_INFO.high_max;
+
+      return `
+        <div
+          class="grouped-record-item"
+          style="--group-record-color: ${info.color};"
+        >
+          <strong class="grouped-record-type">
+            ${escapeHtml(info.label)}
+          </strong>
+
+          <div>
+            <strong>New value:</strong>
+            ${escapeHtml(
+              formatNumber(record.value, record.unit)
+            )}
+          </div>
+
+          <div>
+            <strong>Previous:</strong>
+            ${escapeHtml(
+              formatNumber(
+                record.previousValue,
+                record.unit
+              )
+            )}
+            (${escapeHtml(record.previousYear)})
+          </div>
+
+          <div>
+            <strong>Difference:</strong>
+            ${escapeHtml(formatDifference(record))}
+          </div>
+
+          <div>
+            <strong>Status:</strong>
+            ${
+              record.status === 'tied'
+                ? 'Tied record'
+                : 'New record'
+            }
+          </div>
+
+          <div>
+            <strong>Period:</strong>
+            ${escapeHtml(record.recordBeginYear)}–${
+              escapeHtml(record.date.slice(0, 4))
+            }
+          </div>
+        </div>
+      `;
+    })
+    .join('');
+
+  return `
+    <div class="grouped-record-popup">
+      <div class="grouped-record-heading">
+        <strong>
+          ${escapeHtml(firstRecord.community)},
+          ${escapeHtml(firstRecord.province)}
+        </strong>
+
+        <span>
+          ${records.length} records at this location
+        </span>
+
+        <small>${escapeHtml(summaryText)}.</small>
+      </div>
+
+      ${recordSections}
+    </div>
+  `;
+}
+
+function createSingleRecordMarker(record) {
+  const [longitude, latitude] = record.coordinates;
+
+  const marker = L.circleMarker(
+    [latitude, longitude],
+    markerStyle(record)
+  ).bindPopup(popupHtml(record));
+
+  marker.recordId = record.id;
+  marker.recordIds = [record.id];
+
+  return marker;
+}
+
+function createGroupedRecordMarker(records) {
+  const firstRecord = records[0];
+  const [longitude, latitude] = firstRecord.coordinates;
+
+  const icon = L.divIcon({
+    className: 'multi-record-div-icon',
+    html: groupedMarkerHtml(records),
+    iconSize: [42, 48],
+    iconAnchor: [21, 22],
+    popupAnchor: [0, -20]
+  });
+
+  const marker = L.marker(
+    [latitude, longitude],
+    {
+      icon,
+      keyboard: true,
+      title:
+        `${records.length} records — ` +
+        `${firstRecord.community}, ${firstRecord.province}`
+    }
+  ).bindPopup(
+    groupedPopupHtml(records),
+    {
+      minWidth: 260,
+      maxWidth: 340
+    }
+  );
+
+  marker.recordId = firstRecord.id;
+  marker.recordIds = records.map(
+    (record) => record.id
+  );
+
+  return marker;
+}
+
+function layerContainsRecord(layer, recordId) {
+  return (
+    layer.recordId === recordId ||
+    (
+      Array.isArray(layer.recordIds) &&
+      layer.recordIds.includes(recordId)
+    )
+  );
+}
+
+function openMapMarkerForRecord(recordId) {
+  let matchingLayer = null;
+
+  markerLayer.eachLayer((layer) => {
+    if (layerContainsRecord(layer, recordId)) {
+      matchingLayer = layer;
+    }
+  });
+
+  if (matchingLayer) {
+    matchingLayer.openPopup();
+  }
+
+  return matchingLayer;
+}
+
+function renderMap() {
+  markerLayer.clearLayers();
+
+  const records = filteredRecords();
+  const bounds = [];
+
+  /*
+   * Group markers only in the All Record Types view.
+   */
+  if (activeFilter === 'all') {
+    const locationGroups =
+      groupRecordsByLocation(records);
+
+    locationGroups.forEach((locationRecords) => {
+      const firstRecord = locationRecords[0];
+      const [longitude, latitude] =
+        firstRecord.coordinates;
+
+      const marker =
+        locationRecords.length > 1
+          ? createGroupedRecordMarker(locationRecords)
+          : createSingleRecordMarker(firstRecord);
+
+      marker.addTo(markerLayer);
+      bounds.push([latitude, longitude]);
+    });
+  } else {
+    records.forEach((record) => {
+      if (
+        !Array.isArray(record.coordinates) ||
+        record.coordinates.length !== 2
+      ) {
+        return;
+      }
+
+      const [longitude, latitude] =
+        record.coordinates;
+
+      if (
+        !Number.isFinite(longitude) ||
+        !Number.isFinite(latitude)
+      ) {
+        return;
+      }
+
+      createSingleRecordMarker(record)
+        .addTo(markerLayer);
+
+      bounds.push([latitude, longitude]);
+    });
+  }
+
+  if (bounds.length) {
+    map.fitBounds(bounds, {
+      padding: [25, 25],
+      maxZoom: 6
+    });
+  } else {
+    map.setView([57.2, -96], 4);
+  }
+}
+
+/*
+ * Updated search behaviour so a record inside a
+ * grouped marker can still be located and opened.
+ */
+function findCommunity(query) {
+  if (!currentData || !query.trim()) return;
+
+  const searchValue =
+    normalizeRecordSearch(query);
+
+  const exactRecord = currentData.records.find(
+    (item) => {
+      const communityName =
+        normalizeRecordSearch(
+          `${item.community}, ${item.province}`
+        );
+
+      return communityName === searchValue;
+    }
+  );
+
+  const partialRecord = currentData.records.find(
+    (item) => {
+      const typeInfo = TYPE_INFO[item.type] || {};
+
+      const searchableText =
+        normalizeRecordSearch(
+          `${item.community} ${item.province} ` +
+          `${item.provinceName || ''} ` +
+          `${typeInfo.label || ''} ` +
+          `${typeInfo.short || ''}`
+        );
+
+      return searchableText.includes(searchValue);
+    }
+  );
+
+  const record = exactRecord || partialRecord;
+
+  if (!record) {
+    $('statusMessage').classList.add('error');
+
+    $('statusMessage').textContent =
+      `No displayed record matches “${query}”.`;
+
+    return;
+  }
+
+  $('statusMessage').classList.remove('error');
+
+  if (
+    activeFilter !== 'all' &&
+    activeFilter !== record.type
+  ) {
+    activeFilter = 'all';
+
+    document
+      .querySelectorAll('.filter-chip[data-filter]')
+      .forEach((button) => {
+        button.classList.toggle(
+          'active',
+          button.dataset.filter === 'all'
+        );
+      });
+
+    renderMap();
+    renderTable();
+  }
+
+  const [longitude, latitude] =
+    record.coordinates;
+
+  map.setView([latitude, longitude], 8);
+  openMapMarkerForRecord(record.id);
+
+  $('statusMessage').textContent =
+    `Located ${record.community}, ` +
+    `${record.province}.`;
+}
+
+/*
+ * Updated clickable-statistic behaviour so cards
+ * can also open a record inside a grouped marker.
+ */
+function openStatisticRecordOnMap(card) {
+  const recordId = card?.dataset?.recordId;
+
+  if (!recordId || !currentData) return;
+
+  const record = currentData.records.find(
+    (item) => item.id === recordId
+  );
+
+  if (
+    !record ||
+    !Array.isArray(record.coordinates) ||
+    record.coordinates.length !== 2
+  ) {
+    return;
+  }
+
+  if (
+    activeFilter !== 'all' &&
+    activeFilter !== record.type
+  ) {
+    activeFilter = 'all';
+
+    document
+      .querySelectorAll('.filter-chip[data-filter]')
+      .forEach((button) => {
+        button.classList.toggle(
+          'active',
+          button.dataset.filter === 'all'
+        );
+      });
+
+    renderMap();
+    renderTable();
+  }
+
+  const [longitude, latitude] =
+    record.coordinates;
+
+  $('recordMap').scrollIntoView({
+    behavior: 'smooth',
+    block: 'center'
+  });
+
+  window.setTimeout(() => {
+    map.setView([latitude, longitude], 8);
+    openMapMarkerForRecord(record.id);
+  }, 400);
+
+  $('statusMessage').classList.remove('error');
+
+  $('statusMessage').textContent =
+    `Showing ${record.community}, ` +
+    `${record.province} on the map.`;
+}
