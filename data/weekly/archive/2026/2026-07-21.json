@@ -1,0 +1,242 @@
+{
+  "schemaVersion": 1,
+  "title": "This Week in Canadian Extremes",
+  "startDate": "2026-07-15",
+  "endDate": "2026-07-21",
+  "datesIncluded": [
+    "2026-07-20",
+    "2026-07-21"
+  ],
+  "daysAvailable": 2,
+  "isPartial": true,
+  "generatedAt": "2026-07-22T23:15:43-04:00",
+  "summary": {
+    "totalRecords": 38,
+    "brokenRecords": 34,
+    "tiedRecords": 4
+  },
+  "summaryText": "34 records broken, 4 tied. Record High Maximum Temperature was the most common category (15 of 38 record events). British Columbia recorded the most events (14).",
+  "typeBreakdown": [
+    {
+      "type": "high_max",
+      "label": "Record High Maximum Temperature",
+      "total": 15,
+      "broken": 11,
+      "tied": 4
+    },
+    {
+      "type": "precipitation",
+      "label": "Daily Precipitation Record",
+      "total": 14,
+      "broken": 14,
+      "tied": 0
+    },
+    {
+      "type": "high_min",
+      "label": "Record High Minimum Temperature",
+      "total": 7,
+      "broken": 7,
+      "tied": 0
+    },
+    {
+      "type": "low_max",
+      "label": "Record Low Maximum Temperature",
+      "total": 1,
+      "broken": 1,
+      "tied": 0
+    },
+    {
+      "type": "low_min",
+      "label": "Record Low Minimum Temperature",
+      "total": 1,
+      "broken": 1,
+      "tied": 0
+    }
+  ],
+  "provinceBreakdown": [
+    {
+      "province": "BC",
+      "provinceName": "British Columbia",
+      "total": 14
+    },
+    {
+      "province": "ON",
+      "provinceName": "Ontario",
+      "total": 11
+    },
+    {
+      "province": "YT",
+      "provinceName": "Yukon",
+      "total": 4
+    },
+    {
+      "province": "AB",
+      "provinceName": "Alberta",
+      "total": 3
+    },
+    {
+      "province": "QC",
+      "provinceName": "Quebec",
+      "total": 3
+    },
+    {
+      "province": "NL",
+      "provinceName": "Newfoundland and Labrador",
+      "total": 1
+    },
+    {
+      "province": "NT",
+      "provinceName": "Northwest Territories",
+      "total": 1
+    },
+    {
+      "province": "NS",
+      "provinceName": "Nova Scotia",
+      "total": 1
+    }
+  ],
+  "notableRecords": [
+    {
+      "id": "VSON106-2026-07-21-precipitation",
+      "date": "2026-07-21",
+      "community": "Smiths Falls",
+      "province": "ON",
+      "provinceName": "Ontario",
+      "type": "precipitation",
+      "status": "broken",
+      "value": 44.4,
+      "unit": "mm",
+      "previousValue": 26.7,
+      "previousYear": 1895,
+      "difference": 17.7,
+      "recordBeginYear": 1883,
+      "periodYears": 144,
+      "coordinates": [
+        -76.02,
+        44.9
+      ],
+      "sourceUpdated": null,
+      "sourceId": "VSON106-7-21",
+      "previousRecordAge": 131
+    },
+    {
+      "id": "VSON25V-2026-07-21-precipitation",
+      "date": "2026-07-21",
+      "community": "Newmarket",
+      "province": "ON",
+      "provinceName": "Ontario",
+      "type": "precipitation",
+      "status": "broken",
+      "value": 26.8,
+      "unit": "mm",
+      "previousValue": 26.7,
+      "previousYear": 1897,
+      "difference": 0.1,
+      "recordBeginYear": 1871,
+      "periodYears": 156,
+      "coordinates": [
+        -79.46,
+        44.06
+      ],
+      "sourceUpdated": null,
+      "sourceId": "VSON25V-7-21",
+      "previousRecordAge": 129
+    },
+    {
+      "id": "VSON47V-2026-07-21-precipitation",
+      "date": "2026-07-21",
+      "community": "Lincoln",
+      "province": "ON",
+      "provinceName": "Ontario",
+      "type": "precipitation",
+      "status": "broken",
+      "value": 108.6,
+      "unit": "mm",
+      "previousValue": 56.6,
+      "previousYear": 1925,
+      "difference": 52.0,
+      "recordBeginYear": 1874,
+      "periodYears": 153,
+      "coordinates": [
+        -79.42,
+        43.15
+      ],
+      "sourceUpdated": null,
+      "sourceId": "VSON47V-7-21",
+      "previousRecordAge": 101
+    },
+    {
+      "id": "VSON159-2026-07-21-low_max",
+      "date": "2026-07-21",
+      "community": "Fort Frances",
+      "province": "ON",
+      "provinceName": "Ontario",
+      "type": "low_max",
+      "status": "broken",
+      "value": 17.7,
+      "unit": "°C",
+      "previousValue": 17.8,
+      "previousYear": 1925,
+      "difference": -0.1,
+      "recordBeginYear": 1912,
+      "periodYears": 115,
+      "coordinates": [
+        -93.39,
+        48.61
+      ],
+      "sourceUpdated": "2026-07-22T18:33:48Z",
+      "sourceId": "VSON159-7-21",
+      "previousRecordAge": 101
+    },
+    {
+      "id": "VSON121-2026-07-21-precipitation",
+      "date": "2026-07-21",
+      "community": "Peterborough",
+      "province": "ON",
+      "provinceName": "Ontario",
+      "type": "precipitation",
+      "status": "broken",
+      "value": 33.7,
+      "unit": "mm",
+      "previousValue": 30.5,
+      "previousYear": 1943,
+      "difference": 3.2,
+      "recordBeginYear": 1866,
+      "periodYears": 161,
+      "coordinates": [
+        -78.33,
+        44.3
+      ],
+      "sourceUpdated": null,
+      "sourceId": "VSON121-7-21",
+      "previousRecordAge": 83
+    },
+    {
+      "id": "VSON5VV-2026-07-21-precipitation",
+      "date": "2026-07-21",
+      "community": "Guelph",
+      "province": "ON",
+      "provinceName": "Ontario",
+      "type": "precipitation",
+      "status": "broken",
+      "value": 21.2,
+      "unit": "mm",
+      "previousValue": 18.5,
+      "previousYear": 1943,
+      "difference": 2.7,
+      "recordBeginYear": 1881,
+      "periodYears": 146,
+      "coordinates": [
+        -80.23,
+        43.54
+      ],
+      "sourceUpdated": null,
+      "sourceId": "VSON5VV-7-21",
+      "previousRecordAge": 83
+    }
+  ],
+  "notes": [
+    "This recap covers the latest seven completed climate dates.",
+    "Values are preliminary and may be revised by Environment and Climate Change Canada."
+  ]
+}
