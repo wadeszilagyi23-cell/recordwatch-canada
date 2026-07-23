@@ -1623,3 +1623,51 @@ renderTable = function () {
   originalRenderTableForMobileList();
   renderMobileRecordList();
 };
+
+
+/*
+ * Display the source update timestamp in a
+ * reader-friendly format and local time zone.
+ */
+function formatSourceUpdateTime(value) {
+  if (!value) return 'unknown';
+
+  const date = new Date(value);
+
+  if (Number.isNaN(date.getTime())) {
+    return value;
+  }
+
+  return new Intl.DateTimeFormat('en-CA', {
+    year: 'numeric',
+    month: 'long',
+    day: 'numeric',
+    hour: 'numeric',
+    minute: '2-digit',
+    timeZoneName: 'short'
+  }).format(date);
+}
+
+const originalRenderAllForFriendlySourceTime =
+  renderAll;
+
+renderAll = function () {
+  originalRenderAllForFriendlySourceTime();
+
+  const subtitle = $('tableSubtitle');
+
+  if (!subtitle || !currentData) return;
+
+  subtitle.textContent =
+    `Source last updated: ` +
+    `${formatSourceUpdateTime(
+      currentData.sourceLastUpdated
+    )}`;
+
+  if (currentData.isDemo) {
+    const badge = document.createElement('span');
+    badge.className = 'demo-badge';
+    badge.textContent = 'DEMO DATA';
+    subtitle.appendChild(badge);
+  }
+};
