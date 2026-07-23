@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>How Weather Records Are Calculated | RecordWatch Canada</title>
+  <meta name="description" content="Learn how daily Canadian temperature, precipitation and snowfall records are measured, compared, tied, revised and presented by RecordWatch Canada.">
+  <link rel="stylesheet" href="styles.css?v=record-methods-public-2">
+  <style>
+    .methods-shell{max-width:1080px}.methods-back{margin-left:auto;padding:10px 15px;border:1px solid #cfd7e5;border-radius:8px;color:var(--blue);font-size:14px;font-weight:800;text-decoration:none;white-space:nowrap}.methods-back:hover{background:#f3f7fd}.methods-hero{position:relative;overflow:hidden;padding:42px;background:radial-gradient(circle at 88% 8%,rgba(255,255,255,.18) 0 92px,transparent 93px),linear-gradient(135deg,#10283d 0%,#31566f 50%,#85acbf 100%);color:#fff}.methods-hero::after{content:"";position:absolute;right:-85px;bottom:-155px;width:440px;height:330px;border:35px solid rgba(255,255,255,.08);border-radius:50%}.methods-kicker{position:relative;z-index:1;display:inline-block;margin-bottom:10px;color:#dcefff;font-size:14px;font-weight:900;letter-spacing:.07em;text-transform:uppercase}.methods-hero h1{position:relative;z-index:1;max-width:850px;margin:0 0 16px;font-family:Georgia,serif;font-size:clamp(39px,6vw,64px);line-height:1.02;letter-spacing:-.025em}.methods-deck{position:relative;z-index:1;max-width:790px;margin:0;color:#eef7fb;font-size:20px;line-height:1.55}.article-meta{position:relative;z-index:1;display:flex;flex-wrap:wrap;gap:8px 18px;margin-top:22px;color:#d9eaf2;font-size:13px;font-weight:700}.methods-article{margin-top:15px;padding:36px 42px}.methods-article>p,.methods-article li{color:#414d61;font-size:17px;line-height:1.72}.methods-article>p:first-child{margin-top:0;color:#273248;font-size:20px;line-height:1.65}.methods-article h2{margin:42px 0 14px;color:var(--ink);font-size:30px;line-height:1.15}.methods-article h3{margin:25px 0 8px;color:var(--ink);font-size:21px}.methods-article ul,.methods-article ol{padding-left:24px}.methods-article li+li{margin-top:8px}.key-note{margin:28px 0;padding:22px 24px;border-left:6px solid #0b6fa4;border-radius:0 12px 12px 0;background:#eef8fd}.key-note strong{display:block;margin-bottom:6px;color:#07547f;font-size:19px}.key-note p{margin:0;color:#38586a;font-size:16px;line-height:1.6}.process-figure{margin:30px 0;padding:22px;border:1px solid var(--line);border-radius:13px;background:#fbfcfe}.process-figure svg{display:block;width:100%;height:auto}.process-figure figcaption{margin-top:12px;color:var(--muted);font-size:13px;line-height:1.5}.process-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:13px;margin:22px 0}.process-card{position:relative;padding:22px;border-top:5px solid var(--step-colour)}.process-number{display:inline-flex;width:34px;height:34px;align-items:center;justify-content:center;margin-bottom:12px;border-radius:50%;background:var(--step-colour);color:#fff;font-size:16px;font-weight:900}.process-card h3{margin:0 0 8px;font-size:19px}.process-card p{margin:0;color:#4c586b;font-size:14px;line-height:1.55}.record-types{display:grid;grid-template-columns:repeat(2,1fr);gap:13px;margin:20px 0}.record-type-card{padding:22px;border-top:5px solid var(--record-colour)}.record-type-card h3{margin:0 0 8px;font-size:19px}.record-type-card p{margin:0;color:#4a5669;font-size:15px;line-height:1.55}.worked-example{margin:24px 0;overflow:hidden;border:1px solid var(--line);border-radius:13px;background:#fff}.worked-example header{padding:18px 22px;background:#f3f7fb;border-bottom:1px solid var(--line)}.worked-example header h3{margin:0;font-size:21px}.worked-example-body{display:grid;grid-template-columns:1fr auto 1fr;gap:18px;align-items:center;padding:24px}.example-value{padding:18px;border:1px solid var(--line);border-radius:10px;text-align:center}.example-value span{display:block;margin-bottom:5px;color:var(--muted);font-size:12px;font-weight:800;text-transform:uppercase}.example-value strong{color:var(--ink);font-size:30px}.example-symbol{color:var(--blue);font-size:30px;font-weight:900}.example-result{grid-column:1/-1;margin:0;padding:14px 16px;border-radius:9px;background:#eef7ff;color:#24445d;font-size:15px;line-height:1.55}.definition-table-wrap{margin:22px 0;overflow-x:auto;border:1px solid var(--line);border-radius:12px}.definition-table{width:100%;min-width:760px;border-collapse:collapse;background:#fff}.definition-table th,.definition-table td{padding:14px 15px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}.definition-table th{background:#f5f7fb;color:var(--ink);font-size:13px}.definition-table td{color:#465267;font-size:14px;line-height:1.45}.definition-table tr:last-child td{border-bottom:0}.area-explainer{display:grid;grid-template-columns:1.15fr .85fr;gap:16px;margin:22px 0}.area-explainer article{padding:24px}.area-explainer h3{margin-top:0}.area-explainer p{margin-bottom:0;color:#4a5669;line-height:1.6}.radius-graphic{display:grid;place-items:center;min-height:260px;background:radial-gradient(circle,rgba(11,111,164,.18) 0 20%,transparent 21% 36%,rgba(11,111,164,.1) 37% 58%,transparent 59%),#f7fbfd;text-align:center}.radius-graphic strong{display:block;color:#07547f;font-size:34px}.radius-graphic span{display:block;max-width:180px;margin-top:6px;color:#4f6270;font-size:13px;font-weight:700;line-height:1.4}.caution-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:13px;margin:22px 0}.caution-card{padding:22px}.caution-card h3{margin:0 0 8px;font-size:18px}.caution-card p{margin:0;color:#4c586b;font-size:14px;line-height:1.55}.takeaways{margin-top:36px;padding:28px;background:linear-gradient(135deg,rgba(7,89,215,.07),rgba(35,167,223,.08)),#fff}.takeaways h2{margin-top:0}.takeaways ul{margin-bottom:0}.source-list{display:grid;gap:10px;margin:15px 0 0;padding:0;list-style:none}.source-list li{margin:0;padding:14px 16px;border:1px solid var(--line);border-radius:9px;background:#fff;font-size:14px;line-height:1.45}.source-list a{color:var(--blue);font-weight:800}.about-note{margin-top:15px;padding:20px 24px}.about-note h2{margin:0 0 8px;font-size:22px}.about-note p{margin:0;color:#4d596c;line-height:1.6}@media(max-width:820px){.methods-back{padding:8px 10px;font-size:12px}.methods-hero{padding:32px 26px}.methods-article{padding:28px 26px}.process-grid,.caution-grid{grid-template-columns:1fr}.record-types,.area-explainer{grid-template-columns:1fr}}@media(max-width:620px){.worked-example-body{grid-template-columns:1fr}.example-symbol{transform:rotate(90deg);text-align:center}.example-result{grid-column:auto}}@media(max-width:520px){.methods-back{font-size:0}.methods-back::after{content:"← Home";font-size:12px}.methods-hero{padding:27px 21px}.methods-hero h1{font-size:42px}.methods-deck{font-size:17px}.methods-article{padding:23px 20px}.methods-article>p,.methods-article li{font-size:16px}.methods-article>p:first-child{font-size:18px}.methods-article h2{font-size:26px}.process-figure{padding:12px}}
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="RecordWatch Canada home">
+      <span class="brand-leaf" aria-hidden="true">🍁</span>
+      <span><strong>RecordWatch <em>Canada</em></strong><small>Yesterday's Record-Breaking Weather</small></span>
+    </a>
+    <a class="methods-back" href="index.html">← Back to dashboard</a>
+  </header>
+
+  <main class="page-shell methods-shell">
+    <section class="card methods-hero">
+      <span class="methods-kicker">Data and methods</span>
+      <h1>How Weather Records Are Calculated</h1>
+      <p class="methods-deck">A daily weather record begins with an observation and ends with a comparison against the same date in the past. Here is how to interpret the temperature, precipitation and snowfall records shown on RecordWatch Canada.</p>
+      <div class="article-meta"><span>RecordWatch Canada</span><span>Methodology explainer</span><span>Last reviewed: July 2026</span></div>
+    </section>
+
+    <article class="card methods-article">
+      <p>RecordWatch Canada presents daily record information published from Environment and Climate Change Canada observations. The site does not operate weather stations and does not declare official records. Its purpose is to organize published results into an accessible national map, summary and archive.</p>
+
+      <div class="key-note"><strong>A daily record is a calendar-date comparison</strong><p>A value assigned to July 21 is compared with values assigned to earlier July 21 dates for that location. It is not compared with every other day of the year, and it is not necessarily the location’s all-time highest or lowest value.</p></div>
+
+      <h2>The process at a glance</h2>
+
+      <figure class="process-figure">
+        <svg viewBox="0 0 980 310" role="img" aria-labelledby="processTitle processDescription">
+          <title id="processTitle">Five steps from observation to a displayed record</title>
+          <desc id="processDescription">Weather is measured, archived and reviewed, compared with the same date in earlier years, identified as a broken or tied record and presented by RecordWatch Canada.</desc>
+          <rect x="0" y="0" width="980" height="310" rx="18" fill="#f8fafc"/>
+          <line x1="115" y1="145" x2="865" y2="145" stroke="#b5c4d4" stroke-width="8" stroke-linecap="round"/>
+          <g font-family="Arial, sans-serif">
+            <g transform="translate(115 145)"><circle r="43" fill="#0b6fa4"/><text y="8" text-anchor="middle" fill="#fff" font-size="25" font-weight="700">1</text><text y="80" text-anchor="middle" fill="#243247" font-size="17" font-weight="700">Measure</text></g>
+            <g transform="translate(302 145)"><circle r="43" fill="#247fa8"/><text y="8" text-anchor="middle" fill="#fff" font-size="25" font-weight="700">2</text><text y="80" text-anchor="middle" fill="#243247" font-size="17" font-weight="700">Archive</text></g>
+            <g transform="translate(490 145)"><circle r="43" fill="#3d8f9f"/><text y="8" text-anchor="middle" fill="#fff" font-size="25" font-weight="700">3</text><text y="80" text-anchor="middle" fill="#243247" font-size="17" font-weight="700">Compare</text></g>
+            <g transform="translate(678 145)"><circle r="43" fill="#5b9f63"/><text y="8" text-anchor="middle" fill="#fff" font-size="25" font-weight="700">4</text><text y="80" text-anchor="middle" fill="#243247" font-size="17" font-weight="700">Identify</text></g>
+            <g transform="translate(865 145)"><circle r="43" fill="#0759d7"/><text y="8" text-anchor="middle" fill="#fff" font-size="25" font-weight="700">5</text><text y="80" text-anchor="middle" fill="#243247" font-size="17" font-weight="700">Present</text></g>
+          </g>
+        </svg>
+        <figcaption>Environment and Climate Change Canada is responsible for the observations and official climate information. RecordWatch Canada presents selected daily results in a more visual form.</figcaption>
+      </figure>
+
+      <div class="process-grid">
+        <section class="card process-card" style="--step-colour:#0b6fa4;"><span class="process-number">1</span><h3>Weather is measured</h3><p>Instruments and observing programs measure temperature, precipitation, snowfall and other conditions at locations across Canada.</p></section>
+        <section class="card process-card" style="--step-colour:#247fa8;"><span class="process-number">2</span><h3>Observations are archived</h3><p>Daily observations are collected and stored. Initial checks help identify obvious errors, while additional review or corrections may occur later.</p></section>
+        <section class="card process-card" style="--step-colour:#3d8f9f;"><span class="process-number">3</span><h3>The same date is compared</h3><p>Each day’s value is compared with the available history for the same month and day at that location.</p></section>
+        <section class="card process-card" style="--step-colour:#5b9f63;"><span class="process-number">4</span><h3>A record or tie is identified</h3><p>A value beyond the previous extreme breaks the record. A value equal to it at the published precision ties the record.</p></section>
+        <section class="card process-card" style="--step-colour:#0759d7;"><span class="process-number">5</span><h3>The result is presented</h3><p>RecordWatch Canada displays the location, new value, previous record, year, margin and available period of record.</p></section>
+        <section class="card process-card" style="--step-colour:#6c7a89;"><span class="process-number">✓</span><h3>The record remains preliminary</h3><p>Published climate values can be corrected or revised. RecordWatch results should therefore be treated as preliminary.</p></section>
+      </div>
+
+      <h2>What is a climatological day?</h2>
+      <p>A daily climate value is assigned according to established observing practices. The observation period does not always match a local midnight-to-midnight calendar day. Depending on the station and historical period, a daily maximum, minimum or precipitation total may include observations from part of the following calendar day.</p>
+      <div class="key-note"><strong>Why this matters</strong><p>The date shown is the official climate date assigned to the observation. It should not always be interpreted as a strict local calendar-day period.</p></div>
+
+      <h2>The six record categories</h2>
+      <p>RecordWatch Canada presents four temperature categories and one category each for precipitation and snowfall. Each category is evaluated separately.</p>
+
+      <div class="record-types">
+        <section class="card record-type-card" style="--record-colour:var(--high-max);"><h3>High maximum temperature</h3><p>The highest daily maximum temperature for that calendar date.</p></section>
+        <section class="card record-type-card" style="--record-colour:var(--high-min);"><h3>High minimum temperature</h3><p>The warmest daily minimum temperature—often the warmest overnight low—for that date.</p></section>
+        <section class="card record-type-card" style="--record-colour:var(--low-max);"><h3>Low maximum temperature</h3><p>The lowest daily maximum temperature, sometimes described as the coldest daytime high.</p></section>
+        <section class="card record-type-card" style="--record-colour:var(--low-min);"><h3>Low minimum temperature</h3><p>The lowest daily minimum temperature observed for that date.</p></section>
+        <section class="card record-type-card" style="--record-colour:var(--precip);"><h3>Precipitation</h3><p>The greatest water-equivalent total of liquid and solid precipitation, reported in millimetres.</p></section>
+        <section class="card record-type-card" style="--record-colour:var(--snow);"><h3>Snowfall</h3><p>The greatest measured depth of newly fallen snow, reported in centimetres.</p></section>
+      </div>
+
+      <div class="definition-table-wrap"><table class="definition-table"><thead><tr><th>Record type</th><th>What breaks the record?</th><th>Unit</th><th>Example</th></tr></thead><tbody>
+        <tr><td>High maximum</td><td>A higher value</td><td>°C</td><td>31.2 °C exceeds 30.7 °C</td></tr>
+        <tr><td>High minimum</td><td>A higher value</td><td>°C</td><td>20.1 °C exceeds 19.4 °C</td></tr>
+        <tr><td>Low maximum</td><td>A lower value</td><td>°C</td><td>−8.4 °C is lower than −7.1 °C</td></tr>
+        <tr><td>Low minimum</td><td>A lower value</td><td>°C</td><td>−24.0 °C is lower than −22.8 °C</td></tr>
+        <tr><td>Precipitation</td><td>A greater total</td><td>mm</td><td>44.4 mm exceeds 26.7 mm</td></tr>
+        <tr><td>Snowfall</td><td>A greater total</td><td>cm</td><td>28.6 cm exceeds 21.0 cm</td></tr>
+      </tbody></table></div>
+
+      <h2>How the previous record and margin are calculated</h2>
+      <p>The new observation is displayed beside the previous record for the same date. RecordWatch Canada then calculates the numerical difference between the two values.</p>
+      <section class="worked-example"><header><h3>Worked example: precipitation</h3></header><div class="worked-example-body"><div class="example-value"><span>New record</span><strong>44.4 mm</strong></div><div class="example-symbol" aria-hidden="true">−</div><div class="example-value"><span>Previous record</span><strong>26.7 mm</strong></div><p class="example-result">The record margin is 17.7 mm. If both values were 44.4 mm at the published precision, the newer observation would be identified as a tie.</p></div></section>
+      <p>For low-temperature records, the new record is lower rather than higher. A signed difference may therefore appear as a negative value, while summary features can use the absolute size of the margin.</p>
+      <div class="key-note"><strong>Different units should not be compared directly</strong><p>A margin of 10 mm, 10 cm and 10 °C describes three different measurements. The Largest record margin card identifies the largest numerical change in its own unit; it is not a scientific ranking of the severity of unlike weather events.</p></div>
+
+      <h2>Why a location’s record may include more than one observing site</h2>
+      <p>Weather stations do not always remain in one place forever. They may close, move, change names or be replaced by another nearby station. To preserve a longer local history, a published climate record may sometimes combine compatible observations from more than one nearby site.</p>
+      <div class="area-explainer"><article class="card"><h3>A local climate history</h3><p>The published community record is intended to represent a useful long-term history for the local area rather than the lifetime of only one instrument.</p></article><article class="card"><h3>Not always one fixed point</h3><p>Some location names represent a broader local climate area. RecordWatch Canada shortens those names for readability, but the underlying record may draw from more than one compatible observing location over time.</p></article></div>
+      <p>This approach helps create a longer comparison period, but it is also one reason daily record information should be interpreted with care. The observing environment, instruments and procedures can change over a long history.</p>
+
+      <h2>How tied records are handled</h2>
+      <p>A tied record occurs when the new value equals the existing record at the precision being reported. The earlier year generally remains the historical record year, while the newer occurrence is still recognized as a tie.</p>
+      <p>This avoids replacing the original year each time the same value reoccurs and allows visitors to distinguish between a record that was exceeded and one that was matched.</p>
+
+      <h2>What does “period of record” mean?</h2>
+      <p>A period such as <strong>1951–2026</strong> indicates the approximate span of the published local record being used for comparison. It does not necessarily mean that every single day in every year is complete. Gaps can exist, and the available period can differ between temperature, precipitation and snowfall.</p>
+      <p>A longer period usually means the new value has been compared with more historical years. However, record length alone does not measure data quality or the meteorological importance of an event.</p>
+
+      <h2>Why a published record can later change</h2>
+      <div class="caution-grid">
+        <section class="card caution-card"><h3>Late observations</h3><p>Some station reports can arrive after the first daily summary has been published.</p></section>
+        <section class="card caution-card"><h3>Corrections and review</h3><p>A value may be corrected after additional checks identify a reporting, instrument or transcription issue.</p></section>
+        <section class="card caution-card"><h3>Historical revisions</h3><p>Improvements to the published climate history can alter the value or year of a previous record.</p></section>
+      </div>
+      <p>For these reasons, RecordWatch Canada describes its daily results as preliminary. The site may update when revised information becomes available.</p>
+
+      <h2>Can daily records be used to measure climate change?</h2>
+      <p>Daily records provide valuable historical context, but they are not a complete climate-trend analysis. Long-term trend studies must account for changes in station location, instruments, observing practices, missing data and other non-climatic influences.</p>
+      <p>Climate researchers use specially prepared, quality-controlled datasets and statistical methods when assessing long-term change. A single daily record is weather. A persistent pattern across many locations, years and carefully analyzed datasets is climate.</p>
+
+      <section class="card takeaways"><h2>Key takeaways</h2><ul>
+        <li>Daily records compare the same calendar date across earlier years.</li>
+        <li>A climate date does not always match a strict local midnight-to-midnight period.</li>
+        <li>High records require a higher value; low temperature records require a lower value.</li>
+        <li>Precipitation is measured as water equivalent in millimetres, while snowfall is measured as new-snow depth in centimetres.</li>
+        <li>Some long local histories may incorporate compatible observations from more than one nearby site.</li>
+        <li>A tie matches the old value; a broken record exceeds it in the applicable direction.</li>
+        <li>Daily results are preliminary and can be revised.</li>
+      </ul></section>
+
+      <h2>Official sources and further reading</h2>
+      <ul class="source-list">
+        <li><a href="https://www.canada.ca/en/services/environment/weather.html" target="_blank" rel="noopener">Government of Canada: Weather, climate and hazards</a></li>
+        <li><a href="https://www.canada.ca/en/environment-climate-change/services/weather-general-tools-resources/glossary.html" target="_blank" rel="noopener">Environment and Climate Change Canada: Weather and meteorology glossary</a></li>
+        <li><a href="https://www.canada.ca/en/environment-climate-change/services/weather-general-tools-resources/how-we-use-observation-site.html" target="_blank" rel="noopener">Environment and Climate Change Canada: How weather observations are collected</a></li>
+      </ul>
+    </article>
+
+    
+
+    <section class="card about-note"><h2>About this article</h2><p>This page explains weather records for a general audience and describes how RecordWatch Canada presents published daily record information. RecordWatch Canada is an independent project and is not an official Government of Canada service.</p></section>
+  </main>
+
+  <footer><strong>RecordWatch Canada</strong><span>Data source: Environment and Climate Change Canada.</span></footer>
+</body>
+</html>
