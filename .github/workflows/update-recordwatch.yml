@@ -40,6 +40,9 @@ jobs:
             python scripts/update_records.py
           fi
 
+      - name: Build weekly extremes recap
+        run: python scripts/build_weekly.py
+
       - name: Commit changed data
         run: |
           git config user.name "recordwatch-bot"
