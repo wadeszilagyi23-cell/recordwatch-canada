@@ -228,3 +228,108 @@
   margin-bottom: 5px;
   color: #17233a;
 }
+
+
+/* Mobile Recent Records cards */
+@media (max-width: 700px) {
+  .table-card {
+    padding: 14px;
+  }
+
+  .table-wrap {
+    overflow: visible;
+    border: 0;
+    border-radius: 0;
+  }
+
+  .table-wrap table,
+  .table-wrap tbody {
+    display: block;
+    width: 100%;
+  }
+
+  .table-wrap thead {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip-path: inset(50%);
+    white-space: nowrap;
+  }
+
+  #recordRows {
+    display: grid;
+    gap: 12px;
+  }
+
+  #recordRows tr {
+    display: block;
+    overflow: hidden;
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    background: #fff;
+    box-shadow: 0 4px 14px rgba(20, 40, 80, 0.07);
+  }
+
+  #recordRows td {
+    display: grid;
+    grid-template-columns: minmax(115px, 42%) minmax(0, 1fr);
+    gap: 10px;
+    align-items: start;
+    padding: 10px 12px;
+    border-bottom: 1px solid #e6ebf2;
+    white-space: normal;
+    overflow-wrap: anywhere;
+    font-size: 14px;
+    line-height: 1.35;
+  }
+
+  #recordRows td::before {
+    color: var(--muted);
+    font-weight: 700;
+  }
+
+  /* Community becomes the card heading */
+  #recordRows td:first-child {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    padding: 13px 12px;
+    background: #f7f9fc;
+    color: var(--ink);
+    font-size: 17px;
+    font-weight: 800;
+  }
+
+  #recordRows td:first-child::before {
+    content: none;
+  }
+
+  #recordRows td:nth-child(2)::before {
+    content: "Province/Territory";
+  }
+
+  #recordRows td:nth-child(3)::before {
+    content: "Record Type";
+  }
+
+  #recordRows td:nth-child(4)::before {
+    content: "New Value";
+  }
+
+  #recordRows td:nth-child(5)::before {
+    content: "Previous Record";
+  }
+
+  #recordRows td:nth-child(6)::before {
+    content: "Difference";
+  }
+
+  #recordRows td:nth-child(7)::before {
+    content: "Period of Record";
+  }
+
+  #recordRows td:last-child {
+    border-bottom: 0;
+  }
+}
