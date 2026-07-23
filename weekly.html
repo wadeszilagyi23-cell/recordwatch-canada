@@ -1,0 +1,868 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1"
+  >
+
+  <title>
+    This Week in Canadian Extremes | RecordWatch Canada
+  </title>
+
+  <meta
+    name="description"
+    content="An automated seven-day recap of notable Canadian weather records."
+  >
+
+  <link
+    rel="stylesheet"
+    href="styles.css?v=weekly-1"
+  >
+
+  <style>
+    .weekly-shell {
+      max-width: 1180px;
+    }
+
+    .weekly-back {
+      margin-left: auto;
+      padding: 10px 15px;
+      border: 1px solid #cfd7e5;
+      border-radius: 8px;
+      color: var(--blue);
+      font-size: 14px;
+      font-weight: 800;
+      text-decoration: none;
+      white-space: nowrap;
+    }
+
+    .weekly-back:hover {
+      background: #f3f7fd;
+    }
+
+    .weekly-hero {
+      padding: 34px;
+      background:
+        linear-gradient(
+          135deg,
+          rgba(7, 89, 215, 0.08),
+          rgba(255, 138, 0, 0.09)
+        ),
+        #fff;
+    }
+
+    .weekly-kicker {
+      color: #d71920;
+      font-size: 14px;
+      font-weight: 900;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+    }
+
+    .weekly-hero h1 {
+      margin: 8px 0 7px;
+      font-family: Georgia, serif;
+      font-size: clamp(34px, 5vw, 55px);
+      line-height: 1.03;
+    }
+
+    .weekly-date-range {
+      margin: 0 0 20px;
+      color: var(--muted);
+      font-size: 17px;
+      font-weight: 700;
+    }
+
+    .weekly-summary-text {
+      max-width: 900px;
+      margin: 0;
+      color: #3e4a5f;
+      font-size: 18px;
+      line-height: 1.6;
+    }
+
+    .weekly-partial {
+      display: none;
+      margin-top: 20px;
+      padding: 12px 15px;
+      border: 1px solid #efd78a;
+      border-radius: 9px;
+      background: #fff8df;
+      color: #684d00;
+      font-size: 14px;
+      line-height: 1.45;
+    }
+
+    .weekly-partial.visible {
+      display: block;
+    }
+
+    .weekly-summary-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 13px;
+      margin: 15px 0;
+    }
+
+    .weekly-stat {
+      padding: 22px 16px;
+      text-align: center;
+    }
+
+    .weekly-stat strong {
+      display: block;
+      margin-bottom: 5px;
+      color: var(--ink);
+      font-size: 35px;
+      line-height: 1;
+    }
+
+    .weekly-stat span {
+      color: var(--muted);
+      font-size: 13px;
+      font-weight: 700;
+    }
+
+    .weekly-layout {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 15px;
+    }
+
+    .weekly-panel {
+      padding: 25px;
+    }
+
+    .weekly-panel h2 {
+      margin: 0 0 7px;
+      font-size: 25px;
+    }
+
+    .weekly-panel-intro {
+      margin: 0 0 20px;
+      color: var(--muted);
+      font-size: 14px;
+      line-height: 1.45;
+    }
+
+    .weekly-breakdown {
+      display: grid;
+      gap: 15px;
+    }
+
+    .breakdown-heading {
+      display: flex;
+      justify-content: space-between;
+      gap: 15px;
+      margin-bottom: 6px;
+      font-size: 13px;
+    }
+
+    .breakdown-heading strong {
+      color: var(--ink);
+    }
+
+    .breakdown-heading span {
+      color: var(--muted);
+      font-weight: 800;
+      white-space: nowrap;
+    }
+
+    .breakdown-track {
+      height: 10px;
+      overflow: hidden;
+      border-radius: 999px;
+      background: #e9edf4;
+    }
+
+    .breakdown-fill {
+      width: var(--bar-width);
+      height: 100%;
+      min-width: 5px;
+      border-radius: inherit;
+      background: var(--bar-color, var(--blue));
+    }
+
+    .weekly-notable-section {
+      margin-top: 15px;
+    }
+
+    .notable-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 13px;
+      margin-top: 18px;
+    }
+
+    .notable-card {
+      overflow: hidden;
+      border: 1px solid var(--line);
+      border-top: 5px solid var(--record-color);
+      border-radius: 11px;
+      background: #fff;
+    }
+
+    .notable-card-copy {
+      padding: 18px;
+    }
+
+    .notable-card h3 {
+      margin: 0 0 4px;
+      font-size: 19px;
+    }
+
+    .notable-type {
+      min-height: 38px;
+      margin: 0 0 14px;
+      color: var(--muted);
+      font-size: 13px;
+      font-weight: 700;
+      line-height: 1.4;
+    }
+
+    .notable-value {
+      margin-bottom: 13px;
+      color: var(--record-color);
+      font-size: 29px;
+      font-weight: 900;
+    }
+
+    .notable-details {
+      display: grid;
+      gap: 7px;
+      margin: 0;
+    }
+
+    .notable-details div {
+      display: grid;
+      grid-template-columns: 105px minmax(0, 1fr);
+      gap: 8px;
+    }
+
+    .notable-details dt {
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 700;
+    }
+
+    .notable-details dd {
+      margin: 0;
+      color: var(--ink);
+      font-size: 13px;
+    }
+
+    .weekly-method-note {
+      margin-top: 15px;
+      padding: 22px;
+    }
+
+    .weekly-method-note h2 {
+      margin: 0 0 10px;
+      font-size: 22px;
+    }
+
+    .weekly-method-note p {
+      margin: 6px 0;
+      color: #475467;
+      line-height: 1.55;
+    }
+
+    .weekly-loading,
+    .weekly-error {
+      padding: 30px;
+      text-align: center;
+      color: var(--muted);
+    }
+
+    .weekly-error {
+      color: #a31717;
+    }
+
+    @media (max-width: 820px) {
+      .weekly-back {
+        padding: 8px 10px;
+        font-size: 12px;
+      }
+
+      .weekly-summary-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      .weekly-layout {
+        grid-template-columns: 1fr;
+      }
+
+      .notable-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    @media (max-width: 520px) {
+      .weekly-hero {
+        padding: 24px 20px;
+      }
+
+      .weekly-hero h1 {
+        font-size: 37px;
+      }
+
+      .weekly-summary-text {
+        font-size: 16px;
+      }
+
+      .weekly-panel {
+        padding: 20px;
+      }
+
+      .weekly-stat {
+        padding: 18px 8px;
+      }
+
+      .weekly-stat strong {
+        font-size: 30px;
+      }
+
+      .weekly-back {
+        font-size: 0;
+      }
+
+      .weekly-back::after {
+        content: "← Home";
+        font-size: 12px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header class="site-header">
+    <a
+      class="brand"
+      href="index.html"
+      aria-label="RecordWatch Canada home"
+    >
+      <span
+        class="brand-leaf"
+        aria-hidden="true"
+      >
+        🍁
+      </span>
+
+      <span>
+        <strong>
+          RecordWatch <em>Canada</em>
+        </strong>
+
+        <small>
+          Yesterday's Record-Breaking Weather
+        </small>
+      </span>
+    </a>
+
+    <a
+      class="weekly-back"
+      href="index.html"
+    >
+      ← Back to dashboard
+    </a>
+  </header>
+
+  <main class="page-shell weekly-shell">
+    <div
+      id="weeklyLoading"
+      class="card weekly-loading"
+    >
+      Loading the latest weekly recap…
+    </div>
+
+    <div
+      id="weeklyContent"
+      hidden
+    >
+      <section class="card weekly-hero">
+        <span class="weekly-kicker">
+          Automated seven-day recap
+        </span>
+
+        <h1 id="weeklyTitle">
+          This Week in Canadian Extremes
+        </h1>
+
+        <p
+          id="weeklyRange"
+          class="weekly-date-range"
+        ></p>
+
+        <p
+          id="weeklySummary"
+          class="weekly-summary-text"
+        ></p>
+
+        <div
+          id="weeklyPartial"
+          class="weekly-partial"
+        ></div>
+      </section>
+
+      <section
+        class="weekly-summary-grid"
+        aria-label="Weekly record totals"
+      >
+        <article class="card weekly-stat">
+          <strong id="weeklyBroken">—</strong>
+          <span>Broken records</span>
+        </article>
+
+        <article class="card weekly-stat">
+          <strong id="weeklyTied">—</strong>
+          <span>Tied records</span>
+        </article>
+
+        <article class="card weekly-stat">
+          <strong id="weeklyTotal">—</strong>
+          <span>Total record events</span>
+        </article>
+
+        <article class="card weekly-stat">
+          <strong id="weeklyDays">—</strong>
+          <span>Climate days included</span>
+        </article>
+      </section>
+
+      <section class="weekly-layout">
+        <article class="card weekly-panel">
+          <h2>Records by Type</h2>
+
+          <p class="weekly-panel-intro">
+            The distribution of record events across the
+            available weather categories.
+          </p>
+
+          <div
+            id="weeklyTypes"
+            class="weekly-breakdown"
+          ></div>
+        </article>
+
+        <article class="card weekly-panel">
+          <h2>Records by Province or Territory</h2>
+
+          <p class="weekly-panel-intro">
+            The parts of Canada reporting the most record
+            events during the recap period.
+          </p>
+
+          <div
+            id="weeklyProvinces"
+            class="weekly-breakdown"
+          ></div>
+        </article>
+      </section>
+
+      <section
+        class="card weekly-panel weekly-notable-section"
+      >
+        <h2>Notable Records</h2>
+
+        <p class="weekly-panel-intro">
+          Broken records are prioritized, followed by the
+          age of the previous record and the size of the
+          record margin.
+        </p>
+
+        <div
+          id="weeklyNotable"
+          class="notable-grid"
+        ></div>
+      </section>
+
+      <section class="card weekly-method-note">
+        <h2>About This Recap</h2>
+
+        <p>
+          This automated article summarizes the latest seven
+          completed climate dates available in the
+          RecordWatch Canada archive.
+        </p>
+
+        <p>
+          Results are based on Environment and Climate Change
+          Canada Long-Term Climate Extremes data. Values are
+          preliminary and can be revised.
+        </p>
+
+        <p id="weeklyGenerated"></p>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    <strong>RecordWatch Canada</strong>
+
+    <span>
+      Data source: Environment and Climate Change Canada /
+      MSC GeoMet.
+    </span>
+  </footer>
+
+  <script>
+    const TYPE_COLOURS = {
+      high_max: '#e61924',
+      high_min: '#ff8a00',
+      low_max: '#1967e8',
+      low_min: '#7b22a8',
+      precipitation: '#168443',
+      snowfall: '#23a7df'
+    };
+
+    function element(id) {
+      return document.getElementById(id);
+    }
+
+    function escapeHtml(value) {
+      return String(value ?? '')
+        .replaceAll('&', '&amp;')
+        .replaceAll('<', '&lt;')
+        .replaceAll('>', '&gt;')
+        .replaceAll('"', '&quot;')
+        .replaceAll("'", '&#039;');
+    }
+
+    function formatDate(value) {
+      if (!value) return '';
+
+      const date = new Date(`${value}T12:00:00Z`);
+
+      return new Intl.DateTimeFormat('en-CA', {
+        year: 'numeric',
+        month: 'long',
+        day: 'numeric',
+        timeZone: 'UTC'
+      }).format(date);
+    }
+
+    function formatTimestamp(value) {
+      if (!value) return '';
+
+      const date = new Date(value);
+
+      if (Number.isNaN(date.getTime())) {
+        return value;
+      }
+
+      return new Intl.DateTimeFormat('en-CA', {
+        year: 'numeric',
+        month: 'long',
+        day: 'numeric',
+        hour: 'numeric',
+        minute: '2-digit',
+        timeZoneName: 'short'
+      }).format(date);
+    }
+
+    function formatNumber(value) {
+      const number = Number(value);
+
+      if (!Number.isFinite(number)) {
+        return String(value ?? '');
+      }
+
+      return number.toFixed(1);
+    }
+
+    function formatValue(record) {
+      return `${formatNumber(record.value)} ${record.unit}`;
+    }
+
+    function formatPrevious(record) {
+      return (
+        `${formatNumber(record.previousValue)} ` +
+        `${record.unit} (${record.previousYear})`
+      );
+    }
+
+    function formatDifference(record) {
+      const difference = Number(record.difference);
+
+      if (!Number.isFinite(difference)) {
+        return '—';
+      }
+
+      const sign =
+        difference > 0
+          ? '+'
+          : difference < 0
+            ? '−'
+            : '';
+
+      return (
+        `${sign}${Math.abs(difference).toFixed(1)} ` +
+        `${record.unit}`
+      );
+    }
+
+    function renderBreakdown(
+      containerId,
+      items,
+      labelProperty,
+      colourFunction
+    ) {
+      const container = element(containerId);
+
+      if (!items.length) {
+        container.innerHTML =
+          '<p>No records are available.</p>';
+        return;
+      }
+
+      const maximum = Math.max(
+        ...items.map((item) => Number(item.total) || 0),
+        1
+      );
+
+      container.innerHTML = items
+        .map((item, index) => {
+          const percentage =
+            Math.max(
+              4,
+              ((Number(item.total) || 0) / maximum) * 100
+            );
+
+          const colour =
+            colourFunction(item, index);
+
+          return `
+            <div class="breakdown-item">
+              <div class="breakdown-heading">
+                <strong>
+                  ${escapeHtml(item[labelProperty])}
+                </strong>
+
+                <span>
+                  ${escapeHtml(item.total)}
+                </span>
+              </div>
+
+              <div class="breakdown-track">
+                <div
+                  class="breakdown-fill"
+                  style="
+                    --bar-width: ${percentage}%;
+                    --bar-color: ${colour};
+                  "
+                ></div>
+              </div>
+            </div>
+          `;
+        })
+        .join('');
+    }
+
+    function renderNotableRecords(records) {
+      const container = element('weeklyNotable');
+
+      if (!records.length) {
+        container.innerHTML =
+          '<p>No notable records are available.</p>';
+        return;
+      }
+
+      container.innerHTML = records
+        .map((record) => {
+          const colour =
+            TYPE_COLOURS[record.type] || '#0759d7';
+
+          const age = Number(
+            record.previousRecordAge
+          );
+
+          const ageText =
+            Number.isFinite(age)
+              ? `${age} years`
+              : '—';
+
+          return `
+            <article
+              class="notable-card"
+              style="--record-color: ${colour};"
+            >
+              <div class="notable-card-copy">
+                <h3>
+                  ${escapeHtml(record.community)},
+                  ${escapeHtml(record.province)}
+                </h3>
+
+                <p class="notable-type">
+                  ${escapeHtml(
+                    record.type
+                      ? (
+                          {
+                            high_max:
+                              'Record High Maximum Temperature',
+                            high_min:
+                              'Record High Minimum Temperature',
+                            low_max:
+                              'Record Low Maximum Temperature',
+                            low_min:
+                              'Record Low Minimum Temperature',
+                            precipitation:
+                              'Daily Precipitation Record',
+                            snowfall:
+                              'Daily Snowfall Record'
+                          }[record.type] || record.type
+                        )
+                      : ''
+                  )}
+                </p>
+
+                <div class="notable-value">
+                  ${escapeHtml(formatValue(record))}
+                </div>
+
+                <dl class="notable-details">
+                  <div>
+                    <dt>Climate date</dt>
+                    <dd>
+                      ${escapeHtml(formatDate(record.date))}
+                    </dd>
+                  </div>
+
+                  <div>
+                    <dt>Previous</dt>
+                    <dd>
+                      ${escapeHtml(formatPrevious(record))}
+                    </dd>
+                  </div>
+
+                  <div>
+                    <dt>Difference</dt>
+                    <dd>
+                      ${escapeHtml(formatDifference(record))}
+                    </dd>
+                  </div>
+
+                  <div>
+                    <dt>Record age</dt>
+                    <dd>${escapeHtml(ageText)}</dd>
+                  </div>
+
+                  <div>
+                    <dt>Status</dt>
+                    <dd>
+                      ${
+                        record.status === 'tied'
+                          ? 'Tied record'
+                          : 'New record'
+                      }
+                    </dd>
+                  </div>
+                </dl>
+              </div>
+            </article>
+          `;
+        })
+        .join('');
+    }
+
+    async function loadWeeklyRecap() {
+      try {
+        const response = await fetch(
+          `data/weekly/latest.json?v=${Date.now()}`
+        );
+
+        if (!response.ok) {
+          throw new Error(
+            `Weekly data could not be loaded (${response.status}).`
+          );
+        }
+
+        const data = await response.json();
+
+        element('weeklyTitle').textContent =
+          data.title ||
+          'This Week in Canadian Extremes';
+
+        element('weeklyRange').textContent =
+          `${formatDate(data.startDate)} to ` +
+          `${formatDate(data.endDate)}`;
+
+        element('weeklySummary').textContent =
+          data.summaryText || '';
+
+        element('weeklyBroken').textContent =
+          data.summary?.brokenRecords ?? 0;
+
+        element('weeklyTied').textContent =
+          data.summary?.tiedRecords ?? 0;
+
+        element('weeklyTotal').textContent =
+          data.summary?.totalRecords ?? 0;
+
+        element('weeklyDays').textContent =
+          `${data.daysAvailable ?? 0}/7`;
+
+        if (data.isPartial) {
+          const partial = element('weeklyPartial');
+
+          partial.classList.add('visible');
+
+          partial.textContent =
+            `Partial recap: ${data.daysAvailable} of the ` +
+            `latest seven climate dates are currently ` +
+            `available in the archive. This article will ` +
+            `automatically become a complete seven-day ` +
+            `recap as more daily snapshots accumulate.`;
+        }
+
+        renderBreakdown(
+          'weeklyTypes',
+          data.typeBreakdown || [],
+          'label',
+          (item) =>
+            TYPE_COLOURS[item.type] || '#0759d7'
+        );
+
+        renderBreakdown(
+          'weeklyProvinces',
+          data.provinceBreakdown || [],
+          'provinceName',
+          (_, index) =>
+            [
+              '#0759d7',
+              '#168443',
+              '#e61924',
+              '#ff8a00',
+              '#7b22a8',
+              '#23a7df'
+            ][index % 6]
+        );
+
+        renderNotableRecords(
+          data.notableRecords || []
+        );
+
+        element('weeklyGenerated').textContent =
+          data.generatedAt
+            ? (
+                `Recap last generated: ` +
+                `${formatTimestamp(data.generatedAt)}.`
+              )
+            : '';
+
+        element('weeklyLoading').hidden = true;
+        element('weeklyContent').hidden = false;
+      } catch (error) {
+        const loading = element('weeklyLoading');
+
+        loading.className = 'card weekly-error';
+        loading.textContent = error.message;
+      }
+    }
+
+    loadWeeklyRecap();
+  </script>
+</body>
+</html>
