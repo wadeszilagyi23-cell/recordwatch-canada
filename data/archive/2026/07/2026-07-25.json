@@ -2,13 +2,13 @@
   "schemaVersion": 1,
   "date": "2026-07-25",
   "latestAvailableDate": "2026-07-25",
-  "generatedAt": "2026-07-26T11:42:35-04:00",
-  "sourceLastUpdated": "2026-07-26T12:59:59Z",
+  "generatedAt": "2026-07-26T17:29:58-04:00",
+  "sourceLastUpdated": "2026-07-26T18:35:19Z",
   "source": "Environment and Climate Change Canada — MSC GeoMet LTCE",
   "isDemo": false,
   "summary": {
-    "totalRecords": 23,
-    "communities": 19,
+    "totalRecords": 24,
+    "communities": 20,
     "tiedRecords": 2,
     "oldestRecordAge": 74
   },
@@ -31,7 +31,7 @@
       -125.57,
       64.9
     ],
-    "sourceUpdated": "2026-07-26T12:59:59Z",
+    "sourceUpdated": "2026-07-26T18:35:19Z",
     "sourceId": "VSNT11V-7-25"
   },
   "story": {
@@ -40,11 +40,11 @@
   "highlights": [
     {
       "region": "Northern Canada",
-      "count": 11,
-      "brokenCount": 10,
+      "count": 12,
+      "brokenCount": 11,
       "tiedCount": 1,
       "leadingType": "low_max",
-      "text": "10 records broken, 1 tied. The most common type was record low maximum temperature (5 of 11)."
+      "text": "11 records broken, 1 tied. The most common type was record low maximum temperature (5 of 12)."
     },
     {
       "region": "Prairies",
@@ -91,7 +91,7 @@
         -111.38,
         49.87
       ],
-      "sourceUpdated": "2026-07-26T12:59:59Z",
+      "sourceUpdated": "2026-07-26T18:35:19Z",
       "sourceId": "VSAB43V-7-25"
     },
     {
@@ -113,7 +113,7 @@
         -113.3,
         49.2
       ],
-      "sourceUpdated": "2026-07-26T12:59:59Z",
+      "sourceUpdated": "2026-07-26T18:35:19Z",
       "sourceId": "VSAB64V-7-25"
     },
     {
@@ -135,7 +135,7 @@
         -113.58,
         50.02
       ],
-      "sourceUpdated": "2026-07-26T12:59:59Z",
+      "sourceUpdated": "2026-07-26T18:35:19Z",
       "sourceId": "VSAB60V-7-25"
     },
     {
@@ -157,7 +157,7 @@
         -111.98,
         54.77
       ],
-      "sourceUpdated": "2026-07-26T12:59:59Z",
+      "sourceUpdated": "2026-07-26T18:35:19Z",
       "sourceId": "VSAB32V-7-25"
     },
     {
@@ -179,7 +179,7 @@
         -114.77,
         55.28
       ],
-      "sourceUpdated": "2026-07-26T12:59:59Z",
+      "sourceUpdated": "2026-07-26T18:35:19Z",
       "sourceId": "VSAB54V-7-25"
     },
     {
@@ -201,7 +201,7 @@
         -114.64,
         51.8
       ],
-      "sourceUpdated": "2026-07-26T12:59:59Z",
+      "sourceUpdated": "2026-07-26T18:35:19Z",
       "sourceId": "VSAB53V-7-25"
     },
     {
@@ -223,7 +223,7 @@
         -128.14,
         52.16
       ],
-      "sourceUpdated": "2026-07-26T12:59:59Z",
+      "sourceUpdated": "2026-07-26T18:35:19Z",
       "sourceId": "VSBC94V-7-25"
     },
     {
@@ -245,7 +245,7 @@
         -122.66,
         49.1
       ],
-      "sourceUpdated": "2026-07-26T12:59:59Z",
+      "sourceUpdated": "2026-07-26T18:35:19Z",
       "sourceId": "VSBC100-7-25"
     },
     {
@@ -267,7 +267,7 @@
         -56.1,
         50.73
       ],
-      "sourceUpdated": "2026-07-26T12:59:59Z",
+      "sourceUpdated": "2026-07-26T18:35:19Z",
       "sourceId": "VSNL44V-7-25"
     },
     {
@@ -289,7 +289,7 @@
         -123.42,
         65.19
       ],
-      "sourceUpdated": "2026-07-26T12:59:59Z",
+      "sourceUpdated": "2026-07-26T18:35:19Z",
       "sourceId": "VSNT22V-7-25"
     },
     {
@@ -311,7 +311,7 @@
         -134.88,
         67.44
       ],
-      "sourceUpdated": "2026-07-26T12:59:59Z",
+      "sourceUpdated": "2026-07-26T18:35:19Z",
       "sourceId": "VSNT10V-7-25"
     },
     {
@@ -333,7 +333,7 @@
         -133.72,
         68.36
       ],
-      "sourceUpdated": "2026-07-26T12:59:59Z",
+      "sourceUpdated": "2026-07-26T18:35:19Z",
       "sourceId": "VSNT30V-7-25"
     },
     {
@@ -355,7 +355,7 @@
         -126.83,
         65.28
       ],
-      "sourceUpdated": "2026-07-26T12:59:59Z",
+      "sourceUpdated": "2026-07-26T18:35:19Z",
       "sourceId": "VSNT21V-7-25"
     },
     {
@@ -377,7 +377,7 @@
         -126.83,
         65.28
       ],
-      "sourceUpdated": "2026-07-26T12:59:59Z",
+      "sourceUpdated": "2026-07-26T18:35:19Z",
       "sourceId": "VSNT21V-7-25"
     },
     {
@@ -399,7 +399,7 @@
         -124.07,
         69.35
       ],
-      "sourceUpdated": "2026-07-26T12:59:59Z",
+      "sourceUpdated": "2026-07-26T18:35:19Z",
       "sourceId": "VSNT16V-7-25"
     },
     {
@@ -421,7 +421,7 @@
         -124.07,
         69.35
       ],
-      "sourceUpdated": "2026-07-26T12:59:59Z",
+      "sourceUpdated": "2026-07-26T18:35:19Z",
       "sourceId": "VSNT16V-7-25"
     },
     {
@@ -465,7 +465,7 @@
         -125.57,
         64.9
       ],
-      "sourceUpdated": "2026-07-26T12:59:59Z",
+      "sourceUpdated": "2026-07-26T18:35:19Z",
       "sourceId": "VSNT11V-7-25"
     },
     {
@@ -487,8 +487,30 @@
         -123.61,
         63.27
       ],
-      "sourceUpdated": "2026-07-26T12:59:59Z",
+      "sourceUpdated": "2026-07-26T18:35:19Z",
       "sourceId": "VSNT23V-7-25"
+    },
+    {
+      "id": "VSNU22V-2026-07-25-snowfall",
+      "date": "2026-07-25",
+      "community": "Alert",
+      "province": "NU",
+      "provinceName": "Nunavut",
+      "type": "snowfall",
+      "status": "broken",
+      "value": 4.8,
+      "unit": "cm",
+      "previousValue": 3.0,
+      "previousYear": 1972,
+      "difference": 1.8,
+      "recordBeginYear": 1950,
+      "periodYears": 77,
+      "coordinates": [
+        -62.37,
+        82.5
+      ],
+      "sourceUpdated": null,
+      "sourceId": "VSNU22V-7-25"
     },
     {
       "id": "VSNU2VV-2026-07-25-precipitation",
@@ -531,7 +553,7 @@
         -109.75,
         49.63
       ],
-      "sourceUpdated": "2026-07-26T12:59:59Z",
+      "sourceUpdated": "2026-07-26T18:35:19Z",
       "sourceId": "VSSK29V-7-25"
     },
     {
@@ -553,7 +575,7 @@
         -109.75,
         49.63
       ],
-      "sourceUpdated": "2026-07-26T12:59:59Z",
+      "sourceUpdated": "2026-07-26T18:35:19Z",
       "sourceId": "VSSK29V-7-25"
     },
     {
@@ -575,7 +597,7 @@
         -106.08,
         53.92
       ],
-      "sourceUpdated": "2026-07-26T12:59:59Z",
+      "sourceUpdated": "2026-07-26T18:35:19Z",
       "sourceId": "VSSK15V-7-25"
     }
   ],

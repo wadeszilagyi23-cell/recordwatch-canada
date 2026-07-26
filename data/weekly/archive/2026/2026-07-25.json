@@ -13,13 +13,13 @@
   ],
   "daysAvailable": 6,
   "isPartial": true,
-  "generatedAt": "2026-07-26T11:42:35-04:00",
+  "generatedAt": "2026-07-26T17:29:59-04:00",
   "summary": {
-    "totalRecords": 150,
-    "brokenRecords": 132,
+    "totalRecords": 151,
+    "brokenRecords": 133,
     "tiedRecords": 18
   },
-  "summaryText": "132 records broken, 18 tied. Record High Maximum Temperature was the most common category (41 of 150 record events). British Columbia recorded the most events (55).",
+  "summaryText": "133 records broken, 18 tied. Record High Maximum Temperature was the most common category (41 of 151 record events). British Columbia recorded the most events (55).",
   "typeBreakdown": [
     {
       "type": "high_max",
@@ -55,6 +55,13 @@
       "total": 14,
       "broken": 12,
       "tied": 2
+    },
+    {
+      "type": "snowfall",
+      "label": "Daily Snowfall Record",
+      "total": 1,
+      "broken": 1,
+      "tied": 0
     }
   ],
   "provinceBreakdown": [
@@ -106,7 +113,7 @@
     {
       "province": "NU",
       "provinceName": "Nunavut",
-      "total": 3
+      "total": 4
     },
     {
       "province": "NS",
