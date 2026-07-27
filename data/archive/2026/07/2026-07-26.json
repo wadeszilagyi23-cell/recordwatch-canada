@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "date": "2026-07-26",
   "latestAvailableDate": "2026-07-26",
-  "generatedAt": "2026-07-27T12:39:38-04:00",
-  "sourceLastUpdated": "2026-07-27T12:18:57Z",
+  "generatedAt": "2026-07-27T17:42:50-04:00",
+  "sourceLastUpdated": "2026-07-27T18:36:00Z",
   "source": "Environment and Climate Change Canada — MSC GeoMet LTCE",
   "isDemo": false,
   "summary": {
@@ -31,7 +31,7 @@
       -98.1,
       49.19
     ],
-    "sourceUpdated": "2026-07-27T12:18:57Z",
+    "sourceUpdated": "2026-07-27T18:36:00Z",
     "sourceId": "VSMB17V-7-26"
   },
   "story": {
@@ -91,7 +91,7 @@
         -115.77,
         49.5
       ],
-      "sourceUpdated": "2026-07-27T12:18:57Z",
+      "sourceUpdated": "2026-07-27T18:36:00Z",
       "sourceId": "VSBC77V-7-26"
     },
     {
@@ -113,7 +113,7 @@
         -122.7,
         58.81
       ],
-      "sourceUpdated": "2026-07-27T12:18:57Z",
+      "sourceUpdated": "2026-07-27T18:36:00Z",
       "sourceId": "VSBC83V-7-26"
     },
     {
@@ -179,7 +179,7 @@
         -99.49,
         50.77
       ],
-      "sourceUpdated": "2026-07-27T12:18:57Z",
+      "sourceUpdated": "2026-07-27T18:36:00Z",
       "sourceId": "VSMB15V-7-26"
     },
     {
@@ -201,7 +201,7 @@
         -98.1,
         49.19
       ],
-      "sourceUpdated": "2026-07-27T12:18:57Z",
+      "sourceUpdated": "2026-07-27T18:36:00Z",
       "sourceId": "VSMB17V-7-26"
     },
     {
@@ -223,7 +223,7 @@
         -100.59,
         50.44
       ],
-      "sourceUpdated": "2026-07-27T12:18:57Z",
+      "sourceUpdated": "2026-07-27T18:36:00Z",
       "sourceId": "VSMB28V-7-26"
     },
     {
@@ -245,7 +245,7 @@
         -97.94,
         49.18
       ],
-      "sourceUpdated": "2026-07-27T12:18:57Z",
+      "sourceUpdated": "2026-07-27T18:36:00Z",
       "sourceId": "VSMB26V-7-26"
     },
     {
@@ -267,7 +267,7 @@
         -57.01,
         53.71
       ],
-      "sourceUpdated": "2026-07-27T12:18:57Z",
+      "sourceUpdated": "2026-07-27T18:36:00Z",
       "sourceId": "VSNL32V-7-26"
     },
     {
@@ -289,7 +289,7 @@
         -57.01,
         53.71
       ],
-      "sourceUpdated": "2026-07-27T12:18:57Z",
+      "sourceUpdated": "2026-07-27T18:36:00Z",
       "sourceId": "VSNL32V-7-26"
     },
     {
@@ -311,7 +311,7 @@
         -60.22,
         55.47
       ],
-      "sourceUpdated": "2026-07-27T12:18:57Z",
+      "sourceUpdated": "2026-07-27T18:36:00Z",
       "sourceId": "VSNL38V-7-26"
     },
     {
@@ -333,7 +333,7 @@
         -59.18,
         55.09
       ],
-      "sourceUpdated": "2026-07-27T12:18:57Z",
+      "sourceUpdated": "2026-07-27T18:36:00Z",
       "sourceId": "VSNL25V-7-26"
     },
     {
@@ -355,7 +355,7 @@
         -59.18,
         55.09
       ],
-      "sourceUpdated": "2026-07-27T12:18:57Z",
+      "sourceUpdated": "2026-07-27T18:36:00Z",
       "sourceId": "VSNL25V-7-26"
     },
     {
@@ -377,7 +377,7 @@
         -55.83,
         52.32
       ],
-      "sourceUpdated": "2026-07-27T12:18:57Z",
+      "sourceUpdated": "2026-07-27T18:36:00Z",
       "sourceId": "VSNL29V-7-26"
     },
     {
@@ -399,7 +399,7 @@
         -58.58,
         48.55
       ],
-      "sourceUpdated": "2026-07-27T12:18:57Z",
+      "sourceUpdated": "2026-07-27T18:36:00Z",
       "sourceId": "VSNL27V-7-26"
     },
     {
@@ -421,7 +421,7 @@
         -60.98,
         45.35
       ],
-      "sourceUpdated": "2026-07-27T12:18:57Z",
+      "sourceUpdated": "2026-07-27T18:36:00Z",
       "sourceId": "VSNS23V-7-26"
     },
     {
@@ -443,7 +443,7 @@
         -64.31,
         44.38
       ],
-      "sourceUpdated": "2026-07-27T12:18:57Z",
+      "sourceUpdated": "2026-07-27T18:36:00Z",
       "sourceId": "VSNS21V-7-26"
     },
     {
@@ -465,7 +465,7 @@
         -123.42,
         65.19
       ],
-      "sourceUpdated": "2026-07-27T12:18:57Z",
+      "sourceUpdated": "2026-07-27T18:36:00Z",
       "sourceId": "VSNT22V-7-26"
     },
     {
@@ -487,7 +487,7 @@
         -123.47,
         60.23
       ],
-      "sourceUpdated": "2026-07-27T12:18:57Z",
+      "sourceUpdated": "2026-07-27T18:36:00Z",
       "sourceId": "VSNT29V-7-26"
     },
     {
@@ -509,7 +509,7 @@
         -117.65,
         61.35
       ],
-      "sourceUpdated": "2026-07-27T12:18:57Z",
+      "sourceUpdated": "2026-07-27T18:36:00Z",
       "sourceId": "VSNT27V-7-26"
     },
     {
@@ -531,7 +531,7 @@
         -123.61,
         63.27
       ],
-      "sourceUpdated": "2026-07-27T12:18:57Z",
+      "sourceUpdated": "2026-07-27T18:36:00Z",
       "sourceId": "VSNT23V-7-26"
     },
     {
@@ -553,7 +553,7 @@
         -68.52,
         63.75
       ],
-      "sourceUpdated": "2026-07-27T12:18:57Z",
+      "sourceUpdated": "2026-07-27T18:36:00Z",
       "sourceId": "VSNU21V-7-26"
     },
     {
@@ -575,7 +575,7 @@
         -77.96,
         72.7
       ],
-      "sourceUpdated": "2026-07-27T12:18:57Z",
+      "sourceUpdated": "2026-07-27T18:36:00Z",
       "sourceId": "VSNU25V-7-26"
     },
     {
@@ -597,7 +597,7 @@
         -102.58,
         50.38
       ],
-      "sourceUpdated": "2026-07-27T12:18:57Z",
+      "sourceUpdated": "2026-07-27T18:36:00Z",
       "sourceId": "VSSK48V-7-26"
     },
     {
@@ -619,7 +619,7 @@
         -109.16,
         51.47
       ],
-      "sourceUpdated": "2026-07-27T12:18:57Z",
+      "sourceUpdated": "2026-07-27T18:36:00Z",
       "sourceId": "VSSK21V-7-26"
     },
     {
@@ -641,7 +641,7 @@
         -108.44,
         54.12
       ],
-      "sourceUpdated": "2026-07-27T12:18:57Z",
+      "sourceUpdated": "2026-07-27T18:36:00Z",
       "sourceId": "VSSK22V-7-26"
     },
     {
@@ -663,7 +663,7 @@
         -140.88,
         62.38
       ],
-      "sourceUpdated": "2026-07-27T12:18:57Z",
+      "sourceUpdated": "2026-07-27T18:36:00Z",
       "sourceId": "VSYT15V-7-26"
     },
     {
@@ -685,7 +685,7 @@
         -133.36,
         62.23
       ],
-      "sourceUpdated": "2026-07-27T12:18:57Z",
+      "sourceUpdated": "2026-07-27T18:36:00Z",
       "sourceId": "VSYT12V-7-26"
     },
     {
@@ -707,7 +707,7 @@
         -128.7,
         60.06
       ],
-      "sourceUpdated": "2026-07-27T12:18:57Z",
+      "sourceUpdated": "2026-07-27T18:36:00Z",
       "sourceId": "VSYT13V-7-26"
     },
     {
@@ -729,7 +729,7 @@
         -135.08,
         60.7
       ],
-      "sourceUpdated": "2026-07-27T12:18:57Z",
+      "sourceUpdated": "2026-07-27T18:36:00Z",
       "sourceId": "VSYT16V-7-26"
     }
   ],
