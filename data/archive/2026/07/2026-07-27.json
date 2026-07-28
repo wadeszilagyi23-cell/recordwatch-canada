@@ -2,13 +2,13 @@
   "schemaVersion": 1,
   "date": "2026-07-27",
   "latestAvailableDate": "2026-07-27",
-  "generatedAt": "2026-07-28T12:19:51-04:00",
-  "sourceLastUpdated": "2026-07-28T12:21:32Z",
+  "generatedAt": "2026-07-28T17:43:38-04:00",
+  "sourceLastUpdated": "2026-07-28T18:34:54Z",
   "source": "Environment and Climate Change Canada — MSC GeoMet LTCE",
   "isDemo": false,
   "summary": {
-    "totalRecords": 31,
-    "communities": 30,
+    "totalRecords": 33,
+    "communities": 32,
     "tiedRecords": 3,
     "oldestRecordAge": 129
   },
@@ -40,11 +40,11 @@
   "highlights": [
     {
       "region": "Ontario",
-      "count": 8,
-      "brokenCount": 8,
+      "count": 10,
+      "brokenCount": 10,
       "tiedCount": 0,
       "leadingType": "precipitation",
-      "text": "8 records broken. All 8 were daily precipitation record events."
+      "text": "10 records broken. All 10 were daily precipitation record events."
     },
     {
       "region": "Atlantic Canada",
@@ -99,7 +99,7 @@
         -115.07,
         51.08
       ],
-      "sourceUpdated": "2026-07-28T12:21:32Z",
+      "sourceUpdated": "2026-07-28T18:34:54Z",
       "sourceId": "VSAB42V-7-27"
     },
     {
@@ -143,7 +143,7 @@
         -121.93,
         50.68
       ],
-      "sourceUpdated": "2026-07-28T12:21:32Z",
+      "sourceUpdated": "2026-07-28T18:34:54Z",
       "sourceId": "VSBC28V-7-27"
     },
     {
@@ -165,7 +165,7 @@
         -118.2,
         50.98
       ],
-      "sourceUpdated": "2026-07-28T12:21:32Z",
+      "sourceUpdated": "2026-07-28T18:34:54Z",
       "sourceId": "VSBC65V-7-27"
     },
     {
@@ -209,7 +209,7 @@
         -101.36,
         51.23
       ],
-      "sourceUpdated": "2026-07-28T12:21:32Z",
+      "sourceUpdated": "2026-07-28T18:34:54Z",
       "sourceId": "VSMB32V-7-27"
     },
     {
@@ -231,7 +231,7 @@
         -100.59,
         50.44
       ],
-      "sourceUpdated": "2026-07-28T12:21:32Z",
+      "sourceUpdated": "2026-07-28T18:34:54Z",
       "sourceId": "VSMB28V-7-27"
     },
     {
@@ -253,7 +253,7 @@
         -101.27,
         52.11
       ],
-      "sourceUpdated": "2026-07-28T12:21:32Z",
+      "sourceUpdated": "2026-07-28T18:34:54Z",
       "sourceId": "VSMB46V-7-27"
     },
     {
@@ -275,7 +275,7 @@
         -99.97,
         50.66
       ],
-      "sourceUpdated": "2026-07-28T12:21:32Z",
+      "sourceUpdated": "2026-07-28T18:34:54Z",
       "sourceId": "VSMB31V-7-27"
     },
     {
@@ -297,7 +297,7 @@
         -65.94,
         45.44
       ],
-      "sourceUpdated": "2026-07-28T12:21:32Z",
+      "sourceUpdated": "2026-07-28T18:34:54Z",
       "sourceId": "VSNB12V-7-27"
     },
     {
@@ -319,7 +319,7 @@
         -66.04,
         45.26
       ],
-      "sourceUpdated": "2026-07-28T12:21:32Z",
+      "sourceUpdated": "2026-07-28T18:34:54Z",
       "sourceId": "VSNB23V-7-27"
     },
     {
@@ -341,7 +341,7 @@
         -67.33,
         45.22
       ],
-      "sourceUpdated": "2026-07-28T12:21:32Z",
+      "sourceUpdated": "2026-07-28T18:34:54Z",
       "sourceId": "VSNB35V-7-27"
     },
     {
@@ -363,7 +363,7 @@
         -57.01,
         53.71
       ],
-      "sourceUpdated": "2026-07-28T12:21:32Z",
+      "sourceUpdated": "2026-07-28T18:34:54Z",
       "sourceId": "VSNL32V-7-27"
     },
     {
@@ -385,7 +385,7 @@
         -57.01,
         53.71
       ],
-      "sourceUpdated": "2026-07-28T12:21:32Z",
+      "sourceUpdated": "2026-07-28T18:34:54Z",
       "sourceId": "VSNL32V-7-27"
     },
     {
@@ -407,7 +407,7 @@
         -64.02,
         53.55
       ],
-      "sourceUpdated": "2026-07-28T12:21:32Z",
+      "sourceUpdated": "2026-07-28T18:34:54Z",
       "sourceId": "VSNL21V-7-27"
     },
     {
@@ -429,7 +429,7 @@
         -53.99,
         47.3
       ],
-      "sourceUpdated": "2026-07-28T12:21:32Z",
+      "sourceUpdated": "2026-07-28T18:34:54Z",
       "sourceId": "VSNL30V-7-27"
     },
     {
@@ -451,7 +451,7 @@
         -135.01,
         68.22
       ],
-      "sourceUpdated": "2026-07-28T12:21:32Z",
+      "sourceUpdated": "2026-07-28T18:34:54Z",
       "sourceId": "VSNT13V-7-27"
     },
     {
@@ -473,7 +473,7 @@
         -123.42,
         65.19
       ],
-      "sourceUpdated": "2026-07-28T12:21:32Z",
+      "sourceUpdated": "2026-07-28T18:34:54Z",
       "sourceId": "VSNT22V-7-27"
     },
     {
@@ -495,7 +495,7 @@
         -124.07,
         69.35
       ],
-      "sourceUpdated": "2026-07-28T12:21:32Z",
+      "sourceUpdated": "2026-07-28T18:34:54Z",
       "sourceId": "VSNT16V-7-27"
     },
     {
@@ -517,7 +517,7 @@
         -85.17,
         73.03
       ],
-      "sourceUpdated": "2026-07-28T12:21:32Z",
+      "sourceUpdated": "2026-07-28T18:34:54Z",
       "sourceId": "VSNU10V-7-27"
     },
     {
@@ -539,7 +539,7 @@
         -84.55,
         73.03
       ],
-      "sourceUpdated": "2026-07-28T12:21:32Z",
+      "sourceUpdated": "2026-07-28T18:34:54Z",
       "sourceId": "VSNU1VV-7-27"
     },
     {
@@ -653,6 +653,28 @@
       "sourceId": "VSON38V-7-27"
     },
     {
+      "id": "VSON47V-2026-07-27-precipitation",
+      "date": "2026-07-27",
+      "community": "Lincoln",
+      "province": "ON",
+      "provinceName": "Ontario",
+      "type": "precipitation",
+      "status": "broken",
+      "value": 55.8,
+      "unit": "mm",
+      "previousValue": 51.2,
+      "previousYear": 1982,
+      "difference": 4.6,
+      "recordBeginYear": 1874,
+      "periodYears": 153,
+      "coordinates": [
+        -79.42,
+        43.15
+      ],
+      "sourceUpdated": null,
+      "sourceId": "VSON47V-7-27"
+    },
+    {
       "id": "VSON93V-2026-07-27-precipitation",
       "date": "2026-07-27",
       "community": "Muskoka",
@@ -719,6 +741,28 @@
       "sourceId": "VSON107-7-27"
     },
     {
+      "id": "VSON109-2026-07-27-precipitation",
+      "date": "2026-07-27",
+      "community": "Vineland",
+      "province": "ON",
+      "provinceName": "Ontario",
+      "type": "precipitation",
+      "status": "broken",
+      "value": 55.8,
+      "unit": "mm",
+      "previousValue": 45.0,
+      "previousYear": 2014,
+      "difference": 10.8,
+      "recordBeginYear": 1874,
+      "periodYears": 153,
+      "coordinates": [
+        -79.39,
+        43.15
+      ],
+      "sourceUpdated": null,
+      "sourceId": "VSON109-7-27"
+    },
+    {
       "id": "VSYT17V-2026-07-27-low_min",
       "date": "2026-07-27",
       "community": "Carmacks",
@@ -737,7 +781,7 @@
         -136.3,
         62.09
       ],
-      "sourceUpdated": "2026-07-28T12:21:32Z",
+      "sourceUpdated": "2026-07-28T18:34:54Z",
       "sourceId": "VSYT17V-7-27"
     },
     {
