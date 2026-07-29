@@ -2,13 +2,13 @@
   "schemaVersion": 1,
   "date": "2026-07-28",
   "latestAvailableDate": "2026-07-28",
-  "generatedAt": "2026-07-29T12:04:48-04:00",
-  "sourceLastUpdated": "2026-07-29T12:19:42Z",
+  "generatedAt": "2026-07-29T17:29:39-04:00",
+  "sourceLastUpdated": "2026-07-29T18:34:31Z",
   "source": "Environment and Climate Change Canada — MSC GeoMet LTCE",
   "isDemo": false,
   "summary": {
-    "totalRecords": 14,
-    "communities": 14,
+    "totalRecords": 16,
+    "communities": 16,
     "tiedRecords": 1,
     "oldestRecordAge": 84
   },
@@ -31,7 +31,7 @@
       -57.01,
       53.71
     ],
-    "sourceUpdated": "2026-07-29T12:19:42Z",
+    "sourceUpdated": "2026-07-29T18:34:31Z",
     "sourceId": "VSNL32V-7-28"
   },
   "story": {
@@ -40,11 +40,19 @@
   "highlights": [
     {
       "region": "Atlantic Canada",
-      "count": 7,
-      "brokenCount": 7,
+      "count": 8,
+      "brokenCount": 8,
       "tiedCount": 0,
       "leadingType": "precipitation",
-      "text": "7 records broken. The most common type was daily precipitation record (4 of 7)."
+      "text": "8 records broken. The most common type was daily precipitation record (5 of 8)."
+    },
+    {
+      "region": "Ontario",
+      "count": 2,
+      "brokenCount": 2,
+      "tiedCount": 0,
+      "leadingType": "precipitation",
+      "text": "2 records broken. All 2 were daily precipitation record events."
     },
     {
       "region": "Prairies",
@@ -69,14 +77,6 @@
       "tiedCount": 0,
       "leadingType": "low_max",
       "text": "2 records broken. All 2 were record low maximum temperature events."
-    },
-    {
-      "region": "Ontario",
-      "count": 1,
-      "brokenCount": 1,
-      "tiedCount": 0,
-      "leadingType": "precipitation",
-      "text": "1 record broken. It was a daily precipitation record."
     }
   ],
   "records": [
@@ -143,7 +143,7 @@
         -124.2,
         52.17
       ],
-      "sourceUpdated": "2026-07-29T12:19:42Z",
+      "sourceUpdated": "2026-07-29T18:34:31Z",
       "sourceId": "VSBC42V-7-28"
     },
     {
@@ -165,7 +165,7 @@
         -101.36,
         51.23
       ],
-      "sourceUpdated": "2026-07-29T12:19:42Z",
+      "sourceUpdated": "2026-07-29T18:34:31Z",
       "sourceId": "VSMB32V-7-28"
     },
     {
@@ -187,7 +187,7 @@
         -57.62,
         47.61
       ],
-      "sourceUpdated": "2026-07-29T12:19:42Z",
+      "sourceUpdated": "2026-07-29T18:34:31Z",
       "sourceId": "VSNL31V-7-28"
     },
     {
@@ -209,8 +209,30 @@
         -57.01,
         53.71
       ],
-      "sourceUpdated": "2026-07-29T12:19:42Z",
+      "sourceUpdated": "2026-07-29T18:34:31Z",
       "sourceId": "VSNL32V-7-28"
+    },
+    {
+      "id": "VSNL1VV-2026-07-28-precipitation",
+      "date": "2026-07-28",
+      "community": "Clarenville",
+      "province": "NL",
+      "provinceName": "Newfoundland and Labrador",
+      "type": "precipitation",
+      "status": "broken",
+      "value": 29.0,
+      "unit": "mm",
+      "previousValue": 24.0,
+      "previousYear": 2011,
+      "difference": 5.0,
+      "recordBeginYear": 1978,
+      "periodYears": 49,
+      "coordinates": [
+        -53.98,
+        48.16
+      ],
+      "sourceUpdated": null,
+      "sourceId": "VSNL1VV-7-28"
     },
     {
       "id": "VSNL23V-2026-07-28-high_min",
@@ -231,7 +253,7 @@
         -60.31,
         53.3
       ],
-      "sourceUpdated": "2026-07-29T12:19:42Z",
+      "sourceUpdated": "2026-07-29T18:34:31Z",
       "sourceId": "VSNL23V-7-28"
     },
     {
@@ -341,7 +363,7 @@
         -123.42,
         65.19
       ],
-      "sourceUpdated": "2026-07-29T12:19:42Z",
+      "sourceUpdated": "2026-07-29T18:34:31Z",
       "sourceId": "VSNT22V-7-28"
     },
     {
@@ -363,8 +385,30 @@
         -124.07,
         69.35
       ],
-      "sourceUpdated": "2026-07-29T12:19:42Z",
+      "sourceUpdated": "2026-07-29T18:34:31Z",
       "sourceId": "VSNT16V-7-28"
+    },
+    {
+      "id": "VSON152-2026-07-28-precipitation",
+      "date": "2026-07-28",
+      "community": "Cornwall",
+      "province": "ON",
+      "provinceName": "Ontario",
+      "type": "precipitation",
+      "status": "broken",
+      "value": 26.8,
+      "unit": "mm",
+      "previousValue": 24.1,
+      "previousYear": 1966,
+      "difference": 2.7,
+      "recordBeginYear": 1950,
+      "periodYears": 77,
+      "coordinates": [
+        -74.73,
+        45.03
+      ],
+      "sourceUpdated": null,
+      "sourceId": "VSON152-7-28"
     },
     {
       "id": "VSON52V-2026-07-28-precipitation",

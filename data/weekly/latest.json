@@ -14,13 +14,13 @@
   ],
   "daysAvailable": 7,
   "isPartial": false,
-  "generatedAt": "2026-07-29T12:04:49-04:00",
+  "generatedAt": "2026-07-29T17:29:39-04:00",
   "summary": {
-    "totalRecords": 190,
-    "brokenRecords": 170,
+    "totalRecords": 192,
+    "brokenRecords": 172,
     "tiedRecords": 20
   },
-  "summaryText": "170 records broken, 20 tied. Record High Minimum Temperature was the most common category (57 of 190 record events). British Columbia recorded the most events (50).",
+  "summaryText": "172 records broken, 20 tied. Record High Minimum Temperature was the most common category (57 of 192 record events). British Columbia recorded the most events (50).",
   "typeBreakdown": [
     {
       "type": "high_min",
@@ -32,8 +32,8 @@
     {
       "type": "precipitation",
       "label": "Daily Precipitation Record",
-      "total": 42,
-      "broken": 42,
+      "total": 44,
+      "broken": 44,
       "tied": 0
     },
     {
@@ -74,17 +74,17 @@
     {
       "province": "ON",
       "provinceName": "Ontario",
-      "total": 30
+      "total": 31
+    },
+    {
+      "province": "NL",
+      "provinceName": "Newfoundland and Labrador",
+      "total": 25
     },
     {
       "province": "NT",
       "provinceName": "Northwest Territories",
       "total": 25
-    },
-    {
-      "province": "NL",
-      "provinceName": "Newfoundland and Labrador",
-      "total": 24
     },
     {
       "province": "AB",
