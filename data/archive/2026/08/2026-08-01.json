@@ -2,13 +2,13 @@
   "schemaVersion": 1,
   "date": "2026-08-01",
   "latestAvailableDate": "2026-08-01",
-  "generatedAt": "2026-08-02T11:41:13-04:00",
-  "sourceLastUpdated": "2026-08-02T12:37:18Z",
+  "generatedAt": "2026-08-02T17:27:56-04:00",
+  "sourceLastUpdated": "2026-08-02T18:34:46Z",
   "source": "Environment and Climate Change Canada — MSC GeoMet LTCE",
   "isDemo": false,
   "summary": {
-    "totalRecords": 37,
-    "communities": 36,
+    "totalRecords": 38,
+    "communities": 37,
     "tiedRecords": 1,
     "oldestRecordAge": 118
   },
@@ -31,7 +31,7 @@
       -110.68,
       50.04
     ],
-    "sourceUpdated": "2026-08-02T12:37:18Z",
+    "sourceUpdated": "2026-08-02T18:34:46Z",
     "sourceId": "VSAB51V-8-1"
   },
   "story": {
@@ -55,20 +55,20 @@
       "text": "4 records broken. The most common type was record high maximum temperature (2 of 4)."
     },
     {
+      "region": "British Columbia",
+      "count": 3,
+      "brokenCount": 3,
+      "tiedCount": 0,
+      "leadingType": "precipitation",
+      "text": "3 records broken. All 3 were daily precipitation record events."
+    },
+    {
       "region": "Ontario",
       "count": 2,
       "brokenCount": 2,
       "tiedCount": 0,
       "leadingType": "precipitation",
       "text": "2 records broken. The most common type was daily precipitation record (1 of 2)."
-    },
-    {
-      "region": "British Columbia",
-      "count": 2,
-      "brokenCount": 2,
-      "tiedCount": 0,
-      "leadingType": "precipitation",
-      "text": "2 records broken. All 2 were daily precipitation record events."
     },
     {
       "region": "Quebec",
@@ -99,7 +99,7 @@
         -114.01,
         51.29
       ],
-      "sourceUpdated": "2026-08-02T12:37:18Z",
+      "sourceUpdated": "2026-08-02T18:34:46Z",
       "sourceId": "VSAB12V-8-1"
     },
     {
@@ -121,7 +121,7 @@
         -111.38,
         49.87
       ],
-      "sourceUpdated": "2026-08-02T12:37:18Z",
+      "sourceUpdated": "2026-08-02T18:34:46Z",
       "sourceId": "VSAB43V-8-1"
     },
     {
@@ -143,7 +143,7 @@
         -111.9,
         50.57
       ],
-      "sourceUpdated": "2026-08-02T12:37:18Z",
+      "sourceUpdated": "2026-08-02T18:34:46Z",
       "sourceId": "VSAB58V-8-1"
     },
     {
@@ -165,7 +165,7 @@
         -114.06,
         51.05
       ],
-      "sourceUpdated": "2026-08-02T12:37:18Z",
+      "sourceUpdated": "2026-08-02T18:34:46Z",
       "sourceId": "VSAB52V-8-1"
     },
     {
@@ -187,7 +187,7 @@
         -114.23,
         51.09
       ],
-      "sourceUpdated": "2026-08-02T12:37:18Z",
+      "sourceUpdated": "2026-08-02T18:34:46Z",
       "sourceId": "VSAB61V-8-1"
     },
     {
@@ -209,7 +209,7 @@
         -113.3,
         49.2
       ],
-      "sourceUpdated": "2026-08-02T12:37:18Z",
+      "sourceUpdated": "2026-08-02T18:34:46Z",
       "sourceId": "VSAB64V-8-1"
     },
     {
@@ -231,7 +231,7 @@
         -113.58,
         50.02
       ],
-      "sourceUpdated": "2026-08-02T12:37:18Z",
+      "sourceUpdated": "2026-08-02T18:34:46Z",
       "sourceId": "VSAB60V-8-1"
     },
     {
@@ -253,7 +253,7 @@
         -114.47,
         51.21
       ],
-      "sourceUpdated": "2026-08-02T12:37:18Z",
+      "sourceUpdated": "2026-08-02T18:34:46Z",
       "sourceId": "VSAB1VV-8-1"
     },
     {
@@ -275,7 +275,7 @@
         -111.45,
         52.09
       ],
-      "sourceUpdated": "2026-08-02T12:37:18Z",
+      "sourceUpdated": "2026-08-02T18:34:46Z",
       "sourceId": "VSAB59V-8-1"
     },
     {
@@ -297,7 +297,7 @@
         -112.72,
         51.46
       ],
-      "sourceUpdated": "2026-08-02T12:37:18Z",
+      "sourceUpdated": "2026-08-02T18:34:46Z",
       "sourceId": "VSAB62V-8-1"
     },
     {
@@ -319,7 +319,7 @@
         -113.54,
         53.34
       ],
-      "sourceUpdated": "2026-08-02T12:37:18Z",
+      "sourceUpdated": "2026-08-02T18:34:46Z",
       "sourceId": "VSAB71V-8-1"
     },
     {
@@ -341,7 +341,7 @@
         -110.26,
         51.68
       ],
-      "sourceUpdated": "2026-08-02T12:37:18Z",
+      "sourceUpdated": "2026-08-02T18:34:46Z",
       "sourceId": "VSAB67V-8-1"
     },
     {
@@ -385,7 +385,7 @@
         -113.73,
         52.46
       ],
-      "sourceUpdated": "2026-08-02T12:37:18Z",
+      "sourceUpdated": "2026-08-02T18:34:46Z",
       "sourceId": "VSAB39V-8-1"
     },
     {
@@ -407,7 +407,7 @@
         -112.84,
         49.69
       ],
-      "sourceUpdated": "2026-08-02T12:37:18Z",
+      "sourceUpdated": "2026-08-02T18:34:46Z",
       "sourceId": "VSAB30V-8-1"
     },
     {
@@ -429,7 +429,7 @@
         -110.68,
         50.04
       ],
-      "sourceUpdated": "2026-08-02T12:37:18Z",
+      "sourceUpdated": "2026-08-02T18:34:46Z",
       "sourceId": "VSAB51V-8-1"
     },
     {
@@ -451,7 +451,7 @@
         -112.09,
         49.15
       ],
-      "sourceUpdated": "2026-08-02T12:37:18Z",
+      "sourceUpdated": "2026-08-02T18:34:46Z",
       "sourceId": "VSAB19V-8-1"
     },
     {
@@ -473,7 +473,7 @@
         -110.47,
         49.12
       ],
-      "sourceUpdated": "2026-08-02T12:37:18Z",
+      "sourceUpdated": "2026-08-02T18:34:46Z",
       "sourceId": "VSAB35V-8-1"
     },
     {
@@ -495,7 +495,7 @@
         -114.92,
         52.37
       ],
-      "sourceUpdated": "2026-08-02T12:37:18Z",
+      "sourceUpdated": "2026-08-02T18:34:46Z",
       "sourceId": "VSAB16V-8-1"
     },
     {
@@ -517,7 +517,7 @@
         -113.64,
         50.16
       ],
-      "sourceUpdated": "2026-08-02T12:37:18Z",
+      "sourceUpdated": "2026-08-02T18:34:46Z",
       "sourceId": "VSAB44V-8-1"
     },
     {
@@ -539,8 +539,30 @@
         -110.86,
         52.83
       ],
-      "sourceUpdated": "2026-08-02T12:37:18Z",
+      "sourceUpdated": "2026-08-02T18:34:46Z",
       "sourceId": "VSAB55V-8-1"
+    },
+    {
+      "id": "VSBC23V-2026-08-01-precipitation",
+      "date": "2026-08-01",
+      "community": "Chetwynd",
+      "province": "BC",
+      "provinceName": "British Columbia",
+      "type": "precipitation",
+      "status": "broken",
+      "value": 36.4,
+      "unit": "mm",
+      "previousValue": 24.2,
+      "previousYear": 1987,
+      "difference": 12.2,
+      "recordBeginYear": 1970,
+      "periodYears": 57,
+      "coordinates": [
+        -121.63,
+        55.7
+      ],
+      "sourceUpdated": null,
+      "sourceId": "VSBC23V-8-1"
     },
     {
       "id": "VSBC30V-2026-08-01-precipitation",
@@ -605,7 +627,7 @@
         -100.59,
         50.44
       ],
-      "sourceUpdated": "2026-08-02T12:37:18Z",
+      "sourceUpdated": "2026-08-02T18:34:46Z",
       "sourceId": "VSMB28V-8-1"
     },
     {
@@ -627,7 +649,7 @@
         -100.88,
         61.13
       ],
-      "sourceUpdated": "2026-08-02T12:37:18Z",
+      "sourceUpdated": "2026-08-02T18:34:46Z",
       "sourceId": "VSNU19V-8-1"
     },
     {
@@ -693,7 +715,7 @@
         -64.03,
         67.55
       ],
-      "sourceUpdated": "2026-08-02T12:37:18Z",
+      "sourceUpdated": "2026-08-02T18:34:46Z",
       "sourceId": "VSNU5VV-8-1"
     },
     {
@@ -737,7 +759,7 @@
         -86.38,
         48.72
       ],
-      "sourceUpdated": "2026-08-02T12:37:18Z",
+      "sourceUpdated": "2026-08-02T18:34:46Z",
       "sourceId": "VSON108-8-1"
     },
     {
@@ -759,7 +781,7 @@
         -66.83,
         54.8
       ],
-      "sourceUpdated": "2026-08-02T12:37:18Z",
+      "sourceUpdated": "2026-08-02T18:34:46Z",
       "sourceId": "VSQC115-8-1"
     },
     {
@@ -781,7 +803,7 @@
         -109.75,
         49.63
       ],
-      "sourceUpdated": "2026-08-02T12:37:18Z",
+      "sourceUpdated": "2026-08-02T18:34:46Z",
       "sourceId": "VSSK29V-8-1"
     },
     {
@@ -803,7 +825,7 @@
         -108.82,
         49.52
       ],
-      "sourceUpdated": "2026-08-02T12:37:18Z",
+      "sourceUpdated": "2026-08-02T18:34:46Z",
       "sourceId": "VSSK45V-8-1"
     },
     {
@@ -825,7 +847,7 @@
         -109.55,
         50.89
       ],
-      "sourceUpdated": "2026-08-02T12:37:18Z",
+      "sourceUpdated": "2026-08-02T18:34:46Z",
       "sourceId": "VSSK52V-8-1"
     },
     {
@@ -847,7 +869,7 @@
         -109.48,
         49.91
       ],
-      "sourceUpdated": "2026-08-02T12:37:18Z",
+      "sourceUpdated": "2026-08-02T18:34:46Z",
       "sourceId": "VSSK16V-8-1"
     },
     {
@@ -869,7 +891,7 @@
         -105.95,
         49.18
       ],
-      "sourceUpdated": "2026-08-02T12:37:18Z",
+      "sourceUpdated": "2026-08-02T18:34:46Z",
       "sourceId": "VSSK54V-8-1"
     },
     {
@@ -891,7 +913,7 @@
         -105.95,
         49.18
       ],
-      "sourceUpdated": "2026-08-02T12:37:18Z",
+      "sourceUpdated": "2026-08-02T18:34:46Z",
       "sourceId": "VSSK54V-8-1"
     }
   ],

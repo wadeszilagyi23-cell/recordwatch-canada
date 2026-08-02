@@ -14,19 +14,19 @@
   ],
   "daysAvailable": 7,
   "isPartial": false,
-  "generatedAt": "2026-08-02T11:41:13-04:00",
+  "generatedAt": "2026-08-02T17:27:56-04:00",
   "summary": {
-    "totalRecords": 154,
-    "brokenRecords": 146,
+    "totalRecords": 155,
+    "brokenRecords": 147,
     "tiedRecords": 8
   },
-  "summaryText": "146 records broken, 8 tied. Daily Precipitation Record was the most common category (44 of 154 record events). Alberta recorded the most events (25).",
+  "summaryText": "147 records broken, 8 tied. Daily Precipitation Record was the most common category (45 of 155 record events). Alberta recorded the most events (25).",
   "typeBreakdown": [
     {
       "type": "precipitation",
       "label": "Daily Precipitation Record",
-      "total": 44,
-      "broken": 44,
+      "total": 45,
+      "broken": 45,
       "tied": 0
     },
     {
@@ -82,7 +82,7 @@
     {
       "province": "BC",
       "provinceName": "British Columbia",
-      "total": 12
+      "total": 13
     },
     {
       "province": "SK",
@@ -186,7 +186,7 @@
         -110.68,
         50.04
       ],
-      "sourceUpdated": "2026-08-02T12:37:18Z",
+      "sourceUpdated": "2026-08-02T18:34:46Z",
       "sourceId": "VSAB51V-8-1",
       "previousRecordAge": 118
     },
@@ -209,7 +209,7 @@
         -109.75,
         49.63
       ],
-      "sourceUpdated": "2026-08-02T12:37:18Z",
+      "sourceUpdated": "2026-08-02T18:34:46Z",
       "sourceId": "VSSK29V-8-1",
       "previousRecordAge": 108
     },
