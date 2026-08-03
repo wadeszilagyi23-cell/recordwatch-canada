@@ -2,13 +2,13 @@
   "schemaVersion": 1,
   "date": "2026-08-02",
   "latestAvailableDate": "2026-08-02",
-  "generatedAt": "2026-08-03T12:57:27-04:00",
-  "sourceLastUpdated": "2026-08-03T12:19:01Z",
+  "generatedAt": "2026-08-03T17:43:46-04:00",
+  "sourceLastUpdated": "2026-08-03T18:34:34Z",
   "source": "Environment and Climate Change Canada — MSC GeoMet LTCE",
   "isDemo": false,
   "summary": {
-    "totalRecords": 34,
-    "communities": 33,
+    "totalRecords": 38,
+    "communities": 37,
     "tiedRecords": 0,
     "oldestRecordAge": 100
   },
@@ -40,11 +40,11 @@
   "highlights": [
     {
       "region": "Ontario",
-      "count": 14,
-      "brokenCount": 14,
+      "count": 18,
+      "brokenCount": 18,
       "tiedCount": 0,
       "leadingType": "precipitation",
-      "text": "14 records broken. The most common type was daily precipitation record (13 of 14)."
+      "text": "18 records broken. The most common type was daily precipitation record (17 of 18)."
     },
     {
       "region": "Northern Canada",
@@ -187,7 +187,7 @@
         -94.12,
         58.73
       ],
-      "sourceUpdated": "2026-08-03T12:19:01Z",
+      "sourceUpdated": "2026-08-03T18:34:34Z",
       "sourceId": "VSMB42V-8-2"
     },
     {
@@ -209,7 +209,7 @@
         -126.83,
         65.28
       ],
-      "sourceUpdated": "2026-08-03T12:19:01Z",
+      "sourceUpdated": "2026-08-03T18:34:34Z",
       "sourceId": "VSNT21V-8-2"
     },
     {
@@ -231,7 +231,7 @@
         -62.37,
         82.5
       ],
-      "sourceUpdated": "2026-08-03T12:19:01Z",
+      "sourceUpdated": "2026-08-03T18:34:34Z",
       "sourceId": "VSNU22V-8-2"
     },
     {
@@ -253,7 +253,7 @@
         -62.37,
         82.5
       ],
-      "sourceUpdated": "2026-08-03T12:19:01Z",
+      "sourceUpdated": "2026-08-03T18:34:34Z",
       "sourceId": "VSNU22V-8-2"
     },
     {
@@ -319,7 +319,7 @@
         -64.03,
         67.55
       ],
-      "sourceUpdated": "2026-08-03T12:19:01Z",
+      "sourceUpdated": "2026-08-03T18:34:34Z",
       "sourceId": "VSNU5VV-8-2"
     },
     {
@@ -341,7 +341,7 @@
         -92.08,
         62.82
       ],
-      "sourceUpdated": "2026-08-03T12:19:01Z",
+      "sourceUpdated": "2026-08-03T18:34:34Z",
       "sourceId": "VSNU28V-8-2"
     },
     {
@@ -565,6 +565,28 @@
       "sourceId": "VSON69V-8-2"
     },
     {
+      "id": "VSON47V-2026-08-02-precipitation",
+      "date": "2026-08-02",
+      "community": "Lincoln",
+      "province": "ON",
+      "provinceName": "Ontario",
+      "type": "precipitation",
+      "status": "broken",
+      "value": 102.6,
+      "unit": "mm",
+      "previousValue": 43.0,
+      "previousYear": 1978,
+      "difference": 59.6,
+      "recordBeginYear": 1874,
+      "periodYears": 153,
+      "coordinates": [
+        -79.42,
+        43.15
+      ],
+      "sourceUpdated": null,
+      "sourceId": "VSON47V-8-2"
+    },
+    {
       "id": "VSON108-2026-08-02-high_max",
       "date": "2026-08-02",
       "community": "Marathon",
@@ -583,8 +605,30 @@
         -86.38,
         48.72
       ],
-      "sourceUpdated": "2026-08-03T12:19:01Z",
+      "sourceUpdated": "2026-08-03T18:34:34Z",
       "sourceId": "VSON108-8-2"
+    },
+    {
+      "id": "VSON140-2026-08-02-precipitation",
+      "date": "2026-08-02",
+      "community": "Orangeville",
+      "province": "ON",
+      "provinceName": "Ontario",
+      "type": "precipitation",
+      "status": "broken",
+      "value": 37.0,
+      "unit": "mm",
+      "previousValue": 34.0,
+      "previousYear": 1992,
+      "difference": 3.0,
+      "recordBeginYear": 1883,
+      "periodYears": 144,
+      "coordinates": [
+        -80.11,
+        43.92
+      ],
+      "sourceUpdated": null,
+      "sourceId": "VSON140-8-2"
     },
     {
       "id": "VSON52V-2026-08-02-precipitation",
@@ -607,6 +651,28 @@
       ],
       "sourceUpdated": null,
       "sourceId": "VSON52V-8-2"
+    },
+    {
+      "id": "VSON80V-2026-08-02-precipitation",
+      "date": "2026-08-02",
+      "community": "Port Colborne",
+      "province": "ON",
+      "provinceName": "Ontario",
+      "type": "precipitation",
+      "status": "broken",
+      "value": 66.6,
+      "unit": "mm",
+      "previousValue": 24.0,
+      "previousYear": 1980,
+      "difference": 42.6,
+      "recordBeginYear": 1964,
+      "periodYears": 63,
+      "coordinates": [
+        -79.19,
+        42.92
+      ],
+      "sourceUpdated": null,
+      "sourceId": "VSON80V-8-2"
     },
     {
       "id": "VSON149-2026-08-02-precipitation",
@@ -651,6 +717,28 @@
       ],
       "sourceUpdated": null,
       "sourceId": "VSON107-8-2"
+    },
+    {
+      "id": "VSON109-2026-08-02-precipitation",
+      "date": "2026-08-02",
+      "community": "Vineland",
+      "province": "ON",
+      "provinceName": "Ontario",
+      "type": "precipitation",
+      "status": "broken",
+      "value": 102.6,
+      "unit": "mm",
+      "previousValue": 56.8,
+      "previousYear": 1978,
+      "difference": 45.8,
+      "recordBeginYear": 1874,
+      "periodYears": 153,
+      "coordinates": [
+        -79.39,
+        43.15
+      ],
+      "sourceUpdated": null,
+      "sourceId": "VSON109-8-2"
     },
     {
       "id": "VSON14V-2026-08-02-precipitation",
