@@ -2,13 +2,13 @@
   "schemaVersion": 1,
   "date": "2026-08-08",
   "latestAvailableDate": "2026-08-08",
-  "generatedAt": "2026-08-09T11:03:24-04:00",
-  "sourceLastUpdated": "2026-08-09T12:36:00Z",
+  "generatedAt": "2026-08-09T17:04:00-04:00",
+  "sourceLastUpdated": "2026-08-09T18:35:07Z",
   "source": "Environment and Climate Change Canada — MSC GeoMet LTCE",
   "isDemo": false,
   "summary": {
-    "totalRecords": 29,
-    "communities": 28,
+    "totalRecords": 30,
+    "communities": 29,
     "tiedRecords": 3,
     "oldestRecordAge": 131
   },
@@ -56,11 +56,11 @@
     },
     {
       "region": "Ontario",
-      "count": 4,
-      "brokenCount": 4,
+      "count": 5,
+      "brokenCount": 5,
       "tiedCount": 0,
       "leadingType": "precipitation",
-      "text": "4 records broken. All 4 were daily precipitation record events."
+      "text": "5 records broken. All 5 were daily precipitation record events."
     },
     {
       "region": "Northern Canada",
@@ -99,7 +99,7 @@
         -119.67,
         49.6
       ],
-      "sourceUpdated": "2026-08-09T12:36:00Z",
+      "sourceUpdated": "2026-08-09T18:35:07Z",
       "sourceId": "VSBC54V-8-8"
     },
     {
@@ -121,7 +121,7 @@
         -66.67,
         45.95
       ],
-      "sourceUpdated": "2026-08-09T12:36:00Z",
+      "sourceUpdated": "2026-08-09T18:35:07Z",
       "sourceId": "VSNB29V-8-8"
     },
     {
@@ -143,7 +143,7 @@
         -66.48,
         45.84
       ],
-      "sourceUpdated": "2026-08-09T12:36:00Z",
+      "sourceUpdated": "2026-08-09T18:35:07Z",
       "sourceId": "VSNB11V-8-8"
     },
     {
@@ -165,7 +165,7 @@
         -55.4,
         46.92
       ],
-      "sourceUpdated": "2026-08-09T12:36:00Z",
+      "sourceUpdated": "2026-08-09T18:35:07Z",
       "sourceId": "VSNL36V-8-8"
     },
     {
@@ -187,7 +187,7 @@
         -63.72,
         44.87
       ],
-      "sourceUpdated": "2026-08-09T12:36:00Z",
+      "sourceUpdated": "2026-08-09T18:35:07Z",
       "sourceId": "VSNS19V-8-8"
     },
     {
@@ -209,7 +209,7 @@
         -62.48,
         44.99
       ],
-      "sourceUpdated": "2026-08-09T12:36:00Z",
+      "sourceUpdated": "2026-08-09T18:35:07Z",
       "sourceId": "VSNS22V-8-8"
     },
     {
@@ -231,7 +231,7 @@
         -61.36,
         45.62
       ],
-      "sourceUpdated": "2026-08-09T12:36:00Z",
+      "sourceUpdated": "2026-08-09T18:35:07Z",
       "sourceId": "VSNS26V-8-8"
     },
     {
@@ -253,7 +253,7 @@
         -62.54,
         44.92
       ],
-      "sourceUpdated": "2026-08-09T12:36:00Z",
+      "sourceUpdated": "2026-08-09T18:35:07Z",
       "sourceId": "VSNS10V-8-8"
     },
     {
@@ -275,7 +275,7 @@
         -63.29,
         45.71
       ],
-      "sourceUpdated": "2026-08-09T12:36:00Z",
+      "sourceUpdated": "2026-08-09T18:35:07Z",
       "sourceId": "VSNS14V-8-8"
     },
     {
@@ -319,7 +319,7 @@
         -86.25,
         66.53
       ],
-      "sourceUpdated": "2026-08-09T12:36:00Z",
+      "sourceUpdated": "2026-08-09T18:35:07Z",
       "sourceId": "VSNU3VV-8-8"
     },
     {
@@ -341,7 +341,7 @@
         -93.52,
         69.54
       ],
-      "sourceUpdated": "2026-08-09T12:36:00Z",
+      "sourceUpdated": "2026-08-09T18:35:07Z",
       "sourceId": "VSNU8VV-8-8"
     },
     {
@@ -411,6 +411,28 @@
       "sourceId": "VSON149-8-8"
     },
     {
+      "id": "VSON17V-2026-08-08-precipitation",
+      "date": "2026-08-08",
+      "community": "Tillsonburg",
+      "province": "ON",
+      "provinceName": "Ontario",
+      "type": "precipitation",
+      "status": "broken",
+      "value": 250.0,
+      "unit": "mm",
+      "previousValue": 60.7,
+      "previousYear": 1962,
+      "difference": 189.3,
+      "recordBeginYear": 1934,
+      "periodYears": 93,
+      "coordinates": [
+        -80.73,
+        42.87
+      ],
+      "sourceUpdated": null,
+      "sourceId": "VSON17V-8-8"
+    },
+    {
       "id": "VSON14V-2026-08-08-precipitation",
       "date": "2026-08-08",
       "community": "Welland",
@@ -451,7 +473,7 @@
         -70.78,
         46.2
       ],
-      "sourceUpdated": "2026-08-09T12:36:00Z",
+      "sourceUpdated": "2026-08-09T18:35:07Z",
       "sourceId": "VSQC48V-8-8"
     },
     {
@@ -473,7 +495,7 @@
         -71.36,
         46.69
       ],
-      "sourceUpdated": "2026-08-09T12:36:00Z",
+      "sourceUpdated": "2026-08-09T18:35:07Z",
       "sourceId": "VSQC51V-8-8"
     },
     {
@@ -495,7 +517,7 @@
         -73.83,
         45.62
       ],
-      "sourceUpdated": "2026-08-09T12:36:00Z",
+      "sourceUpdated": "2026-08-09T18:35:07Z",
       "sourceId": "VSQC53V-8-8"
     },
     {
@@ -517,7 +539,7 @@
         -71.8,
         45.13
       ],
-      "sourceUpdated": "2026-08-09T12:36:00Z",
+      "sourceUpdated": "2026-08-09T18:35:07Z",
       "sourceId": "VSQC60V-8-8"
     },
     {
@@ -539,7 +561,7 @@
         -68.4,
         58.1
       ],
-      "sourceUpdated": "2026-08-09T12:36:00Z",
+      "sourceUpdated": "2026-08-09T18:35:07Z",
       "sourceId": "VSQC150-8-8"
     },
     {
@@ -561,7 +583,7 @@
         -68.4,
         58.1
       ],
-      "sourceUpdated": "2026-08-09T12:36:00Z",
+      "sourceUpdated": "2026-08-09T18:35:07Z",
       "sourceId": "VSQC150-8-8"
     },
     {
@@ -583,7 +605,7 @@
         -73.53,
         53.83
       ],
-      "sourceUpdated": "2026-08-09T12:36:00Z",
+      "sourceUpdated": "2026-08-09T18:35:07Z",
       "sourceId": "VSQC100-8-8"
     },
     {
@@ -605,7 +627,7 @@
         -72.15,
         45.27
       ],
-      "sourceUpdated": "2026-08-09T12:36:00Z",
+      "sourceUpdated": "2026-08-09T18:35:07Z",
       "sourceId": "VSQC83V-8-8"
     },
     {
@@ -627,7 +649,7 @@
         -70.55,
         46.98
       ],
-      "sourceUpdated": "2026-08-09T12:36:00Z",
+      "sourceUpdated": "2026-08-09T18:35:07Z",
       "sourceId": "VSQC124-8-8"
     },
     {
@@ -649,7 +671,7 @@
         -64.35,
         49.82
       ],
-      "sourceUpdated": "2026-08-09T12:36:00Z",
+      "sourceUpdated": "2026-08-09T18:35:07Z",
       "sourceId": "VSQC142-8-8"
     },
     {
@@ -671,7 +693,7 @@
         -70.67,
         46.12
       ],
-      "sourceUpdated": "2026-08-09T12:36:00Z",
+      "sourceUpdated": "2026-08-09T18:35:07Z",
       "sourceId": "VSQCB6V-8-8"
     },
     {
@@ -693,7 +715,7 @@
         -73.12,
         46.03
       ],
-      "sourceUpdated": "2026-08-09T12:36:00Z",
+      "sourceUpdated": "2026-08-09T18:35:07Z",
       "sourceId": "VSQCC6V-8-8"
     },
     {
@@ -715,7 +737,7 @@
         -73.14,
         46.03
       ],
-      "sourceUpdated": "2026-08-09T12:36:00Z",
+      "sourceUpdated": "2026-08-09T18:35:07Z",
       "sourceId": "VSQCC9V-8-8"
     }
   ],

@@ -14,19 +14,19 @@
   ],
   "daysAvailable": 7,
   "isPartial": false,
-  "generatedAt": "2026-08-09T11:03:24-04:00",
+  "generatedAt": "2026-08-09T17:04:00-04:00",
   "summary": {
-    "totalRecords": 181,
-    "brokenRecords": 173,
+    "totalRecords": 182,
+    "brokenRecords": 174,
     "tiedRecords": 8
   },
-  "summaryText": "173 records broken, 8 tied. Daily Precipitation Record was the most common category (55 of 181 record events). Quebec recorded the most events (50).",
+  "summaryText": "174 records broken, 8 tied. Daily Precipitation Record was the most common category (56 of 182 record events). Quebec recorded the most events (50).",
   "typeBreakdown": [
     {
       "type": "precipitation",
       "label": "Daily Precipitation Record",
-      "total": 55,
-      "broken": 54,
+      "total": 56,
+      "broken": 55,
       "tied": 1
     },
     {
@@ -67,7 +67,7 @@
     {
       "province": "ON",
       "provinceName": "Ontario",
-      "total": 28
+      "total": 29
     },
     {
       "province": "NU",
