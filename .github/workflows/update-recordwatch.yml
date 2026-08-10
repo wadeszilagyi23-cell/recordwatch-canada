@@ -30,63 +30,23 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-            - name: Update and reconcile record snapshots
+      - name: Update and reconcile record snapshots
         env:
           CLIMATE_DATE: ${{ inputs.climate_date }}
         run: |
           set -euo pipefail
 
           if [ -n "$CLIMATE_DATE" ]; then
-
             echo "Manual single-date update: $CLIMATE_DATE"
-
-            python scripts/update_records.py \
-              --date "$CLIMATE_DATE"
-
+            python scripts/update_records.py --date "$CLIMATE_DATE"
           else
-
-            python - <<'PY' > "$RUNNER_TEMP/recordwatch_dates.txt"
-            from datetime import datetime, timedelta
-            from zoneinfo import ZoneInfo
-
-            today = datetime.now(
-                ZoneInfo("America/Toronto")
-            ).date()
-
-            # Process oldest first so yesterday is processed last.
-            for days_back in (3, 2, 1):
-                print(
-                    (
-                        today - timedelta(days=days_back)
-                    ).isoformat()
-                )
-            PY
+            python -c 'from datetime import datetime, timedelta; from zoneinfo import ZoneInfo; today = datetime.now(ZoneInfo("America/Toronto")).date(); print("\n".join((today - timedelta(days=d)).isoformat() for d in (3, 2, 1)))' > "$RUNNER_TEMP/recordwatch_dates.txt"
 
             while IFS= read -r DATE; do
-
               echo "::group::Reconcile climate date $DATE"
-
-              python scripts/update_records.py \
-                --date "$DATE"
-
-              YEAR="${DATE:0:4}"
-              MONTH="${DATE:5:2}"
-
-              ARCHIVE_FILE="data/archive/$YEAR/$MONTH/$DATE.json"
-
-              if ! git diff --quiet -- "$ARCHIVE_FILE"; then
-                echo \
-                  "::notice title=Archive revision detected::"\
-                  "ECCC data for $DATE differs from the previously saved RecordWatch snapshot."
-              else
-                echo \
-                  "No archive revision detected for $DATE."
-              fi
-
+              python scripts/update_records.py --date "$DATE"
               echo "::endgroup::"
-
             done < "$RUNNER_TEMP/recordwatch_dates.txt"
-
           fi
 
       - name: Build weekly extremes recap
