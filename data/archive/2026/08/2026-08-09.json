@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "date": "2026-08-09",
   "latestAvailableDate": "2026-08-09",
-  "generatedAt": "2026-08-10T11:32:11-04:00",
-  "sourceLastUpdated": "2026-08-10T12:18:55Z",
+  "generatedAt": "2026-08-10T15:45:55-04:00",
+  "sourceLastUpdated": "2026-08-10T18:32:38Z",
   "source": "Environment and Climate Change Canada — MSC GeoMet LTCE",
   "isDemo": false,
   "summary": {
@@ -11,6 +11,11 @@
     "communities": 2,
     "tiedRecords": 0,
     "oldestRecordAge": 39
+  },
+  "validation": {
+    "candidateRecords": 2,
+    "publishedRecords": 2,
+    "withheldRecords": 0
   },
   "recordOfDay": {
     "id": "VSAB25V-2026-08-09-precipitation",
@@ -97,12 +102,13 @@
         -64.57,
         47.95
       ],
-      "sourceUpdated": "2026-08-10T12:18:55Z",
+      "sourceUpdated": "2026-08-10T18:32:38Z",
       "sourceId": "VSNB31V-8-9"
     }
   ],
   "notes": [
     "Values may be revised by ECCC after initial publication.",
-    "The archive contains daily snapshots saved by RecordWatch Canada after launch."
+    "The archive contains daily snapshots saved by RecordWatch Canada after launch.",
+    "Suspicious precipitation outliers are automatically withheld pending verification."
   ]
 }
