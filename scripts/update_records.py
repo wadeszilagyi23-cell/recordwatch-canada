@@ -1,12 +1,19 @@
 #!/usr/bin/env python3
-"""Create a daily RecordWatch Canada snapshot from ECCC LTCE collections."""
+"""Create a daily RecordWatch Canada snapshot from ECCC LTCE collections.
+
+RecordWatch validation policy:
+- Source values are never silently corrected or rescaled.
+- Suspicious precipitation outliers are withheld from the public snapshot.
+- A specifically verified outlier can be approved by record ID in
+  data/validation-overrides.json.
+"""
 from __future__ import annotations
 
 import argparse
 import json
 import math
 import sys
-from collections import Counter, defaultdict
+from collections import Counter
 from dataclasses import dataclass
 from datetime import date, datetime, timedelta
 from pathlib import Path
@@ -19,6 +26,14 @@ API_ROOT = "https://api.weather.gc.ca/collections"
 ROOT = Path(__file__).resolve().parents[1]
 DATA_DIR = ROOT / "data"
 TIMEZONE = ZoneInfo("America/Toronto")
+
+# These are REVIEW thresholds, not claims that larger rainfall amounts are
+# meteorologically impossible. Values meeting these tests are withheld until
+# independently verified and explicitly approved.
+PRECIP_REVIEW_ABSOLUTE_MM = 150.0
+PRECIP_REVIEW_RELATIVE_MIN_MM = 75.0
+PRECIP_REVIEW_RATIO = 3.0
+PRECIP_REVIEW_MARGIN_MM = 50.0
 
 PROVINCE_NAMES = {
     "AB": "Alberta", "BC": "British Columbia", "MB": "Manitoba", "NB": "New Brunswick",
@@ -36,6 +51,7 @@ TYPE_LABELS = {
     "precipitation": "daily precipitation record", "snowfall": "daily snowfall record"
 }
 
+
 @dataclass(frozen=True)
 class FieldMap:
     type: str
@@ -45,6 +61,7 @@ class FieldMap:
     previous_year: str
     begin: str
     unit: str
+
 
 TEMPERATURE_FIELDS = [
     FieldMap("high_max", "RECORD_HIGH_MAX_TEMP", "RECORD_HIGH_MAX_TEMP_YR", "PREV_RECORD_HIGH_MAX_TEMP", "PREV_RECORD_HIGH_MAX_TEMP_YR", "MAX_TEMP_RECORD_BEGIN", "°C"),
@@ -115,22 +132,20 @@ def normalize_record(feature: dict[str, Any], fields: FieldMap, target: date) ->
     coordinates = geometry.get("coordinates")
     if value is None or previous is None or not isinstance(coordinates, list) or len(coordinates) < 2:
         return None
-        
+
     # A zero precipitation or snowfall value is not a meaningful record event.
     if fields.type in {"precipitation", "snowfall"} and value <= 0:
         return None
-        
+
     difference = round(value - previous, 2)
     tied = math.isclose(value, previous, abs_tol=0.049)
     province = str(props.get("PROVINCE_CODE") or "").upper()
-    community = str(
-        props.get("VIRTUAL_STATION_NAME_E") or "Unknown"
-    ).title()
-
+    community = str(props.get("VIRTUAL_STATION_NAME_E") or "Unknown").title()
     if community.lower().endswith(" area"):
         community = community[:-5].rstrip()
     begin_year = year_from_date(props.get(fields.begin), target.year)
     station_id = props.get("VIRTUAL_CLIMATE_ID") or feature.get("id") or community
+
     return {
         "id": f"{station_id}-{target.isoformat()}-{fields.type}",
         "date": target.isoformat(), "community": community, "province": province,
@@ -153,23 +168,107 @@ def process_features(payload: dict[str, Any], fields: list[FieldMap], target: da
     return records
 
 
+def load_validation_overrides() -> tuple[set[str], set[str]]:
+    """Return (approved_ids, rejected_ids).
+
+    Optional file format: data/validation-overrides.json
+    {
+      "approved": ["VS...-2026-08-08-precipitation"],
+      "rejected": ["VS...-2026-08-08-precipitation"]
+    }
+    """
+    path = DATA_DIR / "validation-overrides.json"
+    try:
+        payload = json.loads(path.read_text(encoding="utf-8"))
+    except FileNotFoundError:
+        return set(), set()
+    except json.JSONDecodeError as exc:
+        raise ValueError(f"Invalid JSON in {path.relative_to(ROOT)}: {exc}") from exc
+
+    approved = {str(value) for value in payload.get("approved", [])}
+    rejected = {str(value) for value in payload.get("rejected", [])}
+    return approved, rejected
+
+
+def precipitation_review_reason(record: dict[str, Any]) -> str | None:
+    """Flag unusually large precipitation records for verification.
+
+    The threshold is intentionally conservative: a flagged value is not declared
+    false; it is simply withheld from the public snapshot until verified.
+    """
+    if record.get("type") != "precipitation":
+        return None
+
+    value = finite_number(record.get("value"))
+    previous = finite_number(record.get("previousValue"))
+    if value is None or previous is None:
+        return "precipitation value or previous record is non-numeric"
+
+    if value >= PRECIP_REVIEW_ABSOLUTE_MM:
+        return f"precipitation {value:.1f} mm meets the {PRECIP_REVIEW_ABSOLUTE_MM:.0f} mm manual-review threshold"
+
+    margin = value - previous
+    ratio = value / previous if previous > 0 else math.inf
+    if (
+        value >= PRECIP_REVIEW_RELATIVE_MIN_MM
+        and ratio >= PRECIP_REVIEW_RATIO
+        and margin >= PRECIP_REVIEW_MARGIN_MM
+    ):
+        return (
+            f"precipitation {value:.1f} mm is an extreme jump over the previous "
+            f"record {previous:.1f} mm (ratio {ratio:.2f}, margin {margin:.1f} mm)"
+        )
+
+    return None
+
+
+def validate_records(records: list[dict[str, Any]]) -> tuple[list[dict[str, Any]], list[dict[str, Any]]]:
+    """Apply fail-closed validation before anything reaches public JSON."""
+    approved_ids, rejected_ids = load_validation_overrides()
+    accepted: list[dict[str, Any]] = []
+    quarantined: list[dict[str, Any]] = []
+
+    for record in records:
+        record_id = str(record.get("id") or "")
+
+        if record_id in rejected_ids:
+            reason = "record ID is explicitly rejected in data/validation-overrides.json"
+        elif record_id in approved_ids:
+            reason = None
+        else:
+            reason = precipitation_review_reason(record)
+
+        if reason:
+            quarantined.append(record)
+            print(
+                "::warning title=RecordWatch record quarantined::"
+                f"{record.get('community')}, {record.get('province')} | "
+                f"{record.get('type')} | {record.get('value')} {record.get('unit')} | "
+                f"sourceId={record.get('sourceId')} | {reason}"
+            )
+        else:
+            accepted.append(record)
+
+    return accepted, quarantined
+
+
 def choose_record_of_day(records: list[dict[str, Any]], target: date) -> dict[str, Any] | None:
     if not records:
         return None
+
     def score(record: dict[str, Any]) -> tuple[int, int, float]:
         previous_year = int(record.get("previousYear") or target.year)
         age = max(0, target.year - previous_year)
         margin = abs(float(record.get("difference") or 0))
         return (1 if record["status"] == "broken" else 0, age, margin)
+
     return max(records, key=score)
 
 
 def build_highlights(records: list[dict[str, Any]]) -> list[dict[str, Any]]:
     output = []
-
     for region, codes in REGIONS.items():
         group = [record for record in records if record["province"] in codes]
-
         if not group:
             continue
 
@@ -180,37 +279,26 @@ def build_highlights(records: list[dict[str, Any]]) -> list[dict[str, Any]]:
         leading_type, leading_count = type_counts.most_common(1)[0]
 
         broken_word = "record" if broken_count == 1 else "records"
-
         if tied_count > 0:
-            status_text = (
-                f"{broken_count} {broken_word} broken, "
-                f"{tied_count} tied."
-            )
+            status_text = f"{broken_count} {broken_word} broken, {tied_count} tied."
         else:
             status_text = f"{broken_count} {broken_word} broken."
 
         if total == 1:
             type_text = f"It was a {TYPE_LABELS[leading_type]}."
         elif leading_count == total:
-            type_text = (
-                f"All {total} were {TYPE_LABELS[leading_type]} events."
-            )
+            type_text = f"All {total} were {TYPE_LABELS[leading_type]} events."
         else:
-            type_text = (
-                f"The most common type was {TYPE_LABELS[leading_type]} "
-                f"({leading_count} of {total})."
-            )
+            type_text = f"The most common type was {TYPE_LABELS[leading_type]} ({leading_count} of {total})."
 
-        output.append(
-            {
-                "region": region,
-                "count": total,
-                "brokenCount": broken_count,
-                "tiedCount": tied_count,
-                "leadingType": leading_type,
-                "text": f"{status_text} {type_text}",
-            }
-        )
+        output.append({
+            "region": region,
+            "count": total,
+            "brokenCount": broken_count,
+            "tiedCount": tied_count,
+            "leadingType": leading_type,
+            "text": f"{status_text} {type_text}",
+        })
 
     return sorted(output, key=lambda item: item["count"], reverse=True)
 
@@ -219,7 +307,13 @@ def build_story(record: dict[str, Any] | None) -> dict[str, str]:
     if not record:
         return {"description": "No new daily records were identified in the current source snapshot."}
     verb = "tied" if record["status"] == "tied" else "exceeded"
-    return {"description": f"{record['community']}, {record['province']} recorded {record['value']:.1f} {record['unit']}. It {verb} the previous {TYPE_LABELS[record['type']]} of {record['previousValue']:.1f} {record['unit']} from {record['previousYear']}."}
+    return {
+        "description": (
+            f"{record['community']}, {record['province']} recorded {record['value']:.1f} {record['unit']}. "
+            f"It {verb} the previous {TYPE_LABELS[record['type']]} of "
+            f"{record['previousValue']:.1f} {record['unit']} from {record['previousYear']}."
+        )
+    }
 
 
 def write_json(path: Path, payload: dict[str, Any]) -> None:
@@ -233,35 +327,69 @@ def update_archive_index(target: date) -> None:
         payload = json.loads(path.read_text(encoding="utf-8"))
     except (FileNotFoundError, json.JSONDecodeError):
         payload = {"dates": []}
-    dates = set(payload.get("dates", [])); dates.add(target.isoformat())
+    dates = set(payload.get("dates", []))
+    dates.add(target.isoformat())
     write_json(path, {"dates": sorted(dates), "updated": datetime.now(TIMEZONE).isoformat(timespec="seconds")})
 
 
 def main() -> int:
     target = target_date(parse_args().date)
     print(f"Building RecordWatch snapshot for {target}")
+
     temp = fetch_collection("ltce-temperature", target)
     precip = fetch_collection("ltce-precipitation", target)
     snow = fetch_collection("ltce-snowfall", target)
 
-    records = process_features(temp, TEMPERATURE_FIELDS, target)
-    records += process_features(precip, [PRECIP_FIELD], target)
-    records += process_features(snow, [SNOW_FIELD], target)
+    candidates = process_features(temp, TEMPERATURE_FIELDS, target)
+    candidates += process_features(precip, [PRECIP_FIELD], target)
+    candidates += process_features(snow, [SNOW_FIELD], target)
+
+    # Crucial publication gate: suspicious values are removed BEFORE summaries,
+    # highlights, Record of the Day, archive JSON, latest.json, and weekly recap.
+    records, quarantined = validate_records(candidates)
     records.sort(key=lambda r: (r["province"], r["community"], r["type"]))
 
     record_of_day = choose_record_of_day(records, target)
     oldest_age = max((target.year - int(r["previousYear"]) for r in records if r.get("previousYear")), default=0)
     source_updates = [r["sourceUpdated"] for r in records if r.get("sourceUpdated")]
+
+    notes = [
+        "Values may be revised by ECCC after initial publication.",
+        "The archive contains daily snapshots saved by RecordWatch Canada after launch.",
+        "Suspicious precipitation outliers are automatically withheld pending verification.",
+    ]
+    if quarantined:
+        notes.append(f"{len(quarantined)} candidate record(s) were withheld by automated validation for this climate date.")
+
     payload = {
-        "schemaVersion": 1, "date": target.isoformat(), "latestAvailableDate": target.isoformat(),
-        "generatedAt": datetime.now(TIMEZONE).isoformat(timespec="seconds"), "sourceLastUpdated": max(source_updates, default="Not reported"),
-        "source": "Environment and Climate Change Canada — MSC GeoMet LTCE", "isDemo": False,
-        "summary": {"totalRecords": len(records), "communities": len({r['community'] for r in records}), "tiedRecords": sum(r['status'] == 'tied' for r in records), "oldestRecordAge": oldest_age},
-        "recordOfDay": record_of_day, "story": build_story(record_of_day), "highlights": build_highlights(records), "records": records,
-        "notes": ["Values may be revised by ECCC after initial publication.", "The archive contains daily snapshots saved by RecordWatch Canada after launch."]
+        "schemaVersion": 1,
+        "date": target.isoformat(),
+        "latestAvailableDate": target.isoformat(),
+        "generatedAt": datetime.now(TIMEZONE).isoformat(timespec="seconds"),
+        "sourceLastUpdated": max(source_updates, default="Not reported"),
+        "source": "Environment and Climate Change Canada — MSC GeoMet LTCE",
+        "isDemo": False,
+        "summary": {
+            "totalRecords": len(records),
+            "communities": len({r['community'] for r in records}),
+            "tiedRecords": sum(r['status'] == 'tied' for r in records),
+            "oldestRecordAge": oldest_age,
+        },
+        "validation": {
+            "candidateRecords": len(candidates),
+            "publishedRecords": len(records),
+            "withheldRecords": len(quarantined),
+        },
+        "recordOfDay": record_of_day,
+        "story": build_story(record_of_day),
+        "highlights": build_highlights(records),
+        "records": records,
+        "notes": notes,
     }
+
     archive_path = DATA_DIR / "archive" / f"{target.year:04d}" / f"{target.month:02d}" / f"{target.isoformat()}.json"
     write_json(archive_path, payload)
+
     latest_path = DATA_DIR / "latest.json"
     should_update_latest = True
     try:
@@ -270,10 +398,14 @@ def main() -> int:
         should_update_latest = target >= existing_date or bool(existing_latest.get("isDemo"))
     except (FileNotFoundError, json.JSONDecodeError, TypeError, ValueError):
         pass
+
     if should_update_latest:
         write_json(latest_path, payload)
+
     update_archive_index(target)
-    print(f"Wrote {len(records)} records to {archive_path.relative_to(ROOT)}")
+    print(f"Wrote {len(records)} published records to {archive_path.relative_to(ROOT)}")
+    if quarantined:
+        print(f"Withheld {len(quarantined)} candidate record(s) from publication; see warnings above.")
     if not should_update_latest:
         print("Archive saved without replacing the newer homepage snapshot.")
     return 0
