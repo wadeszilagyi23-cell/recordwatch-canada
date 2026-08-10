@@ -13,6 +13,7 @@ import argparse
 import json
 import math
 import sys
+import time
 from collections import Counter
 from dataclasses import dataclass
 from datetime import date, datetime, timedelta
@@ -86,17 +87,74 @@ def target_date(value: str | None) -> date:
 
 
 def fetch_collection(collection: str, target: date) -> dict[str, Any]:
+    """Fetch an ECCC LTCE collection with automatic retry protection."""
+
     url = f"{API_ROOT}/{collection}/items"
     params = {
-        "f": "json", "lang": "en", "limit": 1000,
-        "filter": f"properties.LOCAL_MONTH={target.month} AND properties.LOCAL_DAY={target.day}",
+        "f": "json",
+        "lang": "en",
+        "limit": 1000,
+        "filter": (
+            f"properties.LOCAL_MONTH={target.month} "
+            f"AND properties.LOCAL_DAY={target.day}"
+        ),
     }
-    response = requests.get(url, params=params, timeout=90, headers={"User-Agent": "RecordWatch-Canada/1.0"})
-    response.raise_for_status()
-    payload = response.json()
-    if not isinstance(payload.get("features"), list):
-        raise ValueError(f"Unexpected response from {collection}")
-    return payload
+
+    retry_delays = (10, 30)
+    total_attempts = 3
+
+    for attempt in range(1, total_attempts + 1):
+        try:
+            print(
+                f"Fetching {collection} for {target} "
+                f"(attempt {attempt}/{total_attempts})"
+            )
+
+            response = requests.get(
+                url,
+                params=params,
+                timeout=90,
+                headers={"User-Agent": "RecordWatch-Canada/1.2"},
+            )
+
+            response.raise_for_status()
+            payload = response.json()
+
+            if not isinstance(payload.get("features"), list):
+                raise ValueError(
+                    f"Unexpected response from {collection}"
+                )
+
+            if attempt > 1:
+                print(
+                    f"::notice title=ECCC request recovered::"
+                    f"{collection} succeeded on attempt {attempt}."
+                )
+
+            return payload
+
+        except (requests.RequestException, ValueError) as exc:
+            if attempt >= total_attempts:
+                print(
+                    f"::error title=ECCC request failed::"
+                    f"{collection} failed after {total_attempts} attempts: "
+                    f"{exc}"
+                )
+                raise
+
+            delay = retry_delays[attempt - 1]
+
+            print(
+                f"::warning title=ECCC request retry::"
+                f"{collection} attempt {attempt} failed: {exc}. "
+                f"Retrying in {delay} seconds."
+            )
+
+            time.sleep(delay)
+
+    raise RuntimeError(
+        f"Unable to retrieve {collection} for {target}"
+    )
 
 
 def year_from_date(value: Any, fallback: int) -> int:
