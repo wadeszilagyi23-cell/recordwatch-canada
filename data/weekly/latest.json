@@ -14,13 +14,13 @@
   ],
   "daysAvailable": 7,
   "isPartial": false,
-  "generatedAt": "2026-08-10T11:32:11-04:00",
+  "generatedAt": "2026-08-10T15:38:41-04:00",
   "summary": {
-    "totalRecords": 146,
-    "brokenRecords": 138,
+    "totalRecords": 145,
+    "brokenRecords": 137,
     "tiedRecords": 8
   },
-  "summaryText": "138 records broken, 8 tied. Record High Maximum Temperature was the most common category (48 of 146 record events). Quebec recorded the most events (47).",
+  "summaryText": "137 records broken, 8 tied. Record High Maximum Temperature was the most common category (48 of 145 record events). Quebec recorded the most events (47).",
   "typeBreakdown": [
     {
       "type": "high_max",
@@ -46,8 +46,8 @@
     {
       "type": "precipitation",
       "label": "Daily Precipitation Record",
-      "total": 26,
-      "broken": 25,
+      "total": 25,
+      "broken": 24,
       "tied": 1
     },
     {
@@ -92,7 +92,7 @@
     {
       "province": "ON",
       "provinceName": "Ontario",
-      "total": 11
+      "total": 10
     },
     {
       "province": "NL",
