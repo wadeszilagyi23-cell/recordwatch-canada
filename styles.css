@@ -526,3 +526,47 @@
 #moreFiltersButton {
   display: none !important;
 }
+/* Mobile header fix for article and weekly pages */
+@media (max-width: 520px) {
+  .site-header.article-header {
+    height: auto;
+    min-height: 76px;
+    padding: 8px 12px;
+    gap: 8px;
+    align-items: center;
+  }
+
+  .article-header .brand {
+    flex: 1 1 auto;
+    min-width: 0;
+    gap: 8px;
+  }
+
+  .article-header .brand-leaf {
+    flex: 0 0 auto;
+    font-size: 32px;
+  }
+
+  .article-header .brand > span:last-child {
+    min-width: 0;
+  }
+
+  .article-header .brand strong {
+    font-size: 20px;
+    line-height: 1.05;
+    white-space: nowrap;
+  }
+
+  .article-header .brand small {
+    font-size: 10px;
+    line-height: 1.15;
+    margin-top: 2px;
+  }
+
+  .article-header .heat-back,
+  .article-header .methods-back,
+  .article-header .weekly-back {
+    flex: 0 0 auto;
+    margin-left: 6px;
+  }
+}
