@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       climate_date:
-        description: Optional climate date (YYYY-MM-DD); blank uses yesterday in Toronto
+        description: Optional climate date (YYYY-MM-DD); blank reconciles the previous 3 climate dates
         required: false
         type: string
   schedule:
@@ -30,14 +30,63 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Update record snapshot
+            - name: Update and reconcile record snapshots
         env:
           CLIMATE_DATE: ${{ inputs.climate_date }}
         run: |
+          set -euo pipefail
+
           if [ -n "$CLIMATE_DATE" ]; then
-            python scripts/update_records.py --date "$CLIMATE_DATE"
+
+            echo "Manual single-date update: $CLIMATE_DATE"
+
+            python scripts/update_records.py \
+              --date "$CLIMATE_DATE"
+
           else
-            python scripts/update_records.py
+
+            python - <<'PY' > "$RUNNER_TEMP/recordwatch_dates.txt"
+            from datetime import datetime, timedelta
+            from zoneinfo import ZoneInfo
+
+            today = datetime.now(
+                ZoneInfo("America/Toronto")
+            ).date()
+
+            # Process oldest first so yesterday is processed last.
+            for days_back in (3, 2, 1):
+                print(
+                    (
+                        today - timedelta(days=days_back)
+                    ).isoformat()
+                )
+            PY
+
+            while IFS= read -r DATE; do
+
+              echo "::group::Reconcile climate date $DATE"
+
+              python scripts/update_records.py \
+                --date "$DATE"
+
+              YEAR="${DATE:0:4}"
+              MONTH="${DATE:5:2}"
+
+              ARCHIVE_FILE="data/archive/$YEAR/$MONTH/$DATE.json"
+
+              if ! git diff --quiet -- "$ARCHIVE_FILE"; then
+                echo \
+                  "::notice title=Archive revision detected::"\
+                  "ECCC data for $DATE differs from the previously saved RecordWatch snapshot."
+              else
+                echo \
+                  "No archive revision detected for $DATE."
+              fi
+
+              echo "::endgroup::"
+
+            done < "$RUNNER_TEMP/recordwatch_dates.txt"
+
           fi
 
       - name: Build weekly extremes recap
