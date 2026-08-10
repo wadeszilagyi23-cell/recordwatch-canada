@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "date": "2026-08-07",
   "latestAvailableDate": "2026-08-07",
-  "generatedAt": "2026-08-08T17:01:18-04:00",
-  "sourceLastUpdated": "2026-08-08T18:35:41Z",
+  "generatedAt": "2026-08-10T19:25:06-04:00",
+  "sourceLastUpdated": "2026-08-10T18:32:38Z",
   "source": "Environment and Climate Change Canada — MSC GeoMet LTCE",
   "isDemo": false,
   "summary": {
@@ -11,6 +11,11 @@
     "communities": 28,
     "tiedRecords": 2,
     "oldestRecordAge": 150
+  },
+  "validation": {
+    "candidateRecords": 28,
+    "publishedRecords": 28,
+    "withheldRecords": 0
   },
   "recordOfDay": {
     "id": "VSNS40V-2026-08-07-high_max",
@@ -31,7 +36,7 @@
       -63.59,
       44.66
     ],
-    "sourceUpdated": "2026-08-08T18:35:41Z",
+    "sourceUpdated": "2026-08-10T18:32:38Z",
     "sourceId": "VSNS40V-8-7"
   },
   "story": {
@@ -91,7 +96,7 @@
         -110.26,
         51.68
       ],
-      "sourceUpdated": "2026-08-08T18:35:41Z",
+      "sourceUpdated": "2026-08-10T18:32:38Z",
       "sourceId": "VSAB67V-8-7"
     },
     {
@@ -113,7 +118,7 @@
         -112.09,
         49.15
       ],
-      "sourceUpdated": "2026-08-08T18:35:41Z",
+      "sourceUpdated": "2026-08-10T18:32:38Z",
       "sourceId": "VSAB19V-8-7"
     },
     {
@@ -135,7 +140,7 @@
         -113.91,
         49.05
       ],
-      "sourceUpdated": "2026-08-08T18:35:41Z",
+      "sourceUpdated": "2026-08-10T18:32:38Z",
       "sourceId": "VSAB66V-8-7"
     },
     {
@@ -157,7 +162,7 @@
         -65.94,
         45.44
       ],
-      "sourceUpdated": "2026-08-08T18:35:41Z",
+      "sourceUpdated": "2026-08-10T18:32:38Z",
       "sourceId": "VSNB12V-8-7"
     },
     {
@@ -179,7 +184,7 @@
         -65.5,
         46.75
       ],
-      "sourceUpdated": "2026-08-08T18:35:41Z",
+      "sourceUpdated": "2026-08-10T18:32:38Z",
       "sourceId": "VSNB14V-8-7"
     },
     {
@@ -201,7 +206,7 @@
         -66.04,
         45.26
       ],
-      "sourceUpdated": "2026-08-08T18:35:41Z",
+      "sourceUpdated": "2026-08-10T18:32:38Z",
       "sourceId": "VSNB23V-8-7"
     },
     {
@@ -223,7 +228,7 @@
         -58.58,
         48.55
       ],
-      "sourceUpdated": "2026-08-08T18:35:41Z",
+      "sourceUpdated": "2026-08-10T18:32:38Z",
       "sourceId": "VSNL27V-8-7"
     },
     {
@@ -245,7 +250,7 @@
         -63.72,
         44.87
       ],
-      "sourceUpdated": "2026-08-08T18:35:41Z",
+      "sourceUpdated": "2026-08-10T18:32:38Z",
       "sourceId": "VSNS19V-8-7"
     },
     {
@@ -267,7 +272,7 @@
         -63.59,
         44.66
       ],
-      "sourceUpdated": "2026-08-08T18:35:41Z",
+      "sourceUpdated": "2026-08-10T18:32:38Z",
       "sourceId": "VSNS40V-8-7"
     },
     {
@@ -289,7 +294,7 @@
         -62.48,
         44.99
       ],
-      "sourceUpdated": "2026-08-08T18:35:41Z",
+      "sourceUpdated": "2026-08-10T18:32:38Z",
       "sourceId": "VSNS22V-8-7"
     },
     {
@@ -311,7 +316,7 @@
         -62.54,
         44.92
       ],
-      "sourceUpdated": "2026-08-08T18:35:41Z",
+      "sourceUpdated": "2026-08-10T18:32:38Z",
       "sourceId": "VSNS10V-8-7"
     },
     {
@@ -421,7 +426,7 @@
         -71.36,
         46.69
       ],
-      "sourceUpdated": "2026-08-08T18:35:41Z",
+      "sourceUpdated": "2026-08-10T18:32:38Z",
       "sourceId": "VSQC51V-8-7"
     },
     {
@@ -443,7 +448,7 @@
         -73.88,
         45.67
       ],
-      "sourceUpdated": "2026-08-08T18:35:41Z",
+      "sourceUpdated": "2026-08-10T18:32:38Z",
       "sourceId": "VSQC52V-8-7"
     },
     {
@@ -465,7 +470,7 @@
         -73.53,
         53.83
       ],
-      "sourceUpdated": "2026-08-08T18:35:41Z",
+      "sourceUpdated": "2026-08-10T18:32:38Z",
       "sourceId": "VSQC100-8-7"
     },
     {
@@ -487,7 +492,7 @@
         -71.18,
         46.8
       ],
-      "sourceUpdated": "2026-08-08T18:35:41Z",
+      "sourceUpdated": "2026-08-10T18:32:38Z",
       "sourceId": "VSQC78V-8-7"
     },
     {
@@ -509,7 +514,7 @@
         -74.08,
         45.65
       ],
-      "sourceUpdated": "2026-08-08T18:35:41Z",
+      "sourceUpdated": "2026-08-10T18:32:38Z",
       "sourceId": "VSQC123-8-7"
     },
     {
@@ -531,7 +536,7 @@
         -71.22,
         46.82
       ],
-      "sourceUpdated": "2026-08-08T18:35:41Z",
+      "sourceUpdated": "2026-08-10T18:32:38Z",
       "sourceId": "VSQC133-8-7"
     },
     {
@@ -553,7 +558,7 @@
         -69.53,
         47.83
       ],
-      "sourceUpdated": "2026-08-08T18:35:41Z",
+      "sourceUpdated": "2026-08-10T18:32:38Z",
       "sourceId": "VSQC108-8-7"
     },
     {
@@ -575,7 +580,7 @@
         -73.85,
         45.63
       ],
-      "sourceUpdated": "2026-08-08T18:35:41Z",
+      "sourceUpdated": "2026-08-10T18:32:38Z",
       "sourceId": "VSQCB3V-8-7"
     },
     {
@@ -597,7 +602,7 @@
         -71.26,
         46.82
       ],
-      "sourceUpdated": "2026-08-08T18:35:41Z",
+      "sourceUpdated": "2026-08-10T18:32:38Z",
       "sourceId": "VSQC41V-8-7"
     },
     {
@@ -619,7 +624,7 @@
         -105.99,
         49.63
       ],
-      "sourceUpdated": "2026-08-08T18:35:41Z",
+      "sourceUpdated": "2026-08-10T18:32:38Z",
       "sourceId": "VSSK51V-8-7"
     },
     {
@@ -641,7 +646,7 @@
         -105.51,
         49.11
       ],
-      "sourceUpdated": "2026-08-08T18:35:41Z",
+      "sourceUpdated": "2026-08-10T18:32:38Z",
       "sourceId": "VSSK42V-8-7"
     },
     {
@@ -663,7 +668,7 @@
         -109.16,
         51.47
       ],
-      "sourceUpdated": "2026-08-08T18:35:41Z",
+      "sourceUpdated": "2026-08-10T18:32:38Z",
       "sourceId": "VSSK21V-8-7"
     },
     {
@@ -685,12 +690,13 @@
         -105.95,
         49.18
       ],
-      "sourceUpdated": "2026-08-08T18:35:41Z",
+      "sourceUpdated": "2026-08-10T18:32:38Z",
       "sourceId": "VSSK54V-8-7"
     }
   ],
   "notes": [
     "Values may be revised by ECCC after initial publication.",
-    "The archive contains daily snapshots saved by RecordWatch Canada after launch."
+    "The archive contains daily snapshots saved by RecordWatch Canada after launch.",
+    "Suspicious precipitation outliers are automatically withheld pending verification."
   ]
 }
