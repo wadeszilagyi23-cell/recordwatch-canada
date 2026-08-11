@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "date": "2026-08-08",
   "latestAvailableDate": "2026-08-08",
-  "generatedAt": "2026-08-10T19:25:08-04:00",
+  "generatedAt": "2026-08-10T20:15:21-04:00",
   "sourceLastUpdated": "2026-08-10T18:32:38Z",
   "source": "Environment and Climate Change Canada — MSC GeoMet LTCE",
   "isDemo": false,
@@ -15,7 +15,9 @@
   "validation": {
     "candidateRecords": 29,
     "publishedRecords": 29,
-    "withheldRecords": 0
+    "withheldRecords": 0,
+    "invalidRecords": 0,
+    "manualReviewRecords": 0
   },
   "recordOfDay": {
     "id": "VSON113-2026-08-08-precipitation",
@@ -727,6 +729,6 @@
   "notes": [
     "Values may be revised by ECCC after initial publication.",
     "The archive contains daily snapshots saved by RecordWatch Canada after launch.",
-    "Suspicious precipitation outliers are automatically withheld pending verification."
+    "Suspicious or malformed candidate records are automatically withheld pending validation or verification."
   ]
 }
