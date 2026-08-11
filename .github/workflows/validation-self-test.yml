@@ -1,0 +1,33 @@
+name: RecordWatch Validation Self-Test
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - 'scripts/update_records.py'
+      - 'scripts/validation_self_test.py'
+      - '.github/workflows/validation-self-test.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  validation-self-test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v6
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run RecordWatch validation self-test
+        run: python scripts/validation_self_test.py
