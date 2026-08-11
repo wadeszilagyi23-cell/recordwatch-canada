@@ -37,16 +37,51 @@ jobs:
           set -euo pipefail
 
           if [ -n "$CLIMATE_DATE" ]; then
+
             echo "Manual single-date update: $CLIMATE_DATE"
             python scripts/update_records.py --date "$CLIMATE_DATE"
+
           else
-            python -c 'from datetime import datetime, timedelta; from zoneinfo import ZoneInfo; today = datetime.now(ZoneInfo("America/Toronto")).date(); print("\n".join((today - timedelta(days=d)).isoformat() for d in (3, 2, 1)))' > "$RUNNER_TEMP/recordwatch_dates.txt"
+
+            # Process yesterday first, followed by the two older
+            # reconciliation dates.
+            python -c 'from datetime import datetime, timedelta; from zoneinfo import ZoneInfo; today = datetime.now(ZoneInfo("America/Toronto")).date(); print("\n".join((today - timedelta(days=d)).isoformat() for d in (1, 2, 3)))' > "$RUNNER_TEMP/recordwatch_dates.txt"
+
+            FIRST_DATE=1
 
             while IFS= read -r DATE; do
+
               echo "::group::Reconcile climate date $DATE"
-              python scripts/update_records.py --date "$DATE"
+
+              if [ "$FIRST_DATE" -eq 1 ]; then
+
+                echo "Primary climate date: $DATE"
+                echo "This update must succeed."
+
+                python scripts/update_records.py --date "$DATE"
+
+                FIRST_DATE=0
+
+              else
+
+                echo "Historical reconciliation date: $DATE"
+
+                if python scripts/update_records.py --date "$DATE"; then
+
+                  echo "Historical reconciliation completed for $DATE."
+
+                else
+
+                  echo "::warning title=Historical reconciliation deferred::$DATE could not be refreshed because the ECCC request failed. The existing RecordWatch archive has been preserved and this date will be tried again during the next scheduled run."
+
+                fi
+
+              fi
+
               echo "::endgroup::"
+
             done < "$RUNNER_TEMP/recordwatch_dates.txt"
+
           fi
 
       - name: Build weekly extremes recap
