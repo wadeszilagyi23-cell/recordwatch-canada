@@ -19,17 +19,18 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Check out repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v7
         with:
           python-version: '3.12'
           cache: pip
 
       - name: Install dependencies
         run: pip install -r requirements.txt
-
+      - name: Run validation self-test
+        run: python scripts/validation_self_test.py
       - name: Update and reconcile record snapshots
         env:
           CLIMATE_DATE: ${{ inputs.climate_date }}
