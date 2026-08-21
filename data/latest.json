@@ -2,19 +2,19 @@
   "schemaVersion": 1,
   "date": "2026-08-20",
   "latestAvailableDate": "2026-08-20",
-  "generatedAt": "2026-08-21T11:06:51-04:00",
-  "sourceLastUpdated": "2026-08-21T12:17:27Z",
+  "generatedAt": "2026-08-21T16:56:02-04:00",
+  "sourceLastUpdated": "2026-08-21T18:32:37Z",
   "source": "Environment and Climate Change Canada — MSC GeoMet LTCE",
   "isDemo": false,
   "summary": {
-    "totalRecords": 14,
-    "communities": 12,
-    "tiedRecords": 1,
+    "totalRecords": 15,
+    "communities": 13,
+    "tiedRecords": 2,
     "oldestRecordAge": 61
   },
   "validation": {
-    "candidateRecords": 14,
-    "publishedRecords": 14,
+    "candidateRecords": 15,
+    "publishedRecords": 15,
     "withheldRecords": 0,
     "invalidRecords": 0,
     "manualReviewRecords": 0
@@ -38,7 +38,7 @@
       -57.43,
       49.18
     ],
-    "sourceUpdated": "2026-08-21T12:17:27Z",
+    "sourceUpdated": "2026-08-21T18:32:37Z",
     "sourceId": "VSNL39V-8-20"
   },
   "story": {
@@ -46,20 +46,20 @@
   },
   "highlights": [
     {
+      "region": "Northern Canada",
+      "count": 7,
+      "brokenCount": 6,
+      "tiedCount": 1,
+      "leadingType": "precipitation",
+      "text": "6 records broken, 1 tied. The most common type was daily precipitation record (3 of 7)."
+    },
+    {
       "region": "Atlantic Canada",
       "count": 6,
       "brokenCount": 5,
       "tiedCount": 1,
       "leadingType": "high_min",
       "text": "5 records broken, 1 tied. The most common type was record high minimum temperature (5 of 6)."
-    },
-    {
-      "region": "Northern Canada",
-      "count": 6,
-      "brokenCount": 6,
-      "tiedCount": 0,
-      "leadingType": "high_max",
-      "text": "6 records broken. The most common type was record high maximum temperature (2 of 6)."
     },
     {
       "region": "Ontario",
@@ -98,7 +98,7 @@
         -117.7,
         49.1
       ],
-      "sourceUpdated": "2026-08-21T12:17:27Z",
+      "sourceUpdated": "2026-08-21T18:32:37Z",
       "sourceId": "VSBC71V-8-20"
     },
     {
@@ -120,7 +120,7 @@
         -64.53,
         46.22
       ],
-      "sourceUpdated": "2026-08-21T12:17:27Z",
+      "sourceUpdated": "2026-08-21T18:32:37Z",
       "sourceId": "VSNB17V-8-20"
     },
     {
@@ -142,7 +142,7 @@
         -56.04,
         48.98
       ],
-      "sourceUpdated": "2026-08-21T12:17:27Z",
+      "sourceUpdated": "2026-08-21T18:32:37Z",
       "sourceId": "VSNL34V-8-20"
     },
     {
@@ -164,7 +164,7 @@
         -57.59,
         50.24
       ],
-      "sourceUpdated": "2026-08-21T12:17:27Z",
+      "sourceUpdated": "2026-08-21T18:32:37Z",
       "sourceId": "VSNL33V-8-20"
     },
     {
@@ -186,7 +186,7 @@
         -57.43,
         49.18
       ],
-      "sourceUpdated": "2026-08-21T12:17:27Z",
+      "sourceUpdated": "2026-08-21T18:32:37Z",
       "sourceId": "VSNL39V-8-20"
     },
     {
@@ -208,7 +208,7 @@
         -55.83,
         52.32
       ],
-      "sourceUpdated": "2026-08-21T12:17:27Z",
+      "sourceUpdated": "2026-08-21T18:32:37Z",
       "sourceId": "VSNL29V-8-20"
     },
     {
@@ -230,8 +230,30 @@
         -57.36,
         50.71
       ],
-      "sourceUpdated": "2026-08-21T12:17:27Z",
+      "sourceUpdated": "2026-08-21T18:32:37Z",
       "sourceId": "VSNL11V-8-20"
+    },
+    {
+      "id": "VSNU22V-2026-08-20-precipitation",
+      "date": "2026-08-20",
+      "community": "Alert",
+      "province": "NU",
+      "provinceName": "Nunavut",
+      "type": "precipitation",
+      "status": "tied",
+      "value": 5.6,
+      "unit": "mm",
+      "previousValue": 5.6,
+      "previousYear": 2004,
+      "difference": 0.0,
+      "recordBeginYear": 1950,
+      "periodYears": 77,
+      "coordinates": [
+        -62.37,
+        82.5
+      ],
+      "sourceUpdated": null,
+      "sourceId": "VSNU22V-8-20"
     },
     {
       "id": "VSNU10V-2026-08-20-high_max",
@@ -252,7 +274,7 @@
         -85.17,
         73.03
       ],
-      "sourceUpdated": "2026-08-21T12:17:27Z",
+      "sourceUpdated": "2026-08-21T18:32:37Z",
       "sourceId": "VSNU10V-8-20"
     },
     {
@@ -274,7 +296,7 @@
         -85.17,
         73.03
       ],
-      "sourceUpdated": "2026-08-21T12:17:27Z",
+      "sourceUpdated": "2026-08-21T18:32:37Z",
       "sourceId": "VSNU10V-8-20"
     },
     {
@@ -318,7 +340,7 @@
         -84.55,
         73.03
       ],
-      "sourceUpdated": "2026-08-21T12:17:27Z",
+      "sourceUpdated": "2026-08-21T18:32:37Z",
       "sourceId": "VSNU1VV-8-20"
     },
     {
@@ -340,7 +362,7 @@
         -84.55,
         73.03
       ],
-      "sourceUpdated": "2026-08-21T12:17:27Z",
+      "sourceUpdated": "2026-08-21T18:32:37Z",
       "sourceId": "VSNU1VV-8-20"
     },
     {
@@ -384,7 +406,7 @@
         -80.03,
         48.15
       ],
-      "sourceUpdated": "2026-08-21T12:17:27Z",
+      "sourceUpdated": "2026-08-21T18:32:37Z",
       "sourceId": "VSON76V-8-20"
     }
   ],

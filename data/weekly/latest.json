@@ -14,20 +14,20 @@
   ],
   "daysAvailable": 7,
   "isPartial": false,
-  "generatedAt": "2026-08-21T11:06:54-04:00",
+  "generatedAt": "2026-08-21T16:56:04-04:00",
   "summary": {
-    "totalRecords": 107,
+    "totalRecords": 108,
     "brokenRecords": 97,
-    "tiedRecords": 10
+    "tiedRecords": 11
   },
-  "summaryText": "97 records broken, 10 tied. Daily Precipitation Record was the most common category (40 of 107 record events). Nunavut recorded the most events (21).",
+  "summaryText": "97 records broken, 11 tied. Daily Precipitation Record was the most common category (41 of 108 record events). Nunavut recorded the most events (22).",
   "typeBreakdown": [
     {
       "type": "precipitation",
       "label": "Daily Precipitation Record",
-      "total": 40,
+      "total": 41,
       "broken": 40,
-      "tied": 0
+      "tied": 1
     },
     {
       "type": "high_min",
@@ -62,7 +62,7 @@
     {
       "province": "NU",
       "provinceName": "Nunavut",
-      "total": 21
+      "total": 22
     },
     {
       "province": "QC",
@@ -209,7 +209,7 @@
         -119.67,
         49.6
       ],
-      "sourceUpdated": "2026-08-21T12:17:27Z",
+      "sourceUpdated": "2026-08-21T18:32:37Z",
       "sourceId": "VSBC54V-8-18",
       "previousRecordAge": 109
     },
@@ -232,7 +232,7 @@
         -64.8,
         46.12
       ],
-      "sourceUpdated": "2026-08-21T12:17:27Z",
+      "sourceUpdated": "2026-08-21T18:32:37Z",
       "sourceId": "VSNB36V-8-19",
       "previousRecordAge": 94
     },
@@ -255,7 +255,7 @@
         -105.05,
         69.11
       ],
-      "sourceUpdated": "2026-08-21T12:17:27Z",
+      "sourceUpdated": "2026-08-21T18:32:37Z",
       "sourceId": "VSNU15V-8-19",
       "previousRecordAge": 84
     }
