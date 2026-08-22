@@ -2,19 +2,19 @@
   "schemaVersion": 1,
   "date": "2026-08-21",
   "latestAvailableDate": "2026-08-21",
-  "generatedAt": "2026-08-22T10:54:28-04:00",
-  "sourceLastUpdated": "2026-08-22T12:17:23Z",
+  "generatedAt": "2026-08-22T16:55:20-04:00",
+  "sourceLastUpdated": "2026-08-22T18:33:27Z",
   "source": "Environment and Climate Change Canada — MSC GeoMet LTCE",
   "isDemo": false,
   "summary": {
-    "totalRecords": 23,
-    "communities": 23,
+    "totalRecords": 24,
+    "communities": 24,
     "tiedRecords": 1,
     "oldestRecordAge": 87
   },
   "validation": {
-    "candidateRecords": 23,
-    "publishedRecords": 23,
+    "candidateRecords": 24,
+    "publishedRecords": 24,
     "withheldRecords": 0,
     "invalidRecords": 0,
     "manualReviewRecords": 0
@@ -38,7 +38,7 @@
       -124.43,
       51.72
     ],
-    "sourceUpdated": "2026-08-22T12:17:23Z",
+    "sourceUpdated": "2026-08-22T18:33:27Z",
     "sourceId": "VSBC60V-8-21"
   },
   "story": {
@@ -47,11 +47,11 @@
   "highlights": [
     {
       "region": "British Columbia",
-      "count": 15,
-      "brokenCount": 14,
+      "count": 16,
+      "brokenCount": 15,
       "tiedCount": 1,
       "leadingType": "high_max",
-      "text": "14 records broken, 1 tied. The most common type was record high maximum temperature (14 of 15)."
+      "text": "15 records broken, 1 tied. The most common type was record high maximum temperature (15 of 16)."
     },
     {
       "region": "Northern Canada",
@@ -90,7 +90,7 @@
         -115.57,
         51.18
       ],
-      "sourceUpdated": "2026-08-22T12:17:23Z",
+      "sourceUpdated": "2026-08-22T18:33:27Z",
       "sourceId": "VSAB49V-8-21"
     },
     {
@@ -112,7 +112,7 @@
         -118.17,
         52.89
       ],
-      "sourceUpdated": "2026-08-22T12:17:23Z",
+      "sourceUpdated": "2026-08-22T18:33:27Z",
       "sourceId": "VSAB70V-8-21"
     },
     {
@@ -134,7 +134,7 @@
         -115.13,
         51.08
       ],
-      "sourceUpdated": "2026-08-22T12:17:23Z",
+      "sourceUpdated": "2026-08-22T18:33:27Z",
       "sourceId": "VSAB34V-8-21"
     },
     {
@@ -156,7 +156,7 @@
         -121.32,
         50.81
       ],
-      "sourceUpdated": "2026-08-22T12:17:23Z",
+      "sourceUpdated": "2026-08-22T18:33:27Z",
       "sourceId": "VSBC55V-8-21"
     },
     {
@@ -178,7 +178,7 @@
         -120.03,
         51.65
       ],
-      "sourceUpdated": "2026-08-22T12:17:23Z",
+      "sourceUpdated": "2026-08-22T18:33:27Z",
       "sourceId": "VSBC12V-8-21"
     },
     {
@@ -200,8 +200,30 @@
         -116.5,
         49.1
       ],
-      "sourceUpdated": "2026-08-22T12:17:23Z",
+      "sourceUpdated": "2026-08-22T18:33:27Z",
       "sourceId": "VSBC26V-8-21"
+    },
+    {
+      "id": "VSBC39V-2026-08-21-high_max",
+      "date": "2026-08-21",
+      "community": "Grand Forks",
+      "province": "BC",
+      "provinceName": "British Columbia",
+      "type": "high_max",
+      "status": "broken",
+      "value": 37.5,
+      "unit": "°C",
+      "previousValue": 37.2,
+      "previousYear": 1958,
+      "difference": 0.3,
+      "recordBeginYear": 1911,
+      "periodYears": 116,
+      "coordinates": [
+        -118.43,
+        49.03
+      ],
+      "sourceUpdated": "2026-08-22T18:33:27Z",
+      "sourceId": "VSBC39V-8-21"
     },
     {
       "id": "VSBC48V-2026-08-21-high_max",
@@ -222,7 +244,7 @@
         -119.48,
         49.88
       ],
-      "sourceUpdated": "2026-08-22T12:17:23Z",
+      "sourceUpdated": "2026-08-22T18:33:27Z",
       "sourceId": "VSBC48V-8-21"
     },
     {
@@ -244,7 +266,7 @@
         -128.65,
         54.05
       ],
-      "sourceUpdated": "2026-08-22T12:17:23Z",
+      "sourceUpdated": "2026-08-22T18:33:27Z",
       "sourceId": "VSBC30V-8-21"
     },
     {
@@ -266,7 +288,7 @@
         -124.2,
         52.17
       ],
-      "sourceUpdated": "2026-08-22T12:17:23Z",
+      "sourceUpdated": "2026-08-22T18:33:27Z",
       "sourceId": "VSBC42V-8-21"
     },
     {
@@ -288,7 +310,7 @@
         -124.44,
         49.35
       ],
-      "sourceUpdated": "2026-08-22T12:17:23Z",
+      "sourceUpdated": "2026-08-22T18:33:27Z",
       "sourceId": "VSBC98V-8-21"
     },
     {
@@ -310,7 +332,7 @@
         -131.82,
         53.25
       ],
-      "sourceUpdated": "2026-08-22T12:17:23Z",
+      "sourceUpdated": "2026-08-22T18:33:27Z",
       "sourceId": "VSBC88V-8-21"
     },
     {
@@ -332,7 +354,7 @@
         -127.17,
         54.78
       ],
-      "sourceUpdated": "2026-08-22T12:17:23Z",
+      "sourceUpdated": "2026-08-22T18:33:27Z",
       "sourceId": "VSBC82V-8-21"
     },
     {
@@ -354,7 +376,7 @@
         -114.9,
         49.72
       ],
-      "sourceUpdated": "2026-08-22T12:17:23Z",
+      "sourceUpdated": "2026-08-22T18:33:27Z",
       "sourceId": "VSBC52V-8-21"
     },
     {
@@ -376,7 +398,7 @@
         -123.13,
         49.75
       ],
-      "sourceUpdated": "2026-08-22T12:17:23Z",
+      "sourceUpdated": "2026-08-22T18:33:27Z",
       "sourceId": "VSBC50V-8-21"
     },
     {
@@ -398,7 +420,7 @@
         -124.43,
         51.72
       ],
-      "sourceUpdated": "2026-08-22T12:17:23Z",
+      "sourceUpdated": "2026-08-22T18:33:27Z",
       "sourceId": "VSBC60V-8-21"
     },
     {
@@ -420,7 +442,7 @@
         -117.7,
         49.1
       ],
-      "sourceUpdated": "2026-08-22T12:17:23Z",
+      "sourceUpdated": "2026-08-22T18:33:27Z",
       "sourceId": "VSBC71V-8-21"
     },
     {
@@ -442,7 +464,7 @@
         -119.27,
         50.26
       ],
-      "sourceUpdated": "2026-08-22T12:17:23Z",
+      "sourceUpdated": "2026-08-22T18:33:27Z",
       "sourceId": "VSBC27V-8-21"
     },
     {
@@ -464,7 +486,7 @@
         -122.97,
         50.12
       ],
-      "sourceUpdated": "2026-08-22T12:17:23Z",
+      "sourceUpdated": "2026-08-22T18:33:27Z",
       "sourceId": "VSBC86V-8-21"
     },
     {
@@ -486,7 +508,7 @@
         -117.35,
         64.12
       ],
-      "sourceUpdated": "2026-08-22T12:17:23Z",
+      "sourceUpdated": "2026-08-22T18:33:27Z",
       "sourceId": "VSNT18V-8-21"
     },
     {
@@ -530,7 +552,7 @@
         -68.52,
         63.75
       ],
-      "sourceUpdated": "2026-08-22T12:17:23Z",
+      "sourceUpdated": "2026-08-22T18:33:27Z",
       "sourceId": "VSNU21V-8-21"
     },
     {
@@ -552,7 +574,7 @@
         -69.87,
         62.85
       ],
-      "sourceUpdated": "2026-08-22T12:17:23Z",
+      "sourceUpdated": "2026-08-22T18:33:27Z",
       "sourceId": "VSNU26V-8-21"
     },
     {
@@ -574,7 +596,7 @@
         -86.25,
         66.53
       ],
-      "sourceUpdated": "2026-08-22T12:17:23Z",
+      "sourceUpdated": "2026-08-22T18:33:27Z",
       "sourceId": "VSNU3VV-8-21"
     }
   ],

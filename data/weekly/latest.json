@@ -14,13 +14,13 @@
   ],
   "daysAvailable": 7,
   "isPartial": false,
-  "generatedAt": "2026-08-22T10:54:32-04:00",
+  "generatedAt": "2026-08-22T16:55:24-04:00",
   "summary": {
-    "totalRecords": 111,
-    "brokenRecords": 100,
+    "totalRecords": 112,
+    "brokenRecords": 101,
     "tiedRecords": 11
   },
-  "summaryText": "100 records broken, 11 tied. Record High Minimum Temperature was the most common category (42 of 111 record events). Nunavut recorded the most events (25).",
+  "summaryText": "101 records broken, 11 tied. Record High Minimum Temperature was the most common category (42 of 112 record events). Nunavut recorded the most events (25).",
   "typeBreakdown": [
     {
       "type": "high_min",
@@ -32,8 +32,8 @@
     {
       "type": "high_max",
       "label": "Record High Maximum Temperature",
-      "total": 29,
-      "broken": 27,
+      "total": 30,
+      "broken": 28,
       "tied": 2
     },
     {
@@ -67,7 +67,7 @@
     {
       "province": "BC",
       "provinceName": "British Columbia",
-      "total": 23
+      "total": 24
     },
     {
       "province": "QC",
@@ -209,7 +209,7 @@
         -64.8,
         46.12
       ],
-      "sourceUpdated": "2026-08-22T12:17:23Z",
+      "sourceUpdated": "2026-08-22T18:33:27Z",
       "sourceId": "VSNB36V-8-19",
       "previousRecordAge": 94
     },
@@ -232,7 +232,7 @@
         -124.43,
         51.72
       ],
-      "sourceUpdated": "2026-08-22T12:17:23Z",
+      "sourceUpdated": "2026-08-22T18:33:27Z",
       "sourceId": "VSBC60V-8-21",
       "previousRecordAge": 87
     },
@@ -255,7 +255,7 @@
         -118.17,
         52.89
       ],
-      "sourceUpdated": "2026-08-22T12:17:23Z",
+      "sourceUpdated": "2026-08-22T18:33:27Z",
       "sourceId": "VSAB70V-8-21",
       "previousRecordAge": 86
     }
