@@ -2,19 +2,19 @@
   "schemaVersion": 1,
   "date": "2026-08-20",
   "latestAvailableDate": "2026-08-20",
-  "generatedAt": "2026-08-21T16:56:02-04:00",
-  "sourceLastUpdated": "2026-08-21T18:32:37Z",
+  "generatedAt": "2026-08-22T10:54:30-04:00",
+  "sourceLastUpdated": "2026-08-22T12:17:23Z",
   "source": "Environment and Climate Change Canada — MSC GeoMet LTCE",
   "isDemo": false,
   "summary": {
-    "totalRecords": 15,
-    "communities": 13,
+    "totalRecords": 16,
+    "communities": 14,
     "tiedRecords": 2,
     "oldestRecordAge": 61
   },
   "validation": {
-    "candidateRecords": 15,
-    "publishedRecords": 15,
+    "candidateRecords": 16,
+    "publishedRecords": 16,
     "withheldRecords": 0,
     "invalidRecords": 0,
     "manualReviewRecords": 0
@@ -38,7 +38,7 @@
       -57.43,
       49.18
     ],
-    "sourceUpdated": "2026-08-21T18:32:37Z",
+    "sourceUpdated": "2026-08-22T12:17:23Z",
     "sourceId": "VSNL39V-8-20"
   },
   "story": {
@@ -47,11 +47,11 @@
   "highlights": [
     {
       "region": "Northern Canada",
-      "count": 7,
-      "brokenCount": 6,
+      "count": 8,
+      "brokenCount": 7,
       "tiedCount": 1,
       "leadingType": "precipitation",
-      "text": "6 records broken, 1 tied. The most common type was daily precipitation record (3 of 7)."
+      "text": "7 records broken, 1 tied. The most common type was daily precipitation record (3 of 8)."
     },
     {
       "region": "Atlantic Canada",
@@ -98,7 +98,7 @@
         -117.7,
         49.1
       ],
-      "sourceUpdated": "2026-08-21T18:32:37Z",
+      "sourceUpdated": "2026-08-22T12:17:23Z",
       "sourceId": "VSBC71V-8-20"
     },
     {
@@ -120,7 +120,7 @@
         -64.53,
         46.22
       ],
-      "sourceUpdated": "2026-08-21T18:32:37Z",
+      "sourceUpdated": "2026-08-22T12:17:23Z",
       "sourceId": "VSNB17V-8-20"
     },
     {
@@ -142,7 +142,7 @@
         -56.04,
         48.98
       ],
-      "sourceUpdated": "2026-08-21T18:32:37Z",
+      "sourceUpdated": "2026-08-22T12:17:23Z",
       "sourceId": "VSNL34V-8-20"
     },
     {
@@ -164,7 +164,7 @@
         -57.59,
         50.24
       ],
-      "sourceUpdated": "2026-08-21T18:32:37Z",
+      "sourceUpdated": "2026-08-22T12:17:23Z",
       "sourceId": "VSNL33V-8-20"
     },
     {
@@ -186,7 +186,7 @@
         -57.43,
         49.18
       ],
-      "sourceUpdated": "2026-08-21T18:32:37Z",
+      "sourceUpdated": "2026-08-22T12:17:23Z",
       "sourceId": "VSNL39V-8-20"
     },
     {
@@ -208,7 +208,7 @@
         -55.83,
         52.32
       ],
-      "sourceUpdated": "2026-08-21T18:32:37Z",
+      "sourceUpdated": "2026-08-22T12:17:23Z",
       "sourceId": "VSNL29V-8-20"
     },
     {
@@ -230,7 +230,7 @@
         -57.36,
         50.71
       ],
-      "sourceUpdated": "2026-08-21T18:32:37Z",
+      "sourceUpdated": "2026-08-22T12:17:23Z",
       "sourceId": "VSNL11V-8-20"
     },
     {
@@ -274,7 +274,7 @@
         -85.17,
         73.03
       ],
-      "sourceUpdated": "2026-08-21T18:32:37Z",
+      "sourceUpdated": "2026-08-22T12:17:23Z",
       "sourceId": "VSNU10V-8-20"
     },
     {
@@ -296,7 +296,7 @@
         -85.17,
         73.03
       ],
-      "sourceUpdated": "2026-08-21T18:32:37Z",
+      "sourceUpdated": "2026-08-22T12:17:23Z",
       "sourceId": "VSNU10V-8-20"
     },
     {
@@ -322,6 +322,28 @@
       "sourceId": "VSNU11V-8-20"
     },
     {
+      "id": "VSNU12V-2026-08-20-high_max",
+      "date": "2026-08-20",
+      "community": "Grise Fiord",
+      "province": "NU",
+      "provinceName": "Nunavut",
+      "type": "high_max",
+      "status": "broken",
+      "value": 12.1,
+      "unit": "°C",
+      "previousValue": 9.4,
+      "previousYear": 1974,
+      "difference": 2.7,
+      "recordBeginYear": 1973,
+      "periodYears": 54,
+      "coordinates": [
+        -82.9,
+        76.42
+      ],
+      "sourceUpdated": "2026-08-22T12:17:23Z",
+      "sourceId": "VSNU12V-8-20"
+    },
+    {
       "id": "VSNU1VV-2026-08-20-high_max",
       "date": "2026-08-20",
       "community": "Nanisivik",
@@ -340,7 +362,7 @@
         -84.55,
         73.03
       ],
-      "sourceUpdated": "2026-08-21T18:32:37Z",
+      "sourceUpdated": "2026-08-22T12:17:23Z",
       "sourceId": "VSNU1VV-8-20"
     },
     {
@@ -362,7 +384,7 @@
         -84.55,
         73.03
       ],
-      "sourceUpdated": "2026-08-21T18:32:37Z",
+      "sourceUpdated": "2026-08-22T12:17:23Z",
       "sourceId": "VSNU1VV-8-20"
     },
     {
@@ -406,7 +428,7 @@
         -80.03,
         48.15
       ],
-      "sourceUpdated": "2026-08-21T18:32:37Z",
+      "sourceUpdated": "2026-08-22T12:17:23Z",
       "sourceId": "VSON76V-8-20"
     }
   ],
