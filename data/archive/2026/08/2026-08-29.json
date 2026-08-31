@@ -2,29 +2,524 @@
   "schemaVersion": 1,
   "date": "2026-08-29",
   "latestAvailableDate": "2026-08-29",
-  "generatedAt": "2026-08-30T18:54:42-04:00",
-  "sourceLastUpdated": "Not reported",
+  "generatedAt": "2026-08-31T16:21:03-04:00",
+  "sourceLastUpdated": "2026-08-31T18:34:05Z",
   "source": "Environment and Climate Change Canada — MSC GeoMet LTCE",
   "isDemo": false,
   "summary": {
-    "totalRecords": 0,
-    "communities": 0,
-    "tiedRecords": 0,
-    "oldestRecordAge": 0
+    "totalRecords": 20,
+    "communities": 16,
+    "tiedRecords": 4,
+    "oldestRecordAge": 76
   },
   "validation": {
-    "candidateRecords": 0,
-    "publishedRecords": 0,
+    "candidateRecords": 20,
+    "publishedRecords": 20,
     "withheldRecords": 0,
     "invalidRecords": 0,
     "manualReviewRecords": 0
   },
-  "recordOfDay": null,
-  "story": {
-    "description": "No new daily records were identified in the current source snapshot."
+  "recordOfDay": {
+    "id": "VSNT20V-2026-08-29-precipitation",
+    "date": "2026-08-29",
+    "community": "Tuktoyaktuk",
+    "province": "NT",
+    "provinceName": "Northwest Territories",
+    "type": "precipitation",
+    "status": "broken",
+    "value": 12.7,
+    "unit": "mm",
+    "previousValue": 6.4,
+    "previousYear": 1950,
+    "difference": 6.3,
+    "recordBeginYear": 1948,
+    "periodYears": 79,
+    "coordinates": [
+      -133.03,
+      69.45
+    ],
+    "sourceUpdated": null,
+    "sourceId": "VSNT20V-8-29"
   },
-  "highlights": [],
-  "records": [],
+  "story": {
+    "description": "Tuktoyaktuk, NT recorded 12.7 mm. It exceeded the previous daily precipitation record of 6.4 mm from 1950."
+  },
+  "highlights": [
+    {
+      "region": "Northern Canada",
+      "count": 15,
+      "brokenCount": 13,
+      "tiedCount": 2,
+      "leadingType": "high_min",
+      "text": "13 records broken, 2 tied. The most common type was record high minimum temperature (9 of 15)."
+    },
+    {
+      "region": "Atlantic Canada",
+      "count": 2,
+      "brokenCount": 1,
+      "tiedCount": 1,
+      "leadingType": "high_max",
+      "text": "1 record broken, 1 tied. The most common type was record high maximum temperature (1 of 2)."
+    },
+    {
+      "region": "British Columbia",
+      "count": 2,
+      "brokenCount": 1,
+      "tiedCount": 1,
+      "leadingType": "low_max",
+      "text": "1 record broken, 1 tied. The most common type was record low maximum temperature (1 of 2)."
+    },
+    {
+      "region": "Prairies",
+      "count": 1,
+      "brokenCount": 1,
+      "tiedCount": 0,
+      "leadingType": "high_min",
+      "text": "1 record broken. It was a record high minimum temperature."
+    }
+  ],
+  "records": [
+    {
+      "id": "VSBC31V-2026-08-29-low_max",
+      "date": "2026-08-29",
+      "community": "Hope Slide",
+      "province": "BC",
+      "provinceName": "British Columbia",
+      "type": "low_max",
+      "status": "tied",
+      "value": 12.0,
+      "unit": "°C",
+      "previousValue": 12.0,
+      "previousYear": 2000,
+      "difference": 0.0,
+      "recordBeginYear": 1967,
+      "periodYears": 60,
+      "coordinates": [
+        -121.27,
+        49.3
+      ],
+      "sourceUpdated": "2026-08-31T18:34:05Z",
+      "sourceId": "VSBC31V-8-29"
+    },
+    {
+      "id": "VSBC51V-2026-08-29-precipitation",
+      "date": "2026-08-29",
+      "community": "Salmon Arm",
+      "province": "BC",
+      "provinceName": "British Columbia",
+      "type": "precipitation",
+      "status": "broken",
+      "value": 14.2,
+      "unit": "mm",
+      "previousValue": 9.4,
+      "previousYear": 1990,
+      "difference": 4.8,
+      "recordBeginYear": 1893,
+      "periodYears": 134,
+      "coordinates": [
+        -119.27,
+        50.7
+      ],
+      "sourceUpdated": null,
+      "sourceId": "VSBC51V-8-29"
+    },
+    {
+      "id": "VSMB13V-2026-08-29-high_min",
+      "date": "2026-08-29",
+      "community": "Steinbach",
+      "province": "MB",
+      "provinceName": "Manitoba",
+      "type": "high_min",
+      "status": "broken",
+      "value": 17.3,
+      "unit": "°C",
+      "previousValue": 16.1,
+      "previousYear": 1968,
+      "difference": 1.2,
+      "recordBeginYear": 1956,
+      "periodYears": 71,
+      "coordinates": [
+        -96.68,
+        49.53
+      ],
+      "sourceUpdated": "2026-08-31T18:34:05Z",
+      "sourceId": "VSMB13V-8-29"
+    },
+    {
+      "id": "VSNL30V-2026-08-29-high_max",
+      "date": "2026-08-29",
+      "community": "Placentia",
+      "province": "NL",
+      "provinceName": "Newfoundland and Labrador",
+      "type": "high_max",
+      "status": "broken",
+      "value": 23.3,
+      "unit": "°C",
+      "previousValue": 22.5,
+      "previousYear": 2011,
+      "difference": 0.8,
+      "recordBeginYear": 1945,
+      "periodYears": 82,
+      "coordinates": [
+        -53.99,
+        47.3
+      ],
+      "sourceUpdated": "2026-08-31T18:34:05Z",
+      "sourceId": "VSNL30V-8-29"
+    },
+    {
+      "id": "VSNL30V-2026-08-29-high_min",
+      "date": "2026-08-29",
+      "community": "Placentia",
+      "province": "NL",
+      "provinceName": "Newfoundland and Labrador",
+      "type": "high_min",
+      "status": "tied",
+      "value": 17.8,
+      "unit": "°C",
+      "previousValue": 17.8,
+      "previousYear": 1951,
+      "difference": 0.0,
+      "recordBeginYear": 1945,
+      "periodYears": 82,
+      "coordinates": [
+        -53.99,
+        47.3
+      ],
+      "sourceUpdated": "2026-08-31T18:34:05Z",
+      "sourceId": "VSNL30V-8-29"
+    },
+    {
+      "id": "VSNT30V-2026-08-29-precipitation",
+      "date": "2026-08-29",
+      "community": "Inuvik",
+      "province": "NT",
+      "provinceName": "Northwest Territories",
+      "type": "precipitation",
+      "status": "broken",
+      "value": 16.2,
+      "unit": "mm",
+      "previousValue": 6.6,
+      "previousYear": 1987,
+      "difference": 9.6,
+      "recordBeginYear": 1957,
+      "periodYears": 70,
+      "coordinates": [
+        -133.72,
+        68.36
+      ],
+      "sourceUpdated": null,
+      "sourceId": "VSNT30V-8-29"
+    },
+    {
+      "id": "VSNT20V-2026-08-29-precipitation",
+      "date": "2026-08-29",
+      "community": "Tuktoyaktuk",
+      "province": "NT",
+      "provinceName": "Northwest Territories",
+      "type": "precipitation",
+      "status": "broken",
+      "value": 12.7,
+      "unit": "mm",
+      "previousValue": 6.4,
+      "previousYear": 1950,
+      "difference": 6.3,
+      "recordBeginYear": 1948,
+      "periodYears": 79,
+      "coordinates": [
+        -133.03,
+        69.45
+      ],
+      "sourceUpdated": null,
+      "sourceId": "VSNT20V-8-29"
+    },
+    {
+      "id": "VSNU10V-2026-08-29-high_max",
+      "date": "2026-08-29",
+      "community": "Arctic Bay",
+      "province": "NU",
+      "provinceName": "Nunavut",
+      "type": "high_max",
+      "status": "tied",
+      "value": 11.2,
+      "unit": "°C",
+      "previousValue": 11.2,
+      "previousYear": 2019,
+      "difference": 0.0,
+      "recordBeginYear": 1937,
+      "periodYears": 90,
+      "coordinates": [
+        -85.17,
+        73.03
+      ],
+      "sourceUpdated": "2026-08-31T18:34:05Z",
+      "sourceId": "VSNU10V-8-29"
+    },
+    {
+      "id": "VSNU10V-2026-08-29-high_min",
+      "date": "2026-08-29",
+      "community": "Arctic Bay",
+      "province": "NU",
+      "provinceName": "Nunavut",
+      "type": "high_min",
+      "status": "broken",
+      "value": 7.2,
+      "unit": "°C",
+      "previousValue": 6.0,
+      "previousYear": 2019,
+      "difference": 1.2,
+      "recordBeginYear": 1937,
+      "periodYears": 90,
+      "coordinates": [
+        -85.17,
+        73.03
+      ],
+      "sourceUpdated": "2026-08-31T18:34:05Z",
+      "sourceId": "VSNU10V-8-29"
+    },
+    {
+      "id": "VSNU9VV-2026-08-29-high_min",
+      "date": "2026-08-29",
+      "community": "Coral Harbour",
+      "province": "NU",
+      "provinceName": "Nunavut",
+      "type": "high_min",
+      "status": "broken",
+      "value": 6.8,
+      "unit": "°C",
+      "previousValue": 6.7,
+      "previousYear": 1954,
+      "difference": 0.1,
+      "recordBeginYear": 1933,
+      "periodYears": 94,
+      "coordinates": [
+        -83.17,
+        64.13
+      ],
+      "sourceUpdated": "2026-08-31T18:34:05Z",
+      "sourceId": "VSNU9VV-8-29"
+    },
+    {
+      "id": "VSNU24V-2026-08-29-high_min",
+      "date": "2026-08-29",
+      "community": "Gjoa Haven",
+      "province": "NU",
+      "provinceName": "Nunavut",
+      "type": "high_min",
+      "status": "broken",
+      "value": 9.4,
+      "unit": "°C",
+      "previousValue": 6.4,
+      "previousYear": 2012,
+      "difference": 3.0,
+      "recordBeginYear": 1984,
+      "periodYears": 43,
+      "coordinates": [
+        -95.88,
+        68.63
+      ],
+      "sourceUpdated": "2026-08-31T18:34:05Z",
+      "sourceId": "VSNU24V-8-29"
+    },
+    {
+      "id": "VSNU23V-2026-08-29-high_max",
+      "date": "2026-08-29",
+      "community": "Igloolik",
+      "province": "NU",
+      "provinceName": "Nunavut",
+      "type": "high_max",
+      "status": "broken",
+      "value": 14.1,
+      "unit": "°C",
+      "previousValue": 14.0,
+      "previousYear": 2020,
+      "difference": 0.1,
+      "recordBeginYear": 1977,
+      "periodYears": 50,
+      "coordinates": [
+        -81.8,
+        69.38
+      ],
+      "sourceUpdated": "2026-08-31T18:34:05Z",
+      "sourceId": "VSNU23V-8-29"
+    },
+    {
+      "id": "VSNU26V-2026-08-29-high_min",
+      "date": "2026-08-29",
+      "community": "Kimmirut",
+      "province": "NU",
+      "provinceName": "Nunavut",
+      "type": "high_min",
+      "status": "broken",
+      "value": 8.3,
+      "unit": "°C",
+      "previousValue": 8.2,
+      "previousYear": 2019,
+      "difference": 0.1,
+      "recordBeginYear": 1913,
+      "periodYears": 114,
+      "coordinates": [
+        -69.87,
+        62.85
+      ],
+      "sourceUpdated": "2026-08-31T18:34:05Z",
+      "sourceId": "VSNU26V-8-29"
+    },
+    {
+      "id": "VSNU2VV-2026-08-29-high_min",
+      "date": "2026-08-29",
+      "community": "Kinngait",
+      "province": "NU",
+      "provinceName": "Nunavut",
+      "type": "high_min",
+      "status": "broken",
+      "value": 7.8,
+      "unit": "°C",
+      "previousValue": 5.6,
+      "previousYear": 2020,
+      "difference": 2.2,
+      "recordBeginYear": 1963,
+      "periodYears": 64,
+      "coordinates": [
+        -76.54,
+        64.23
+      ],
+      "sourceUpdated": "2026-08-31T18:34:05Z",
+      "sourceId": "VSNU2VV-8-29"
+    },
+    {
+      "id": "VSNU13V-2026-08-29-high_max",
+      "date": "2026-08-29",
+      "community": "Kugaaruk",
+      "province": "NU",
+      "provinceName": "Nunavut",
+      "type": "high_max",
+      "status": "broken",
+      "value": 17.2,
+      "unit": "°C",
+      "previousValue": 15.0,
+      "previousYear": 2005,
+      "difference": 2.2,
+      "recordBeginYear": 1984,
+      "periodYears": 43,
+      "coordinates": [
+        -89.83,
+        68.53
+      ],
+      "sourceUpdated": "2026-08-31T18:34:05Z",
+      "sourceId": "VSNU13V-8-29"
+    },
+    {
+      "id": "VSNU13V-2026-08-29-high_min",
+      "date": "2026-08-29",
+      "community": "Kugaaruk",
+      "province": "NU",
+      "provinceName": "Nunavut",
+      "type": "high_min",
+      "status": "broken",
+      "value": 9.8,
+      "unit": "°C",
+      "previousValue": 5.2,
+      "previousYear": 2008,
+      "difference": 4.6,
+      "recordBeginYear": 1984,
+      "periodYears": 43,
+      "coordinates": [
+        -89.83,
+        68.53
+      ],
+      "sourceUpdated": "2026-08-31T18:34:05Z",
+      "sourceId": "VSNU13V-8-29"
+    },
+    {
+      "id": "VSNU1VV-2026-08-29-high_max",
+      "date": "2026-08-29",
+      "community": "Nanisivik",
+      "province": "NU",
+      "provinceName": "Nunavut",
+      "type": "high_max",
+      "status": "tied",
+      "value": 11.2,
+      "unit": "°C",
+      "previousValue": 11.2,
+      "previousYear": 2019,
+      "difference": 0.0,
+      "recordBeginYear": 1937,
+      "periodYears": 90,
+      "coordinates": [
+        -84.55,
+        73.03
+      ],
+      "sourceUpdated": "2026-08-31T18:34:05Z",
+      "sourceId": "VSNU1VV-8-29"
+    },
+    {
+      "id": "VSNU1VV-2026-08-29-high_min",
+      "date": "2026-08-29",
+      "community": "Nanisivik",
+      "province": "NU",
+      "provinceName": "Nunavut",
+      "type": "high_min",
+      "status": "broken",
+      "value": 7.2,
+      "unit": "°C",
+      "previousValue": 6.0,
+      "previousYear": 2019,
+      "difference": 1.2,
+      "recordBeginYear": 1937,
+      "periodYears": 90,
+      "coordinates": [
+        -84.55,
+        73.03
+      ],
+      "sourceUpdated": "2026-08-31T18:34:05Z",
+      "sourceId": "VSNU1VV-8-29"
+    },
+    {
+      "id": "VSNU25V-2026-08-29-high_min",
+      "date": "2026-08-29",
+      "community": "Pond Inlet",
+      "province": "NU",
+      "provinceName": "Nunavut",
+      "type": "high_min",
+      "status": "broken",
+      "value": 7.8,
+      "unit": "°C",
+      "previousValue": 7.2,
+      "previousYear": 2007,
+      "difference": 0.6,
+      "recordBeginYear": 1922,
+      "periodYears": 105,
+      "coordinates": [
+        -77.96,
+        72.7
+      ],
+      "sourceUpdated": "2026-08-31T18:34:05Z",
+      "sourceId": "VSNU25V-8-29"
+    },
+    {
+      "id": "VSNU8VV-2026-08-29-high_min",
+      "date": "2026-08-29",
+      "community": "Taloyoak",
+      "province": "NU",
+      "provinceName": "Nunavut",
+      "type": "high_min",
+      "status": "broken",
+      "value": 9.9,
+      "unit": "°C",
+      "previousValue": 5.6,
+      "previousYear": 1954,
+      "difference": 4.3,
+      "recordBeginYear": 1951,
+      "periodYears": 76,
+      "coordinates": [
+        -93.52,
+        69.54
+      ],
+      "sourceUpdated": "2026-08-31T18:34:05Z",
+      "sourceId": "VSNU8VV-8-29"
+    }
+  ],
   "notes": [
     "Values may be revised by ECCC after initial publication.",
     "The archive contains daily snapshots saved by RecordWatch Canada after launch.",
