@@ -2,19 +2,19 @@
   "schemaVersion": 1,
   "date": "2026-08-30",
   "latestAvailableDate": "2026-08-30",
-  "generatedAt": "2026-08-31T20:03:39-04:00",
-  "sourceLastUpdated": "2026-08-31T18:34:05Z",
+  "generatedAt": "2026-09-01T13:55:53-04:00",
+  "sourceLastUpdated": "2026-09-01T12:18:05Z",
   "source": "Environment and Climate Change Canada — MSC GeoMet LTCE",
   "isDemo": false,
   "summary": {
-    "totalRecords": 31,
-    "communities": 25,
+    "totalRecords": 33,
+    "communities": 27,
     "tiedRecords": 1,
     "oldestRecordAge": 106
   },
   "validation": {
-    "candidateRecords": 31,
-    "publishedRecords": 31,
+    "candidateRecords": 33,
+    "publishedRecords": 33,
     "withheldRecords": 0,
     "invalidRecords": 0,
     "manualReviewRecords": 0
@@ -63,11 +63,11 @@
     },
     {
       "region": "Ontario",
-      "count": 4,
-      "brokenCount": 4,
+      "count": 6,
+      "brokenCount": 6,
       "tiedCount": 0,
       "leadingType": "precipitation",
-      "text": "4 records broken. All 4 were daily precipitation record events."
+      "text": "6 records broken. All 6 were daily precipitation record events."
     },
     {
       "region": "British Columbia",
@@ -208,7 +208,7 @@
         -105.05,
         69.11
       ],
-      "sourceUpdated": "2026-08-31T18:34:05Z",
+      "sourceUpdated": "2026-09-01T12:18:05Z",
       "sourceId": "VSNU15V-8-30"
     },
     {
@@ -230,7 +230,7 @@
         -68.59,
         70.47
       ],
-      "sourceUpdated": "2026-08-31T18:34:05Z",
+      "sourceUpdated": "2026-09-01T12:18:05Z",
       "sourceId": "VSNU18V-8-30"
     },
     {
@@ -252,7 +252,7 @@
         -68.59,
         70.47
       ],
-      "sourceUpdated": "2026-08-31T18:34:05Z",
+      "sourceUpdated": "2026-09-01T12:18:05Z",
       "sourceId": "VSNU18V-8-30"
     },
     {
@@ -274,7 +274,7 @@
         -83.17,
         64.13
       ],
-      "sourceUpdated": "2026-08-31T18:34:05Z",
+      "sourceUpdated": "2026-09-01T12:18:05Z",
       "sourceId": "VSNU9VV-8-30"
     },
     {
@@ -296,7 +296,7 @@
         -95.88,
         68.63
       ],
-      "sourceUpdated": "2026-08-31T18:34:05Z",
+      "sourceUpdated": "2026-09-01T12:18:05Z",
       "sourceId": "VSNU24V-8-30"
     },
     {
@@ -318,7 +318,7 @@
         -95.88,
         68.63
       ],
-      "sourceUpdated": "2026-08-31T18:34:05Z",
+      "sourceUpdated": "2026-09-01T12:18:05Z",
       "sourceId": "VSNU24V-8-30"
     },
     {
@@ -340,7 +340,7 @@
         -81.8,
         69.38
       ],
-      "sourceUpdated": "2026-08-31T18:34:05Z",
+      "sourceUpdated": "2026-09-01T12:18:05Z",
       "sourceId": "VSNU23V-8-30"
     },
     {
@@ -362,7 +362,7 @@
         -81.8,
         69.38
       ],
-      "sourceUpdated": "2026-08-31T18:34:05Z",
+      "sourceUpdated": "2026-09-01T12:18:05Z",
       "sourceId": "VSNU23V-8-30"
     },
     {
@@ -384,7 +384,7 @@
         -68.52,
         63.75
       ],
-      "sourceUpdated": "2026-08-31T18:34:05Z",
+      "sourceUpdated": "2026-09-01T12:18:05Z",
       "sourceId": "VSNU21V-8-30"
     },
     {
@@ -406,7 +406,7 @@
         -69.87,
         62.85
       ],
-      "sourceUpdated": "2026-08-31T18:34:05Z",
+      "sourceUpdated": "2026-09-01T12:18:05Z",
       "sourceId": "VSNU26V-8-30"
     },
     {
@@ -428,7 +428,7 @@
         -69.87,
         62.85
       ],
-      "sourceUpdated": "2026-08-31T18:34:05Z",
+      "sourceUpdated": "2026-09-01T12:18:05Z",
       "sourceId": "VSNU26V-8-30"
     },
     {
@@ -450,7 +450,7 @@
         -89.83,
         68.53
       ],
-      "sourceUpdated": "2026-08-31T18:34:05Z",
+      "sourceUpdated": "2026-09-01T12:18:05Z",
       "sourceId": "VSNU13V-8-30"
     },
     {
@@ -472,7 +472,7 @@
         -89.83,
         68.53
       ],
-      "sourceUpdated": "2026-08-31T18:34:05Z",
+      "sourceUpdated": "2026-09-01T12:18:05Z",
       "sourceId": "VSNU13V-8-30"
     },
     {
@@ -494,7 +494,7 @@
         -81.24,
         68.79
       ],
-      "sourceUpdated": "2026-08-31T18:34:05Z",
+      "sourceUpdated": "2026-09-01T12:18:05Z",
       "sourceId": "VSNU4VV-8-30"
     },
     {
@@ -516,7 +516,7 @@
         -93.52,
         69.54
       ],
-      "sourceUpdated": "2026-08-31T18:34:05Z",
+      "sourceUpdated": "2026-09-01T12:18:05Z",
       "sourceId": "VSNU8VV-8-30"
     },
     {
@@ -538,7 +538,7 @@
         -93.52,
         69.54
       ],
-      "sourceUpdated": "2026-08-31T18:34:05Z",
+      "sourceUpdated": "2026-09-01T12:18:05Z",
       "sourceId": "VSNU8VV-8-30"
     },
     {
@@ -562,6 +562,28 @@
       ],
       "sourceUpdated": null,
       "sourceId": "VSON160-8-30"
+    },
+    {
+      "id": "VSON46V-2026-08-30-precipitation",
+      "date": "2026-08-30",
+      "community": "Lambton Shores",
+      "province": "ON",
+      "provinceName": "Ontario",
+      "type": "precipitation",
+      "status": "broken",
+      "value": 20.6,
+      "unit": "mm",
+      "previousValue": 13.2,
+      "previousYear": 1951,
+      "difference": 7.4,
+      "recordBeginYear": 1882,
+      "periodYears": 145,
+      "coordinates": [
+        -81.9,
+        43.18
+      ],
+      "sourceUpdated": null,
+      "sourceId": "VSON46V-8-30"
     },
     {
       "id": "VSON137-2026-08-30-precipitation",
@@ -606,6 +628,28 @@
       ],
       "sourceUpdated": null,
       "sourceId": "VSON147-8-30"
+    },
+    {
+      "id": "VSON18V-2026-08-30-precipitation",
+      "date": "2026-08-30",
+      "community": "Strathroy",
+      "province": "ON",
+      "provinceName": "Ontario",
+      "type": "precipitation",
+      "status": "broken",
+      "value": 20.6,
+      "unit": "mm",
+      "previousValue": 17.0,
+      "previousYear": 1955,
+      "difference": 3.6,
+      "recordBeginYear": 1879,
+      "periodYears": 148,
+      "coordinates": [
+        -81.62,
+        42.96
+      ],
+      "sourceUpdated": null,
+      "sourceId": "VSON18V-8-30"
     },
     {
       "id": "VSON17V-2026-08-30-precipitation",
