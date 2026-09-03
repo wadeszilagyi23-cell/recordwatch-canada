@@ -14,13 +14,13 @@
   ],
   "daysAvailable": 7,
   "isPartial": false,
-  "generatedAt": "2026-09-03T14:01:00-04:00",
+  "generatedAt": "2026-09-03T18:47:44-04:00",
   "summary": {
-    "totalRecords": 215,
-    "brokenRecords": 194,
+    "totalRecords": 216,
+    "brokenRecords": 195,
     "tiedRecords": 21
   },
-  "summaryText": "194 records broken, 21 tied. Record High Minimum Temperature was the most common category (99 of 215 record events). Nunavut recorded the most events (95).",
+  "summaryText": "195 records broken, 21 tied. Record High Minimum Temperature was the most common category (99 of 216 record events). Nunavut recorded the most events (95).",
   "typeBreakdown": [
     {
       "type": "high_min",
@@ -32,8 +32,8 @@
     {
       "type": "precipitation",
       "label": "Daily Precipitation Record",
-      "total": 60,
-      "broken": 60,
+      "total": 61,
+      "broken": 61,
       "tied": 0
     },
     {
@@ -67,7 +67,7 @@
     {
       "province": "ON",
       "provinceName": "Ontario",
-      "total": 22
+      "total": 23
     },
     {
       "province": "BC",
