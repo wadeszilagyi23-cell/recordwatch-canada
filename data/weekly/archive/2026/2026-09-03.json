@@ -14,13 +14,13 @@
   ],
   "daysAvailable": 7,
   "isPartial": false,
-  "generatedAt": "2026-09-04T13:45:55-04:00",
+  "generatedAt": "2026-09-04T18:31:17-04:00",
   "summary": {
-    "totalRecords": 233,
-    "brokenRecords": 215,
+    "totalRecords": 234,
+    "brokenRecords": 216,
     "tiedRecords": 18
   },
-  "summaryText": "215 records broken, 18 tied. Record High Minimum Temperature was the most common category (115 of 233 record events). Nunavut recorded the most events (102).",
+  "summaryText": "216 records broken, 18 tied. Record High Minimum Temperature was the most common category (115 of 234 record events). Nunavut recorded the most events (102).",
   "typeBreakdown": [
     {
       "type": "high_min",
@@ -53,8 +53,8 @@
     {
       "type": "low_min",
       "label": "Record Low Minimum Temperature",
-      "total": 1,
-      "broken": 1,
+      "total": 2,
+      "broken": 2,
       "tied": 0
     }
   ],
@@ -92,7 +92,7 @@
     {
       "province": "NL",
       "provinceName": "Newfoundland and Labrador",
-      "total": 9
+      "total": 10
     },
     {
       "province": "QC",
@@ -186,7 +186,7 @@
         -111.16,
         58.71
       ],
-      "sourceUpdated": "2026-09-04T12:18:13Z",
+      "sourceUpdated": "2026-09-04T18:33:11Z",
       "sourceId": "VSAB28V-9-3",
       "previousRecordAge": 125
     },
