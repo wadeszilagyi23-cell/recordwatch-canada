@@ -14,7 +14,7 @@
   ],
   "daysAvailable": 7,
   "isPartial": false,
-  "generatedAt": "2026-09-05T12:55:26-04:00",
+  "generatedAt": "2026-09-05T18:14:36-04:00",
   "summary": {
     "totalRecords": 246,
     "brokenRecords": 230,
@@ -209,7 +209,7 @@
         -111.16,
         58.71
       ],
-      "sourceUpdated": "2026-09-05T12:18:46Z",
+      "sourceUpdated": "2026-09-05T18:32:44Z",
       "sourceId": "VSAB28V-9-3",
       "previousRecordAge": 125
     },
