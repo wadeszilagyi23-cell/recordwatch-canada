@@ -2,19 +2,19 @@
   "schemaVersion": 1,
   "date": "2026-09-05",
   "latestAvailableDate": "2026-09-05",
-  "generatedAt": "2026-09-06T13:19:49-04:00",
-  "sourceLastUpdated": "2026-09-06T12:39:17Z",
+  "generatedAt": "2026-09-06T18:18:09-04:00",
+  "sourceLastUpdated": "2026-09-06T18:33:16Z",
   "source": "Environment and Climate Change Canada — MSC GeoMet LTCE",
   "isDemo": false,
   "summary": {
-    "totalRecords": 19,
-    "communities": 15,
+    "totalRecords": 20,
+    "communities": 16,
     "tiedRecords": 0,
     "oldestRecordAge": 153
   },
   "validation": {
-    "candidateRecords": 19,
-    "publishedRecords": 19,
+    "candidateRecords": 20,
+    "publishedRecords": 20,
     "withheldRecords": 0,
     "invalidRecords": 0,
     "manualReviewRecords": 0
@@ -55,11 +55,11 @@
     },
     {
       "region": "Atlantic Canada",
-      "count": 6,
-      "brokenCount": 6,
+      "count": 7,
+      "brokenCount": 7,
       "tiedCount": 0,
       "leadingType": "precipitation",
-      "text": "6 records broken. All 6 were daily precipitation record events."
+      "text": "7 records broken. All 7 were daily precipitation record events."
     },
     {
       "region": "Quebec",
@@ -98,7 +98,7 @@
         -98.03,
         50.51
       ],
-      "sourceUpdated": "2026-09-06T12:39:17Z",
+      "sourceUpdated": "2026-09-06T18:33:16Z",
       "sourceId": "VSMB14V-9-5"
     },
     {
@@ -122,6 +122,28 @@
       ],
       "sourceUpdated": null,
       "sourceId": "VSNL28V-9-5"
+    },
+    {
+      "id": "VSNL1VV-2026-09-05-precipitation",
+      "date": "2026-09-05",
+      "community": "Clarenville",
+      "province": "NL",
+      "provinceName": "Newfoundland and Labrador",
+      "type": "precipitation",
+      "status": "broken",
+      "value": 32.0,
+      "unit": "mm",
+      "previousValue": 28.0,
+      "previousYear": 2020,
+      "difference": 4.0,
+      "recordBeginYear": 1978,
+      "periodYears": 49,
+      "coordinates": [
+        -53.98,
+        48.16
+      ],
+      "sourceUpdated": null,
+      "sourceId": "VSNL1VV-9-5"
     },
     {
       "id": "VSNS44V-2026-09-05-precipitation",
@@ -208,7 +230,7 @@
         -68.59,
         70.47
       ],
-      "sourceUpdated": "2026-09-06T12:39:17Z",
+      "sourceUpdated": "2026-09-06T18:33:16Z",
       "sourceId": "VSNU18V-9-5"
     },
     {
@@ -230,7 +252,7 @@
         -68.59,
         70.47
       ],
-      "sourceUpdated": "2026-09-06T12:39:17Z",
+      "sourceUpdated": "2026-09-06T18:33:16Z",
       "sourceId": "VSNU18V-9-5"
     },
     {
@@ -252,7 +274,7 @@
         -76.54,
         64.23
       ],
-      "sourceUpdated": "2026-09-06T12:39:17Z",
+      "sourceUpdated": "2026-09-06T18:33:16Z",
       "sourceId": "VSNU2VV-9-5"
     },
     {
@@ -274,7 +296,7 @@
         -76.54,
         64.23
       ],
-      "sourceUpdated": "2026-09-06T12:39:17Z",
+      "sourceUpdated": "2026-09-06T18:33:16Z",
       "sourceId": "VSNU2VV-9-5"
     },
     {
@@ -296,7 +318,7 @@
         -65.72,
         66.14
       ],
-      "sourceUpdated": "2026-09-06T12:39:17Z",
+      "sourceUpdated": "2026-09-06T18:33:16Z",
       "sourceId": "VSNU7VV-9-5"
     },
     {
@@ -318,7 +340,7 @@
         -64.03,
         67.55
       ],
-      "sourceUpdated": "2026-09-06T12:39:17Z",
+      "sourceUpdated": "2026-09-06T18:33:16Z",
       "sourceId": "VSNU5VV-9-5"
     },
     {
@@ -340,7 +362,7 @@
         -64.03,
         67.55
       ],
-      "sourceUpdated": "2026-09-06T12:39:17Z",
+      "sourceUpdated": "2026-09-06T18:33:16Z",
       "sourceId": "VSNU5VV-9-5"
     },
     {
@@ -362,7 +384,7 @@
         -92.57,
         62.16
       ],
-      "sourceUpdated": "2026-09-06T12:39:17Z",
+      "sourceUpdated": "2026-09-06T18:33:16Z",
       "sourceId": "VSNU6VV-9-5"
     },
     {
@@ -428,7 +450,7 @@
         -78.1,
         58.45
       ],
-      "sourceUpdated": "2026-09-06T12:39:17Z",
+      "sourceUpdated": "2026-09-06T18:33:16Z",
       "sourceId": "VSQC131-9-5"
     },
     {
@@ -450,7 +472,7 @@
         -69.63,
         61.05
       ],
-      "sourceUpdated": "2026-09-06T12:39:17Z",
+      "sourceUpdated": "2026-09-06T18:33:16Z",
       "sourceId": "VSQC106-9-5"
     },
     {
@@ -472,7 +494,7 @@
         -69.63,
         61.05
       ],
-      "sourceUpdated": "2026-09-06T12:39:17Z",
+      "sourceUpdated": "2026-09-06T18:33:16Z",
       "sourceId": "VSQC106-9-5"
     },
     {
@@ -494,7 +516,7 @@
         -140.88,
         62.38
       ],
-      "sourceUpdated": "2026-09-06T12:39:17Z",
+      "sourceUpdated": "2026-09-06T18:33:16Z",
       "sourceId": "VSYT15V-9-5"
     }
   ],
