@@ -14,13 +14,13 @@
   ],
   "daysAvailable": 7,
   "isPartial": false,
-  "generatedAt": "2026-09-07T14:50:48-04:00",
+  "generatedAt": "2026-09-07T18:58:45-04:00",
   "summary": {
-    "totalRecords": 274,
-    "brokenRecords": 261,
+    "totalRecords": 276,
+    "brokenRecords": 263,
     "tiedRecords": 13
   },
-  "summaryText": "261 records broken, 13 tied. Record High Minimum Temperature was the most common category (110 of 274 record events). Nunavut recorded the most events (93).",
+  "summaryText": "263 records broken, 13 tied. Record High Minimum Temperature was the most common category (110 of 276 record events). Nunavut recorded the most events (93).",
   "typeBreakdown": [
     {
       "type": "high_min",
@@ -32,8 +32,8 @@
     {
       "type": "precipitation",
       "label": "Daily Precipitation Record",
-      "total": 84,
-      "broken": 84,
+      "total": 86,
+      "broken": 86,
       "tied": 0
     },
     {
@@ -92,7 +92,7 @@
     {
       "province": "NL",
       "provinceName": "Newfoundland and Labrador",
-      "total": 14
+      "total": 15
     },
     {
       "province": "QC",
@@ -105,6 +105,11 @@
       "total": 11
     },
     {
+      "province": "MB",
+      "provinceName": "Manitoba",
+      "total": 10
+    },
+    {
       "province": "NT",
       "provinceName": "Northwest Territories",
       "total": 10
@@ -113,11 +118,6 @@
       "province": "PE",
       "provinceName": "Prince Edward Island",
       "total": 10
-    },
-    {
-      "province": "MB",
-      "provinceName": "Manitoba",
-      "total": 9
     },
     {
       "province": "YT",
