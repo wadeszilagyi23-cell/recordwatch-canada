@@ -14,26 +14,26 @@
   ],
   "daysAvailable": 7,
   "isPartial": false,
-  "generatedAt": "2026-09-08T14:03:31-04:00",
+  "generatedAt": "2026-09-08T18:57:06-04:00",
   "summary": {
-    "totalRecords": 306,
-    "brokenRecords": 294,
+    "totalRecords": 308,
+    "brokenRecords": 296,
     "tiedRecords": 12
   },
-  "summaryText": "294 records broken, 12 tied. Daily Precipitation Record was the most common category (123 of 306 record events). Nunavut recorded the most events (74).",
+  "summaryText": "296 records broken, 12 tied. Daily Precipitation Record was the most common category (124 of 308 record events). Nunavut recorded the most events (74).",
   "typeBreakdown": [
     {
       "type": "precipitation",
       "label": "Daily Precipitation Record",
-      "total": 123,
-      "broken": 123,
+      "total": 124,
+      "broken": 124,
       "tied": 0
     },
     {
       "type": "high_min",
       "label": "Record High Minimum Temperature",
-      "total": 109,
-      "broken": 98,
+      "total": 110,
+      "broken": 99,
       "tied": 11
     },
     {
@@ -77,7 +77,7 @@
     {
       "province": "MB",
       "provinceName": "Manitoba",
-      "total": 31
+      "total": 33
     },
     {
       "province": "NS",
