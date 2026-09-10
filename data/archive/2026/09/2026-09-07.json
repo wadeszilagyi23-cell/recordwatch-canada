@@ -2,19 +2,19 @@
   "schemaVersion": 1,
   "date": "2026-09-07",
   "latestAvailableDate": "2026-09-07",
-  "generatedAt": "2026-09-09T18:43:14-04:00",
-  "sourceLastUpdated": "2026-09-09T18:33:07Z",
+  "generatedAt": "2026-09-10T13:50:42-04:00",
+  "sourceLastUpdated": "2026-09-10T12:17:26Z",
   "source": "Environment and Climate Change Canada — MSC GeoMet LTCE",
   "isDemo": false,
   "summary": {
-    "totalRecords": 53,
-    "communities": 49,
+    "totalRecords": 55,
+    "communities": 51,
     "tiedRecords": 1,
     "oldestRecordAge": 134
   },
   "validation": {
-    "candidateRecords": 54,
-    "publishedRecords": 53,
+    "candidateRecords": 56,
+    "publishedRecords": 55,
     "withheldRecords": 1,
     "invalidRecords": 0,
     "manualReviewRecords": 1
@@ -47,11 +47,19 @@
   "highlights": [
     {
       "region": "Prairies",
-      "count": 50,
-      "brokenCount": 49,
+      "count": 51,
+      "brokenCount": 50,
       "tiedCount": 1,
       "leadingType": "precipitation",
-      "text": "49 records broken, 1 tied. The most common type was daily precipitation record (37 of 50)."
+      "text": "50 records broken, 1 tied. The most common type was daily precipitation record (38 of 51)."
+    },
+    {
+      "region": "Atlantic Canada",
+      "count": 2,
+      "brokenCount": 2,
+      "tiedCount": 0,
+      "leadingType": "precipitation",
+      "text": "2 records broken. The most common type was daily precipitation record (1 of 2)."
     },
     {
       "region": "Ontario",
@@ -60,14 +68,6 @@
       "tiedCount": 0,
       "leadingType": "high_min",
       "text": "1 record broken. It was a record high minimum temperature."
-    },
-    {
-      "region": "Atlantic Canada",
-      "count": 1,
-      "brokenCount": 1,
-      "tiedCount": 0,
-      "leadingType": "low_max",
-      "text": "1 record broken. It was a record low maximum temperature."
     },
     {
       "region": "Northern Canada",
@@ -234,6 +234,28 @@
       "sourceId": "VSAB19V-9-7"
     },
     {
+      "id": "VSAB11V-2026-09-07-precipitation",
+      "date": "2026-09-07",
+      "community": "Okotoks",
+      "province": "AB",
+      "provinceName": "Alberta",
+      "type": "precipitation",
+      "status": "broken",
+      "value": 25.2,
+      "unit": "mm",
+      "previousValue": 20.3,
+      "previousYear": 1973,
+      "difference": 4.9,
+      "recordBeginYear": 1969,
+      "periodYears": 58,
+      "coordinates": [
+        -113.98,
+        50.73
+      ],
+      "sourceUpdated": null,
+      "sourceId": "VSAB11V-9-7"
+    },
+    {
       "id": "VSAB46V-2026-09-07-precipitation",
       "date": "2026-09-07",
       "community": "Pincher Creek",
@@ -296,7 +318,7 @@
         -97.56,
         49.1
       ],
-      "sourceUpdated": "2026-09-09T18:33:07Z",
+      "sourceUpdated": "2026-09-10T12:17:26Z",
       "sourceId": "VSMB3VV-9-7"
     },
     {
@@ -318,7 +340,7 @@
         -96.99,
         50.8
       ],
-      "sourceUpdated": "2026-09-09T18:33:07Z",
+      "sourceUpdated": "2026-09-10T12:17:26Z",
       "sourceId": "VSMB21V-9-7"
     },
     {
@@ -362,7 +384,7 @@
         -99.95,
         49.85
       ],
-      "sourceUpdated": "2026-09-09T18:33:07Z",
+      "sourceUpdated": "2026-09-10T12:17:26Z",
       "sourceId": "VSMB52V-9-7"
     },
     {
@@ -384,7 +406,7 @@
         -99.36,
         49.87
       ],
-      "sourceUpdated": "2026-09-09T18:33:07Z",
+      "sourceUpdated": "2026-09-10T12:17:26Z",
       "sourceId": "VSMB35V-9-7"
     },
     {
@@ -428,7 +450,7 @@
         -98.0,
         49.5
       ],
-      "sourceUpdated": "2026-09-09T18:33:07Z",
+      "sourceUpdated": "2026-09-10T12:17:26Z",
       "sourceId": "VSMB65V-9-7"
     },
     {
@@ -472,7 +494,7 @@
         -96.99,
         50.63
       ],
-      "sourceUpdated": "2026-09-09T18:33:07Z",
+      "sourceUpdated": "2026-09-10T12:17:26Z",
       "sourceId": "VSMB62V-9-7"
     },
     {
@@ -538,7 +560,7 @@
         -97.56,
         49.01
       ],
-      "sourceUpdated": "2026-09-09T18:33:07Z",
+      "sourceUpdated": "2026-09-10T12:17:26Z",
       "sourceId": "VSMB48V-9-7"
     },
     {
@@ -604,7 +626,7 @@
         -98.89,
         49.2
       ],
-      "sourceUpdated": "2026-09-09T18:33:07Z",
+      "sourceUpdated": "2026-09-10T12:17:26Z",
       "sourceId": "VSMB19V-9-7"
     },
     {
@@ -626,7 +648,7 @@
         -98.29,
         49.97
       ],
-      "sourceUpdated": "2026-09-09T18:33:07Z",
+      "sourceUpdated": "2026-09-10T12:17:26Z",
       "sourceId": "VSMB29V-9-7"
     },
     {
@@ -648,7 +670,7 @@
         -100.59,
         50.44
       ],
-      "sourceUpdated": "2026-09-09T18:33:07Z",
+      "sourceUpdated": "2026-09-10T12:17:26Z",
       "sourceId": "VSMB28V-9-7"
     },
     {
@@ -692,7 +714,7 @@
         -96.68,
         49.53
       ],
-      "sourceUpdated": "2026-09-09T18:33:07Z",
+      "sourceUpdated": "2026-09-10T12:17:26Z",
       "sourceId": "VSMB13V-9-7"
     },
     {
@@ -736,8 +758,30 @@
         -95.2,
         49.74
       ],
-      "sourceUpdated": "2026-09-09T18:33:07Z",
+      "sourceUpdated": "2026-09-10T12:17:26Z",
       "sourceId": "VSMB8VV-9-7"
+    },
+    {
+      "id": "VSNL44V-2026-09-07-precipitation",
+      "date": "2026-09-07",
+      "community": "Englee",
+      "province": "NL",
+      "provinceName": "Newfoundland and Labrador",
+      "type": "precipitation",
+      "status": "broken",
+      "value": 40.8,
+      "unit": "mm",
+      "previousValue": 14.0,
+      "previousYear": 1979,
+      "difference": 26.8,
+      "recordBeginYear": 1971,
+      "periodYears": 56,
+      "coordinates": [
+        -56.1,
+        50.73
+      ],
+      "sourceUpdated": null,
+      "sourceId": "VSNL44V-9-7"
     },
     {
       "id": "VSNS8VV-2026-09-07-low_max",
@@ -758,7 +802,7 @@
         -61.5,
         45.39
       ],
-      "sourceUpdated": "2026-09-09T18:33:07Z",
+      "sourceUpdated": "2026-09-10T12:17:26Z",
       "sourceId": "VSNS8VV-9-7"
     },
     {
@@ -780,7 +824,7 @@
         -82.9,
         76.42
       ],
-      "sourceUpdated": "2026-09-09T18:33:07Z",
+      "sourceUpdated": "2026-09-10T12:17:26Z",
       "sourceId": "VSNU12V-9-7"
     },
     {
@@ -802,7 +846,7 @@
         -91.61,
         48.76
       ],
-      "sourceUpdated": "2026-09-09T18:33:07Z",
+      "sourceUpdated": "2026-09-10T12:17:26Z",
       "sourceId": "VSON148-9-7"
     },
     {
@@ -1242,7 +1286,7 @@
         -102.46,
         51.21
       ],
-      "sourceUpdated": "2026-09-09T18:33:07Z",
+      "sourceUpdated": "2026-09-10T12:17:26Z",
       "sourceId": "VSSK33V-9-7"
     }
   ],
