@@ -2,19 +2,19 @@
   "schemaVersion": 1,
   "date": "2026-09-13",
   "latestAvailableDate": "2026-09-13",
-  "generatedAt": "2026-09-15T19:09:14-04:00",
-  "sourceLastUpdated": "2026-09-15T18:36:07Z",
+  "generatedAt": "2026-09-16T14:23:49-04:00",
+  "sourceLastUpdated": "2026-09-16T12:19:10Z",
   "source": "Environment and Climate Change Canada — MSC GeoMet LTCE",
   "isDemo": false,
   "summary": {
-    "totalRecords": 14,
-    "communities": 13,
-    "tiedRecords": 0,
+    "totalRecords": 15,
+    "communities": 14,
+    "tiedRecords": 1,
     "oldestRecordAge": 71
   },
   "validation": {
-    "candidateRecords": 14,
-    "publishedRecords": 14,
+    "candidateRecords": 15,
+    "publishedRecords": 15,
     "withheldRecords": 0,
     "invalidRecords": 0,
     "manualReviewRecords": 0
@@ -62,20 +62,20 @@
       "text": "3 records broken. The most common type was daily precipitation record (2 of 3)."
     },
     {
+      "region": "Ontario",
+      "count": 2,
+      "brokenCount": 1,
+      "tiedCount": 1,
+      "leadingType": "high_min",
+      "text": "1 record broken, 1 tied. The most common type was record high minimum temperature (1 of 2)."
+    },
+    {
       "region": "British Columbia",
       "count": 2,
       "brokenCount": 2,
       "tiedCount": 0,
       "leadingType": "low_max",
       "text": "2 records broken. The most common type was record low maximum temperature (1 of 2)."
-    },
-    {
-      "region": "Ontario",
-      "count": 1,
-      "brokenCount": 1,
-      "tiedCount": 0,
-      "leadingType": "high_max",
-      "text": "1 record broken. It was a record high maximum temperature."
     },
     {
       "region": "Prairies",
@@ -114,7 +114,7 @@
         -110.26,
         51.68
       ],
-      "sourceUpdated": "2026-09-15T18:36:07Z",
+      "sourceUpdated": "2026-09-16T12:19:10Z",
       "sourceId": "VSAB67V-9-13"
     },
     {
@@ -136,7 +136,7 @@
         -117.8,
         50.25
       ],
-      "sourceUpdated": "2026-09-15T18:36:07Z",
+      "sourceUpdated": "2026-09-16T12:19:10Z",
       "sourceId": "VSBC38V-9-13"
     },
     {
@@ -180,7 +180,7 @@
         -53.98,
         48.16
       ],
-      "sourceUpdated": "2026-09-15T18:36:07Z",
+      "sourceUpdated": "2026-09-16T12:19:10Z",
       "sourceId": "VSNL1VV-9-13"
     },
     {
@@ -250,6 +250,28 @@
       "sourceId": "VSNU24V-9-13"
     },
     {
+      "id": "VSON3VV-2026-09-13-high_min",
+      "date": "2026-09-13",
+      "community": "Belleville",
+      "province": "ON",
+      "provinceName": "Ontario",
+      "type": "high_min",
+      "status": "tied",
+      "value": 20.0,
+      "unit": "°C",
+      "previousValue": 20.0,
+      "previousYear": 2005,
+      "difference": 0.0,
+      "recordBeginYear": 1921,
+      "periodYears": 106,
+      "coordinates": [
+        -77.37,
+        44.26
+      ],
+      "sourceUpdated": "2026-09-16T12:19:10Z",
+      "sourceId": "VSON3VV-9-13"
+    },
+    {
       "id": "VSON75V-2026-09-13-high_max",
       "date": "2026-09-13",
       "community": "Cobourg",
@@ -268,7 +290,7 @@
         -78.16,
         43.96
       ],
-      "sourceUpdated": "2026-09-15T18:36:07Z",
+      "sourceUpdated": "2026-09-16T12:19:10Z",
       "sourceId": "VSON75V-9-13"
     },
     {
@@ -290,7 +312,7 @@
         -72.43,
         46.33
       ],
-      "sourceUpdated": "2026-09-15T18:36:07Z",
+      "sourceUpdated": "2026-09-16T12:19:10Z",
       "sourceId": "VSQC50V-9-13"
     },
     {
@@ -312,7 +334,7 @@
         -65.13,
         49.22
       ],
-      "sourceUpdated": "2026-09-15T18:36:07Z",
+      "sourceUpdated": "2026-09-16T12:19:10Z",
       "sourceId": "VSQC169-9-13"
     },
     {
@@ -334,7 +356,7 @@
         -65.13,
         49.22
       ],
-      "sourceUpdated": "2026-09-15T18:36:07Z",
+      "sourceUpdated": "2026-09-16T12:19:10Z",
       "sourceId": "VSQC169-9-13"
     },
     {
@@ -356,7 +378,7 @@
         -72.62,
         46.22
       ],
-      "sourceUpdated": "2026-09-15T18:36:07Z",
+      "sourceUpdated": "2026-09-16T12:19:10Z",
       "sourceId": "VSQC110-9-13"
     },
     {
@@ -378,7 +400,7 @@
         -73.12,
         46.03
       ],
-      "sourceUpdated": "2026-09-15T18:36:07Z",
+      "sourceUpdated": "2026-09-16T12:19:10Z",
       "sourceId": "VSQCC6V-9-13"
     },
     {
@@ -400,7 +422,7 @@
         -73.14,
         46.03
       ],
-      "sourceUpdated": "2026-09-15T18:36:07Z",
+      "sourceUpdated": "2026-09-16T12:19:10Z",
       "sourceId": "VSQCC9V-9-13"
     }
   ],
