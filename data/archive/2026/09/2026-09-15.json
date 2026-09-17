@@ -2,47 +2,47 @@
   "schemaVersion": 1,
   "date": "2026-09-15",
   "latestAvailableDate": "2026-09-15",
-  "generatedAt": "2026-09-16T19:13:27-04:00",
-  "sourceLastUpdated": "2026-09-16T18:33:20Z",
+  "generatedAt": "2026-09-17T14:30:53-04:00",
+  "sourceLastUpdated": "2026-09-17T12:18:56Z",
   "source": "Environment and Climate Change Canada — MSC GeoMet LTCE",
   "isDemo": false,
   "summary": {
-    "totalRecords": 7,
-    "communities": 7,
+    "totalRecords": 6,
+    "communities": 6,
     "tiedRecords": 0,
-    "oldestRecordAge": 100
+    "oldestRecordAge": 33
   },
   "validation": {
-    "candidateRecords": 7,
-    "publishedRecords": 7,
+    "candidateRecords": 6,
+    "publishedRecords": 6,
     "withheldRecords": 0,
     "invalidRecords": 0,
     "manualReviewRecords": 0
   },
   "recordOfDay": {
-    "id": "VSBC68V-2026-09-15-precipitation",
+    "id": "VSNL31V-2026-09-15-high_max",
     "date": "2026-09-15",
-    "community": "Yoho (National Park)",
-    "province": "BC",
-    "provinceName": "British Columbia",
-    "type": "precipitation",
+    "community": "Burgeo",
+    "province": "NL",
+    "provinceName": "Newfoundland and Labrador",
+    "type": "high_max",
     "status": "broken",
-    "value": 53.7,
-    "unit": "mm",
-    "previousValue": 20.3,
-    "previousYear": 1926,
-    "difference": 33.4,
-    "recordBeginYear": 1915,
-    "periodYears": 112,
+    "value": 21.9,
+    "unit": "°C",
+    "previousValue": 20.7,
+    "previousYear": 1993,
+    "difference": 1.2,
+    "recordBeginYear": 1939,
+    "periodYears": 88,
     "coordinates": [
-      -116.5,
-      51.5
+      -57.62,
+      47.61
     ],
-    "sourceUpdated": null,
-    "sourceId": "VSBC68V-9-15"
+    "sourceUpdated": "2026-09-17T12:18:56Z",
+    "sourceId": "VSNL31V-9-15"
   },
   "story": {
-    "description": "Yoho (National Park), BC recorded 53.7 mm. It exceeded the previous daily precipitation record of 20.3 mm from 1926."
+    "description": "Burgeo, NL recorded 21.9 °C. It exceeded the previous record high maximum temperature of 20.7 °C from 1993."
   },
   "highlights": [
     {
@@ -60,39 +60,9 @@
       "tiedCount": 0,
       "leadingType": "high_max",
       "text": "2 records broken. The most common type was record high maximum temperature (1 of 2)."
-    },
-    {
-      "region": "British Columbia",
-      "count": 1,
-      "brokenCount": 1,
-      "tiedCount": 0,
-      "leadingType": "precipitation",
-      "text": "1 record broken. It was a daily precipitation record."
     }
   ],
   "records": [
-    {
-      "id": "VSBC68V-2026-09-15-precipitation",
-      "date": "2026-09-15",
-      "community": "Yoho (National Park)",
-      "province": "BC",
-      "provinceName": "British Columbia",
-      "type": "precipitation",
-      "status": "broken",
-      "value": 53.7,
-      "unit": "mm",
-      "previousValue": 20.3,
-      "previousYear": 1926,
-      "difference": 33.4,
-      "recordBeginYear": 1915,
-      "periodYears": 112,
-      "coordinates": [
-        -116.5,
-        51.5
-      ],
-      "sourceUpdated": null,
-      "sourceId": "VSBC68V-9-15"
-    },
     {
       "id": "VSNL31V-2026-09-15-high_max",
       "date": "2026-09-15",
@@ -112,7 +82,7 @@
         -57.62,
         47.61
       ],
-      "sourceUpdated": "2026-09-16T18:33:20Z",
+      "sourceUpdated": "2026-09-17T12:18:56Z",
       "sourceId": "VSNL31V-9-15"
     },
     {
@@ -134,7 +104,7 @@
         -61.69,
         56.55
       ],
-      "sourceUpdated": "2026-09-16T18:33:20Z",
+      "sourceUpdated": "2026-09-17T12:18:56Z",
       "sourceId": "VSNL40V-9-15"
     },
     {
@@ -156,7 +126,7 @@
         -68.59,
         70.47
       ],
-      "sourceUpdated": "2026-09-16T18:33:20Z",
+      "sourceUpdated": "2026-09-17T12:18:56Z",
       "sourceId": "VSNU18V-9-15"
     },
     {
@@ -200,7 +170,7 @@
         -81.8,
         69.38
       ],
-      "sourceUpdated": "2026-09-16T18:33:20Z",
+      "sourceUpdated": "2026-09-17T12:18:56Z",
       "sourceId": "VSNU23V-9-15"
     },
     {
@@ -222,7 +192,7 @@
         -64.03,
         67.55
       ],
-      "sourceUpdated": "2026-09-16T18:33:20Z",
+      "sourceUpdated": "2026-09-17T12:18:56Z",
       "sourceId": "VSNU5VV-9-15"
     }
   ],
