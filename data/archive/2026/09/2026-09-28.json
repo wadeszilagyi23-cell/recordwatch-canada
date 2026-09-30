@@ -2,19 +2,19 @@
   "schemaVersion": 1,
   "date": "2026-09-28",
   "latestAvailableDate": "2026-09-28",
-  "generatedAt": "2026-09-29T19:56:31-04:00",
-  "sourceLastUpdated": "2026-09-29T18:33:12Z",
+  "generatedAt": "2026-09-30T15:36:12-04:00",
+  "sourceLastUpdated": "2026-09-30T18:32:42Z",
   "source": "Environment and Climate Change Canada — MSC GeoMet LTCE",
   "isDemo": false,
   "summary": {
-    "totalRecords": 5,
-    "communities": 5,
+    "totalRecords": 4,
+    "communities": 4,
     "tiedRecords": 0,
     "oldestRecordAge": 38
   },
   "validation": {
-    "candidateRecords": 5,
-    "publishedRecords": 5,
+    "candidateRecords": 4,
+    "publishedRecords": 4,
     "withheldRecords": 0,
     "invalidRecords": 0,
     "manualReviewRecords": 0
@@ -52,14 +52,6 @@
       "tiedCount": 0,
       "leadingType": "high_min",
       "text": "2 records broken. The most common type was record high minimum temperature (1 of 2)."
-    },
-    {
-      "region": "Atlantic Canada",
-      "count": 1,
-      "brokenCount": 1,
-      "tiedCount": 0,
-      "leadingType": "precipitation",
-      "text": "1 record broken. It was a daily precipitation record."
     },
     {
       "region": "British Columbia",
@@ -102,28 +94,6 @@
       "sourceId": "VSBC90V-9-28"
     },
     {
-      "id": "VSNL17V-2026-09-28-precipitation",
-      "date": "2026-09-28",
-      "community": "Channel - Port Aux Basques",
-      "province": "NL",
-      "provinceName": "Newfoundland and Labrador",
-      "type": "precipitation",
-      "status": "broken",
-      "value": 49.4,
-      "unit": "mm",
-      "previousValue": 36.5,
-      "previousYear": 2009,
-      "difference": 12.9,
-      "recordBeginYear": 1898,
-      "periodYears": 129,
-      "coordinates": [
-        -59.14,
-        47.58
-      ],
-      "sourceUpdated": null,
-      "sourceId": "VSNL17V-9-28"
-    },
-    {
       "id": "VSNU9VV-2026-09-28-high_min",
       "date": "2026-09-28",
       "community": "Coral Harbour",
@@ -142,7 +112,7 @@
         -83.17,
         64.13
       ],
-      "sourceUpdated": "2026-09-29T18:33:12Z",
+      "sourceUpdated": "2026-09-30T18:32:42Z",
       "sourceId": "VSNU9VV-9-28"
     },
     {
@@ -164,7 +134,7 @@
         -76.54,
         64.23
       ],
-      "sourceUpdated": "2026-09-29T18:33:12Z",
+      "sourceUpdated": "2026-09-30T18:32:42Z",
       "sourceId": "VSNU2VV-9-28"
     },
     {
@@ -186,7 +156,7 @@
         -69.63,
         61.05
       ],
-      "sourceUpdated": "2026-09-29T18:33:12Z",
+      "sourceUpdated": "2026-09-30T18:32:42Z",
       "sourceId": "VSQC106-9-28"
     }
   ],

@@ -2,47 +2,47 @@
   "schemaVersion": 1,
   "date": "2026-09-27",
   "latestAvailableDate": "2026-09-27",
-  "generatedAt": "2026-09-29T19:56:32-04:00",
-  "sourceLastUpdated": "2026-09-29T18:33:12Z",
+  "generatedAt": "2026-09-30T15:36:14-04:00",
+  "sourceLastUpdated": "2026-09-30T18:32:42Z",
   "source": "Environment and Climate Change Canada — MSC GeoMet LTCE",
   "isDemo": false,
   "summary": {
-    "totalRecords": 5,
-    "communities": 5,
+    "totalRecords": 4,
+    "communities": 4,
     "tiedRecords": 0,
-    "oldestRecordAge": 98
+    "oldestRecordAge": 37
   },
   "validation": {
-    "candidateRecords": 5,
-    "publishedRecords": 5,
+    "candidateRecords": 4,
+    "publishedRecords": 4,
     "withheldRecords": 0,
     "invalidRecords": 0,
     "manualReviewRecords": 0
   },
   "recordOfDay": {
-    "id": "VSNL17V-2026-09-27-precipitation",
+    "id": "VSNU17V-2026-09-27-precipitation",
     "date": "2026-09-27",
-    "community": "Channel - Port Aux Basques",
-    "province": "NL",
-    "provinceName": "Newfoundland and Labrador",
+    "community": "Chesterfield",
+    "province": "NU",
+    "provinceName": "Nunavut",
     "type": "precipitation",
     "status": "broken",
-    "value": 66.8,
+    "value": 30.1,
     "unit": "mm",
-    "previousValue": 34.0,
-    "previousYear": 1928,
-    "difference": 32.8,
-    "recordBeginYear": 1898,
-    "periodYears": 129,
+    "previousValue": 19.0,
+    "previousYear": 1989,
+    "difference": 11.1,
+    "recordBeginYear": 1930,
+    "periodYears": 97,
     "coordinates": [
-      -59.14,
-      47.58
+      -90.7,
+      63.34
     ],
     "sourceUpdated": null,
-    "sourceId": "VSNL17V-9-27"
+    "sourceId": "VSNU17V-9-27"
   },
   "story": {
-    "description": "Channel - Port Aux Basques, NL recorded 66.8 mm. It exceeded the previous daily precipitation record of 34.0 mm from 1928."
+    "description": "Chesterfield, NU recorded 30.1 mm. It exceeded the previous daily precipitation record of 19.0 mm from 1989."
   },
   "highlights": [
     {
@@ -60,14 +60,6 @@
       "tiedCount": 0,
       "leadingType": "precipitation",
       "text": "2 records broken. All 2 were daily precipitation record events."
-    },
-    {
-      "region": "Atlantic Canada",
-      "count": 1,
-      "brokenCount": 1,
-      "tiedCount": 0,
-      "leadingType": "precipitation",
-      "text": "1 record broken. It was a daily precipitation record."
     }
   ],
   "records": [
@@ -90,7 +82,7 @@
         -112.09,
         49.15
       ],
-      "sourceUpdated": "2026-09-29T18:33:12Z",
+      "sourceUpdated": "2026-09-30T18:32:42Z",
       "sourceId": "VSAB19V-9-27"
     },
     {
@@ -112,30 +104,8 @@
         -113.98,
         50.73
       ],
-      "sourceUpdated": "2026-09-29T18:33:12Z",
+      "sourceUpdated": "2026-09-30T18:32:42Z",
       "sourceId": "VSAB11V-9-27"
-    },
-    {
-      "id": "VSNL17V-2026-09-27-precipitation",
-      "date": "2026-09-27",
-      "community": "Channel - Port Aux Basques",
-      "province": "NL",
-      "provinceName": "Newfoundland and Labrador",
-      "type": "precipitation",
-      "status": "broken",
-      "value": 66.8,
-      "unit": "mm",
-      "previousValue": 34.0,
-      "previousYear": 1928,
-      "difference": 32.8,
-      "recordBeginYear": 1898,
-      "periodYears": 129,
-      "coordinates": [
-        -59.14,
-        47.58
-      ],
-      "sourceUpdated": null,
-      "sourceId": "VSNL17V-9-27"
     },
     {
       "id": "VSNU17V-2026-09-27-precipitation",
