@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "date": "2026-09-28",
   "latestAvailableDate": "2026-09-28",
-  "generatedAt": "2026-09-30T20:09:17-04:00",
-  "sourceLastUpdated": "2026-09-30T18:32:42Z",
+  "generatedAt": "2026-10-01T15:46:48-04:00",
+  "sourceLastUpdated": "2026-10-01T18:34:31Z",
   "source": "Environment and Climate Change Canada — MSC GeoMet LTCE",
   "isDemo": false,
   "summary": {
@@ -112,7 +112,7 @@
         -83.17,
         64.13
       ],
-      "sourceUpdated": "2026-09-30T18:32:42Z",
+      "sourceUpdated": "2026-10-01T18:34:31Z",
       "sourceId": "VSNU9VV-9-28"
     },
     {
@@ -134,7 +134,7 @@
         -76.54,
         64.23
       ],
-      "sourceUpdated": "2026-09-30T18:32:42Z",
+      "sourceUpdated": "2026-10-01T18:34:31Z",
       "sourceId": "VSNU2VV-9-28"
     },
     {
@@ -156,7 +156,7 @@
         -69.63,
         61.05
       ],
-      "sourceUpdated": "2026-09-30T18:32:42Z",
+      "sourceUpdated": "2026-10-01T18:34:31Z",
       "sourceId": "VSQC106-9-28"
     }
   ],
