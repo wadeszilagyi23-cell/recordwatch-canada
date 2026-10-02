@@ -14,13 +14,13 @@
   ],
   "daysAvailable": 7,
   "isPartial": false,
-  "generatedAt": "2026-10-02T15:29:28-04:00",
+  "generatedAt": "2026-10-02T19:58:48-04:00",
   "summary": {
-    "totalRecords": 139,
-    "brokenRecords": 129,
+    "totalRecords": 140,
+    "brokenRecords": 130,
     "tiedRecords": 10
   },
-  "summaryText": "129 records broken, 10 tied. Record High Minimum Temperature was the most common category (77 of 139 record events). Quebec recorded the most events (36).",
+  "summaryText": "130 records broken, 10 tied. Record High Minimum Temperature was the most common category (77 of 140 record events). Quebec recorded the most events (36).",
   "typeBreakdown": [
     {
       "type": "high_min",
@@ -30,18 +30,18 @@
       "tied": 6
     },
     {
+      "type": "precipitation",
+      "label": "Daily Precipitation Record",
+      "total": 26,
+      "broken": 24,
+      "tied": 2
+    },
+    {
       "type": "high_max",
       "label": "Record High Maximum Temperature",
       "total": 25,
       "broken": 24,
       "tied": 1
-    },
-    {
-      "type": "precipitation",
-      "label": "Daily Precipitation Record",
-      "total": 25,
-      "broken": 23,
-      "tied": 2
     },
     {
       "type": "low_max",
@@ -67,7 +67,7 @@
     {
       "province": "ON",
       "provinceName": "Ontario",
-      "total": 25
+      "total": 26
     },
     {
       "province": "NL",
@@ -125,7 +125,7 @@
         -79.58,
         45.12
       ],
-      "sourceUpdated": "2026-10-02T12:18:32Z",
+      "sourceUpdated": "2026-10-02T18:32:44Z",
       "sourceId": "VSON56V-10-1",
       "previousRecordAge": 147
     },
@@ -148,7 +148,7 @@
         -80.72,
         51.33
       ],
-      "sourceUpdated": "2026-10-02T12:18:32Z",
+      "sourceUpdated": "2026-10-02T18:32:44Z",
       "sourceId": "VSON113-9-30",
       "previousRecordAge": 132
     },
@@ -194,7 +194,7 @@
         -93.39,
         48.61
       ],
-      "sourceUpdated": "2026-10-02T12:18:32Z",
+      "sourceUpdated": "2026-10-02T18:32:44Z",
       "sourceId": "VSON159-9-29",
       "previousRecordAge": 104
     },
