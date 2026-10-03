@@ -14,7 +14,7 @@
   ],
   "daysAvailable": 7,
   "isPartial": false,
-  "generatedAt": "2026-10-03T14:08:22-04:00",
+  "generatedAt": "2026-10-03T19:18:32-04:00",
   "summary": {
     "totalRecords": 113,
     "brokenRecords": 108,
@@ -130,7 +130,7 @@
         -79.58,
         45.12
       ],
-      "sourceUpdated": "2026-10-03T12:18:36Z",
+      "sourceUpdated": "2026-10-03T18:33:38Z",
       "sourceId": "VSON56V-10-1",
       "previousRecordAge": 147
     },
@@ -153,7 +153,7 @@
         -80.72,
         51.33
       ],
-      "sourceUpdated": "2026-10-03T12:18:36Z",
+      "sourceUpdated": "2026-10-03T18:33:38Z",
       "sourceId": "VSON113-9-30",
       "previousRecordAge": 132
     },
