@@ -2,19 +2,19 @@
   "schemaVersion": 1,
   "date": "2026-10-09",
   "latestAvailableDate": "2026-10-09",
-  "generatedAt": "2026-10-10T14:48:52-04:00",
+  "generatedAt": "2026-10-10T19:47:51-04:00",
   "sourceLastUpdated": "Not reported",
   "source": "Environment and Climate Change Canada — MSC GeoMet LTCE",
   "isDemo": false,
   "summary": {
-    "totalRecords": 12,
-    "communities": 12,
+    "totalRecords": 13,
+    "communities": 13,
     "tiedRecords": 0,
     "oldestRecordAge": 92
   },
   "validation": {
-    "candidateRecords": 12,
-    "publishedRecords": 12,
+    "candidateRecords": 13,
+    "publishedRecords": 13,
     "withheldRecords": 0,
     "invalidRecords": 0,
     "manualReviewRecords": 0
@@ -55,11 +55,11 @@
     },
     {
       "region": "British Columbia",
-      "count": 3,
-      "brokenCount": 3,
+      "count": 4,
+      "brokenCount": 4,
       "tiedCount": 0,
       "leadingType": "precipitation",
-      "text": "3 records broken. All 3 were daily precipitation record events."
+      "text": "4 records broken. All 4 were daily precipitation record events."
     }
   ],
   "records": [
@@ -238,6 +238,28 @@
       ],
       "sourceUpdated": null,
       "sourceId": "VSAB54V-10-9"
+    },
+    {
+      "id": "VSBC23V-2026-10-09-precipitation",
+      "date": "2026-10-09",
+      "community": "Chetwynd",
+      "province": "BC",
+      "provinceName": "British Columbia",
+      "type": "precipitation",
+      "status": "broken",
+      "value": 14.8,
+      "unit": "mm",
+      "previousValue": 8.2,
+      "previousYear": 1998,
+      "difference": 6.6,
+      "recordBeginYear": 1970,
+      "periodYears": 57,
+      "coordinates": [
+        -121.63,
+        55.7
+      ],
+      "sourceUpdated": null,
+      "sourceId": "VSBC23V-10-9"
     },
     {
       "id": "VSBC78V-2026-10-09-precipitation",

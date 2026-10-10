@@ -14,19 +14,19 @@
   ],
   "daysAvailable": 7,
   "isPartial": false,
-  "generatedAt": "2026-10-10T14:48:54-04:00",
+  "generatedAt": "2026-10-10T19:47:53-04:00",
   "summary": {
-    "totalRecords": 48,
-    "brokenRecords": 46,
+    "totalRecords": 49,
+    "brokenRecords": 47,
     "tiedRecords": 2
   },
-  "summaryText": "46 records broken, 2 tied. Daily Precipitation Record was the most common category (25 of 48 record events). British Columbia recorded the most events (17).",
+  "summaryText": "47 records broken, 2 tied. Daily Precipitation Record was the most common category (26 of 49 record events). British Columbia recorded the most events (18).",
   "typeBreakdown": [
     {
       "type": "precipitation",
       "label": "Daily Precipitation Record",
-      "total": 25,
-      "broken": 25,
+      "total": 26,
+      "broken": 26,
       "tied": 0
     },
     {
@@ -55,7 +55,7 @@
     {
       "province": "BC",
       "provinceName": "British Columbia",
-      "total": 17
+      "total": 18
     },
     {
       "province": "AB",
@@ -210,7 +210,7 @@
         -120.51,
         49.46
       ],
-      "sourceUpdated": "2026-10-10T12:18:16Z",
+      "sourceUpdated": "2026-10-10T18:33:45Z",
       "sourceId": "VSBC41V-10-8",
       "previousRecordAge": 115
     },
