@@ -1,0 +1,328 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-10",
+  "latestAvailableDate": "2026-10-10",
+  "generatedAt": "2026-10-11T15:09:06-04:00",
+  "sourceLastUpdated": "2026-10-11T12:21:48Z",
+  "source": "Environment and Climate Change Canada — MSC GeoMet LTCE",
+  "isDemo": false,
+  "summary": {
+    "totalRecords": 12,
+    "communities": 11,
+    "tiedRecords": 0,
+    "oldestRecordAge": 116
+  },
+  "validation": {
+    "candidateRecords": 12,
+    "publishedRecords": 12,
+    "withheldRecords": 0,
+    "invalidRecords": 0,
+    "manualReviewRecords": 0
+  },
+  "recordOfDay": {
+    "id": "VSAB50V-2026-10-10-precipitation",
+    "date": "2026-10-10",
+    "community": "Edmonton",
+    "province": "AB",
+    "provinceName": "Alberta",
+    "type": "precipitation",
+    "status": "broken",
+    "value": 4.8,
+    "unit": "mm",
+    "previousValue": 4.1,
+    "previousYear": 1910,
+    "difference": 0.7,
+    "recordBeginYear": 1880,
+    "periodYears": 147,
+    "coordinates": [
+      -113.49,
+      53.53
+    ],
+    "sourceUpdated": null,
+    "sourceId": "VSAB50V-10-10"
+  },
+  "story": {
+    "description": "Edmonton, AB recorded 4.8 mm. It exceeded the previous daily precipitation record of 4.1 mm from 1910."
+  },
+  "highlights": [
+    {
+      "region": "Prairies",
+      "count": 12,
+      "brokenCount": 12,
+      "tiedCount": 0,
+      "leadingType": "precipitation",
+      "text": "12 records broken. The most common type was daily precipitation record (5 of 12)."
+    }
+  ],
+  "records": [
+    {
+      "id": "VSAB23V-2026-10-10-precipitation",
+      "date": "2026-10-10",
+      "community": "Cold Lake",
+      "province": "AB",
+      "provinceName": "Alberta",
+      "type": "precipitation",
+      "status": "broken",
+      "value": 14.1,
+      "unit": "mm",
+      "previousValue": 5.3,
+      "previousYear": 1959,
+      "difference": 8.8,
+      "recordBeginYear": 1953,
+      "periodYears": 74,
+      "coordinates": [
+        -110.17,
+        54.45
+      ],
+      "sourceUpdated": null,
+      "sourceId": "VSAB23V-10-10"
+    },
+    {
+      "id": "VSAB50V-2026-10-10-precipitation",
+      "date": "2026-10-10",
+      "community": "Edmonton",
+      "province": "AB",
+      "provinceName": "Alberta",
+      "type": "precipitation",
+      "status": "broken",
+      "value": 4.8,
+      "unit": "mm",
+      "previousValue": 4.1,
+      "previousYear": 1910,
+      "difference": 0.7,
+      "recordBeginYear": 1880,
+      "periodYears": 147,
+      "coordinates": [
+        -113.49,
+        53.53
+      ],
+      "sourceUpdated": null,
+      "sourceId": "VSAB50V-10-10"
+    },
+    {
+      "id": "VSAB63V-2026-10-10-precipitation",
+      "date": "2026-10-10",
+      "community": "Elk Island (National Park)",
+      "province": "AB",
+      "provinceName": "Alberta",
+      "type": "precipitation",
+      "status": "broken",
+      "value": 10.1,
+      "unit": "mm",
+      "previousValue": 5.6,
+      "previousYear": 1969,
+      "difference": 4.5,
+      "recordBeginYear": 1966,
+      "periodYears": 61,
+      "coordinates": [
+        -112.87,
+        53.61
+      ],
+      "sourceUpdated": null,
+      "sourceId": "VSAB63V-10-10"
+    },
+    {
+      "id": "VSMB21V-2026-10-10-high_min",
+      "date": "2026-10-10",
+      "community": "Arnes",
+      "province": "MB",
+      "provinceName": "Manitoba",
+      "type": "high_min",
+      "status": "broken",
+      "value": 10.4,
+      "unit": "°C",
+      "previousValue": 10.2,
+      "previousYear": 2021,
+      "difference": 0.2,
+      "recordBeginYear": 1944,
+      "periodYears": 83,
+      "coordinates": [
+        -96.99,
+        50.8
+      ],
+      "sourceUpdated": "2026-10-11T12:21:48Z",
+      "sourceId": "VSMB21V-10-10"
+    },
+    {
+      "id": "VSMB62V-2026-10-10-high_min",
+      "date": "2026-10-10",
+      "community": "Gimli",
+      "province": "MB",
+      "provinceName": "Manitoba",
+      "type": "high_min",
+      "status": "broken",
+      "value": 10.4,
+      "unit": "°C",
+      "previousValue": 10.2,
+      "previousYear": 2021,
+      "difference": 0.2,
+      "recordBeginYear": 1944,
+      "periodYears": 83,
+      "coordinates": [
+        -96.99,
+        50.63
+      ],
+      "sourceUpdated": "2026-10-11T12:21:48Z",
+      "sourceId": "VSMB62V-10-10"
+    },
+    {
+      "id": "VSMB14V-2026-10-10-high_min",
+      "date": "2026-10-10",
+      "community": "Oak Point",
+      "province": "MB",
+      "provinceName": "Manitoba",
+      "type": "high_min",
+      "status": "broken",
+      "value": 10.3,
+      "unit": "°C",
+      "previousValue": 10.2,
+      "previousYear": 2015,
+      "difference": 0.1,
+      "recordBeginYear": 1970,
+      "periodYears": 57,
+      "coordinates": [
+        -98.03,
+        50.51
+      ],
+      "sourceUpdated": "2026-10-11T12:21:48Z",
+      "sourceId": "VSMB14V-10-10"
+    },
+    {
+      "id": "VSMB13V-2026-10-10-high_max",
+      "date": "2026-10-10",
+      "community": "Steinbach",
+      "province": "MB",
+      "provinceName": "Manitoba",
+      "type": "high_max",
+      "status": "broken",
+      "value": 25.1,
+      "unit": "°C",
+      "previousValue": 23.3,
+      "previousYear": 1974,
+      "difference": 1.8,
+      "recordBeginYear": 1956,
+      "periodYears": 71,
+      "coordinates": [
+        -96.68,
+        49.53
+      ],
+      "sourceUpdated": "2026-10-11T12:21:48Z",
+      "sourceId": "VSMB13V-10-10"
+    },
+    {
+      "id": "VSMB13V-2026-10-10-high_min",
+      "date": "2026-10-10",
+      "community": "Steinbach",
+      "province": "MB",
+      "provinceName": "Manitoba",
+      "type": "high_min",
+      "status": "broken",
+      "value": 12.0,
+      "unit": "°C",
+      "previousValue": 10.5,
+      "previousYear": 2015,
+      "difference": 1.5,
+      "recordBeginYear": 1956,
+      "periodYears": 71,
+      "coordinates": [
+        -96.68,
+        49.53
+      ],
+      "sourceUpdated": "2026-10-11T12:21:48Z",
+      "sourceId": "VSMB13V-10-10"
+    },
+    {
+      "id": "VSMB34V-2026-10-10-precipitation",
+      "date": "2026-10-10",
+      "community": "Thompson",
+      "province": "MB",
+      "provinceName": "Manitoba",
+      "type": "precipitation",
+      "status": "broken",
+      "value": 15.0,
+      "unit": "mm",
+      "previousValue": 14.0,
+      "previousYear": 2011,
+      "difference": 1.0,
+      "recordBeginYear": 1966,
+      "periodYears": 61,
+      "coordinates": [
+        -97.86,
+        55.74
+      ],
+      "sourceUpdated": null,
+      "sourceId": "VSMB34V-10-10"
+    },
+    {
+      "id": "VSMB31V-2026-10-10-high_max",
+      "date": "2026-10-10",
+      "community": "Wasagaming",
+      "province": "MB",
+      "provinceName": "Manitoba",
+      "type": "high_max",
+      "status": "broken",
+      "value": 21.5,
+      "unit": "°C",
+      "previousValue": 21.1,
+      "previousYear": 1978,
+      "difference": 0.4,
+      "recordBeginYear": 1966,
+      "periodYears": 61,
+      "coordinates": [
+        -99.97,
+        50.66
+      ],
+      "sourceUpdated": "2026-10-11T12:21:48Z",
+      "sourceId": "VSMB31V-10-10"
+    },
+    {
+      "id": "VSMB38V-2026-10-10-high_min",
+      "date": "2026-10-10",
+      "community": "Winnipeg",
+      "province": "MB",
+      "provinceName": "Manitoba",
+      "type": "high_min",
+      "status": "broken",
+      "value": 11.3,
+      "unit": "°C",
+      "previousValue": 11.1,
+      "previousYear": 1938,
+      "difference": 0.2,
+      "recordBeginYear": 1872,
+      "periodYears": 155,
+      "coordinates": [
+        -97.15,
+        49.88
+      ],
+      "sourceUpdated": "2026-10-11T12:21:48Z",
+      "sourceId": "VSMB38V-10-10"
+    },
+    {
+      "id": "VSSK15V-2026-10-10-precipitation",
+      "date": "2026-10-10",
+      "community": "Waskesiu Lake",
+      "province": "SK",
+      "provinceName": "Saskatchewan",
+      "type": "precipitation",
+      "status": "broken",
+      "value": 11.0,
+      "unit": "mm",
+      "previousValue": 7.1,
+      "previousYear": 1998,
+      "difference": 3.9,
+      "recordBeginYear": 1966,
+      "periodYears": 61,
+      "coordinates": [
+        -106.08,
+        53.92
+      ],
+      "sourceUpdated": null,
+      "sourceId": "VSSK15V-10-10"
+    }
+  ],
+  "notes": [
+    "Values may be revised by ECCC after initial publication.",
+    "The archive contains daily snapshots saved by RecordWatch Canada after launch.",
+    "Suspicious or malformed candidate records are automatically withheld pending validation or verification."
+  ]
+}

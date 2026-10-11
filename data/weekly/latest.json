@@ -1,46 +1,46 @@
 {
   "schemaVersion": 1,
   "title": "This Week in Canadian Extremes",
-  "startDate": "2026-10-03",
-  "endDate": "2026-10-09",
+  "startDate": "2026-10-04",
+  "endDate": "2026-10-10",
   "datesIncluded": [
-    "2026-10-03",
     "2026-10-04",
     "2026-10-05",
     "2026-10-06",
     "2026-10-07",
     "2026-10-08",
-    "2026-10-09"
+    "2026-10-09",
+    "2026-10-10"
   ],
   "daysAvailable": 7,
   "isPartial": false,
-  "generatedAt": "2026-10-10T19:47:53-04:00",
+  "generatedAt": "2026-10-11T15:09:09-04:00",
   "summary": {
-    "totalRecords": 49,
-    "brokenRecords": 47,
+    "totalRecords": 56,
+    "brokenRecords": 54,
     "tiedRecords": 2
   },
-  "summaryText": "47 records broken, 2 tied. Daily Precipitation Record was the most common category (26 of 49 record events). British Columbia recorded the most events (18).",
+  "summaryText": "54 records broken, 2 tied. Daily Precipitation Record was the most common category (30 of 56 record events). Alberta recorded the most events (18).",
   "typeBreakdown": [
     {
       "type": "precipitation",
       "label": "Daily Precipitation Record",
-      "total": 26,
-      "broken": 26,
+      "total": 30,
+      "broken": 30,
       "tied": 0
     },
     {
       "type": "high_min",
       "label": "Record High Minimum Temperature",
-      "total": 14,
-      "broken": 13,
+      "total": 15,
+      "broken": 14,
       "tied": 1
     },
     {
       "type": "high_max",
       "label": "Record High Maximum Temperature",
-      "total": 8,
-      "broken": 8,
+      "total": 10,
+      "broken": 10,
       "tied": 0
     },
     {
@@ -53,14 +53,19 @@
   ],
   "provinceBreakdown": [
     {
-      "province": "BC",
-      "provinceName": "British Columbia",
+      "province": "AB",
+      "provinceName": "Alberta",
       "total": 18
     },
     {
-      "province": "AB",
-      "provinceName": "Alberta",
-      "total": 15
+      "province": "BC",
+      "provinceName": "British Columbia",
+      "total": 14
+    },
+    {
+      "province": "MB",
+      "provinceName": "Manitoba",
+      "total": 8
     },
     {
       "province": "NL",
@@ -73,11 +78,6 @@
       "total": 3
     },
     {
-      "province": "NU",
-      "provinceName": "Nunavut",
-      "total": 2
-    },
-    {
       "province": "YT",
       "provinceName": "Yukon",
       "total": 2
@@ -88,108 +88,44 @@
       "total": 2
     },
     {
+      "province": "SK",
+      "provinceName": "Saskatchewan",
+      "total": 2
+    },
+    {
       "province": "NT",
       "provinceName": "Northwest Territories",
       "total": 1
     },
     {
-      "province": "SK",
-      "provinceName": "Saskatchewan",
+      "province": "NU",
+      "provinceName": "Nunavut",
       "total": 1
     }
   ],
   "notableRecords": [
     {
-      "id": "VSBC40V-2026-10-03-high_min",
-      "date": "2026-10-03",
-      "community": "Esquimalt",
-      "province": "BC",
-      "provinceName": "British Columbia",
-      "type": "high_min",
+      "id": "VSAB50V-2026-10-10-precipitation",
+      "date": "2026-10-10",
+      "community": "Edmonton",
+      "province": "AB",
+      "provinceName": "Alberta",
+      "type": "precipitation",
       "status": "broken",
-      "value": 12.8,
-      "unit": "°C",
-      "previousValue": 12.2,
-      "previousYear": 1902,
-      "difference": 0.6,
-      "recordBeginYear": 1874,
-      "periodYears": 153,
+      "value": 4.8,
+      "unit": "mm",
+      "previousValue": 4.1,
+      "previousYear": 1910,
+      "difference": 0.7,
+      "recordBeginYear": 1880,
+      "periodYears": 147,
       "coordinates": [
-        -123.42,
-        48.45
+        -113.49,
+        53.53
       ],
-      "sourceUpdated": "2026-10-06T18:34:33Z",
-      "sourceId": "VSBC40V-10-3",
-      "previousRecordAge": 124
-    },
-    {
-      "id": "VSBC59V-2026-10-03-high_min",
-      "date": "2026-10-03",
-      "community": "Victoria (Hartland)",
-      "province": "BC",
-      "provinceName": "British Columbia",
-      "type": "high_min",
-      "status": "broken",
-      "value": 12.8,
-      "unit": "°C",
-      "previousValue": 12.2,
-      "previousYear": 1902,
-      "difference": 0.6,
-      "recordBeginYear": 1874,
-      "periodYears": 153,
-      "coordinates": [
-        -123.43,
-        48.52
-      ],
-      "sourceUpdated": "2026-10-06T18:34:33Z",
-      "sourceId": "VSBC59V-10-3",
-      "previousRecordAge": 124
-    },
-    {
-      "id": "VSBC66V-2026-10-03-high_min",
-      "date": "2026-10-03",
-      "community": "Victoria (University Of)",
-      "province": "BC",
-      "provinceName": "British Columbia",
-      "type": "high_min",
-      "status": "broken",
-      "value": 12.8,
-      "unit": "°C",
-      "previousValue": 12.2,
-      "previousYear": 1902,
-      "difference": 0.6,
-      "recordBeginYear": 1874,
-      "periodYears": 153,
-      "coordinates": [
-        -123.37,
-        48.43
-      ],
-      "sourceUpdated": "2026-10-06T18:34:33Z",
-      "sourceId": "VSBC66V-10-3",
-      "previousRecordAge": 124
-    },
-    {
-      "id": "VSBC75V-2026-10-03-high_min",
-      "date": "2026-10-03",
-      "community": "Victoria Harbour",
-      "province": "BC",
-      "provinceName": "British Columbia",
-      "type": "high_min",
-      "status": "broken",
-      "value": 12.8,
-      "unit": "°C",
-      "previousValue": 12.2,
-      "previousYear": 1902,
-      "difference": 0.6,
-      "recordBeginYear": 1874,
-      "periodYears": 153,
-      "coordinates": [
-        -123.39,
-        48.42
-      ],
-      "sourceUpdated": "2026-10-06T18:34:33Z",
-      "sourceId": "VSBC75V-10-3",
-      "previousRecordAge": 124
+      "sourceUpdated": null,
+      "sourceId": "VSAB50V-10-10",
+      "previousRecordAge": 116
     },
     {
       "id": "VSBC41V-2026-10-08-high_max",
@@ -210,7 +146,7 @@
         -120.51,
         49.46
       ],
-      "sourceUpdated": "2026-10-10T18:33:45Z",
+      "sourceUpdated": "2026-10-11T12:21:48Z",
       "sourceId": "VSBC41V-10-8",
       "previousRecordAge": 115
     },
@@ -236,6 +172,75 @@
       "sourceUpdated": null,
       "sourceId": "VSQC102-10-7",
       "previousRecordAge": 104
+    },
+    {
+      "id": "VSBC79V-2026-10-09-precipitation",
+      "date": "2026-10-09",
+      "community": "Prince George",
+      "province": "BC",
+      "provinceName": "British Columbia",
+      "type": "precipitation",
+      "status": "broken",
+      "value": 26.1,
+      "unit": "mm",
+      "previousValue": 13.0,
+      "previousYear": 1934,
+      "difference": 13.1,
+      "recordBeginYear": 1912,
+      "periodYears": 115,
+      "coordinates": [
+        -122.75,
+        53.92
+      ],
+      "sourceUpdated": null,
+      "sourceId": "VSBC79V-10-9",
+      "previousRecordAge": 92
+    },
+    {
+      "id": "VSAB57V-2026-10-09-precipitation",
+      "date": "2026-10-09",
+      "community": "Beaverlodge",
+      "province": "AB",
+      "provinceName": "Alberta",
+      "type": "precipitation",
+      "status": "broken",
+      "value": 36.9,
+      "unit": "mm",
+      "previousValue": 3.8,
+      "previousYear": 1938,
+      "difference": 33.1,
+      "recordBeginYear": 1913,
+      "periodYears": 114,
+      "coordinates": [
+        -119.43,
+        55.21
+      ],
+      "sourceUpdated": null,
+      "sourceId": "VSAB57V-10-9",
+      "previousRecordAge": 88
+    },
+    {
+      "id": "VSMB38V-2026-10-10-high_min",
+      "date": "2026-10-10",
+      "community": "Winnipeg",
+      "province": "MB",
+      "provinceName": "Manitoba",
+      "type": "high_min",
+      "status": "broken",
+      "value": 11.3,
+      "unit": "°C",
+      "previousValue": 11.1,
+      "previousYear": 1938,
+      "difference": 0.2,
+      "recordBeginYear": 1872,
+      "periodYears": 155,
+      "coordinates": [
+        -97.15,
+        49.88
+      ],
+      "sourceUpdated": "2026-10-11T12:21:48Z",
+      "sourceId": "VSMB38V-10-10",
+      "previousRecordAge": 88
     }
   ],
   "notes": [
