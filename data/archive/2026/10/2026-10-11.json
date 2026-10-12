@@ -1,0 +1,308 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-11",
+  "latestAvailableDate": "2026-10-11",
+  "generatedAt": "2026-10-12T18:13:14-04:00",
+  "sourceLastUpdated": "2026-10-12T18:34:30Z",
+  "source": "Environment and Climate Change Canada — MSC GeoMet LTCE",
+  "isDemo": false,
+  "summary": {
+    "totalRecords": 10,
+    "communities": 9,
+    "tiedRecords": 1,
+    "oldestRecordAge": 96
+  },
+  "validation": {
+    "candidateRecords": 10,
+    "publishedRecords": 10,
+    "withheldRecords": 0,
+    "invalidRecords": 0,
+    "manualReviewRecords": 0
+  },
+  "recordOfDay": {
+    "id": "VSON22V-2026-10-11-high_max",
+    "date": "2026-10-11",
+    "community": "Temiskaming Shores",
+    "province": "ON",
+    "provinceName": "Ontario",
+    "type": "high_max",
+    "status": "broken",
+    "value": 24.1,
+    "unit": "°C",
+    "previousValue": 23.9,
+    "previousYear": 1930,
+    "difference": 0.2,
+    "recordBeginYear": 1893,
+    "periodYears": 134,
+    "coordinates": [
+      -79.72,
+      47.49
+    ],
+    "sourceUpdated": "2026-10-12T18:34:30Z",
+    "sourceId": "VSON22V-10-11"
+  },
+  "story": {
+    "description": "Temiskaming Shores, ON recorded 24.1 °C. It exceeded the previous record high maximum temperature of 23.9 °C from 1930."
+  },
+  "highlights": [
+    {
+      "region": "Ontario",
+      "count": 4,
+      "brokenCount": 4,
+      "tiedCount": 0,
+      "leadingType": "high_max",
+      "text": "4 records broken. All 4 were record high maximum temperature events."
+    },
+    {
+      "region": "Prairies",
+      "count": 3,
+      "brokenCount": 2,
+      "tiedCount": 1,
+      "leadingType": "precipitation",
+      "text": "2 records broken, 1 tied. The most common type was daily precipitation record (2 of 3)."
+    },
+    {
+      "region": "Northern Canada",
+      "count": 2,
+      "brokenCount": 2,
+      "tiedCount": 0,
+      "leadingType": "high_max",
+      "text": "2 records broken. The most common type was record high maximum temperature (1 of 2)."
+    },
+    {
+      "region": "Quebec",
+      "count": 1,
+      "brokenCount": 1,
+      "tiedCount": 0,
+      "leadingType": "high_max",
+      "text": "1 record broken. It was a record high maximum temperature."
+    }
+  ],
+  "records": [
+    {
+      "id": "VSAB34V-2026-10-11-low_max",
+      "date": "2026-10-11",
+      "community": "Kananaskis (Nakiska Ridgetop)",
+      "province": "AB",
+      "provinceName": "Alberta",
+      "type": "low_max",
+      "status": "broken",
+      "value": -7.1,
+      "unit": "°C",
+      "previousValue": -6.3,
+      "previousYear": 2016,
+      "difference": -0.8,
+      "recordBeginYear": 1994,
+      "periodYears": 33,
+      "coordinates": [
+        -115.13,
+        51.08
+      ],
+      "sourceUpdated": "2026-10-12T18:34:30Z",
+      "sourceId": "VSAB34V-10-11"
+    },
+    {
+      "id": "VSAB19V-2026-10-11-precipitation",
+      "date": "2026-10-11",
+      "community": "Milk River",
+      "province": "AB",
+      "provinceName": "Alberta",
+      "type": "precipitation",
+      "status": "tied",
+      "value": 6.9,
+      "unit": "mm",
+      "previousValue": 6.9,
+      "previousYear": 2023,
+      "difference": 0.0,
+      "recordBeginYear": 1994,
+      "periodYears": 33,
+      "coordinates": [
+        -112.09,
+        49.15
+      ],
+      "sourceUpdated": null,
+      "sourceId": "VSAB19V-10-11"
+    },
+    {
+      "id": "VSMB4VV-2026-10-11-precipitation",
+      "date": "2026-10-11",
+      "community": "Pine Falls",
+      "province": "MB",
+      "provinceName": "Manitoba",
+      "type": "precipitation",
+      "status": "broken",
+      "value": 30.3,
+      "unit": "mm",
+      "previousValue": 19.4,
+      "previousYear": 2019,
+      "difference": 10.9,
+      "recordBeginYear": 1922,
+      "periodYears": 105,
+      "coordinates": [
+        -96.22,
+        50.57
+      ],
+      "sourceUpdated": null,
+      "sourceId": "VSMB4VV-10-11"
+    },
+    {
+      "id": "VSNT16V-2026-10-11-high_max",
+      "date": "2026-10-11",
+      "community": "Paulatuk",
+      "province": "NT",
+      "provinceName": "Northwest Territories",
+      "type": "high_max",
+      "status": "broken",
+      "value": 4.7,
+      "unit": "°C",
+      "previousValue": 3.4,
+      "previousYear": 2008,
+      "difference": 1.3,
+      "recordBeginYear": 1985,
+      "periodYears": 42,
+      "coordinates": [
+        -124.07,
+        69.35
+      ],
+      "sourceUpdated": "2026-10-12T18:34:30Z",
+      "sourceId": "VSNT16V-10-11"
+    },
+    {
+      "id": "VSNT16V-2026-10-11-high_min",
+      "date": "2026-10-11",
+      "community": "Paulatuk",
+      "province": "NT",
+      "provinceName": "Northwest Territories",
+      "type": "high_min",
+      "status": "broken",
+      "value": 0.5,
+      "unit": "°C",
+      "previousValue": -0.3,
+      "previousYear": 2014,
+      "difference": 0.8,
+      "recordBeginYear": 1985,
+      "periodYears": 42,
+      "coordinates": [
+        -124.07,
+        69.35
+      ],
+      "sourceUpdated": "2026-10-12T18:34:30Z",
+      "sourceId": "VSNT16V-10-11"
+    },
+    {
+      "id": "VSON70V-2026-10-11-high_max",
+      "date": "2026-10-11",
+      "community": "Greenstone (Geraldton)",
+      "province": "ON",
+      "provinceName": "Ontario",
+      "type": "high_max",
+      "status": "broken",
+      "value": 23.7,
+      "unit": "°C",
+      "previousValue": 23.5,
+      "previousYear": 2015,
+      "difference": 0.2,
+      "recordBeginYear": 1948,
+      "periodYears": 79,
+      "coordinates": [
+        -86.95,
+        49.72
+      ],
+      "sourceUpdated": "2026-10-12T18:34:30Z",
+      "sourceId": "VSON70V-10-11"
+    },
+    {
+      "id": "VSON76V-2026-10-11-high_max",
+      "date": "2026-10-11",
+      "community": "Kirkland Lake",
+      "province": "ON",
+      "provinceName": "Ontario",
+      "type": "high_max",
+      "status": "broken",
+      "value": 24.6,
+      "unit": "°C",
+      "previousValue": 22.2,
+      "previousYear": 1961,
+      "difference": 2.4,
+      "recordBeginYear": 1950,
+      "periodYears": 77,
+      "coordinates": [
+        -80.03,
+        48.15
+      ],
+      "sourceUpdated": "2026-10-12T18:34:30Z",
+      "sourceId": "VSON76V-10-11"
+    },
+    {
+      "id": "VSON22V-2026-10-11-high_max",
+      "date": "2026-10-11",
+      "community": "Temiskaming Shores",
+      "province": "ON",
+      "provinceName": "Ontario",
+      "type": "high_max",
+      "status": "broken",
+      "value": 24.1,
+      "unit": "°C",
+      "previousValue": 23.9,
+      "previousYear": 1930,
+      "difference": 0.2,
+      "recordBeginYear": 1893,
+      "periodYears": 134,
+      "coordinates": [
+        -79.72,
+        47.49
+      ],
+      "sourceUpdated": "2026-10-12T18:34:30Z",
+      "sourceId": "VSON22V-10-11"
+    },
+    {
+      "id": "VSON138-2026-10-11-high_max",
+      "date": "2026-10-11",
+      "community": "Wawa",
+      "province": "ON",
+      "provinceName": "Ontario",
+      "type": "high_max",
+      "status": "broken",
+      "value": 23.9,
+      "unit": "°C",
+      "previousValue": 22.8,
+      "previousYear": 1938,
+      "difference": 1.1,
+      "recordBeginYear": 1919,
+      "periodYears": 108,
+      "coordinates": [
+        -84.77,
+        47.99
+      ],
+      "sourceUpdated": "2026-10-12T18:34:30Z",
+      "sourceId": "VSON138-10-11"
+    },
+    {
+      "id": "VSQC149-2026-10-11-high_max",
+      "date": "2026-10-11",
+      "community": "Val-D'Or",
+      "province": "QC",
+      "provinceName": "Quebec",
+      "type": "high_max",
+      "status": "broken",
+      "value": 23.0,
+      "unit": "°C",
+      "previousValue": 22.2,
+      "previousYear": 2013,
+      "difference": 0.8,
+      "recordBeginYear": 1951,
+      "periodYears": 76,
+      "coordinates": [
+        -77.78,
+        48.1
+      ],
+      "sourceUpdated": "2026-10-12T18:34:30Z",
+      "sourceId": "VSQC149-10-11"
+    }
+  ],
+  "notes": [
+    "Values may be revised by ECCC after initial publication.",
+    "The archive contains daily snapshots saved by RecordWatch Canada after launch.",
+    "Suspicious or malformed candidate records are automatically withheld pending validation or verification."
+  ]
+}
