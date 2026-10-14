@@ -1,0 +1,269 @@
+{
+  "schemaVersion": 1,
+  "title": "This Week in Canadian Extremes",
+  "startDate": "2026-10-07",
+  "endDate": "2026-10-13",
+  "datesIncluded": [
+    "2026-10-07",
+    "2026-10-08",
+    "2026-10-09",
+    "2026-10-10",
+    "2026-10-11",
+    "2026-10-12",
+    "2026-10-13"
+  ],
+  "daysAvailable": 7,
+  "isPartial": false,
+  "generatedAt": "2026-10-14T14:51:10-04:00",
+  "summary": {
+    "totalRecords": 135,
+    "brokenRecords": 128,
+    "tiedRecords": 7
+  },
+  "summaryText": "128 records broken, 7 tied. Daily Precipitation Record was the most common category (72 of 135 record events). Ontario recorded the most events (48).",
+  "typeBreakdown": [
+    {
+      "type": "precipitation",
+      "label": "Daily Precipitation Record",
+      "total": 72,
+      "broken": 71,
+      "tied": 1
+    },
+    {
+      "type": "high_max",
+      "label": "Record High Maximum Temperature",
+      "total": 29,
+      "broken": 28,
+      "tied": 1
+    },
+    {
+      "type": "high_min",
+      "label": "Record High Minimum Temperature",
+      "total": 20,
+      "broken": 19,
+      "tied": 1
+    },
+    {
+      "type": "low_max",
+      "label": "Record Low Maximum Temperature",
+      "total": 9,
+      "broken": 7,
+      "tied": 2
+    },
+    {
+      "type": "low_min",
+      "label": "Record Low Minimum Temperature",
+      "total": 4,
+      "broken": 2,
+      "tied": 2
+    },
+    {
+      "type": "snowfall",
+      "label": "Daily Snowfall Record",
+      "total": 1,
+      "broken": 1,
+      "tied": 0
+    }
+  ],
+  "provinceBreakdown": [
+    {
+      "province": "ON",
+      "provinceName": "Ontario",
+      "total": 48
+    },
+    {
+      "province": "QC",
+      "provinceName": "Quebec",
+      "total": 30
+    },
+    {
+      "province": "AB",
+      "provinceName": "Alberta",
+      "total": 14
+    },
+    {
+      "province": "NL",
+      "provinceName": "Newfoundland and Labrador",
+      "total": 13
+    },
+    {
+      "province": "MB",
+      "provinceName": "Manitoba",
+      "total": 11
+    },
+    {
+      "province": "BC",
+      "provinceName": "British Columbia",
+      "total": 8
+    },
+    {
+      "province": "NT",
+      "provinceName": "Northwest Territories",
+      "total": 5
+    },
+    {
+      "province": "SK",
+      "provinceName": "Saskatchewan",
+      "total": 2
+    },
+    {
+      "province": "NB",
+      "provinceName": "New Brunswick",
+      "total": 2
+    },
+    {
+      "province": "NU",
+      "provinceName": "Nunavut",
+      "total": 1
+    },
+    {
+      "province": "NS",
+      "provinceName": "Nova Scotia",
+      "total": 1
+    }
+  ],
+  "notableRecords": [
+    {
+      "id": "VSON137-2026-10-13-high_min",
+      "date": "2026-10-13",
+      "community": "London",
+      "province": "ON",
+      "provinceName": "Ontario",
+      "type": "high_min",
+      "status": "broken",
+      "value": 14.5,
+      "unit": "°C",
+      "previousValue": 14.4,
+      "previousYear": 1879,
+      "difference": 0.1,
+      "recordBeginYear": 1871,
+      "periodYears": 156,
+      "coordinates": [
+        -81.23,
+        42.97
+      ],
+      "sourceUpdated": "2026-10-14T12:17:29Z",
+      "sourceId": "VSON137-10-13",
+      "previousRecordAge": 147
+    },
+    {
+      "id": "VSAB50V-2026-10-10-precipitation",
+      "date": "2026-10-10",
+      "community": "Edmonton",
+      "province": "AB",
+      "provinceName": "Alberta",
+      "type": "precipitation",
+      "status": "broken",
+      "value": 4.8,
+      "unit": "mm",
+      "previousValue": 4.1,
+      "previousYear": 1910,
+      "difference": 0.7,
+      "recordBeginYear": 1880,
+      "periodYears": 147,
+      "coordinates": [
+        -113.49,
+        53.53
+      ],
+      "sourceUpdated": null,
+      "sourceId": "VSAB50V-10-10",
+      "previousRecordAge": 116
+    },
+    {
+      "id": "VSBC41V-2026-10-08-high_max",
+      "date": "2026-10-08",
+      "community": "Princeton",
+      "province": "BC",
+      "provinceName": "British Columbia",
+      "type": "high_max",
+      "status": "broken",
+      "value": 26.8,
+      "unit": "°C",
+      "previousValue": 26.7,
+      "previousYear": 1911,
+      "difference": 0.1,
+      "recordBeginYear": 1893,
+      "periodYears": 134,
+      "coordinates": [
+        -120.51,
+        49.46
+      ],
+      "sourceUpdated": "2026-10-11T18:36:36Z",
+      "sourceId": "VSBC41V-10-8",
+      "previousRecordAge": 115
+    },
+    {
+      "id": "VSON137-2026-10-13-high_max",
+      "date": "2026-10-13",
+      "community": "London",
+      "province": "ON",
+      "provinceName": "Ontario",
+      "type": "high_max",
+      "status": "broken",
+      "value": 28.6,
+      "unit": "°C",
+      "previousValue": 26.1,
+      "previousYear": 1920,
+      "difference": 2.5,
+      "recordBeginYear": 1871,
+      "periodYears": 156,
+      "coordinates": [
+        -81.23,
+        42.97
+      ],
+      "sourceUpdated": "2026-10-14T12:17:29Z",
+      "sourceId": "VSON137-10-13",
+      "previousRecordAge": 106
+    },
+    {
+      "id": "VSON11V-2026-10-13-high_max",
+      "date": "2026-10-13",
+      "community": "Chatham-Kent",
+      "province": "ON",
+      "provinceName": "Ontario",
+      "type": "high_max",
+      "status": "broken",
+      "value": 29.0,
+      "unit": "°C",
+      "previousValue": 27.8,
+      "previousYear": 1920,
+      "difference": 1.2,
+      "recordBeginYear": 1889,
+      "periodYears": 138,
+      "coordinates": [
+        -82.13,
+        42.43
+      ],
+      "sourceUpdated": "2026-10-14T12:17:29Z",
+      "sourceId": "VSON11V-10-13",
+      "previousRecordAge": 106
+    },
+    {
+      "id": "VSQC102-2026-10-07-precipitation",
+      "date": "2026-10-07",
+      "community": "Maniwaki",
+      "province": "QC",
+      "provinceName": "Quebec",
+      "type": "precipitation",
+      "status": "broken",
+      "value": 28.1,
+      "unit": "mm",
+      "previousValue": 25.4,
+      "previousYear": 1922,
+      "difference": 2.7,
+      "recordBeginYear": 1913,
+      "periodYears": 114,
+      "coordinates": [
+        -75.97,
+        46.38
+      ],
+      "sourceUpdated": null,
+      "sourceId": "VSQC102-10-7",
+      "previousRecordAge": 104
+    }
+  ],
+  "notes": [
+    "This recap covers the latest seven completed climate dates.",
+    "Values are preliminary and may be revised by Environment and Climate Change Canada."
+  ]
+}

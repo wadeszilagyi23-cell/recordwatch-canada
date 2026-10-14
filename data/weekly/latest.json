@@ -1,60 +1,60 @@
 {
   "schemaVersion": 1,
   "title": "This Week in Canadian Extremes",
-  "startDate": "2026-10-06",
-  "endDate": "2026-10-12",
+  "startDate": "2026-10-07",
+  "endDate": "2026-10-13",
   "datesIncluded": [
-    "2026-10-06",
     "2026-10-07",
     "2026-10-08",
     "2026-10-09",
     "2026-10-10",
     "2026-10-11",
-    "2026-10-12"
+    "2026-10-12",
+    "2026-10-13"
   ],
   "daysAvailable": 7,
   "isPartial": false,
-  "generatedAt": "2026-10-13T19:50:37-04:00",
+  "generatedAt": "2026-10-14T14:51:10-04:00",
   "summary": {
-    "totalRecords": 66,
-    "brokenRecords": 63,
-    "tiedRecords": 3
+    "totalRecords": 135,
+    "brokenRecords": 128,
+    "tiedRecords": 7
   },
-  "summaryText": "63 records broken, 3 tied. Daily Precipitation Record was the most common category (38 of 66 record events). Alberta recorded the most events (15).",
+  "summaryText": "128 records broken, 7 tied. Daily Precipitation Record was the most common category (72 of 135 record events). Ontario recorded the most events (48).",
   "typeBreakdown": [
     {
       "type": "precipitation",
       "label": "Daily Precipitation Record",
-      "total": 38,
-      "broken": 37,
+      "total": 72,
+      "broken": 71,
       "tied": 1
     },
     {
       "type": "high_max",
       "label": "Record High Maximum Temperature",
-      "total": 11,
-      "broken": 11,
-      "tied": 0
+      "total": 29,
+      "broken": 28,
+      "tied": 1
     },
     {
       "type": "high_min",
       "label": "Record High Minimum Temperature",
-      "total": 9,
-      "broken": 9,
-      "tied": 0
+      "total": 20,
+      "broken": 19,
+      "tied": 1
     },
     {
       "type": "low_max",
       "label": "Record Low Maximum Temperature",
-      "total": 5,
-      "broken": 5,
-      "tied": 0
+      "total": 9,
+      "broken": 7,
+      "tied": 2
     },
     {
       "type": "low_min",
       "label": "Record Low Minimum Temperature",
-      "total": 2,
-      "broken": 0,
+      "total": 4,
+      "broken": 2,
       "tied": 2
     },
     {
@@ -67,14 +67,24 @@
   ],
   "provinceBreakdown": [
     {
+      "province": "ON",
+      "provinceName": "Ontario",
+      "total": 48
+    },
+    {
+      "province": "QC",
+      "provinceName": "Quebec",
+      "total": 30
+    },
+    {
       "province": "AB",
       "provinceName": "Alberta",
-      "total": 15
+      "total": 14
     },
     {
       "province": "NL",
       "provinceName": "Newfoundland and Labrador",
-      "total": 12
+      "total": 13
     },
     {
       "province": "MB",
@@ -82,19 +92,9 @@
       "total": 11
     },
     {
-      "province": "ON",
-      "provinceName": "Ontario",
-      "total": 8
-    },
-    {
       "province": "BC",
       "provinceName": "British Columbia",
-      "total": 7
-    },
-    {
-      "province": "QC",
-      "provinceName": "Quebec",
-      "total": 5
+      "total": 8
     },
     {
       "province": "NT",
@@ -107,12 +107,45 @@
       "total": 2
     },
     {
+      "province": "NB",
+      "provinceName": "New Brunswick",
+      "total": 2
+    },
+    {
       "province": "NU",
       "provinceName": "Nunavut",
+      "total": 1
+    },
+    {
+      "province": "NS",
+      "provinceName": "Nova Scotia",
       "total": 1
     }
   ],
   "notableRecords": [
+    {
+      "id": "VSON137-2026-10-13-high_min",
+      "date": "2026-10-13",
+      "community": "London",
+      "province": "ON",
+      "provinceName": "Ontario",
+      "type": "high_min",
+      "status": "broken",
+      "value": 14.5,
+      "unit": "°C",
+      "previousValue": 14.4,
+      "previousYear": 1879,
+      "difference": 0.1,
+      "recordBeginYear": 1871,
+      "periodYears": 156,
+      "coordinates": [
+        -81.23,
+        42.97
+      ],
+      "sourceUpdated": "2026-10-14T12:17:29Z",
+      "sourceId": "VSON137-10-13",
+      "previousRecordAge": 147
+    },
     {
       "id": "VSAB50V-2026-10-10-precipitation",
       "date": "2026-10-10",
@@ -160,6 +193,52 @@
       "previousRecordAge": 115
     },
     {
+      "id": "VSON137-2026-10-13-high_max",
+      "date": "2026-10-13",
+      "community": "London",
+      "province": "ON",
+      "provinceName": "Ontario",
+      "type": "high_max",
+      "status": "broken",
+      "value": 28.6,
+      "unit": "°C",
+      "previousValue": 26.1,
+      "previousYear": 1920,
+      "difference": 2.5,
+      "recordBeginYear": 1871,
+      "periodYears": 156,
+      "coordinates": [
+        -81.23,
+        42.97
+      ],
+      "sourceUpdated": "2026-10-14T12:17:29Z",
+      "sourceId": "VSON137-10-13",
+      "previousRecordAge": 106
+    },
+    {
+      "id": "VSON11V-2026-10-13-high_max",
+      "date": "2026-10-13",
+      "community": "Chatham-Kent",
+      "province": "ON",
+      "provinceName": "Ontario",
+      "type": "high_max",
+      "status": "broken",
+      "value": 29.0,
+      "unit": "°C",
+      "previousValue": 27.8,
+      "previousYear": 1920,
+      "difference": 1.2,
+      "recordBeginYear": 1889,
+      "periodYears": 138,
+      "coordinates": [
+        -82.13,
+        42.43
+      ],
+      "sourceUpdated": "2026-10-14T12:17:29Z",
+      "sourceId": "VSON11V-10-13",
+      "previousRecordAge": 106
+    },
+    {
       "id": "VSQC102-2026-10-07-precipitation",
       "date": "2026-10-07",
       "community": "Maniwaki",
@@ -181,75 +260,6 @@
       "sourceUpdated": null,
       "sourceId": "VSQC102-10-7",
       "previousRecordAge": 104
-    },
-    {
-      "id": "VSON22V-2026-10-11-high_max",
-      "date": "2026-10-11",
-      "community": "Temiskaming Shores",
-      "province": "ON",
-      "provinceName": "Ontario",
-      "type": "high_max",
-      "status": "broken",
-      "value": 24.1,
-      "unit": "°C",
-      "previousValue": 23.9,
-      "previousYear": 1930,
-      "difference": 0.2,
-      "recordBeginYear": 1893,
-      "periodYears": 134,
-      "coordinates": [
-        -79.72,
-        47.49
-      ],
-      "sourceUpdated": "2026-10-13T18:34:27Z",
-      "sourceId": "VSON22V-10-11",
-      "previousRecordAge": 96
-    },
-    {
-      "id": "VSBC79V-2026-10-09-precipitation",
-      "date": "2026-10-09",
-      "community": "Prince George",
-      "province": "BC",
-      "provinceName": "British Columbia",
-      "type": "precipitation",
-      "status": "broken",
-      "value": 26.1,
-      "unit": "mm",
-      "previousValue": 13.0,
-      "previousYear": 1934,
-      "difference": 13.1,
-      "recordBeginYear": 1912,
-      "periodYears": 115,
-      "coordinates": [
-        -122.75,
-        53.92
-      ],
-      "sourceUpdated": null,
-      "sourceId": "VSBC79V-10-9",
-      "previousRecordAge": 92
-    },
-    {
-      "id": "VSAB57V-2026-10-09-precipitation",
-      "date": "2026-10-09",
-      "community": "Beaverlodge",
-      "province": "AB",
-      "provinceName": "Alberta",
-      "type": "precipitation",
-      "status": "broken",
-      "value": 36.9,
-      "unit": "mm",
-      "previousValue": 3.8,
-      "previousYear": 1938,
-      "difference": 33.1,
-      "recordBeginYear": 1913,
-      "periodYears": 114,
-      "coordinates": [
-        -119.43,
-        55.21
-      ],
-      "sourceUpdated": null,
-      "sourceId": "VSAB57V-10-9",
-      "previousRecordAge": 88
     }
   ],
   "notes": [
