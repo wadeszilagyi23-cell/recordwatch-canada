@@ -1,26 +1,26 @@
 {
   "schemaVersion": 1,
   "title": "This Week in Canadian Extremes",
-  "startDate": "2026-10-07",
-  "endDate": "2026-10-13",
+  "startDate": "2026-10-08",
+  "endDate": "2026-10-14",
   "datesIncluded": [
-    "2026-10-07",
     "2026-10-08",
     "2026-10-09",
     "2026-10-10",
     "2026-10-11",
     "2026-10-12",
-    "2026-10-13"
+    "2026-10-13",
+    "2026-10-14"
   ],
   "daysAvailable": 7,
   "isPartial": false,
-  "generatedAt": "2026-10-14T19:24:42-04:00",
+  "generatedAt": "2026-10-15T14:36:44-04:00",
   "summary": {
-    "totalRecords": 136,
-    "brokenRecords": 129,
+    "totalRecords": 141,
+    "brokenRecords": 134,
     "tiedRecords": 7
   },
-  "summaryText": "129 records broken, 7 tied. Daily Precipitation Record was the most common category (72 of 136 record events). Ontario recorded the most events (49).",
+  "summaryText": "134 records broken, 7 tied. Daily Precipitation Record was the most common category (72 of 141 record events). Ontario recorded the most events (50).",
   "typeBreakdown": [
     {
       "type": "precipitation",
@@ -32,8 +32,8 @@
     {
       "type": "high_max",
       "label": "Record High Maximum Temperature",
-      "total": 30,
-      "broken": 29,
+      "total": 32,
+      "broken": 31,
       "tied": 1
     },
     {
@@ -53,8 +53,8 @@
     {
       "type": "low_min",
       "label": "Record Low Minimum Temperature",
-      "total": 4,
-      "broken": 2,
+      "total": 7,
+      "broken": 5,
       "tied": 2
     },
     {
@@ -69,7 +69,7 @@
     {
       "province": "ON",
       "provinceName": "Ontario",
-      "total": 49
+      "total": 50
     },
     {
       "province": "QC",
@@ -79,12 +79,12 @@
     {
       "province": "AB",
       "provinceName": "Alberta",
-      "total": 14
+      "total": 15
     },
     {
       "province": "NL",
       "provinceName": "Newfoundland and Labrador",
-      "total": 13
+      "total": 15
     },
     {
       "province": "MB",
@@ -94,7 +94,7 @@
     {
       "province": "BC",
       "provinceName": "British Columbia",
-      "total": 8
+      "total": 9
     },
     {
       "province": "NT",
@@ -142,7 +142,7 @@
         -81.23,
         42.97
       ],
-      "sourceUpdated": "2026-10-14T18:33:47Z",
+      "sourceUpdated": "2026-10-15T12:18:59Z",
       "sourceId": "VSON137-10-13",
       "previousRecordAge": 147
     },
@@ -211,7 +211,7 @@
         -81.23,
         42.97
       ],
-      "sourceUpdated": "2026-10-14T18:33:47Z",
+      "sourceUpdated": "2026-10-15T12:18:59Z",
       "sourceId": "VSON137-10-13",
       "previousRecordAge": 106
     },
@@ -234,32 +234,32 @@
         -82.13,
         42.43
       ],
-      "sourceUpdated": "2026-10-14T18:33:47Z",
+      "sourceUpdated": "2026-10-15T12:18:59Z",
       "sourceId": "VSON11V-10-13",
       "previousRecordAge": 106
     },
     {
-      "id": "VSQC102-2026-10-07-precipitation",
-      "date": "2026-10-07",
-      "community": "Maniwaki",
+      "id": "VSQC72V-2026-10-13-precipitation",
+      "date": "2026-10-13",
+      "community": "Lac-Mégantic",
       "province": "QC",
       "provinceName": "Quebec",
       "type": "precipitation",
       "status": "broken",
-      "value": 28.1,
+      "value": 42.9,
       "unit": "mm",
-      "previousValue": 25.4,
-      "previousYear": 1922,
-      "difference": 2.7,
+      "previousValue": 28.4,
+      "previousYear": 1927,
+      "difference": 14.5,
       "recordBeginYear": 1913,
       "periodYears": 114,
       "coordinates": [
-        -75.97,
-        46.38
+        -70.88,
+        45.58
       ],
       "sourceUpdated": null,
-      "sourceId": "VSQC102-10-7",
-      "previousRecordAge": 104
+      "sourceId": "VSQC72V-10-13",
+      "previousRecordAge": 99
     }
   ],
   "notes": [
