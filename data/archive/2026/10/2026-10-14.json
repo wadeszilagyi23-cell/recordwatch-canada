@@ -2,19 +2,19 @@
   "schemaVersion": 1,
   "date": "2026-10-14",
   "latestAvailableDate": "2026-10-14",
-  "generatedAt": "2026-10-15T14:36:41-04:00",
-  "sourceLastUpdated": "2026-10-15T12:18:59Z",
+  "generatedAt": "2026-10-15T16:44:36-04:00",
+  "sourceLastUpdated": "2026-10-15T18:33:55Z",
   "source": "Environment and Climate Change Canada — MSC GeoMet LTCE",
   "isDemo": false,
   "summary": {
-    "totalRecords": 5,
-    "communities": 5,
+    "totalRecords": 6,
+    "communities": 6,
     "tiedRecords": 0,
     "oldestRecordAge": 57
   },
   "validation": {
-    "candidateRecords": 5,
-    "publishedRecords": 5,
+    "candidateRecords": 6,
+    "publishedRecords": 6,
     "withheldRecords": 0,
     "invalidRecords": 0,
     "manualReviewRecords": 0
@@ -38,7 +38,7 @@
       -55.4,
       46.92
     ],
-    "sourceUpdated": "2026-10-15T12:18:59Z",
+    "sourceUpdated": "2026-10-15T18:33:55Z",
     "sourceId": "VSNL36V-10-14"
   },
   "story": {
@@ -47,11 +47,11 @@
   "highlights": [
     {
       "region": "Atlantic Canada",
-      "count": 2,
-      "brokenCount": 2,
+      "count": 3,
+      "brokenCount": 3,
       "tiedCount": 0,
       "leadingType": "low_min",
-      "text": "2 records broken. All 2 were record low minimum temperature events."
+      "text": "3 records broken. All 3 were record low minimum temperature events."
     },
     {
       "region": "Prairies",
@@ -120,7 +120,7 @@
         -119.3,
         52.1
       ],
-      "sourceUpdated": "2026-10-15T12:18:59Z",
+      "sourceUpdated": "2026-10-15T18:33:55Z",
       "sourceId": "VSBC22V-10-14"
     },
     {
@@ -142,8 +142,30 @@
         -64.02,
         53.55
       ],
-      "sourceUpdated": "2026-10-15T12:18:59Z",
+      "sourceUpdated": "2026-10-15T18:33:55Z",
       "sourceId": "VSNL21V-10-14"
+    },
+    {
+      "id": "VSNL1VV-2026-10-14-low_min",
+      "date": "2026-10-14",
+      "community": "Clarenville",
+      "province": "NL",
+      "provinceName": "Newfoundland and Labrador",
+      "type": "low_min",
+      "status": "broken",
+      "value": -5.0,
+      "unit": "°C",
+      "previousValue": -4.0,
+      "previousYear": 2017,
+      "difference": -1.0,
+      "recordBeginYear": 1978,
+      "periodYears": 49,
+      "coordinates": [
+        -53.98,
+        48.16
+      ],
+      "sourceUpdated": "2026-10-15T18:33:55Z",
+      "sourceId": "VSNL1VV-10-14"
     },
     {
       "id": "VSNL36V-2026-10-14-low_min",
@@ -164,7 +186,7 @@
         -55.4,
         46.92
       ],
-      "sourceUpdated": "2026-10-15T12:18:59Z",
+      "sourceUpdated": "2026-10-15T18:33:55Z",
       "sourceId": "VSNL36V-10-14"
     },
     {
@@ -186,7 +208,7 @@
         -59.6,
         50.47
       ],
-      "sourceUpdated": "2026-10-15T12:18:59Z",
+      "sourceUpdated": "2026-10-15T18:33:55Z",
       "sourceId": "VSQC152-10-14"
     }
   ],
