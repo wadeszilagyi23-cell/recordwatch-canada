@@ -14,13 +14,13 @@
   ],
   "daysAvailable": 7,
   "isPartial": false,
-  "generatedAt": "2026-10-16T10:45:33-04:00",
+  "generatedAt": "2026-10-16T16:44:48-04:00",
   "summary": {
-    "totalRecords": 146,
-    "brokenRecords": 137,
+    "totalRecords": 147,
+    "brokenRecords": 138,
     "tiedRecords": 9
   },
-  "summaryText": "137 records broken, 9 tied. Daily Precipitation Record was the most common category (73 of 146 record events). Ontario recorded the most events (51).",
+  "summaryText": "138 records broken, 9 tied. Daily Precipitation Record was the most common category (73 of 147 record events). Ontario recorded the most events (52).",
   "typeBreakdown": [
     {
       "type": "precipitation",
@@ -32,8 +32,8 @@
     {
       "type": "high_max",
       "label": "Record High Maximum Temperature",
-      "total": 32,
-      "broken": 31,
+      "total": 33,
+      "broken": 32,
       "tied": 1
     },
     {
@@ -69,7 +69,7 @@
     {
       "province": "ON",
       "provinceName": "Ontario",
-      "total": 51
+      "total": 52
     },
     {
       "province": "QC",
@@ -147,7 +147,7 @@
         -81.23,
         42.97
       ],
-      "sourceUpdated": "2026-10-16T12:18:01Z",
+      "sourceUpdated": "2026-10-16T18:35:03Z",
       "sourceId": "VSON137-10-13",
       "previousRecordAge": 147
     },
@@ -170,7 +170,7 @@
         -80.11,
         43.92
       ],
-      "sourceUpdated": "2026-10-16T12:18:01Z",
+      "sourceUpdated": "2026-10-16T18:35:03Z",
       "sourceId": "VSON140-10-13",
       "previousRecordAge": 133
     },
@@ -216,7 +216,7 @@
         -81.23,
         42.97
       ],
-      "sourceUpdated": "2026-10-16T12:18:01Z",
+      "sourceUpdated": "2026-10-16T18:35:03Z",
       "sourceId": "VSON137-10-13",
       "previousRecordAge": 106
     },
@@ -239,7 +239,7 @@
         -82.13,
         42.43
       ],
-      "sourceUpdated": "2026-10-16T12:18:01Z",
+      "sourceUpdated": "2026-10-16T18:35:03Z",
       "sourceId": "VSON11V-10-13",
       "previousRecordAge": 106
     },
