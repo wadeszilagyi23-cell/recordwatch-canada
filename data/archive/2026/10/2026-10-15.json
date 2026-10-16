@@ -1,0 +1,278 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-15",
+  "latestAvailableDate": "2026-10-15",
+  "generatedAt": "2026-10-16T10:45:29-04:00",
+  "sourceLastUpdated": "2026-10-16T12:18:01Z",
+  "source": "Environment and Climate Change Canada — MSC GeoMet LTCE",
+  "isDemo": false,
+  "summary": {
+    "totalRecords": 9,
+    "communities": 9,
+    "tiedRecords": 2,
+    "oldestRecordAge": 71
+  },
+  "validation": {
+    "candidateRecords": 9,
+    "publishedRecords": 9,
+    "withheldRecords": 0,
+    "invalidRecords": 0,
+    "manualReviewRecords": 0
+  },
+  "recordOfDay": {
+    "id": "VSNL35V-2026-10-15-precipitation",
+    "date": "2026-10-15",
+    "community": "Twillingate",
+    "province": "NL",
+    "provinceName": "Newfoundland and Labrador",
+    "type": "precipitation",
+    "status": "broken",
+    "value": 16.7,
+    "unit": "mm",
+    "previousValue": 10.7,
+    "previousYear": 1955,
+    "difference": 6.0,
+    "recordBeginYear": 1950,
+    "periodYears": 77,
+    "coordinates": [
+      -54.76,
+      49.65
+    ],
+    "sourceUpdated": null,
+    "sourceId": "VSNL35V-10-15"
+  },
+  "story": {
+    "description": "Twillingate, NL recorded 16.7 mm. It exceeded the previous daily precipitation record of 10.7 mm from 1955."
+  },
+  "highlights": [
+    {
+      "region": "Atlantic Canada",
+      "count": 4,
+      "brokenCount": 4,
+      "tiedCount": 0,
+      "leadingType": "precipitation",
+      "text": "4 records broken. All 4 were daily precipitation record events."
+    },
+    {
+      "region": "Northern Canada",
+      "count": 4,
+      "brokenCount": 2,
+      "tiedCount": 2,
+      "leadingType": "high_min",
+      "text": "2 records broken, 2 tied. The most common type was record high minimum temperature (3 of 4)."
+    },
+    {
+      "region": "British Columbia",
+      "count": 1,
+      "brokenCount": 1,
+      "tiedCount": 0,
+      "leadingType": "high_min",
+      "text": "1 record broken. It was a record high minimum temperature."
+    }
+  ],
+  "records": [
+    {
+      "id": "VSBC56V-2026-10-15-high_min",
+      "date": "2026-10-15",
+      "community": "Masset",
+      "province": "BC",
+      "provinceName": "British Columbia",
+      "type": "high_min",
+      "status": "broken",
+      "value": 11.4,
+      "unit": "°C",
+      "previousValue": 11.1,
+      "previousYear": 1963,
+      "difference": 0.3,
+      "recordBeginYear": 1897,
+      "periodYears": 130,
+      "coordinates": [
+        -132.1,
+        54.02
+      ],
+      "sourceUpdated": "2026-10-16T12:18:01Z",
+      "sourceId": "VSBC56V-10-15"
+    },
+    {
+      "id": "VSNL34V-2026-10-15-precipitation",
+      "date": "2026-10-15",
+      "community": "Badger",
+      "province": "NL",
+      "provinceName": "Newfoundland and Labrador",
+      "type": "precipitation",
+      "status": "broken",
+      "value": 21.5,
+      "unit": "mm",
+      "previousValue": 17.5,
+      "previousYear": 1977,
+      "difference": 4.0,
+      "recordBeginYear": 1955,
+      "periodYears": 72,
+      "coordinates": [
+        -56.04,
+        48.98
+      ],
+      "sourceUpdated": null,
+      "sourceId": "VSNL34V-10-15"
+    },
+    {
+      "id": "VSNL6VV-2026-10-15-precipitation",
+      "date": "2026-10-15",
+      "community": "Grand Falls-Windsor",
+      "province": "NL",
+      "provinceName": "Newfoundland and Labrador",
+      "type": "precipitation",
+      "status": "broken",
+      "value": 21.5,
+      "unit": "mm",
+      "previousValue": 17.5,
+      "previousYear": 1977,
+      "difference": 4.0,
+      "recordBeginYear": 1934,
+      "periodYears": 93,
+      "coordinates": [
+        -55.67,
+        48.94
+      ],
+      "sourceUpdated": null,
+      "sourceId": "VSNL6VV-10-15"
+    },
+    {
+      "id": "VSNL15V-2026-10-15-precipitation",
+      "date": "2026-10-15",
+      "community": "Terra Nova (National Park)",
+      "province": "NL",
+      "provinceName": "Newfoundland and Labrador",
+      "type": "precipitation",
+      "status": "broken",
+      "value": 19.6,
+      "unit": "mm",
+      "previousValue": 16.8,
+      "previousYear": 2011,
+      "difference": 2.8,
+      "recordBeginYear": 1962,
+      "periodYears": 65,
+      "coordinates": [
+        -53.93,
+        48.53
+      ],
+      "sourceUpdated": null,
+      "sourceId": "VSNL15V-10-15"
+    },
+    {
+      "id": "VSNL35V-2026-10-15-precipitation",
+      "date": "2026-10-15",
+      "community": "Twillingate",
+      "province": "NL",
+      "provinceName": "Newfoundland and Labrador",
+      "type": "precipitation",
+      "status": "broken",
+      "value": 16.7,
+      "unit": "mm",
+      "previousValue": 10.7,
+      "previousYear": 1955,
+      "difference": 6.0,
+      "recordBeginYear": 1950,
+      "periodYears": 77,
+      "coordinates": [
+        -54.76,
+        49.65
+      ],
+      "sourceUpdated": null,
+      "sourceId": "VSNL35V-10-15"
+    },
+    {
+      "id": "VSNT22V-2026-10-15-high_min",
+      "date": "2026-10-15",
+      "community": "Deline",
+      "province": "NT",
+      "provinceName": "Northwest Territories",
+      "type": "high_min",
+      "status": "broken",
+      "value": 1.0,
+      "unit": "°C",
+      "previousValue": -1.1,
+      "previousYear": 2025,
+      "difference": 2.1,
+      "recordBeginYear": 1974,
+      "periodYears": 53,
+      "coordinates": [
+        -123.42,
+        65.19
+      ],
+      "sourceUpdated": "2026-10-16T12:18:01Z",
+      "sourceId": "VSNT22V-10-15"
+    },
+    {
+      "id": "VSNU5VV-2026-10-15-precipitation",
+      "date": "2026-10-15",
+      "community": "Qikiqtarjuaq",
+      "province": "NU",
+      "provinceName": "Nunavut",
+      "type": "precipitation",
+      "status": "broken",
+      "value": 8.5,
+      "unit": "mm",
+      "previousValue": 5.8,
+      "previousYear": 2017,
+      "difference": 2.7,
+      "recordBeginYear": 2003,
+      "periodYears": 24,
+      "coordinates": [
+        -64.03,
+        67.55
+      ],
+      "sourceUpdated": null,
+      "sourceId": "VSNU5VV-10-15"
+    },
+    {
+      "id": "VSYT7VV-2026-10-15-high_min",
+      "date": "2026-10-15",
+      "community": "Burwash Landing",
+      "province": "YT",
+      "provinceName": "Yukon",
+      "type": "high_min",
+      "status": "tied",
+      "value": 2.0,
+      "unit": "°C",
+      "previousValue": 2.0,
+      "previousYear": 2011,
+      "difference": 0.0,
+      "recordBeginYear": 1966,
+      "periodYears": 61,
+      "coordinates": [
+        -138.99,
+        61.36
+      ],
+      "sourceUpdated": "2026-10-16T12:18:01Z",
+      "sourceId": "VSYT7VV-10-15"
+    },
+    {
+      "id": "VSYT1VV-2026-10-15-high_min",
+      "date": "2026-10-15",
+      "community": "Kluane Lake",
+      "province": "YT",
+      "provinceName": "Yukon",
+      "type": "high_min",
+      "status": "tied",
+      "value": 2.0,
+      "unit": "°C",
+      "previousValue": 2.0,
+      "previousYear": 2011,
+      "difference": 0.0,
+      "recordBeginYear": 1966,
+      "periodYears": 61,
+      "coordinates": [
+        -138.77,
+        61.26
+      ],
+      "sourceUpdated": "2026-10-16T12:18:01Z",
+      "sourceId": "VSYT1VV-10-15"
+    }
+  ],
+  "notes": [
+    "Values may be revised by ECCC after initial publication.",
+    "The archive contains daily snapshots saved by RecordWatch Canada after launch.",
+    "Suspicious or malformed candidate records are automatically withheld pending validation or verification."
+  ]
+}

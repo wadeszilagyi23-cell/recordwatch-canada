@@ -1,215 +1,273 @@
 {
   "schemaVersion": 1,
-  "date": "2026-10-14",
-  "latestAvailableDate": "2026-10-14",
-  "generatedAt": "2026-10-15T16:44:36-04:00",
-  "sourceLastUpdated": "2026-10-15T18:33:55Z",
+  "date": "2026-10-15",
+  "latestAvailableDate": "2026-10-15",
+  "generatedAt": "2026-10-16T10:45:29-04:00",
+  "sourceLastUpdated": "2026-10-16T12:18:01Z",
   "source": "Environment and Climate Change Canada — MSC GeoMet LTCE",
   "isDemo": false,
   "summary": {
-    "totalRecords": 6,
-    "communities": 6,
-    "tiedRecords": 0,
-    "oldestRecordAge": 57
+    "totalRecords": 9,
+    "communities": 9,
+    "tiedRecords": 2,
+    "oldestRecordAge": 71
   },
   "validation": {
-    "candidateRecords": 6,
-    "publishedRecords": 6,
+    "candidateRecords": 9,
+    "publishedRecords": 9,
     "withheldRecords": 0,
     "invalidRecords": 0,
     "manualReviewRecords": 0
   },
   "recordOfDay": {
-    "id": "VSNL36V-2026-10-14-low_min",
-    "date": "2026-10-14",
-    "community": "St. Lawrence",
+    "id": "VSNL35V-2026-10-15-precipitation",
+    "date": "2026-10-15",
+    "community": "Twillingate",
     "province": "NL",
     "provinceName": "Newfoundland and Labrador",
-    "type": "low_min",
+    "type": "precipitation",
     "status": "broken",
-    "value": -2.0,
-    "unit": "°C",
-    "previousValue": -1.7,
-    "previousYear": 1969,
-    "difference": -0.3,
-    "recordBeginYear": 1966,
-    "periodYears": 61,
+    "value": 16.7,
+    "unit": "mm",
+    "previousValue": 10.7,
+    "previousYear": 1955,
+    "difference": 6.0,
+    "recordBeginYear": 1950,
+    "periodYears": 77,
     "coordinates": [
-      -55.4,
-      46.92
+      -54.76,
+      49.65
     ],
-    "sourceUpdated": "2026-10-15T18:33:55Z",
-    "sourceId": "VSNL36V-10-14"
+    "sourceUpdated": null,
+    "sourceId": "VSNL35V-10-15"
   },
   "story": {
-    "description": "St. Lawrence, NL recorded -2.0 °C. It exceeded the previous record low minimum temperature of -1.7 °C from 1969."
+    "description": "Twillingate, NL recorded 16.7 mm. It exceeded the previous daily precipitation record of 10.7 mm from 1955."
   },
   "highlights": [
     {
       "region": "Atlantic Canada",
-      "count": 3,
-      "brokenCount": 3,
-      "tiedCount": 0,
-      "leadingType": "low_min",
-      "text": "3 records broken. All 3 were record low minimum temperature events."
-    },
-    {
-      "region": "Prairies",
-      "count": 1,
-      "brokenCount": 1,
+      "count": 4,
+      "brokenCount": 4,
       "tiedCount": 0,
       "leadingType": "precipitation",
-      "text": "1 record broken. It was a daily precipitation record."
+      "text": "4 records broken. All 4 were daily precipitation record events."
+    },
+    {
+      "region": "Northern Canada",
+      "count": 4,
+      "brokenCount": 2,
+      "tiedCount": 2,
+      "leadingType": "high_min",
+      "text": "2 records broken, 2 tied. The most common type was record high minimum temperature (3 of 4)."
     },
     {
       "region": "British Columbia",
       "count": 1,
       "brokenCount": 1,
       "tiedCount": 0,
-      "leadingType": "high_max",
-      "text": "1 record broken. It was a record high maximum temperature."
-    },
-    {
-      "region": "Quebec",
-      "count": 1,
-      "brokenCount": 1,
-      "tiedCount": 0,
-      "leadingType": "low_min",
-      "text": "1 record broken. It was a record low minimum temperature."
+      "leadingType": "high_min",
+      "text": "1 record broken. It was a record high minimum temperature."
     }
   ],
   "records": [
     {
-      "id": "VSAB40V-2026-10-14-precipitation",
-      "date": "2026-10-14",
-      "community": "Red Earth Creek",
-      "province": "AB",
-      "provinceName": "Alberta",
-      "type": "precipitation",
-      "status": "broken",
-      "value": 5.2,
-      "unit": "mm",
-      "previousValue": 3.1,
-      "previousYear": 2016,
-      "difference": 2.1,
-      "recordBeginYear": 1994,
-      "periodYears": 33,
-      "coordinates": [
-        -115.29,
-        56.54
-      ],
-      "sourceUpdated": null,
-      "sourceId": "VSAB40V-10-14"
-    },
-    {
-      "id": "VSBC22V-2026-10-14-high_max",
-      "date": "2026-10-14",
-      "community": "Blue River",
+      "id": "VSBC56V-2026-10-15-high_min",
+      "date": "2026-10-15",
+      "community": "Masset",
       "province": "BC",
       "provinceName": "British Columbia",
-      "type": "high_max",
+      "type": "high_min",
       "status": "broken",
-      "value": 17.3,
+      "value": 11.4,
       "unit": "°C",
-      "previousValue": 17.2,
-      "previousYear": 1991,
-      "difference": 0.1,
-      "recordBeginYear": 1946,
-      "periodYears": 81,
+      "previousValue": 11.1,
+      "previousYear": 1963,
+      "difference": 0.3,
+      "recordBeginYear": 1897,
+      "periodYears": 130,
       "coordinates": [
-        -119.3,
-        52.1
+        -132.1,
+        54.02
       ],
-      "sourceUpdated": "2026-10-15T18:33:55Z",
-      "sourceId": "VSBC22V-10-14"
+      "sourceUpdated": "2026-10-16T12:18:01Z",
+      "sourceId": "VSBC56V-10-15"
     },
     {
-      "id": "VSNL21V-2026-10-14-low_min",
-      "date": "2026-10-14",
-      "community": "Churchill Falls",
+      "id": "VSNL34V-2026-10-15-precipitation",
+      "date": "2026-10-15",
+      "community": "Badger",
       "province": "NL",
       "provinceName": "Newfoundland and Labrador",
-      "type": "low_min",
+      "type": "precipitation",
       "status": "broken",
-      "value": -8.2,
-      "unit": "°C",
-      "previousValue": -6.7,
-      "previousYear": 1972,
-      "difference": -1.5,
-      "recordBeginYear": 1968,
-      "periodYears": 59,
+      "value": 21.5,
+      "unit": "mm",
+      "previousValue": 17.5,
+      "previousYear": 1977,
+      "difference": 4.0,
+      "recordBeginYear": 1955,
+      "periodYears": 72,
       "coordinates": [
-        -64.02,
-        53.55
+        -56.04,
+        48.98
       ],
-      "sourceUpdated": "2026-10-15T18:33:55Z",
-      "sourceId": "VSNL21V-10-14"
+      "sourceUpdated": null,
+      "sourceId": "VSNL34V-10-15"
     },
     {
-      "id": "VSNL1VV-2026-10-14-low_min",
-      "date": "2026-10-14",
-      "community": "Clarenville",
+      "id": "VSNL6VV-2026-10-15-precipitation",
+      "date": "2026-10-15",
+      "community": "Grand Falls-Windsor",
       "province": "NL",
       "provinceName": "Newfoundland and Labrador",
-      "type": "low_min",
+      "type": "precipitation",
       "status": "broken",
-      "value": -5.0,
+      "value": 21.5,
+      "unit": "mm",
+      "previousValue": 17.5,
+      "previousYear": 1977,
+      "difference": 4.0,
+      "recordBeginYear": 1934,
+      "periodYears": 93,
+      "coordinates": [
+        -55.67,
+        48.94
+      ],
+      "sourceUpdated": null,
+      "sourceId": "VSNL6VV-10-15"
+    },
+    {
+      "id": "VSNL15V-2026-10-15-precipitation",
+      "date": "2026-10-15",
+      "community": "Terra Nova (National Park)",
+      "province": "NL",
+      "provinceName": "Newfoundland and Labrador",
+      "type": "precipitation",
+      "status": "broken",
+      "value": 19.6,
+      "unit": "mm",
+      "previousValue": 16.8,
+      "previousYear": 2011,
+      "difference": 2.8,
+      "recordBeginYear": 1962,
+      "periodYears": 65,
+      "coordinates": [
+        -53.93,
+        48.53
+      ],
+      "sourceUpdated": null,
+      "sourceId": "VSNL15V-10-15"
+    },
+    {
+      "id": "VSNL35V-2026-10-15-precipitation",
+      "date": "2026-10-15",
+      "community": "Twillingate",
+      "province": "NL",
+      "provinceName": "Newfoundland and Labrador",
+      "type": "precipitation",
+      "status": "broken",
+      "value": 16.7,
+      "unit": "mm",
+      "previousValue": 10.7,
+      "previousYear": 1955,
+      "difference": 6.0,
+      "recordBeginYear": 1950,
+      "periodYears": 77,
+      "coordinates": [
+        -54.76,
+        49.65
+      ],
+      "sourceUpdated": null,
+      "sourceId": "VSNL35V-10-15"
+    },
+    {
+      "id": "VSNT22V-2026-10-15-high_min",
+      "date": "2026-10-15",
+      "community": "Deline",
+      "province": "NT",
+      "provinceName": "Northwest Territories",
+      "type": "high_min",
+      "status": "broken",
+      "value": 1.0,
       "unit": "°C",
-      "previousValue": -4.0,
+      "previousValue": -1.1,
+      "previousYear": 2025,
+      "difference": 2.1,
+      "recordBeginYear": 1974,
+      "periodYears": 53,
+      "coordinates": [
+        -123.42,
+        65.19
+      ],
+      "sourceUpdated": "2026-10-16T12:18:01Z",
+      "sourceId": "VSNT22V-10-15"
+    },
+    {
+      "id": "VSNU5VV-2026-10-15-precipitation",
+      "date": "2026-10-15",
+      "community": "Qikiqtarjuaq",
+      "province": "NU",
+      "provinceName": "Nunavut",
+      "type": "precipitation",
+      "status": "broken",
+      "value": 8.5,
+      "unit": "mm",
+      "previousValue": 5.8,
       "previousYear": 2017,
-      "difference": -1.0,
-      "recordBeginYear": 1978,
-      "periodYears": 49,
+      "difference": 2.7,
+      "recordBeginYear": 2003,
+      "periodYears": 24,
       "coordinates": [
-        -53.98,
-        48.16
+        -64.03,
+        67.55
       ],
-      "sourceUpdated": "2026-10-15T18:33:55Z",
-      "sourceId": "VSNL1VV-10-14"
+      "sourceUpdated": null,
+      "sourceId": "VSNU5VV-10-15"
     },
     {
-      "id": "VSNL36V-2026-10-14-low_min",
-      "date": "2026-10-14",
-      "community": "St. Lawrence",
-      "province": "NL",
-      "provinceName": "Newfoundland and Labrador",
-      "type": "low_min",
-      "status": "broken",
-      "value": -2.0,
+      "id": "VSYT7VV-2026-10-15-high_min",
+      "date": "2026-10-15",
+      "community": "Burwash Landing",
+      "province": "YT",
+      "provinceName": "Yukon",
+      "type": "high_min",
+      "status": "tied",
+      "value": 2.0,
       "unit": "°C",
-      "previousValue": -1.7,
-      "previousYear": 1969,
-      "difference": -0.3,
+      "previousValue": 2.0,
+      "previousYear": 2011,
+      "difference": 0.0,
       "recordBeginYear": 1966,
       "periodYears": 61,
       "coordinates": [
-        -55.4,
-        46.92
+        -138.99,
+        61.36
       ],
-      "sourceUpdated": "2026-10-15T18:33:55Z",
-      "sourceId": "VSNL36V-10-14"
+      "sourceUpdated": "2026-10-16T12:18:01Z",
+      "sourceId": "VSYT7VV-10-15"
     },
     {
-      "id": "VSQC152-2026-10-14-low_min",
-      "date": "2026-10-14",
-      "community": "Chevery",
-      "province": "QC",
-      "provinceName": "Quebec",
-      "type": "low_min",
-      "status": "broken",
-      "value": -6.6,
+      "id": "VSYT1VV-2026-10-15-high_min",
+      "date": "2026-10-15",
+      "community": "Kluane Lake",
+      "province": "YT",
+      "provinceName": "Yukon",
+      "type": "high_min",
+      "status": "tied",
+      "value": 2.0,
       "unit": "°C",
-      "previousValue": -4.9,
-      "previousYear": 1977,
-      "difference": -1.7,
-      "recordBeginYear": 1911,
-      "periodYears": 116,
+      "previousValue": 2.0,
+      "previousYear": 2011,
+      "difference": 0.0,
+      "recordBeginYear": 1966,
+      "periodYears": 61,
       "coordinates": [
-        -59.6,
-        50.47
+        -138.77,
+        61.26
       ],
-      "sourceUpdated": "2026-10-15T18:33:55Z",
-      "sourceId": "VSQC152-10-14"
+      "sourceUpdated": "2026-10-16T12:18:01Z",
+      "sourceId": "VSYT1VV-10-15"
     }
   ],
   "notes": [
