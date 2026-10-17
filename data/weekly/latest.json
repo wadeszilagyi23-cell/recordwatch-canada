@@ -14,13 +14,13 @@
   ],
   "daysAvailable": 7,
   "isPartial": false,
-  "generatedAt": "2026-10-17T10:41:34-04:00",
+  "generatedAt": "2026-10-17T16:42:45-04:00",
   "summary": {
-    "totalRecords": 156,
-    "brokenRecords": 142,
+    "totalRecords": 158,
+    "brokenRecords": 144,
     "tiedRecords": 14
   },
-  "summaryText": "142 records broken, 14 tied. Daily Precipitation Record was the most common category (64 of 156 record events). Ontario recorded the most events (52).",
+  "summaryText": "144 records broken, 14 tied. Daily Precipitation Record was the most common category (64 of 158 record events). Ontario recorded the most events (52).",
   "typeBreakdown": [
     {
       "type": "precipitation",
@@ -32,8 +32,8 @@
     {
       "type": "high_max",
       "label": "Record High Maximum Temperature",
-      "total": 43,
-      "broken": 39,
+      "total": 44,
+      "broken": 40,
       "tied": 4
     },
     {
@@ -60,8 +60,8 @@
     {
       "type": "snowfall",
       "label": "Daily Snowfall Record",
-      "total": 2,
-      "broken": 2,
+      "total": 3,
+      "broken": 3,
       "tied": 0
     }
   ],
@@ -99,12 +99,12 @@
     {
       "province": "BC",
       "provinceName": "British Columbia",
-      "total": 8
+      "total": 9
     },
     {
       "province": "NB",
       "provinceName": "New Brunswick",
-      "total": 4
+      "total": 5
     },
     {
       "province": "YT",
