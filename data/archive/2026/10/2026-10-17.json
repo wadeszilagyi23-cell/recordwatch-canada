@@ -1,0 +1,462 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-17",
+  "latestAvailableDate": "2026-10-17",
+  "generatedAt": "2026-10-18T10:41:41-04:00",
+  "sourceLastUpdated": "2026-10-18T12:21:44Z",
+  "source": "Environment and Climate Change Canada — MSC GeoMet LTCE",
+  "isDemo": false,
+  "summary": {
+    "totalRecords": 17,
+    "communities": 16,
+    "tiedRecords": 3,
+    "oldestRecordAge": 71
+  },
+  "validation": {
+    "candidateRecords": 17,
+    "publishedRecords": 17,
+    "withheldRecords": 0,
+    "invalidRecords": 0,
+    "manualReviewRecords": 0
+  },
+  "recordOfDay": {
+    "id": "VSBC51V-2026-10-17-high_max",
+    "date": "2026-10-17",
+    "community": "Salmon Arm",
+    "province": "BC",
+    "provinceName": "British Columbia",
+    "type": "high_max",
+    "status": "broken",
+    "value": 20.9,
+    "unit": "°C",
+    "previousValue": 20.0,
+    "previousYear": 1955,
+    "difference": 0.9,
+    "recordBeginYear": 1893,
+    "periodYears": 134,
+    "coordinates": [
+      -119.27,
+      50.7
+    ],
+    "sourceUpdated": "2026-10-18T12:21:44Z",
+    "sourceId": "VSBC51V-10-17"
+  },
+  "story": {
+    "description": "Salmon Arm, BC recorded 20.9 °C. It exceeded the previous record high maximum temperature of 20.0 °C from 1955."
+  },
+  "highlights": [
+    {
+      "region": "Prairies",
+      "count": 7,
+      "brokenCount": 7,
+      "tiedCount": 0,
+      "leadingType": "high_max",
+      "text": "7 records broken. The most common type was record high maximum temperature (3 of 7)."
+    },
+    {
+      "region": "British Columbia",
+      "count": 7,
+      "brokenCount": 4,
+      "tiedCount": 3,
+      "leadingType": "high_max",
+      "text": "4 records broken, 3 tied. All 7 were record high maximum temperature events."
+    },
+    {
+      "region": "Northern Canada",
+      "count": 2,
+      "brokenCount": 2,
+      "tiedCount": 0,
+      "leadingType": "high_min",
+      "text": "2 records broken. All 2 were record high minimum temperature events."
+    },
+    {
+      "region": "Quebec",
+      "count": 1,
+      "brokenCount": 1,
+      "tiedCount": 0,
+      "leadingType": "low_min",
+      "text": "1 record broken. It was a record low minimum temperature."
+    }
+  ],
+  "records": [
+    {
+      "id": "VSAB67V-2026-10-17-high_max",
+      "date": "2026-10-17",
+      "community": "Esther",
+      "province": "AB",
+      "provinceName": "Alberta",
+      "type": "high_max",
+      "status": "broken",
+      "value": 25.5,
+      "unit": "°C",
+      "previousValue": 25.3,
+      "previousYear": 2021,
+      "difference": 0.2,
+      "recordBeginYear": 1985,
+      "periodYears": 42,
+      "coordinates": [
+        -110.26,
+        51.68
+      ],
+      "sourceUpdated": "2026-10-18T12:21:44Z",
+      "sourceId": "VSAB67V-10-17"
+    },
+    {
+      "id": "VSAB15V-2026-10-17-high_max",
+      "date": "2026-10-17",
+      "community": "Lloydminster",
+      "province": "AB",
+      "provinceName": "Alberta",
+      "type": "high_max",
+      "status": "broken",
+      "value": 22.9,
+      "unit": "°C",
+      "previousValue": 22.8,
+      "previousYear": 1963,
+      "difference": 0.1,
+      "recordBeginYear": 1952,
+      "periodYears": 75,
+      "coordinates": [
+        -110.0,
+        53.28
+      ],
+      "sourceUpdated": "2026-10-18T12:21:44Z",
+      "sourceId": "VSAB15V-10-17"
+    },
+    {
+      "id": "VSAB40V-2026-10-17-precipitation",
+      "date": "2026-10-17",
+      "community": "Red Earth Creek",
+      "province": "AB",
+      "provinceName": "Alberta",
+      "type": "precipitation",
+      "status": "broken",
+      "value": 6.7,
+      "unit": "mm",
+      "previousValue": 4.0,
+      "previousYear": 1995,
+      "difference": 2.7,
+      "recordBeginYear": 1994,
+      "periodYears": 33,
+      "coordinates": [
+        -115.29,
+        56.54
+      ],
+      "sourceUpdated": null,
+      "sourceId": "VSAB40V-10-17"
+    },
+    {
+      "id": "VSAB55V-2026-10-17-high_min",
+      "date": "2026-10-17",
+      "community": "Wainwright",
+      "province": "AB",
+      "provinceName": "Alberta",
+      "type": "high_min",
+      "status": "broken",
+      "value": 5.2,
+      "unit": "°C",
+      "previousValue": 4.8,
+      "previousYear": 1999,
+      "difference": 0.4,
+      "recordBeginYear": 1966,
+      "periodYears": 61,
+      "coordinates": [
+        -110.86,
+        52.83
+      ],
+      "sourceUpdated": "2026-10-18T12:21:44Z",
+      "sourceId": "VSAB55V-10-17"
+    },
+    {
+      "id": "VSBC61V-2026-10-17-high_max",
+      "date": "2026-10-17",
+      "community": "Comox",
+      "province": "BC",
+      "provinceName": "British Columbia",
+      "type": "high_max",
+      "status": "tied",
+      "value": 16.1,
+      "unit": "°C",
+      "previousValue": 16.1,
+      "previousYear": 1960,
+      "difference": 0.0,
+      "recordBeginYear": 1914,
+      "periodYears": 113,
+      "coordinates": [
+        -124.93,
+        49.68
+      ],
+      "sourceUpdated": "2026-10-18T12:21:44Z",
+      "sourceId": "VSBC61V-10-17"
+    },
+    {
+      "id": "VSBC92V-2026-10-17-high_max",
+      "date": "2026-10-17",
+      "community": "Courtenay",
+      "province": "BC",
+      "provinceName": "British Columbia",
+      "type": "high_max",
+      "status": "tied",
+      "value": 16.1,
+      "unit": "°C",
+      "previousValue": 16.1,
+      "previousYear": 1960,
+      "difference": 0.0,
+      "recordBeginYear": 1914,
+      "periodYears": 113,
+      "coordinates": [
+        -124.98,
+        49.68
+      ],
+      "sourceUpdated": "2026-10-18T12:21:44Z",
+      "sourceId": "VSBC92V-10-17"
+    },
+    {
+      "id": "VSBC38V-2026-10-17-high_max",
+      "date": "2026-10-17",
+      "community": "Nakusp",
+      "province": "BC",
+      "provinceName": "British Columbia",
+      "type": "high_max",
+      "status": "broken",
+      "value": 18.9,
+      "unit": "°C",
+      "previousValue": 16.7,
+      "previousYear": 1974,
+      "difference": 2.2,
+      "recordBeginYear": 1966,
+      "periodYears": 61,
+      "coordinates": [
+        -117.8,
+        50.25
+      ],
+      "sourceUpdated": "2026-10-18T12:21:44Z",
+      "sourceId": "VSBC38V-10-17"
+    },
+    {
+      "id": "VSBC37V-2026-10-17-high_max",
+      "date": "2026-10-17",
+      "community": "Nelson",
+      "province": "BC",
+      "provinceName": "British Columbia",
+      "type": "high_max",
+      "status": "broken",
+      "value": 20.3,
+      "unit": "°C",
+      "previousValue": 19.4,
+      "previousYear": 2022,
+      "difference": 0.9,
+      "recordBeginYear": 1904,
+      "periodYears": 123,
+      "coordinates": [
+        -117.28,
+        49.5
+      ],
+      "sourceUpdated": "2026-10-18T12:21:44Z",
+      "sourceId": "VSBC37V-10-17"
+    },
+    {
+      "id": "VSBC51V-2026-10-17-high_max",
+      "date": "2026-10-17",
+      "community": "Salmon Arm",
+      "province": "BC",
+      "provinceName": "British Columbia",
+      "type": "high_max",
+      "status": "broken",
+      "value": 20.9,
+      "unit": "°C",
+      "previousValue": 20.0,
+      "previousYear": 1955,
+      "difference": 0.9,
+      "recordBeginYear": 1893,
+      "periodYears": 134,
+      "coordinates": [
+        -119.27,
+        50.7
+      ],
+      "sourceUpdated": "2026-10-18T12:21:44Z",
+      "sourceId": "VSBC51V-10-17"
+    },
+    {
+      "id": "VSBC54V-2026-10-17-high_max",
+      "date": "2026-10-17",
+      "community": "Summerland",
+      "province": "BC",
+      "provinceName": "British Columbia",
+      "type": "high_max",
+      "status": "tied",
+      "value": 19.4,
+      "unit": "°C",
+      "previousValue": 19.4,
+      "previousYear": 1974,
+      "difference": 0.0,
+      "recordBeginYear": 1907,
+      "periodYears": 120,
+      "coordinates": [
+        -119.67,
+        49.6
+      ],
+      "sourceUpdated": "2026-10-18T12:21:44Z",
+      "sourceId": "VSBC54V-10-17"
+    },
+    {
+      "id": "VSBC27V-2026-10-17-high_max",
+      "date": "2026-10-17",
+      "community": "Vernon",
+      "province": "BC",
+      "provinceName": "British Columbia",
+      "type": "high_max",
+      "status": "broken",
+      "value": 19.8,
+      "unit": "°C",
+      "previousValue": 19.4,
+      "previousYear": 2022,
+      "difference": 0.4,
+      "recordBeginYear": 1900,
+      "periodYears": 127,
+      "coordinates": [
+        -119.27,
+        50.26
+      ],
+      "sourceUpdated": "2026-10-18T12:21:44Z",
+      "sourceId": "VSBC27V-10-17"
+    },
+    {
+      "id": "VSNT18V-2026-10-17-high_min",
+      "date": "2026-10-17",
+      "community": "Gameti",
+      "province": "NT",
+      "provinceName": "Northwest Territories",
+      "type": "high_min",
+      "status": "broken",
+      "value": 1.8,
+      "unit": "°C",
+      "previousValue": 1.6,
+      "previousYear": 2013,
+      "difference": 0.2,
+      "recordBeginYear": 1995,
+      "periodYears": 32,
+      "coordinates": [
+        -117.35,
+        64.12
+      ],
+      "sourceUpdated": "2026-10-18T12:21:44Z",
+      "sourceId": "VSNT18V-10-17"
+    },
+    {
+      "id": "VSNT20V-2026-10-17-high_min",
+      "date": "2026-10-17",
+      "community": "Tuktoyaktuk",
+      "province": "NT",
+      "provinceName": "Northwest Territories",
+      "type": "high_min",
+      "status": "broken",
+      "value": -1.4,
+      "unit": "°C",
+      "previousValue": -2.1,
+      "previousYear": 2022,
+      "difference": 0.7,
+      "recordBeginYear": 1948,
+      "periodYears": 79,
+      "coordinates": [
+        -133.03,
+        69.45
+      ],
+      "sourceUpdated": "2026-10-18T12:21:44Z",
+      "sourceId": "VSNT20V-10-17"
+    },
+    {
+      "id": "VSQC106-2026-10-17-low_min",
+      "date": "2026-10-17",
+      "community": "Quaqtaq",
+      "province": "QC",
+      "provinceName": "Quebec",
+      "type": "low_min",
+      "status": "broken",
+      "value": -7.9,
+      "unit": "°C",
+      "previousValue": -7.8,
+      "previousYear": 1972,
+      "difference": -0.1,
+      "recordBeginYear": 1928,
+      "periodYears": 99,
+      "coordinates": [
+        -69.63,
+        61.05
+      ],
+      "sourceUpdated": "2026-10-18T12:21:44Z",
+      "sourceId": "VSQC106-10-17"
+    },
+    {
+      "id": "VSSK30V-2026-10-17-high_min",
+      "date": "2026-10-17",
+      "community": "Collins Bay",
+      "province": "SK",
+      "provinceName": "Saskatchewan",
+      "type": "high_min",
+      "status": "broken",
+      "value": 2.9,
+      "unit": "°C",
+      "previousValue": 2.6,
+      "previousYear": 2024,
+      "difference": 0.3,
+      "recordBeginYear": 1972,
+      "periodYears": 55,
+      "coordinates": [
+        -103.63,
+        58.28
+      ],
+      "sourceUpdated": "2026-10-18T12:21:44Z",
+      "sourceId": "VSSK30V-10-17"
+    },
+    {
+      "id": "VSSK56V-2026-10-17-high_max",
+      "date": "2026-10-17",
+      "community": "Lloydminster",
+      "province": "SK",
+      "provinceName": "Saskatchewan",
+      "type": "high_max",
+      "status": "broken",
+      "value": 22.9,
+      "unit": "°C",
+      "previousValue": 22.8,
+      "previousYear": 1963,
+      "difference": 0.1,
+      "recordBeginYear": 1952,
+      "periodYears": 75,
+      "coordinates": [
+        -109.98,
+        53.28
+      ],
+      "sourceUpdated": "2026-10-18T12:21:44Z",
+      "sourceId": "VSSK56V-10-17"
+    },
+    {
+      "id": "VSSK54V-2026-10-17-high_min",
+      "date": "2026-10-17",
+      "community": "Rockglen",
+      "province": "SK",
+      "provinceName": "Saskatchewan",
+      "type": "high_min",
+      "status": "broken",
+      "value": 6.1,
+      "unit": "°C",
+      "previousValue": 5.4,
+      "previousYear": 2017,
+      "difference": 0.7,
+      "recordBeginYear": 1970,
+      "periodYears": 57,
+      "coordinates": [
+        -105.95,
+        49.18
+      ],
+      "sourceUpdated": "2026-10-18T12:21:44Z",
+      "sourceId": "VSSK54V-10-17"
+    }
+  ],
+  "notes": [
+    "Values may be revised by ECCC after initial publication.",
+    "The archive contains daily snapshots saved by RecordWatch Canada after launch.",
+    "Suspicious or malformed candidate records are automatically withheld pending validation or verification."
+  ]
+}
