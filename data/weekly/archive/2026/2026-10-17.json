@@ -14,13 +14,13 @@
   ],
   "daysAvailable": 7,
   "isPartial": false,
-  "generatedAt": "2026-10-18T10:41:44-04:00",
+  "generatedAt": "2026-10-18T16:42:41-04:00",
   "summary": {
-    "totalRecords": 163,
-    "brokenRecords": 146,
+    "totalRecords": 164,
+    "brokenRecords": 147,
     "tiedRecords": 17
   },
-  "summaryText": "146 records broken, 17 tied. Daily Precipitation Record was the most common category (60 of 163 record events). Ontario recorded the most events (52).",
+  "summaryText": "147 records broken, 17 tied. Daily Precipitation Record was the most common category (60 of 164 record events). Ontario recorded the most events (52).",
   "typeBreakdown": [
     {
       "type": "precipitation",
@@ -32,8 +32,8 @@
     {
       "type": "high_max",
       "label": "Record High Maximum Temperature",
-      "total": 52,
-      "broken": 45,
+      "total": 53,
+      "broken": 46,
       "tied": 7
     },
     {
@@ -107,13 +107,13 @@
       "total": 4
     },
     {
-      "province": "MB",
-      "provinceName": "Manitoba",
-      "total": 3
-    },
-    {
       "province": "SK",
       "provinceName": "Saskatchewan",
+      "total": 4
+    },
+    {
+      "province": "MB",
+      "provinceName": "Manitoba",
       "total": 3
     },
     {

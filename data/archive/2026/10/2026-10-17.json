@@ -2,19 +2,19 @@
   "schemaVersion": 1,
   "date": "2026-10-17",
   "latestAvailableDate": "2026-10-17",
-  "generatedAt": "2026-10-18T10:41:41-04:00",
-  "sourceLastUpdated": "2026-10-18T12:21:44Z",
+  "generatedAt": "2026-10-18T16:42:37-04:00",
+  "sourceLastUpdated": "2026-10-18T18:36:42Z",
   "source": "Environment and Climate Change Canada — MSC GeoMet LTCE",
   "isDemo": false,
   "summary": {
-    "totalRecords": 17,
-    "communities": 16,
+    "totalRecords": 18,
+    "communities": 17,
     "tiedRecords": 3,
     "oldestRecordAge": 71
   },
   "validation": {
-    "candidateRecords": 17,
-    "publishedRecords": 17,
+    "candidateRecords": 18,
+    "publishedRecords": 18,
     "withheldRecords": 0,
     "invalidRecords": 0,
     "manualReviewRecords": 0
@@ -38,7 +38,7 @@
       -119.27,
       50.7
     ],
-    "sourceUpdated": "2026-10-18T12:21:44Z",
+    "sourceUpdated": "2026-10-18T18:36:42Z",
     "sourceId": "VSBC51V-10-17"
   },
   "story": {
@@ -47,11 +47,11 @@
   "highlights": [
     {
       "region": "Prairies",
-      "count": 7,
-      "brokenCount": 7,
+      "count": 8,
+      "brokenCount": 8,
       "tiedCount": 0,
       "leadingType": "high_max",
-      "text": "7 records broken. The most common type was record high maximum temperature (3 of 7)."
+      "text": "8 records broken. The most common type was record high maximum temperature (4 of 8)."
     },
     {
       "region": "British Columbia",
@@ -98,7 +98,7 @@
         -110.26,
         51.68
       ],
-      "sourceUpdated": "2026-10-18T12:21:44Z",
+      "sourceUpdated": "2026-10-18T18:36:42Z",
       "sourceId": "VSAB67V-10-17"
     },
     {
@@ -120,7 +120,7 @@
         -110.0,
         53.28
       ],
-      "sourceUpdated": "2026-10-18T12:21:44Z",
+      "sourceUpdated": "2026-10-18T18:36:42Z",
       "sourceId": "VSAB15V-10-17"
     },
     {
@@ -164,7 +164,7 @@
         -110.86,
         52.83
       ],
-      "sourceUpdated": "2026-10-18T12:21:44Z",
+      "sourceUpdated": "2026-10-18T18:36:42Z",
       "sourceId": "VSAB55V-10-17"
     },
     {
@@ -186,7 +186,7 @@
         -124.93,
         49.68
       ],
-      "sourceUpdated": "2026-10-18T12:21:44Z",
+      "sourceUpdated": "2026-10-18T18:36:42Z",
       "sourceId": "VSBC61V-10-17"
     },
     {
@@ -208,7 +208,7 @@
         -124.98,
         49.68
       ],
-      "sourceUpdated": "2026-10-18T12:21:44Z",
+      "sourceUpdated": "2026-10-18T18:36:42Z",
       "sourceId": "VSBC92V-10-17"
     },
     {
@@ -230,7 +230,7 @@
         -117.8,
         50.25
       ],
-      "sourceUpdated": "2026-10-18T12:21:44Z",
+      "sourceUpdated": "2026-10-18T18:36:42Z",
       "sourceId": "VSBC38V-10-17"
     },
     {
@@ -252,7 +252,7 @@
         -117.28,
         49.5
       ],
-      "sourceUpdated": "2026-10-18T12:21:44Z",
+      "sourceUpdated": "2026-10-18T18:36:42Z",
       "sourceId": "VSBC37V-10-17"
     },
     {
@@ -274,7 +274,7 @@
         -119.27,
         50.7
       ],
-      "sourceUpdated": "2026-10-18T12:21:44Z",
+      "sourceUpdated": "2026-10-18T18:36:42Z",
       "sourceId": "VSBC51V-10-17"
     },
     {
@@ -296,7 +296,7 @@
         -119.67,
         49.6
       ],
-      "sourceUpdated": "2026-10-18T12:21:44Z",
+      "sourceUpdated": "2026-10-18T18:36:42Z",
       "sourceId": "VSBC54V-10-17"
     },
     {
@@ -318,7 +318,7 @@
         -119.27,
         50.26
       ],
-      "sourceUpdated": "2026-10-18T12:21:44Z",
+      "sourceUpdated": "2026-10-18T18:36:42Z",
       "sourceId": "VSBC27V-10-17"
     },
     {
@@ -340,7 +340,7 @@
         -117.35,
         64.12
       ],
-      "sourceUpdated": "2026-10-18T12:21:44Z",
+      "sourceUpdated": "2026-10-18T18:36:42Z",
       "sourceId": "VSNT18V-10-17"
     },
     {
@@ -362,7 +362,7 @@
         -133.03,
         69.45
       ],
-      "sourceUpdated": "2026-10-18T12:21:44Z",
+      "sourceUpdated": "2026-10-18T18:36:42Z",
       "sourceId": "VSNT20V-10-17"
     },
     {
@@ -384,7 +384,7 @@
         -69.63,
         61.05
       ],
-      "sourceUpdated": "2026-10-18T12:21:44Z",
+      "sourceUpdated": "2026-10-18T18:36:42Z",
       "sourceId": "VSQC106-10-17"
     },
     {
@@ -406,8 +406,30 @@
         -103.63,
         58.28
       ],
-      "sourceUpdated": "2026-10-18T12:21:44Z",
+      "sourceUpdated": "2026-10-18T18:36:42Z",
       "sourceId": "VSSK30V-10-17"
+    },
+    {
+      "id": "VSSK35V-2026-10-17-high_max",
+      "date": "2026-10-17",
+      "community": "Last Mountain Lake (Sanctuary)",
+      "province": "SK",
+      "provinceName": "Saskatchewan",
+      "type": "high_max",
+      "status": "broken",
+      "value": 23.9,
+      "unit": "°C",
+      "previousValue": 23.4,
+      "previousYear": 2017,
+      "difference": 0.5,
+      "recordBeginYear": 1975,
+      "periodYears": 52,
+      "coordinates": [
+        -105.23,
+        51.37
+      ],
+      "sourceUpdated": "2026-10-18T18:36:42Z",
+      "sourceId": "VSSK35V-10-17"
     },
     {
       "id": "VSSK56V-2026-10-17-high_max",
@@ -428,7 +450,7 @@
         -109.98,
         53.28
       ],
-      "sourceUpdated": "2026-10-18T12:21:44Z",
+      "sourceUpdated": "2026-10-18T18:36:42Z",
       "sourceId": "VSSK56V-10-17"
     },
     {
@@ -450,7 +472,7 @@
         -105.95,
         49.18
       ],
-      "sourceUpdated": "2026-10-18T12:21:44Z",
+      "sourceUpdated": "2026-10-18T18:36:42Z",
       "sourceId": "VSSK54V-10-17"
     }
   ],
