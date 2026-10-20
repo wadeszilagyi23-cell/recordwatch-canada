@@ -1,0 +1,336 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-19",
+  "latestAvailableDate": "2026-10-19",
+  "generatedAt": "2026-10-20T10:46:01-04:00",
+  "sourceLastUpdated": "2026-10-20T12:18:04Z",
+  "source": "Environment and Climate Change Canada — MSC GeoMet LTCE",
+  "isDemo": false,
+  "summary": {
+    "totalRecords": 12,
+    "communities": 12,
+    "tiedRecords": 3,
+    "oldestRecordAge": 122
+  },
+  "validation": {
+    "candidateRecords": 12,
+    "publishedRecords": 12,
+    "withheldRecords": 0,
+    "invalidRecords": 0,
+    "manualReviewRecords": 0
+  },
+  "recordOfDay": {
+    "id": "VSNL27V-2026-10-19-low_min",
+    "date": "2026-10-19",
+    "community": "Stephenville",
+    "province": "NL",
+    "provinceName": "Newfoundland and Labrador",
+    "type": "low_min",
+    "status": "broken",
+    "value": -2.7,
+    "unit": "°C",
+    "previousValue": -2.2,
+    "previousYear": 1906,
+    "difference": -0.5,
+    "recordBeginYear": 1889,
+    "periodYears": 138,
+    "coordinates": [
+      -58.58,
+      48.55
+    ],
+    "sourceUpdated": "2026-10-20T12:18:04Z",
+    "sourceId": "VSNL27V-10-19"
+  },
+  "story": {
+    "description": "Stephenville, NL recorded -2.7 °C. It exceeded the previous record low minimum temperature of -2.2 °C from 1906."
+  },
+  "highlights": [
+    {
+      "region": "Atlantic Canada",
+      "count": 10,
+      "brokenCount": 7,
+      "tiedCount": 3,
+      "leadingType": "low_min",
+      "text": "7 records broken, 3 tied. All 10 were record low minimum temperature events."
+    },
+    {
+      "region": "Northern Canada",
+      "count": 2,
+      "brokenCount": 2,
+      "tiedCount": 0,
+      "leadingType": "high_max",
+      "text": "2 records broken. All 2 were record high maximum temperature events."
+    }
+  ],
+  "records": [
+    {
+      "id": "VSNL34V-2026-10-19-low_min",
+      "date": "2026-10-19",
+      "community": "Badger",
+      "province": "NL",
+      "provinceName": "Newfoundland and Labrador",
+      "type": "low_min",
+      "status": "tied",
+      "value": -7.1,
+      "unit": "°C",
+      "previousValue": -7.1,
+      "previousYear": 2008,
+      "difference": 0.0,
+      "recordBeginYear": 1956,
+      "periodYears": 71,
+      "coordinates": [
+        -56.04,
+        48.98
+      ],
+      "sourceUpdated": "2026-10-20T12:18:04Z",
+      "sourceId": "VSNL34V-10-19"
+    },
+    {
+      "id": "VSNL6VV-2026-10-19-low_min",
+      "date": "2026-10-19",
+      "community": "Grand Falls-Windsor",
+      "province": "NL",
+      "provinceName": "Newfoundland and Labrador",
+      "type": "low_min",
+      "status": "tied",
+      "value": -7.1,
+      "unit": "°C",
+      "previousValue": -7.1,
+      "previousYear": 2008,
+      "difference": 0.0,
+      "recordBeginYear": 1934,
+      "periodYears": 93,
+      "coordinates": [
+        -55.67,
+        48.94
+      ],
+      "sourceUpdated": "2026-10-20T12:18:04Z",
+      "sourceId": "VSNL6VV-10-19"
+    },
+    {
+      "id": "VSNL3VV-2026-10-19-low_min",
+      "date": "2026-10-19",
+      "community": "Marystown",
+      "province": "NL",
+      "provinceName": "Newfoundland and Labrador",
+      "type": "low_min",
+      "status": "broken",
+      "value": -3.2,
+      "unit": "°C",
+      "previousValue": -1.0,
+      "previousYear": 1988,
+      "difference": -2.2,
+      "recordBeginYear": 1970,
+      "periodYears": 57,
+      "coordinates": [
+        -55.17,
+        47.17
+      ],
+      "sourceUpdated": "2026-10-20T12:18:04Z",
+      "sourceId": "VSNL3VV-10-19"
+    },
+    {
+      "id": "VSNL30V-2026-10-19-low_min",
+      "date": "2026-10-19",
+      "community": "Placentia",
+      "province": "NL",
+      "provinceName": "Newfoundland and Labrador",
+      "type": "low_min",
+      "status": "broken",
+      "value": 0.6,
+      "unit": "°C",
+      "previousValue": 1.5,
+      "previousYear": 2009,
+      "difference": -0.9,
+      "recordBeginYear": 1945,
+      "periodYears": 82,
+      "coordinates": [
+        -53.99,
+        47.3
+      ],
+      "sourceUpdated": "2026-10-20T12:18:04Z",
+      "sourceId": "VSNL30V-10-19"
+    },
+    {
+      "id": "VSNL36V-2026-10-19-low_min",
+      "date": "2026-10-19",
+      "community": "St. Lawrence",
+      "province": "NL",
+      "provinceName": "Newfoundland and Labrador",
+      "type": "low_min",
+      "status": "broken",
+      "value": -3.4,
+      "unit": "°C",
+      "previousValue": -2.8,
+      "previousYear": 1972,
+      "difference": -0.6,
+      "recordBeginYear": 1966,
+      "periodYears": 61,
+      "coordinates": [
+        -55.4,
+        46.92
+      ],
+      "sourceUpdated": "2026-10-20T12:18:04Z",
+      "sourceId": "VSNL36V-10-19"
+    },
+    {
+      "id": "VSNL27V-2026-10-19-low_min",
+      "date": "2026-10-19",
+      "community": "Stephenville",
+      "province": "NL",
+      "provinceName": "Newfoundland and Labrador",
+      "type": "low_min",
+      "status": "broken",
+      "value": -2.7,
+      "unit": "°C",
+      "previousValue": -2.2,
+      "previousYear": 1906,
+      "difference": -0.5,
+      "recordBeginYear": 1889,
+      "periodYears": 138,
+      "coordinates": [
+        -58.58,
+        48.55
+      ],
+      "sourceUpdated": "2026-10-20T12:18:04Z",
+      "sourceId": "VSNL27V-10-19"
+    },
+    {
+      "id": "VSNL19V-2026-10-19-low_min",
+      "date": "2026-10-19",
+      "community": "Winterland",
+      "province": "NL",
+      "provinceName": "Newfoundland and Labrador",
+      "type": "low_min",
+      "status": "broken",
+      "value": -3.2,
+      "unit": "°C",
+      "previousValue": -1.0,
+      "previousYear": 1988,
+      "difference": -2.2,
+      "recordBeginYear": 1970,
+      "periodYears": 57,
+      "coordinates": [
+        -55.31,
+        47.16
+      ],
+      "sourceUpdated": "2026-10-20T12:18:04Z",
+      "sourceId": "VSNL19V-10-19"
+    },
+    {
+      "id": "VSNS18V-2026-10-19-low_min",
+      "date": "2026-10-19",
+      "community": "North East Margaree",
+      "province": "NS",
+      "provinceName": "Nova Scotia",
+      "type": "low_min",
+      "status": "broken",
+      "value": -4.0,
+      "unit": "°C",
+      "previousValue": -3.3,
+      "previousYear": 2018,
+      "difference": -0.7,
+      "recordBeginYear": 1948,
+      "periodYears": 79,
+      "coordinates": [
+        -61.01,
+        46.33
+      ],
+      "sourceUpdated": "2026-10-20T12:18:04Z",
+      "sourceId": "VSNS18V-10-19"
+    },
+    {
+      "id": "VSNS26V-2026-10-19-low_min",
+      "date": "2026-10-19",
+      "community": "Port Hawkesbury",
+      "province": "NS",
+      "provinceName": "Nova Scotia",
+      "type": "low_min",
+      "status": "broken",
+      "value": -4.4,
+      "unit": "°C",
+      "previousValue": -2.2,
+      "previousYear": 1978,
+      "difference": -2.2,
+      "recordBeginYear": 1960,
+      "periodYears": 67,
+      "coordinates": [
+        -61.36,
+        45.62
+      ],
+      "sourceUpdated": "2026-10-20T12:18:04Z",
+      "sourceId": "VSNS26V-10-19"
+    },
+    {
+      "id": "VSNS31V-2026-10-19-low_min",
+      "date": "2026-10-19",
+      "community": "Sydney",
+      "province": "NS",
+      "provinceName": "Nova Scotia",
+      "type": "low_min",
+      "status": "tied",
+      "value": -3.3,
+      "unit": "°C",
+      "previousValue": -3.3,
+      "previousYear": 1904,
+      "difference": 0.0,
+      "recordBeginYear": 1870,
+      "periodYears": 157,
+      "coordinates": [
+        -60.2,
+        46.14
+      ],
+      "sourceUpdated": "2026-10-20T12:18:04Z",
+      "sourceId": "VSNS31V-10-19"
+    },
+    {
+      "id": "VSNU20V-2026-10-19-high_max",
+      "date": "2026-10-19",
+      "community": "Arviat",
+      "province": "NU",
+      "provinceName": "Nunavut",
+      "type": "high_max",
+      "status": "broken",
+      "value": 4.1,
+      "unit": "°C",
+      "previousValue": 3.4,
+      "previousYear": 2019,
+      "difference": 0.7,
+      "recordBeginYear": 1973,
+      "periodYears": 54,
+      "coordinates": [
+        -94.06,
+        61.11
+      ],
+      "sourceUpdated": "2026-10-20T12:18:04Z",
+      "sourceId": "VSNU20V-10-19"
+    },
+    {
+      "id": "VSNU17V-2026-10-19-high_max",
+      "date": "2026-10-19",
+      "community": "Chesterfield",
+      "province": "NU",
+      "provinceName": "Nunavut",
+      "type": "high_max",
+      "status": "broken",
+      "value": 2.3,
+      "unit": "°C",
+      "previousValue": 2.2,
+      "previousYear": 1971,
+      "difference": 0.1,
+      "recordBeginYear": 1930,
+      "periodYears": 97,
+      "coordinates": [
+        -90.7,
+        63.34
+      ],
+      "sourceUpdated": "2026-10-20T12:18:04Z",
+      "sourceId": "VSNU17V-10-19"
+    }
+  ],
+  "notes": [
+    "Values may be revised by ECCC after initial publication.",
+    "The archive contains daily snapshots saved by RecordWatch Canada after launch.",
+    "Suspicious or malformed candidate records are automatically withheld pending validation or verification."
+  ]
+}
