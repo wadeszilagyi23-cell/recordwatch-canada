@@ -2,19 +2,19 @@
   "schemaVersion": 1,
   "date": "2026-10-19",
   "latestAvailableDate": "2026-10-19",
-  "generatedAt": "2026-10-20T10:46:01-04:00",
-  "sourceLastUpdated": "2026-10-20T12:18:04Z",
+  "generatedAt": "2026-10-20T16:44:37-04:00",
+  "sourceLastUpdated": "2026-10-20T18:33:04Z",
   "source": "Environment and Climate Change Canada — MSC GeoMet LTCE",
   "isDemo": false,
   "summary": {
-    "totalRecords": 12,
-    "communities": 12,
+    "totalRecords": 13,
+    "communities": 13,
     "tiedRecords": 3,
     "oldestRecordAge": 122
   },
   "validation": {
-    "candidateRecords": 12,
-    "publishedRecords": 12,
+    "candidateRecords": 13,
+    "publishedRecords": 13,
     "withheldRecords": 0,
     "invalidRecords": 0,
     "manualReviewRecords": 0
@@ -38,7 +38,7 @@
       -58.58,
       48.55
     ],
-    "sourceUpdated": "2026-10-20T12:18:04Z",
+    "sourceUpdated": "2026-10-20T18:33:04Z",
     "sourceId": "VSNL27V-10-19"
   },
   "story": {
@@ -47,11 +47,11 @@
   "highlights": [
     {
       "region": "Atlantic Canada",
-      "count": 10,
-      "brokenCount": 7,
+      "count": 11,
+      "brokenCount": 8,
       "tiedCount": 3,
       "leadingType": "low_min",
-      "text": "7 records broken, 3 tied. All 10 were record low minimum temperature events."
+      "text": "8 records broken, 3 tied. All 11 were record low minimum temperature events."
     },
     {
       "region": "Northern Canada",
@@ -82,8 +82,30 @@
         -56.04,
         48.98
       ],
-      "sourceUpdated": "2026-10-20T12:18:04Z",
+      "sourceUpdated": "2026-10-20T18:33:04Z",
       "sourceId": "VSNL34V-10-19"
+    },
+    {
+      "id": "VSNL1VV-2026-10-19-low_min",
+      "date": "2026-10-19",
+      "community": "Clarenville",
+      "province": "NL",
+      "provinceName": "Newfoundland and Labrador",
+      "type": "low_min",
+      "status": "broken",
+      "value": -4.0,
+      "unit": "°C",
+      "previousValue": -3.0,
+      "previousYear": 2009,
+      "difference": -1.0,
+      "recordBeginYear": 1978,
+      "periodYears": 49,
+      "coordinates": [
+        -53.98,
+        48.16
+      ],
+      "sourceUpdated": "2026-10-20T18:33:04Z",
+      "sourceId": "VSNL1VV-10-19"
     },
     {
       "id": "VSNL6VV-2026-10-19-low_min",
@@ -104,7 +126,7 @@
         -55.67,
         48.94
       ],
-      "sourceUpdated": "2026-10-20T12:18:04Z",
+      "sourceUpdated": "2026-10-20T18:33:04Z",
       "sourceId": "VSNL6VV-10-19"
     },
     {
@@ -126,7 +148,7 @@
         -55.17,
         47.17
       ],
-      "sourceUpdated": "2026-10-20T12:18:04Z",
+      "sourceUpdated": "2026-10-20T18:33:04Z",
       "sourceId": "VSNL3VV-10-19"
     },
     {
@@ -148,7 +170,7 @@
         -53.99,
         47.3
       ],
-      "sourceUpdated": "2026-10-20T12:18:04Z",
+      "sourceUpdated": "2026-10-20T18:33:04Z",
       "sourceId": "VSNL30V-10-19"
     },
     {
@@ -170,7 +192,7 @@
         -55.4,
         46.92
       ],
-      "sourceUpdated": "2026-10-20T12:18:04Z",
+      "sourceUpdated": "2026-10-20T18:33:04Z",
       "sourceId": "VSNL36V-10-19"
     },
     {
@@ -192,7 +214,7 @@
         -58.58,
         48.55
       ],
-      "sourceUpdated": "2026-10-20T12:18:04Z",
+      "sourceUpdated": "2026-10-20T18:33:04Z",
       "sourceId": "VSNL27V-10-19"
     },
     {
@@ -214,7 +236,7 @@
         -55.31,
         47.16
       ],
-      "sourceUpdated": "2026-10-20T12:18:04Z",
+      "sourceUpdated": "2026-10-20T18:33:04Z",
       "sourceId": "VSNL19V-10-19"
     },
     {
@@ -236,7 +258,7 @@
         -61.01,
         46.33
       ],
-      "sourceUpdated": "2026-10-20T12:18:04Z",
+      "sourceUpdated": "2026-10-20T18:33:04Z",
       "sourceId": "VSNS18V-10-19"
     },
     {
@@ -258,7 +280,7 @@
         -61.36,
         45.62
       ],
-      "sourceUpdated": "2026-10-20T12:18:04Z",
+      "sourceUpdated": "2026-10-20T18:33:04Z",
       "sourceId": "VSNS26V-10-19"
     },
     {
@@ -280,7 +302,7 @@
         -60.2,
         46.14
       ],
-      "sourceUpdated": "2026-10-20T12:18:04Z",
+      "sourceUpdated": "2026-10-20T18:33:04Z",
       "sourceId": "VSNS31V-10-19"
     },
     {
@@ -302,7 +324,7 @@
         -94.06,
         61.11
       ],
-      "sourceUpdated": "2026-10-20T12:18:04Z",
+      "sourceUpdated": "2026-10-20T18:33:04Z",
       "sourceId": "VSNU20V-10-19"
     },
     {
@@ -324,7 +346,7 @@
         -90.7,
         63.34
       ],
-      "sourceUpdated": "2026-10-20T12:18:04Z",
+      "sourceUpdated": "2026-10-20T18:33:04Z",
       "sourceId": "VSNU17V-10-19"
     }
   ],

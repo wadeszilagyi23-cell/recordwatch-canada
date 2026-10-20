@@ -14,13 +14,13 @@
   ],
   "daysAvailable": 7,
   "isPartial": false,
-  "generatedAt": "2026-10-20T10:46:04-04:00",
+  "generatedAt": "2026-10-20T16:44:40-04:00",
   "summary": {
-    "totalRecords": 159,
-    "brokenRecords": 140,
+    "totalRecords": 160,
+    "brokenRecords": 141,
     "tiedRecords": 19
   },
-  "summaryText": "140 records broken, 19 tied. Record High Maximum Temperature was the most common category (50 of 159 record events). Ontario recorded the most events (47).",
+  "summaryText": "141 records broken, 19 tied. Record High Maximum Temperature was the most common category (50 of 160 record events). Ontario recorded the most events (47).",
   "typeBreakdown": [
     {
       "type": "high_max",
@@ -46,8 +46,8 @@
     {
       "type": "low_min",
       "label": "Record Low Minimum Temperature",
-      "total": 24,
-      "broken": 20,
+      "total": 25,
+      "broken": 21,
       "tied": 4
     },
     {
@@ -79,7 +79,7 @@
     {
       "province": "NL",
       "provinceName": "Newfoundland and Labrador",
-      "total": 20
+      "total": 21
     },
     {
       "province": "BC",
@@ -193,7 +193,7 @@
         -58.58,
         48.55
       ],
-      "sourceUpdated": "2026-10-20T12:18:04Z",
+      "sourceUpdated": "2026-10-20T18:33:04Z",
       "sourceId": "VSNL27V-10-19",
       "previousRecordAge": 120
     },
