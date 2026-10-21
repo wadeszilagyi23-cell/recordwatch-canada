@@ -1,0 +1,234 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-20",
+  "latestAvailableDate": "2026-10-20",
+  "generatedAt": "2026-10-21T10:46:04-04:00",
+  "sourceLastUpdated": "2026-10-21T12:18:34Z",
+  "source": "Environment and Climate Change Canada — MSC GeoMet LTCE",
+  "isDemo": false,
+  "summary": {
+    "totalRecords": 7,
+    "communities": 6,
+    "tiedRecords": 1,
+    "oldestRecordAge": 115
+  },
+  "validation": {
+    "candidateRecords": 7,
+    "publishedRecords": 7,
+    "withheldRecords": 0,
+    "invalidRecords": 0,
+    "manualReviewRecords": 0
+  },
+  "recordOfDay": {
+    "id": "VSYT6VV-2026-10-20-precipitation",
+    "date": "2026-10-20",
+    "community": "Dawson",
+    "province": "YT",
+    "provinceName": "Yukon",
+    "type": "precipitation",
+    "status": "broken",
+    "value": 18.1,
+    "unit": "mm",
+    "previousValue": 12.7,
+    "previousYear": 1911,
+    "difference": 5.4,
+    "recordBeginYear": 1897,
+    "periodYears": 130,
+    "coordinates": [
+      -139.43,
+      64.06
+    ],
+    "sourceUpdated": null,
+    "sourceId": "VSYT6VV-10-20"
+  },
+  "story": {
+    "description": "Dawson, YT recorded 18.1 mm. It exceeded the previous daily precipitation record of 12.7 mm from 1911."
+  },
+  "highlights": [
+    {
+      "region": "Northern Canada",
+      "count": 5,
+      "brokenCount": 4,
+      "tiedCount": 1,
+      "leadingType": "high_max",
+      "text": "4 records broken, 1 tied. The most common type was record high maximum temperature (3 of 5)."
+    },
+    {
+      "region": "Prairies",
+      "count": 1,
+      "brokenCount": 1,
+      "tiedCount": 0,
+      "leadingType": "precipitation",
+      "text": "1 record broken. It was a daily precipitation record."
+    },
+    {
+      "region": "Quebec",
+      "count": 1,
+      "brokenCount": 1,
+      "tiedCount": 0,
+      "leadingType": "high_max",
+      "text": "1 record broken. It was a record high maximum temperature."
+    }
+  ],
+  "records": [
+    {
+      "id": "VSMB42V-2026-10-20-precipitation",
+      "date": "2026-10-20",
+      "community": "Churchill",
+      "province": "MB",
+      "provinceName": "Manitoba",
+      "type": "precipitation",
+      "status": "broken",
+      "value": 12.9,
+      "unit": "mm",
+      "previousValue": 9.4,
+      "previousYear": 1957,
+      "difference": 3.5,
+      "recordBeginYear": 1929,
+      "periodYears": 98,
+      "coordinates": [
+        -94.12,
+        58.73
+      ],
+      "sourceUpdated": null,
+      "sourceId": "VSMB42V-10-20"
+    },
+    {
+      "id": "VSNT23V-2026-10-20-high_max",
+      "date": "2026-10-20",
+      "community": "Wrigley",
+      "province": "NT",
+      "provinceName": "Northwest Territories",
+      "type": "high_max",
+      "status": "broken",
+      "value": 8.9,
+      "unit": "°C",
+      "previousValue": 7.8,
+      "previousYear": 1952,
+      "difference": 1.1,
+      "recordBeginYear": 1943,
+      "periodYears": 84,
+      "coordinates": [
+        -123.61,
+        63.27
+      ],
+      "sourceUpdated": "2026-10-21T12:18:34Z",
+      "sourceId": "VSNT23V-10-20"
+    },
+    {
+      "id": "VSQCC0V-2026-10-20-high_max",
+      "date": "2026-10-20",
+      "community": "Saint-Michel-Des-Saints",
+      "province": "QC",
+      "provinceName": "Quebec",
+      "type": "high_max",
+      "status": "broken",
+      "value": 27.1,
+      "unit": "°C",
+      "previousValue": 18.3,
+      "previousYear": 1971,
+      "difference": 8.8,
+      "recordBeginYear": 1966,
+      "periodYears": 61,
+      "coordinates": [
+        -73.92,
+        46.68
+      ],
+      "sourceUpdated": "2026-10-21T12:18:34Z",
+      "sourceId": "VSQCC0V-10-20"
+    },
+    {
+      "id": "VSYT6VV-2026-10-20-precipitation",
+      "date": "2026-10-20",
+      "community": "Dawson",
+      "province": "YT",
+      "provinceName": "Yukon",
+      "type": "precipitation",
+      "status": "broken",
+      "value": 18.1,
+      "unit": "mm",
+      "previousValue": 12.7,
+      "previousYear": 1911,
+      "difference": 5.4,
+      "recordBeginYear": 1897,
+      "periodYears": 130,
+      "coordinates": [
+        -139.43,
+        64.06
+      ],
+      "sourceUpdated": null,
+      "sourceId": "VSYT6VV-10-20"
+    },
+    {
+      "id": "VSYT12V-2026-10-20-high_max",
+      "date": "2026-10-20",
+      "community": "Faro",
+      "province": "YT",
+      "provinceName": "Yukon",
+      "type": "high_max",
+      "status": "broken",
+      "value": 10.4,
+      "unit": "°C",
+      "previousValue": 10.1,
+      "previousYear": 2018,
+      "difference": 0.3,
+      "recordBeginYear": 1971,
+      "periodYears": 56,
+      "coordinates": [
+        -133.36,
+        62.23
+      ],
+      "sourceUpdated": "2026-10-21T12:18:34Z",
+      "sourceId": "VSYT12V-10-20"
+    },
+    {
+      "id": "VSYT14V-2026-10-20-high_max",
+      "date": "2026-10-20",
+      "community": "Teslin",
+      "province": "YT",
+      "provinceName": "Yukon",
+      "type": "high_max",
+      "status": "broken",
+      "value": 11.0,
+      "unit": "°C",
+      "previousValue": 10.4,
+      "previousYear": 2013,
+      "difference": 0.6,
+      "recordBeginYear": 1943,
+      "periodYears": 84,
+      "coordinates": [
+        -132.72,
+        60.17
+      ],
+      "sourceUpdated": "2026-10-21T12:18:34Z",
+      "sourceId": "VSYT14V-10-20"
+    },
+    {
+      "id": "VSYT14V-2026-10-20-high_min",
+      "date": "2026-10-20",
+      "community": "Teslin",
+      "province": "YT",
+      "provinceName": "Yukon",
+      "type": "high_min",
+      "status": "tied",
+      "value": 3.4,
+      "unit": "°C",
+      "previousValue": 3.4,
+      "previousYear": 2013,
+      "difference": 0.0,
+      "recordBeginYear": 1943,
+      "periodYears": 84,
+      "coordinates": [
+        -132.72,
+        60.17
+      ],
+      "sourceUpdated": "2026-10-21T12:18:34Z",
+      "sourceId": "VSYT14V-10-20"
+    }
+  ],
+  "notes": [
+    "Values may be revised by ECCC after initial publication.",
+    "The archive contains daily snapshots saved by RecordWatch Canada after launch.",
+    "Suspicious or malformed candidate records are automatically withheld pending validation or verification."
+  ]
+}
