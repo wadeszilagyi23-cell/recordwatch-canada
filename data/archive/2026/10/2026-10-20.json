@@ -2,19 +2,19 @@
   "schemaVersion": 1,
   "date": "2026-10-20",
   "latestAvailableDate": "2026-10-20",
-  "generatedAt": "2026-10-21T16:45:15-04:00",
-  "sourceLastUpdated": "2026-10-21T18:34:50Z",
+  "generatedAt": "2026-10-22T10:45:54-04:00",
+  "sourceLastUpdated": "2026-10-22T12:17:53Z",
   "source": "Environment and Climate Change Canada — MSC GeoMet LTCE",
   "isDemo": false,
   "summary": {
-    "totalRecords": 7,
-    "communities": 6,
+    "totalRecords": 6,
+    "communities": 5,
     "tiedRecords": 1,
     "oldestRecordAge": 115
   },
   "validation": {
-    "candidateRecords": 7,
-    "publishedRecords": 7,
+    "candidateRecords": 6,
+    "publishedRecords": 6,
     "withheldRecords": 0,
     "invalidRecords": 0,
     "manualReviewRecords": 0
@@ -60,14 +60,6 @@
       "tiedCount": 0,
       "leadingType": "precipitation",
       "text": "1 record broken. It was a daily precipitation record."
-    },
-    {
-      "region": "Quebec",
-      "count": 1,
-      "brokenCount": 1,
-      "tiedCount": 0,
-      "leadingType": "high_max",
-      "text": "1 record broken. It was a record high maximum temperature."
     }
   ],
   "records": [
@@ -112,30 +104,8 @@
         -123.61,
         63.27
       ],
-      "sourceUpdated": "2026-10-21T18:34:50Z",
+      "sourceUpdated": "2026-10-22T12:17:53Z",
       "sourceId": "VSNT23V-10-20"
-    },
-    {
-      "id": "VSQCC0V-2026-10-20-high_max",
-      "date": "2026-10-20",
-      "community": "Saint-Michel-Des-Saints",
-      "province": "QC",
-      "provinceName": "Quebec",
-      "type": "high_max",
-      "status": "broken",
-      "value": 27.1,
-      "unit": "°C",
-      "previousValue": 18.3,
-      "previousYear": 1971,
-      "difference": 8.8,
-      "recordBeginYear": 1966,
-      "periodYears": 61,
-      "coordinates": [
-        -73.92,
-        46.68
-      ],
-      "sourceUpdated": "2026-10-21T18:34:50Z",
-      "sourceId": "VSQCC0V-10-20"
     },
     {
       "id": "VSYT6VV-2026-10-20-precipitation",
@@ -178,7 +148,7 @@
         -133.36,
         62.23
       ],
-      "sourceUpdated": "2026-10-21T18:34:50Z",
+      "sourceUpdated": "2026-10-22T12:17:53Z",
       "sourceId": "VSYT12V-10-20"
     },
     {
@@ -200,7 +170,7 @@
         -132.72,
         60.17
       ],
-      "sourceUpdated": "2026-10-21T18:34:50Z",
+      "sourceUpdated": "2026-10-22T12:17:53Z",
       "sourceId": "VSYT14V-10-20"
     },
     {
@@ -222,7 +192,7 @@
         -132.72,
         60.17
       ],
-      "sourceUpdated": "2026-10-21T18:34:50Z",
+      "sourceUpdated": "2026-10-22T12:17:53Z",
       "sourceId": "VSYT14V-10-20"
     }
   ],

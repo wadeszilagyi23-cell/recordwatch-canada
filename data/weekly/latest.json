@@ -1,53 +1,53 @@
 {
   "schemaVersion": 1,
   "title": "This Week in Canadian Extremes",
-  "startDate": "2026-10-14",
-  "endDate": "2026-10-20",
+  "startDate": "2026-10-15",
+  "endDate": "2026-10-21",
   "datesIncluded": [
-    "2026-10-14",
     "2026-10-15",
     "2026-10-16",
     "2026-10-17",
     "2026-10-18",
     "2026-10-19",
-    "2026-10-20"
+    "2026-10-20",
+    "2026-10-21"
   ],
   "daysAvailable": 7,
   "isPartial": false,
-  "generatedAt": "2026-10-21T16:45:17-04:00",
+  "generatedAt": "2026-10-22T10:45:55-04:00",
   "summary": {
-    "totalRecords": 88,
-    "brokenRecords": 73,
-    "tiedRecords": 15
+    "totalRecords": 104,
+    "brokenRecords": 87,
+    "tiedRecords": 17
   },
-  "summaryText": "73 records broken, 15 tied. Record High Maximum Temperature was the most common category (30 of 88 record events). Newfoundland and Labrador recorded the most events (17).",
+  "summaryText": "87 records broken, 17 tied. Record High Maximum Temperature was the most common category (45 of 104 record events). Northwest Territories recorded the most events (17).",
   "typeBreakdown": [
     {
       "type": "high_max",
       "label": "Record High Maximum Temperature",
-      "total": 30,
-      "broken": 24,
-      "tied": 6
+      "total": 45,
+      "broken": 37,
+      "tied": 8
     },
     {
       "type": "low_min",
       "label": "Record Low Minimum Temperature",
-      "total": 22,
-      "broken": 19,
+      "total": 20,
+      "broken": 17,
       "tied": 3
     },
     {
       "type": "high_min",
       "label": "Record High Minimum Temperature",
-      "total": 16,
-      "broken": 12,
+      "total": 18,
+      "broken": 14,
       "tied": 4
     },
     {
       "type": "precipitation",
       "label": "Daily Precipitation Record",
-      "total": 13,
-      "broken": 12,
+      "total": 14,
+      "broken": 13,
       "tied": 1
     },
     {
@@ -67,39 +67,39 @@
   ],
   "provinceBreakdown": [
     {
-      "province": "NL",
-      "provinceName": "Newfoundland and Labrador",
+      "province": "NT",
+      "provinceName": "Northwest Territories",
       "total": 17
     },
     {
       "province": "BC",
       "provinceName": "British Columbia",
-      "total": 15
+      "total": 14
+    },
+    {
+      "province": "NL",
+      "provinceName": "Newfoundland and Labrador",
+      "total": 14
     },
     {
       "province": "AB",
       "provinceName": "Alberta",
-      "total": 10
-    },
-    {
-      "province": "NT",
-      "provinceName": "Northwest Territories",
-      "total": 8
+      "total": 12
     },
     {
       "province": "YT",
       "provinceName": "Yukon",
-      "total": 8
+      "total": 10
     },
     {
-      "province": "QC",
-      "provinceName": "Quebec",
-      "total": 6
+      "province": "SK",
+      "provinceName": "Saskatchewan",
+      "total": 9
     },
     {
       "province": "NU",
       "provinceName": "Nunavut",
-      "total": 6
+      "total": 7
     },
     {
       "province": "NB",
@@ -112,19 +112,19 @@
       "total": 5
     },
     {
-      "province": "SK",
-      "provinceName": "Saskatchewan",
+      "province": "QC",
+      "provinceName": "Quebec",
       "total": 4
     },
     {
       "province": "MB",
       "provinceName": "Manitoba",
-      "total": 2
+      "total": 4
     },
     {
       "province": "ON",
       "provinceName": "Ontario",
-      "total": 1
+      "total": 2
     }
   ],
   "notableRecords": [
@@ -147,7 +147,7 @@
         -58.58,
         48.55
       ],
-      "sourceUpdated": "2026-10-21T18:34:50Z",
+      "sourceUpdated": "2026-10-22T12:17:53Z",
       "sourceId": "VSNL27V-10-19",
       "previousRecordAge": 120
     },
@@ -262,7 +262,7 @@
         -123.61,
         63.27
       ],
-      "sourceUpdated": "2026-10-21T18:34:50Z",
+      "sourceUpdated": "2026-10-22T12:17:53Z",
       "sourceId": "VSNT23V-10-20",
       "previousRecordAge": 74
     }
