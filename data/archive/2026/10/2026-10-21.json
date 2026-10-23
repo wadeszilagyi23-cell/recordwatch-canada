@@ -2,19 +2,19 @@
   "schemaVersion": 1,
   "date": "2026-10-21",
   "latestAvailableDate": "2026-10-21",
-  "generatedAt": "2026-10-22T16:44:09-04:00",
-  "sourceLastUpdated": "2026-10-22T18:34:05Z",
+  "generatedAt": "2026-10-23T10:48:44-04:00",
+  "sourceLastUpdated": "2026-10-23T12:18:21Z",
   "source": "Environment and Climate Change Canada — MSC GeoMet LTCE",
   "isDemo": false,
   "summary": {
-    "totalRecords": 23,
-    "communities": 21,
-    "tiedRecords": 2,
+    "totalRecords": 25,
+    "communities": 23,
+    "tiedRecords": 3,
     "oldestRecordAge": 74
   },
   "validation": {
-    "candidateRecords": 23,
-    "publishedRecords": 23,
+    "candidateRecords": 25,
+    "publishedRecords": 25,
     "withheldRecords": 0,
     "invalidRecords": 0,
     "manualReviewRecords": 0
@@ -38,7 +38,7 @@
       -117.65,
       61.35
     ],
-    "sourceUpdated": "2026-10-22T18:34:05Z",
+    "sourceUpdated": "2026-10-23T12:18:21Z",
     "sourceId": "VSNT27V-10-21"
   },
   "story": {
@@ -55,11 +55,11 @@
     },
     {
       "region": "Prairies",
-      "count": 10,
-      "brokenCount": 8,
+      "count": 11,
+      "brokenCount": 9,
       "tiedCount": 2,
       "leadingType": "high_max",
-      "text": "8 records broken, 2 tied. The most common type was record high maximum temperature (8 of 10)."
+      "text": "9 records broken, 2 tied. The most common type was record high maximum temperature (9 of 11)."
     },
     {
       "region": "Ontario",
@@ -68,6 +68,14 @@
       "tiedCount": 0,
       "leadingType": "low_min",
       "text": "1 record broken. It was a record low minimum temperature."
+    },
+    {
+      "region": "British Columbia",
+      "count": 1,
+      "brokenCount": 0,
+      "tiedCount": 1,
+      "leadingType": "high_max",
+      "text": "0 records broken, 1 tied. It was a record high maximum temperature."
     }
   ],
   "records": [
@@ -90,7 +98,7 @@
         -115.07,
         51.08
       ],
-      "sourceUpdated": "2026-10-22T18:34:05Z",
+      "sourceUpdated": "2026-10-23T12:18:21Z",
       "sourceId": "VSAB42V-10-21"
     },
     {
@@ -112,7 +120,7 @@
         -111.6,
         57.03
       ],
-      "sourceUpdated": "2026-10-22T18:34:05Z",
+      "sourceUpdated": "2026-10-23T12:18:21Z",
       "sourceId": "VSAB33V-10-21"
     },
     {
@@ -134,8 +142,30 @@
         -114.64,
         51.8
       ],
-      "sourceUpdated": "2026-10-22T18:34:05Z",
+      "sourceUpdated": "2026-10-23T12:18:21Z",
       "sourceId": "VSAB53V-10-21"
+    },
+    {
+      "id": "VSBC31V-2026-10-21-high_max",
+      "date": "2026-10-21",
+      "community": "Hope Slide",
+      "province": "BC",
+      "provinceName": "British Columbia",
+      "type": "high_max",
+      "status": "tied",
+      "value": 18.0,
+      "unit": "°C",
+      "previousValue": 18.0,
+      "previousYear": 1986,
+      "difference": 0.0,
+      "recordBeginYear": 1967,
+      "periodYears": 60,
+      "coordinates": [
+        -121.27,
+        49.3
+      ],
+      "sourceUpdated": "2026-10-23T12:18:21Z",
+      "sourceId": "VSBC31V-10-21"
     },
     {
       "id": "VSMB41V-2026-10-21-high_max",
@@ -156,7 +186,7 @@
         -101.08,
         56.83
       ],
-      "sourceUpdated": "2026-10-22T18:34:05Z",
+      "sourceUpdated": "2026-10-23T12:18:21Z",
       "sourceId": "VSMB41V-10-21"
     },
     {
@@ -178,7 +208,7 @@
         -97.86,
         55.74
       ],
-      "sourceUpdated": "2026-10-22T18:34:05Z",
+      "sourceUpdated": "2026-10-23T12:18:21Z",
       "sourceId": "VSMB34V-10-21"
     },
     {
@@ -200,7 +230,7 @@
         -114.31,
         62.41
       ],
-      "sourceUpdated": "2026-10-22T18:34:05Z",
+      "sourceUpdated": "2026-10-23T12:18:21Z",
       "sourceId": "VSNT1VV-10-21"
     },
     {
@@ -222,7 +252,7 @@
         -116.13,
         60.55
       ],
-      "sourceUpdated": "2026-10-22T18:34:05Z",
+      "sourceUpdated": "2026-10-23T12:18:21Z",
       "sourceId": "VSNT2VV-10-21"
     },
     {
@@ -244,7 +274,7 @@
         -117.65,
         61.35
       ],
-      "sourceUpdated": "2026-10-22T18:34:05Z",
+      "sourceUpdated": "2026-10-23T12:18:21Z",
       "sourceId": "VSNT27V-10-21"
     },
     {
@@ -266,7 +296,7 @@
         -113.67,
         61.17
       ],
-      "sourceUpdated": "2026-10-22T18:34:05Z",
+      "sourceUpdated": "2026-10-23T12:18:21Z",
       "sourceId": "VSNT3VV-10-21"
     },
     {
@@ -288,7 +318,7 @@
         -113.67,
         61.17
       ],
-      "sourceUpdated": "2026-10-22T18:34:05Z",
+      "sourceUpdated": "2026-10-23T12:18:21Z",
       "sourceId": "VSNT3VV-10-21"
     },
     {
@@ -310,7 +340,7 @@
         -115.8,
         60.82
       ],
-      "sourceUpdated": "2026-10-22T18:34:05Z",
+      "sourceUpdated": "2026-10-23T12:18:21Z",
       "sourceId": "VSNT8VV-10-21"
     },
     {
@@ -332,7 +362,7 @@
         -126.83,
         65.28
       ],
-      "sourceUpdated": "2026-10-22T18:34:05Z",
+      "sourceUpdated": "2026-10-23T12:18:21Z",
       "sourceId": "VSNT21V-10-21"
     },
     {
@@ -376,7 +406,7 @@
         -114.35,
         62.46
       ],
-      "sourceUpdated": "2026-10-22T18:34:05Z",
+      "sourceUpdated": "2026-10-23T12:18:21Z",
       "sourceId": "VSNT24V-10-21"
     },
     {
@@ -398,7 +428,7 @@
         -100.88,
         61.13
       ],
-      "sourceUpdated": "2026-10-22T18:34:05Z",
+      "sourceUpdated": "2026-10-23T12:18:21Z",
       "sourceId": "VSNU19V-10-21"
     },
     {
@@ -420,7 +450,7 @@
         -79.19,
         42.92
       ],
-      "sourceUpdated": "2026-10-22T18:34:05Z",
+      "sourceUpdated": "2026-10-23T12:18:21Z",
       "sourceId": "VSON80V-10-21"
     },
     {
@@ -442,7 +472,7 @@
         -103.63,
         58.28
       ],
-      "sourceUpdated": "2026-10-22T18:34:05Z",
+      "sourceUpdated": "2026-10-23T12:18:21Z",
       "sourceId": "VSSK30V-10-21"
     },
     {
@@ -464,7 +494,7 @@
         -103.63,
         58.28
       ],
-      "sourceUpdated": "2026-10-22T18:34:05Z",
+      "sourceUpdated": "2026-10-23T12:18:21Z",
       "sourceId": "VSSK30V-10-21"
     },
     {
@@ -486,7 +516,7 @@
         -105.63,
         57.22
       ],
-      "sourceUpdated": "2026-10-22T18:34:05Z",
+      "sourceUpdated": "2026-10-23T12:18:21Z",
       "sourceId": "VSSK20V-10-21"
     },
     {
@@ -508,8 +538,30 @@
         -103.27,
         56.32
       ],
-      "sourceUpdated": "2026-10-22T18:34:05Z",
+      "sourceUpdated": "2026-10-23T12:18:21Z",
       "sourceId": "VSSK50V-10-21"
+    },
+    {
+      "id": "VSSK36V-2026-10-21-high_max",
+      "date": "2026-10-21",
+      "community": "Stony Rapids",
+      "province": "SK",
+      "provinceName": "Saskatchewan",
+      "type": "high_max",
+      "status": "broken",
+      "value": 13.5,
+      "unit": "°C",
+      "previousValue": 13.1,
+      "previousYear": 1998,
+      "difference": 0.4,
+      "recordBeginYear": 1960,
+      "periodYears": 67,
+      "coordinates": [
+        -105.84,
+        59.25
+      ],
+      "sourceUpdated": "2026-10-23T12:18:21Z",
+      "sourceId": "VSSK36V-10-21"
     },
     {
       "id": "VSSK44V-2026-10-21-high_max",
@@ -530,7 +582,7 @@
         -108.61,
         59.57
       ],
-      "sourceUpdated": "2026-10-22T18:34:05Z",
+      "sourceUpdated": "2026-10-23T12:18:21Z",
       "sourceId": "VSSK44V-10-21"
     },
     {
@@ -552,7 +604,7 @@
         -133.36,
         62.23
       ],
-      "sourceUpdated": "2026-10-22T18:34:05Z",
+      "sourceUpdated": "2026-10-23T12:18:21Z",
       "sourceId": "VSYT12V-10-21"
     },
     {
