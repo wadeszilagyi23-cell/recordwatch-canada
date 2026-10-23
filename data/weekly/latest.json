@@ -14,7 +14,7 @@
   ],
   "daysAvailable": 7,
   "isPartial": false,
-  "generatedAt": "2026-10-23T10:48:46-04:00",
+  "generatedAt": "2026-10-23T16:44:27-04:00",
   "summary": {
     "totalRecords": 119,
     "brokenRecords": 101,
@@ -262,7 +262,7 @@
         -123.61,
         63.27
       ],
-      "sourceUpdated": "2026-10-23T12:18:21Z",
+      "sourceUpdated": "2026-10-23T18:34:13Z",
       "sourceId": "VSNT23V-10-20",
       "previousRecordAge": 74
     }
