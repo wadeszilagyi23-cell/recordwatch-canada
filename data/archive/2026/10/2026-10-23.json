@@ -2,19 +2,19 @@
   "schemaVersion": 1,
   "date": "2026-10-23",
   "latestAvailableDate": "2026-10-23",
-  "generatedAt": "2026-10-24T16:42:39-04:00",
-  "sourceLastUpdated": "2026-10-24T18:34:11Z",
+  "generatedAt": "2026-10-25T10:43:06-04:00",
+  "sourceLastUpdated": "2026-10-25T12:22:47Z",
   "source": "Environment and Climate Change Canada — MSC GeoMet LTCE",
   "isDemo": false,
   "summary": {
-    "totalRecords": 47,
-    "communities": 36,
+    "totalRecords": 49,
+    "communities": 38,
     "tiedRecords": 2,
     "oldestRecordAge": 103
   },
   "validation": {
-    "candidateRecords": 47,
-    "publishedRecords": 47,
+    "candidateRecords": 49,
+    "publishedRecords": 49,
     "withheldRecords": 0,
     "invalidRecords": 0,
     "manualReviewRecords": 0
@@ -38,7 +38,7 @@
       -97.03,
       52.37
     ],
-    "sourceUpdated": "2026-10-24T18:34:11Z",
+    "sourceUpdated": "2026-10-25T12:22:47Z",
     "sourceId": "VSMB54V-10-23"
   },
   "story": {
@@ -47,11 +47,11 @@
   "highlights": [
     {
       "region": "Prairies",
-      "count": 34,
-      "brokenCount": 34,
+      "count": 36,
+      "brokenCount": 36,
       "tiedCount": 0,
       "leadingType": "high_max",
-      "text": "34 records broken. The most common type was record high maximum temperature (15 of 34)."
+      "text": "36 records broken. The most common type was record high maximum temperature (15 of 36)."
     },
     {
       "region": "Ontario",
@@ -162,6 +162,50 @@
       "sourceId": "VSAB37V-10-23"
     },
     {
+      "id": "VSAB4VV-2026-10-23-snowfall",
+      "date": "2026-10-23",
+      "community": "High River",
+      "province": "AB",
+      "provinceName": "Alberta",
+      "type": "snowfall",
+      "status": "broken",
+      "value": 10.0,
+      "unit": "cm",
+      "previousValue": 8.0,
+      "previousYear": 2023,
+      "difference": 2.0,
+      "recordBeginYear": 1906,
+      "periodYears": 121,
+      "coordinates": [
+        -113.87,
+        50.58
+      ],
+      "sourceUpdated": null,
+      "sourceId": "VSAB4VV-10-23"
+    },
+    {
+      "id": "VSAB11V-2026-10-23-snowfall",
+      "date": "2026-10-23",
+      "community": "Okotoks",
+      "province": "AB",
+      "provinceName": "Alberta",
+      "type": "snowfall",
+      "status": "broken",
+      "value": 10.0,
+      "unit": "cm",
+      "previousValue": 8.0,
+      "previousYear": 2023,
+      "difference": 2.0,
+      "recordBeginYear": 1969,
+      "periodYears": 58,
+      "coordinates": [
+        -113.98,
+        50.73
+      ],
+      "sourceUpdated": null,
+      "sourceId": "VSAB11V-10-23"
+    },
+    {
       "id": "VSAB26V-2026-10-23-precipitation",
       "date": "2026-10-23",
       "community": "Vegreville",
@@ -224,7 +268,7 @@
         -97.56,
         49.1
       ],
-      "sourceUpdated": "2026-10-24T18:34:11Z",
+      "sourceUpdated": "2026-10-25T12:22:47Z",
       "sourceId": "VSMB3VV-10-23"
     },
     {
@@ -246,7 +290,7 @@
         -97.56,
         49.1
       ],
-      "sourceUpdated": "2026-10-24T18:34:11Z",
+      "sourceUpdated": "2026-10-25T12:22:47Z",
       "sourceId": "VSMB3VV-10-23"
     },
     {
@@ -268,7 +312,7 @@
         -96.99,
         50.8
       ],
-      "sourceUpdated": "2026-10-24T18:34:11Z",
+      "sourceUpdated": "2026-10-25T12:22:47Z",
       "sourceId": "VSMB21V-10-23"
     },
     {
@@ -290,7 +334,7 @@
         -97.03,
         52.37
       ],
-      "sourceUpdated": "2026-10-24T18:34:11Z",
+      "sourceUpdated": "2026-10-25T12:22:47Z",
       "sourceId": "VSMB54V-10-23"
     },
     {
@@ -312,7 +356,7 @@
         -99.36,
         49.87
       ],
-      "sourceUpdated": "2026-10-24T18:34:11Z",
+      "sourceUpdated": "2026-10-25T12:22:47Z",
       "sourceId": "VSMB35V-10-23"
     },
     {
@@ -334,7 +378,7 @@
         -97.16,
         49.14
       ],
-      "sourceUpdated": "2026-10-24T18:34:11Z",
+      "sourceUpdated": "2026-10-25T12:22:47Z",
       "sourceId": "VSMB2VV-10-23"
     },
     {
@@ -356,7 +400,7 @@
         -97.16,
         49.14
       ],
-      "sourceUpdated": "2026-10-24T18:34:11Z",
+      "sourceUpdated": "2026-10-25T12:22:47Z",
       "sourceId": "VSMB2VV-10-23"
     },
     {
@@ -378,7 +422,7 @@
         -97.21,
         49.01
       ],
-      "sourceUpdated": "2026-10-24T18:34:11Z",
+      "sourceUpdated": "2026-10-25T12:22:47Z",
       "sourceId": "VSMB47V-10-23"
     },
     {
@@ -400,7 +444,7 @@
         -97.21,
         49.01
       ],
-      "sourceUpdated": "2026-10-24T18:34:11Z",
+      "sourceUpdated": "2026-10-25T12:22:47Z",
       "sourceId": "VSMB47V-10-23"
     },
     {
@@ -422,7 +466,7 @@
         -97.62,
         51.08
       ],
-      "sourceUpdated": "2026-10-24T18:34:11Z",
+      "sourceUpdated": "2026-10-25T12:22:47Z",
       "sourceId": "VSMB24V-10-23"
     },
     {
@@ -444,7 +488,7 @@
         -96.99,
         50.63
       ],
-      "sourceUpdated": "2026-10-24T18:34:11Z",
+      "sourceUpdated": "2026-10-25T12:22:47Z",
       "sourceId": "VSMB62V-10-23"
     },
     {
@@ -466,7 +510,7 @@
         -97.56,
         49.01
       ],
-      "sourceUpdated": "2026-10-24T18:34:11Z",
+      "sourceUpdated": "2026-10-25T12:22:47Z",
       "sourceId": "VSMB48V-10-23"
     },
     {
@@ -488,7 +532,7 @@
         -97.56,
         49.01
       ],
-      "sourceUpdated": "2026-10-24T18:34:11Z",
+      "sourceUpdated": "2026-10-25T12:22:47Z",
       "sourceId": "VSMB48V-10-23"
     },
     {
@@ -510,7 +554,7 @@
         -94.67,
         53.86
       ],
-      "sourceUpdated": "2026-10-24T18:34:11Z",
+      "sourceUpdated": "2026-10-25T12:22:47Z",
       "sourceId": "VSMB59V-10-23"
     },
     {
@@ -532,7 +576,7 @@
         -97.82,
         53.99
       ],
-      "sourceUpdated": "2026-10-24T18:34:11Z",
+      "sourceUpdated": "2026-10-25T12:22:47Z",
       "sourceId": "VSMB25V-10-23"
     },
     {
@@ -554,7 +598,7 @@
         -98.03,
         50.51
       ],
-      "sourceUpdated": "2026-10-24T18:34:11Z",
+      "sourceUpdated": "2026-10-25T12:22:47Z",
       "sourceId": "VSMB14V-10-23"
     },
     {
@@ -576,7 +620,7 @@
         -98.03,
         50.51
       ],
-      "sourceUpdated": "2026-10-24T18:34:11Z",
+      "sourceUpdated": "2026-10-25T12:22:47Z",
       "sourceId": "VSMB14V-10-23"
     },
     {
@@ -598,7 +642,7 @@
         -95.88,
         50.15
       ],
-      "sourceUpdated": "2026-10-24T18:34:11Z",
+      "sourceUpdated": "2026-10-25T12:22:47Z",
       "sourceId": "VSMB44V-10-23"
     },
     {
@@ -620,7 +664,7 @@
         -95.88,
         50.15
       ],
-      "sourceUpdated": "2026-10-24T18:34:11Z",
+      "sourceUpdated": "2026-10-25T12:22:47Z",
       "sourceId": "VSMB44V-10-23"
     },
     {
@@ -664,7 +708,7 @@
         -96.22,
         50.57
       ],
-      "sourceUpdated": "2026-10-24T18:34:11Z",
+      "sourceUpdated": "2026-10-25T12:22:47Z",
       "sourceId": "VSMB4VV-10-23"
     },
     {
@@ -686,7 +730,7 @@
         -96.22,
         50.57
       ],
-      "sourceUpdated": "2026-10-24T18:34:11Z",
+      "sourceUpdated": "2026-10-25T12:22:47Z",
       "sourceId": "VSMB4VV-10-23"
     },
     {
@@ -708,7 +752,7 @@
         -96.68,
         49.53
       ],
-      "sourceUpdated": "2026-10-24T18:34:11Z",
+      "sourceUpdated": "2026-10-25T12:22:47Z",
       "sourceId": "VSMB13V-10-23"
     },
     {
@@ -730,7 +774,7 @@
         -99.97,
         50.66
       ],
-      "sourceUpdated": "2026-10-24T18:34:11Z",
+      "sourceUpdated": "2026-10-25T12:22:47Z",
       "sourceId": "VSMB31V-10-23"
     },
     {
@@ -752,7 +796,7 @@
         -95.2,
         49.74
       ],
-      "sourceUpdated": "2026-10-24T18:34:11Z",
+      "sourceUpdated": "2026-10-25T12:22:47Z",
       "sourceId": "VSMB8VV-10-23"
     },
     {
@@ -774,7 +818,7 @@
         -97.15,
         49.88
       ],
-      "sourceUpdated": "2026-10-24T18:34:11Z",
+      "sourceUpdated": "2026-10-25T12:22:47Z",
       "sourceId": "VSMB38V-10-23"
     },
     {
@@ -862,7 +906,7 @@
         -93.24,
         50.64
       ],
-      "sourceUpdated": "2026-10-24T18:34:11Z",
+      "sourceUpdated": "2026-10-25T12:22:47Z",
       "sourceId": "VSON167-10-23"
     },
     {
@@ -884,7 +928,7 @@
         -94.44,
         49.82
       ],
-      "sourceUpdated": "2026-10-24T18:34:11Z",
+      "sourceUpdated": "2026-10-25T12:22:47Z",
       "sourceId": "VSON96V-10-23"
     },
     {
@@ -906,7 +950,7 @@
         -94.44,
         49.82
       ],
-      "sourceUpdated": "2026-10-24T18:34:11Z",
+      "sourceUpdated": "2026-10-25T12:22:47Z",
       "sourceId": "VSON96V-10-23"
     },
     {
@@ -928,7 +972,7 @@
         -90.2,
         51.47
       ],
-      "sourceUpdated": "2026-10-24T18:34:11Z",
+      "sourceUpdated": "2026-10-25T12:22:47Z",
       "sourceId": "VSON120-10-23"
     },
     {
@@ -950,7 +994,7 @@
         -93.72,
         51.1
       ],
-      "sourceUpdated": "2026-10-24T18:34:11Z",
+      "sourceUpdated": "2026-10-25T12:22:47Z",
       "sourceId": "VSON104-10-23"
     },
     {
@@ -972,7 +1016,7 @@
         -92.0,
         50.09
       ],
-      "sourceUpdated": "2026-10-24T18:34:11Z",
+      "sourceUpdated": "2026-10-25T12:22:47Z",
       "sourceId": "VSON135-10-23"
     },
     {
@@ -994,7 +1038,7 @@
         -94.1,
         49.41
       ],
-      "sourceUpdated": "2026-10-24T18:34:11Z",
+      "sourceUpdated": "2026-10-25T12:22:47Z",
       "sourceId": "VSON166-10-23"
     },
     {
@@ -1016,7 +1060,7 @@
         -94.1,
         49.41
       ],
-      "sourceUpdated": "2026-10-24T18:34:11Z",
+      "sourceUpdated": "2026-10-25T12:22:47Z",
       "sourceId": "VSON166-10-23"
     },
     {
@@ -1038,7 +1082,7 @@
         -77.75,
         55.28
       ],
-      "sourceUpdated": "2026-10-24T18:34:11Z",
+      "sourceUpdated": "2026-10-25T12:22:47Z",
       "sourceId": "VSQC105-10-23"
     },
     {
