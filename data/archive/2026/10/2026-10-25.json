@@ -1,0 +1,182 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-25",
+  "latestAvailableDate": "2026-10-25",
+  "generatedAt": "2026-10-26T11:19:49-04:00",
+  "sourceLastUpdated": "2026-10-26T12:17:28Z",
+  "source": "Environment and Climate Change Canada — MSC GeoMet LTCE",
+  "isDemo": false,
+  "summary": {
+    "totalRecords": 5,
+    "communities": 5,
+    "tiedRecords": 0,
+    "oldestRecordAge": 57
+  },
+  "validation": {
+    "candidateRecords": 5,
+    "publishedRecords": 5,
+    "withheldRecords": 0,
+    "invalidRecords": 0,
+    "manualReviewRecords": 0
+  },
+  "recordOfDay": {
+    "id": "VSNT20V-2026-10-25-high_max",
+    "date": "2026-10-25",
+    "community": "Tuktoyaktuk",
+    "province": "NT",
+    "provinceName": "Northwest Territories",
+    "type": "high_max",
+    "status": "broken",
+    "value": 2.0,
+    "unit": "°C",
+    "previousValue": 1.1,
+    "previousYear": 1969,
+    "difference": 0.9,
+    "recordBeginYear": 1948,
+    "periodYears": 79,
+    "coordinates": [
+      -133.03,
+      69.45
+    ],
+    "sourceUpdated": "2026-10-26T12:17:28Z",
+    "sourceId": "VSNT20V-10-25"
+  },
+  "story": {
+    "description": "Tuktoyaktuk, NT recorded 2.0 °C. It exceeded the previous record high maximum temperature of 1.1 °C from 1969."
+  },
+  "highlights": [
+    {
+      "region": "Northern Canada",
+      "count": 3,
+      "brokenCount": 3,
+      "tiedCount": 0,
+      "leadingType": "high_min",
+      "text": "3 records broken. The most common type was record high minimum temperature (1 of 3)."
+    },
+    {
+      "region": "Quebec",
+      "count": 2,
+      "brokenCount": 2,
+      "tiedCount": 0,
+      "leadingType": "snowfall",
+      "text": "2 records broken. The most common type was daily snowfall record (1 of 2)."
+    }
+  ],
+  "records": [
+    {
+      "id": "VSNT30V-2026-10-25-high_min",
+      "date": "2026-10-25",
+      "community": "Inuvik",
+      "province": "NT",
+      "provinceName": "Northwest Territories",
+      "type": "high_min",
+      "status": "broken",
+      "value": -3.0,
+      "unit": "°C",
+      "previousValue": -3.1,
+      "previousYear": 1980,
+      "difference": 0.1,
+      "recordBeginYear": 1957,
+      "periodYears": 70,
+      "coordinates": [
+        -133.72,
+        68.36
+      ],
+      "sourceUpdated": "2026-10-26T12:17:28Z",
+      "sourceId": "VSNT30V-10-25"
+    },
+    {
+      "id": "VSNT20V-2026-10-25-high_max",
+      "date": "2026-10-25",
+      "community": "Tuktoyaktuk",
+      "province": "NT",
+      "provinceName": "Northwest Territories",
+      "type": "high_max",
+      "status": "broken",
+      "value": 2.0,
+      "unit": "°C",
+      "previousValue": 1.1,
+      "previousYear": 1969,
+      "difference": 0.9,
+      "recordBeginYear": 1948,
+      "periodYears": 79,
+      "coordinates": [
+        -133.03,
+        69.45
+      ],
+      "sourceUpdated": "2026-10-26T12:17:28Z",
+      "sourceId": "VSNT20V-10-25"
+    },
+    {
+      "id": "VSNU5VV-2026-10-25-precipitation",
+      "date": "2026-10-25",
+      "community": "Qikiqtarjuaq",
+      "province": "NU",
+      "provinceName": "Nunavut",
+      "type": "precipitation",
+      "status": "broken",
+      "value": 4.7,
+      "unit": "mm",
+      "previousValue": 2.9,
+      "previousYear": 2012,
+      "difference": 1.8,
+      "recordBeginYear": 2003,
+      "periodYears": 24,
+      "coordinates": [
+        -64.03,
+        67.55
+      ],
+      "sourceUpdated": null,
+      "sourceId": "VSNU5VV-10-25"
+    },
+    {
+      "id": "VSQC150-2026-10-25-snowfall",
+      "date": "2026-10-25",
+      "community": "Kuujjuaq",
+      "province": "QC",
+      "provinceName": "Quebec",
+      "type": "snowfall",
+      "status": "broken",
+      "value": 4.3,
+      "unit": "cm",
+      "previousValue": 4.2,
+      "previousYear": 2015,
+      "difference": 0.1,
+      "recordBeginYear": 1947,
+      "periodYears": 80,
+      "coordinates": [
+        -68.4,
+        58.1
+      ],
+      "sourceUpdated": null,
+      "sourceId": "VSQC150-10-25"
+    },
+    {
+      "id": "VSQCD2V-2026-10-25-low_min",
+      "date": "2026-10-25",
+      "community": "Louiseville",
+      "province": "QC",
+      "provinceName": "Quebec",
+      "type": "low_min",
+      "status": "broken",
+      "value": -4.9,
+      "unit": "°C",
+      "previousValue": -4.5,
+      "previousYear": 1981,
+      "difference": -0.4,
+      "recordBeginYear": 1950,
+      "periodYears": 77,
+      "coordinates": [
+        -72.95,
+        46.25
+      ],
+      "sourceUpdated": "2026-10-26T12:17:28Z",
+      "sourceId": "VSQCD2V-10-25"
+    }
+  ],
+  "notes": [
+    "Values may be revised by ECCC after initial publication.",
+    "The archive contains daily snapshots saved by RecordWatch Canada after launch.",
+    "Suspicious or malformed candidate records are automatically withheld pending validation or verification."
+  ]
+}
