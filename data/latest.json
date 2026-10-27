@@ -1,125 +1,213 @@
 {
   "schemaVersion": 1,
-  "date": "2026-10-25",
-  "latestAvailableDate": "2026-10-25",
-  "generatedAt": "2026-10-26T16:45:53-04:00",
-  "sourceLastUpdated": "2026-10-26T18:33:55Z",
+  "date": "2026-10-26",
+  "latestAvailableDate": "2026-10-26",
+  "generatedAt": "2026-10-27T10:50:28-04:00",
+  "sourceLastUpdated": "2026-10-27T12:18:08Z",
   "source": "Environment and Climate Change Canada — MSC GeoMet LTCE",
   "isDemo": false,
   "summary": {
-    "totalRecords": 5,
-    "communities": 5,
-    "tiedRecords": 0,
+    "totalRecords": 9,
+    "communities": 8,
+    "tiedRecords": 1,
     "oldestRecordAge": 57
   },
   "validation": {
-    "candidateRecords": 5,
-    "publishedRecords": 5,
+    "candidateRecords": 9,
+    "publishedRecords": 9,
     "withheldRecords": 0,
     "invalidRecords": 0,
     "manualReviewRecords": 0
   },
   "recordOfDay": {
-    "id": "VSNT20V-2026-10-25-high_max",
-    "date": "2026-10-25",
-    "community": "Tuktoyaktuk",
-    "province": "NT",
-    "provinceName": "Northwest Territories",
-    "type": "high_max",
+    "id": "VSYT11V-2026-10-26-high_min",
+    "date": "2026-10-26",
+    "community": "Old Crow",
+    "province": "YT",
+    "provinceName": "Yukon",
+    "type": "high_min",
     "status": "broken",
-    "value": 2.0,
+    "value": -1.9,
     "unit": "°C",
-    "previousValue": 1.1,
+    "previousValue": -5.0,
     "previousYear": 1969,
-    "difference": 0.9,
-    "recordBeginYear": 1948,
-    "periodYears": 79,
+    "difference": 3.1,
+    "recordBeginYear": 1951,
+    "periodYears": 76,
     "coordinates": [
-      -133.03,
-      69.45
+      -139.84,
+      67.57
     ],
-    "sourceUpdated": "2026-10-26T18:33:55Z",
-    "sourceId": "VSNT20V-10-25"
+    "sourceUpdated": "2026-10-27T12:18:08Z",
+    "sourceId": "VSYT11V-10-26"
   },
   "story": {
-    "description": "Tuktoyaktuk, NT recorded 2.0 °C. It exceeded the previous record high maximum temperature of 1.1 °C from 1969."
+    "description": "Old Crow, YT recorded -1.9 °C. It exceeded the previous record high minimum temperature of -5.0 °C from 1969."
   },
   "highlights": [
     {
       "region": "Northern Canada",
-      "count": 3,
-      "brokenCount": 3,
-      "tiedCount": 0,
-      "leadingType": "high_min",
-      "text": "3 records broken. The most common type was record high minimum temperature (1 of 3)."
+      "count": 8,
+      "brokenCount": 7,
+      "tiedCount": 1,
+      "leadingType": "high_max",
+      "text": "7 records broken, 1 tied. The most common type was record high maximum temperature (4 of 8)."
     },
     {
-      "region": "Quebec",
-      "count": 2,
-      "brokenCount": 2,
+      "region": "British Columbia",
+      "count": 1,
+      "brokenCount": 1,
       "tiedCount": 0,
-      "leadingType": "snowfall",
-      "text": "2 records broken. The most common type was daily snowfall record (1 of 2)."
+      "leadingType": "low_min",
+      "text": "1 record broken. It was a record low minimum temperature."
     }
   ],
   "records": [
     {
-      "id": "VSNT30V-2026-10-25-high_min",
-      "date": "2026-10-25",
+      "id": "VSBC30V-2026-10-26-low_min",
+      "date": "2026-10-26",
+      "community": "Kitimat",
+      "province": "BC",
+      "provinceName": "British Columbia",
+      "type": "low_min",
+      "status": "broken",
+      "value": -2.7,
+      "unit": "°C",
+      "previousValue": -2.0,
+      "previousYear": 2015,
+      "difference": -0.7,
+      "recordBeginYear": 1951,
+      "periodYears": 76,
+      "coordinates": [
+        -128.65,
+        54.05
+      ],
+      "sourceUpdated": "2026-10-27T12:18:08Z",
+      "sourceId": "VSBC30V-10-26"
+    },
+    {
+      "id": "VSNT5VV-2026-10-26-high_max",
+      "date": "2026-10-26",
+      "community": "Fort Good Hope",
+      "province": "NT",
+      "provinceName": "Northwest Territories",
+      "type": "high_max",
+      "status": "broken",
+      "value": 3.6,
+      "unit": "°C",
+      "previousValue": 2.8,
+      "previousYear": 1969,
+      "difference": 0.8,
+      "recordBeginYear": 1908,
+      "periodYears": 119,
+      "coordinates": [
+        -128.64,
+        66.26
+      ],
+      "sourceUpdated": "2026-10-27T12:18:08Z",
+      "sourceId": "VSNT5VV-10-26"
+    },
+    {
+      "id": "VSNT10V-2026-10-26-high_min",
+      "date": "2026-10-26",
+      "community": "Fort Mcpherson",
+      "province": "NT",
+      "provinceName": "Northwest Territories",
+      "type": "high_min",
+      "status": "broken",
+      "value": 3.4,
+      "unit": "°C",
+      "previousValue": 1.0,
+      "previousYear": 1987,
+      "difference": 2.4,
+      "recordBeginYear": 1892,
+      "periodYears": 135,
+      "coordinates": [
+        -134.88,
+        67.44
+      ],
+      "sourceUpdated": "2026-10-27T12:18:08Z",
+      "sourceId": "VSNT10V-10-26"
+    },
+    {
+      "id": "VSNT30V-2026-10-26-high_min",
+      "date": "2026-10-26",
       "community": "Inuvik",
       "province": "NT",
       "provinceName": "Northwest Territories",
       "type": "high_min",
       "status": "broken",
-      "value": -3.0,
+      "value": -2.7,
       "unit": "°C",
-      "previousValue": -3.1,
-      "previousYear": 1980,
-      "difference": 0.1,
+      "previousValue": -4.4,
+      "previousYear": 2021,
+      "difference": 1.7,
       "recordBeginYear": 1957,
       "periodYears": 70,
       "coordinates": [
         -133.72,
         68.36
       ],
-      "sourceUpdated": "2026-10-26T18:33:55Z",
-      "sourceId": "VSNT30V-10-25"
+      "sourceUpdated": "2026-10-27T12:18:08Z",
+      "sourceId": "VSNT30V-10-26"
     },
     {
-      "id": "VSNT20V-2026-10-25-high_max",
-      "date": "2026-10-25",
-      "community": "Tuktoyaktuk",
+      "id": "VSNT16V-2026-10-26-high_max",
+      "date": "2026-10-26",
+      "community": "Paulatuk",
+      "province": "NT",
+      "provinceName": "Northwest Territories",
+      "type": "high_max",
+      "status": "tied",
+      "value": 0.4,
+      "unit": "°C",
+      "previousValue": 0.4,
+      "previousYear": 1998,
+      "difference": 0.0,
+      "recordBeginYear": 1985,
+      "periodYears": 42,
+      "coordinates": [
+        -124.07,
+        69.35
+      ],
+      "sourceUpdated": "2026-10-27T12:18:08Z",
+      "sourceId": "VSNT16V-10-26"
+    },
+    {
+      "id": "VSNT11V-2026-10-26-high_max",
+      "date": "2026-10-26",
+      "community": "Tulita",
       "province": "NT",
       "provinceName": "Northwest Territories",
       "type": "high_max",
       "status": "broken",
-      "value": 2.0,
+      "value": 1.9,
       "unit": "°C",
-      "previousValue": 1.1,
-      "previousYear": 1969,
-      "difference": 0.9,
-      "recordBeginYear": 1948,
-      "periodYears": 79,
+      "previousValue": 1.8,
+      "previousYear": 2003,
+      "difference": 0.1,
+      "recordBeginYear": 1908,
+      "periodYears": 119,
       "coordinates": [
-        -133.03,
-        69.45
+        -125.57,
+        64.9
       ],
-      "sourceUpdated": "2026-10-26T18:33:55Z",
-      "sourceId": "VSNT20V-10-25"
+      "sourceUpdated": "2026-10-27T12:18:08Z",
+      "sourceId": "VSNT11V-10-26"
     },
     {
-      "id": "VSNU5VV-2026-10-25-precipitation",
-      "date": "2026-10-25",
+      "id": "VSNU5VV-2026-10-26-precipitation",
+      "date": "2026-10-26",
       "community": "Qikiqtarjuaq",
       "province": "NU",
       "provinceName": "Nunavut",
       "type": "precipitation",
       "status": "broken",
-      "value": 4.7,
+      "value": 12.4,
       "unit": "mm",
-      "previousValue": 2.9,
-      "previousYear": 2012,
-      "difference": 1.8,
+      "previousValue": 7.6,
+      "previousYear": 2020,
+      "difference": 4.8,
       "recordBeginYear": 2003,
       "periodYears": 24,
       "coordinates": [
@@ -127,51 +215,51 @@
         67.55
       ],
       "sourceUpdated": null,
-      "sourceId": "VSNU5VV-10-25"
+      "sourceId": "VSNU5VV-10-26"
     },
     {
-      "id": "VSQC150-2026-10-25-snowfall",
-      "date": "2026-10-25",
-      "community": "Kuujjuaq",
-      "province": "QC",
-      "provinceName": "Quebec",
-      "type": "snowfall",
+      "id": "VSYT11V-2026-10-26-high_max",
+      "date": "2026-10-26",
+      "community": "Old Crow",
+      "province": "YT",
+      "provinceName": "Yukon",
+      "type": "high_max",
       "status": "broken",
-      "value": 4.3,
-      "unit": "cm",
-      "previousValue": 4.2,
-      "previousYear": 2015,
-      "difference": 0.1,
-      "recordBeginYear": 1947,
-      "periodYears": 80,
-      "coordinates": [
-        -68.4,
-        58.1
-      ],
-      "sourceUpdated": null,
-      "sourceId": "VSQC150-10-25"
-    },
-    {
-      "id": "VSQCD2V-2026-10-25-low_min",
-      "date": "2026-10-25",
-      "community": "Louiseville",
-      "province": "QC",
-      "provinceName": "Quebec",
-      "type": "low_min",
-      "status": "broken",
-      "value": -4.9,
+      "value": 1.4,
       "unit": "°C",
-      "previousValue": -4.5,
-      "previousYear": 1981,
-      "difference": -0.4,
-      "recordBeginYear": 1950,
-      "periodYears": 77,
+      "previousValue": 0.0,
+      "previousYear": 1969,
+      "difference": 1.4,
+      "recordBeginYear": 1951,
+      "periodYears": 76,
       "coordinates": [
-        -72.95,
-        46.25
+        -139.84,
+        67.57
       ],
-      "sourceUpdated": "2026-10-26T18:33:55Z",
-      "sourceId": "VSQCD2V-10-25"
+      "sourceUpdated": "2026-10-27T12:18:08Z",
+      "sourceId": "VSYT11V-10-26"
+    },
+    {
+      "id": "VSYT11V-2026-10-26-high_min",
+      "date": "2026-10-26",
+      "community": "Old Crow",
+      "province": "YT",
+      "provinceName": "Yukon",
+      "type": "high_min",
+      "status": "broken",
+      "value": -1.9,
+      "unit": "°C",
+      "previousValue": -5.0,
+      "previousYear": 1969,
+      "difference": 3.1,
+      "recordBeginYear": 1951,
+      "periodYears": 76,
+      "coordinates": [
+        -139.84,
+        67.57
+      ],
+      "sourceUpdated": "2026-10-27T12:18:08Z",
+      "sourceId": "VSYT11V-10-26"
     }
   ],
   "notes": [

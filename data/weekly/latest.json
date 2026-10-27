@@ -1,54 +1,54 @@
 {
   "schemaVersion": 1,
   "title": "This Week in Canadian Extremes",
-  "startDate": "2026-10-19",
-  "endDate": "2026-10-25",
+  "startDate": "2026-10-20",
+  "endDate": "2026-10-26",
   "datesIncluded": [
-    "2026-10-19",
     "2026-10-20",
     "2026-10-21",
     "2026-10-22",
     "2026-10-23",
     "2026-10-24",
-    "2026-10-25"
+    "2026-10-25",
+    "2026-10-26"
   ],
   "daysAvailable": 7,
   "isPartial": false,
-  "generatedAt": "2026-10-26T16:45:55-04:00",
+  "generatedAt": "2026-10-27T10:50:30-04:00",
   "summary": {
-    "totalRecords": 127,
-    "brokenRecords": 115,
-    "tiedRecords": 12
+    "totalRecords": 123,
+    "brokenRecords": 113,
+    "tiedRecords": 10
   },
-  "summaryText": "115 records broken, 12 tied. Record High Maximum Temperature was the most common category (67 of 127 record events). Manitoba recorded the most events (34).",
+  "summaryText": "113 records broken, 10 tied. Record High Maximum Temperature was the most common category (69 of 123 record events). Manitoba recorded the most events (34).",
   "typeBreakdown": [
     {
       "type": "high_max",
       "label": "Record High Maximum Temperature",
-      "total": 67,
-      "broken": 60,
-      "tied": 7
+      "total": 69,
+      "broken": 61,
+      "tied": 8
     },
     {
       "type": "precipitation",
       "label": "Daily Precipitation Record",
-      "total": 23,
-      "broken": 23,
+      "total": 24,
+      "broken": 24,
       "tied": 0
     },
     {
       "type": "high_min",
       "label": "Record High Minimum Temperature",
-      "total": 17,
-      "broken": 16,
+      "total": 20,
+      "broken": 19,
       "tied": 1
     },
     {
       "type": "low_min",
       "label": "Record Low Minimum Temperature",
-      "total": 14,
-      "broken": 11,
-      "tied": 3
+      "total": 4,
+      "broken": 4,
+      "tied": 0
     },
     {
       "type": "snowfall",
@@ -77,6 +77,11 @@
       "total": 18
     },
     {
+      "province": "NT",
+      "provinceName": "Northwest Territories",
+      "total": 17
+    },
+    {
       "province": "AB",
       "provinceName": "Alberta",
       "total": 15
@@ -84,11 +89,6 @@
     {
       "province": "NU",
       "provinceName": "Nunavut",
-      "total": 13
-    },
-    {
-      "province": "NT",
-      "provinceName": "Northwest Territories",
       "total": 12
     },
     {
@@ -97,55 +97,27 @@
       "total": 10
     },
     {
-      "province": "NL",
-      "provinceName": "Newfoundland and Labrador",
-      "total": 8
-    },
-    {
       "province": "YT",
       "provinceName": "Yukon",
-      "total": 6
-    },
-    {
-      "province": "NS",
-      "provinceName": "Nova Scotia",
-      "total": 4
+      "total": 8
     },
     {
       "province": "BC",
       "provinceName": "British Columbia",
-      "total": 4
+      "total": 5
     },
     {
       "province": "QC",
       "provinceName": "Quebec",
       "total": 3
+    },
+    {
+      "province": "NS",
+      "provinceName": "Nova Scotia",
+      "total": 1
     }
   ],
   "notableRecords": [
-    {
-      "id": "VSNL27V-2026-10-19-low_min",
-      "date": "2026-10-19",
-      "community": "Stephenville",
-      "province": "NL",
-      "provinceName": "Newfoundland and Labrador",
-      "type": "low_min",
-      "status": "broken",
-      "value": -2.7,
-      "unit": "°C",
-      "previousValue": -2.2,
-      "previousYear": 1906,
-      "difference": -0.5,
-      "recordBeginYear": 1889,
-      "periodYears": 138,
-      "coordinates": [
-        -58.58,
-        48.55
-      ],
-      "sourceUpdated": "2026-10-22T18:34:05Z",
-      "sourceId": "VSNL27V-10-19",
-      "previousRecordAge": 120
-    },
     {
       "id": "VSYT6VV-2026-10-20-precipitation",
       "date": "2026-10-20",
@@ -260,6 +232,29 @@
       "sourceUpdated": "2026-10-26T18:33:55Z",
       "sourceId": "VSON166-10-23",
       "previousRecordAge": 80
+    },
+    {
+      "id": "VSMB21V-2026-10-23-high_max",
+      "date": "2026-10-23",
+      "community": "Arnes",
+      "province": "MB",
+      "provinceName": "Manitoba",
+      "type": "high_max",
+      "status": "broken",
+      "value": 22.5,
+      "unit": "°C",
+      "previousValue": 21.1,
+      "previousYear": 1952,
+      "difference": 1.4,
+      "recordBeginYear": 1944,
+      "periodYears": 83,
+      "coordinates": [
+        -96.99,
+        50.8
+      ],
+      "sourceUpdated": "2026-10-26T18:33:55Z",
+      "sourceId": "VSMB21V-10-23",
+      "previousRecordAge": 74
     }
   ],
   "notes": [
