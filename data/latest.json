@@ -2,19 +2,19 @@
   "schemaVersion": 1,
   "date": "2026-10-26",
   "latestAvailableDate": "2026-10-26",
-  "generatedAt": "2026-10-27T10:50:28-04:00",
-  "sourceLastUpdated": "2026-10-27T12:18:08Z",
+  "generatedAt": "2026-10-27T16:40:48-04:00",
+  "sourceLastUpdated": "2026-10-27T18:33:29Z",
   "source": "Environment and Climate Change Canada — MSC GeoMet LTCE",
   "isDemo": false,
   "summary": {
-    "totalRecords": 9,
-    "communities": 8,
+    "totalRecords": 10,
+    "communities": 9,
     "tiedRecords": 1,
     "oldestRecordAge": 57
   },
   "validation": {
-    "candidateRecords": 9,
-    "publishedRecords": 9,
+    "candidateRecords": 10,
+    "publishedRecords": 10,
     "withheldRecords": 0,
     "invalidRecords": 0,
     "manualReviewRecords": 0
@@ -38,7 +38,7 @@
       -139.84,
       67.57
     ],
-    "sourceUpdated": "2026-10-27T12:18:08Z",
+    "sourceUpdated": "2026-10-27T18:33:29Z",
     "sourceId": "VSYT11V-10-26"
   },
   "story": {
@@ -55,14 +55,36 @@
     },
     {
       "region": "British Columbia",
-      "count": 1,
-      "brokenCount": 1,
+      "count": 2,
+      "brokenCount": 2,
       "tiedCount": 0,
-      "leadingType": "low_min",
-      "text": "1 record broken. It was a record low minimum temperature."
+      "leadingType": "precipitation",
+      "text": "2 records broken. The most common type was daily precipitation record (1 of 2)."
     }
   ],
   "records": [
+    {
+      "id": "VSBC39V-2026-10-26-precipitation",
+      "date": "2026-10-26",
+      "community": "Grand Forks",
+      "province": "BC",
+      "provinceName": "British Columbia",
+      "type": "precipitation",
+      "status": "broken",
+      "value": 19.6,
+      "unit": "mm",
+      "previousValue": 12.0,
+      "previousYear": 2016,
+      "difference": 7.6,
+      "recordBeginYear": 1909,
+      "periodYears": 118,
+      "coordinates": [
+        -118.43,
+        49.03
+      ],
+      "sourceUpdated": null,
+      "sourceId": "VSBC39V-10-26"
+    },
     {
       "id": "VSBC30V-2026-10-26-low_min",
       "date": "2026-10-26",
@@ -82,7 +104,7 @@
         -128.65,
         54.05
       ],
-      "sourceUpdated": "2026-10-27T12:18:08Z",
+      "sourceUpdated": "2026-10-27T18:33:29Z",
       "sourceId": "VSBC30V-10-26"
     },
     {
@@ -104,7 +126,7 @@
         -128.64,
         66.26
       ],
-      "sourceUpdated": "2026-10-27T12:18:08Z",
+      "sourceUpdated": "2026-10-27T18:33:29Z",
       "sourceId": "VSNT5VV-10-26"
     },
     {
@@ -126,7 +148,7 @@
         -134.88,
         67.44
       ],
-      "sourceUpdated": "2026-10-27T12:18:08Z",
+      "sourceUpdated": "2026-10-27T18:33:29Z",
       "sourceId": "VSNT10V-10-26"
     },
     {
@@ -148,7 +170,7 @@
         -133.72,
         68.36
       ],
-      "sourceUpdated": "2026-10-27T12:18:08Z",
+      "sourceUpdated": "2026-10-27T18:33:29Z",
       "sourceId": "VSNT30V-10-26"
     },
     {
@@ -170,7 +192,7 @@
         -124.07,
         69.35
       ],
-      "sourceUpdated": "2026-10-27T12:18:08Z",
+      "sourceUpdated": "2026-10-27T18:33:29Z",
       "sourceId": "VSNT16V-10-26"
     },
     {
@@ -192,7 +214,7 @@
         -125.57,
         64.9
       ],
-      "sourceUpdated": "2026-10-27T12:18:08Z",
+      "sourceUpdated": "2026-10-27T18:33:29Z",
       "sourceId": "VSNT11V-10-26"
     },
     {
@@ -236,7 +258,7 @@
         -139.84,
         67.57
       ],
-      "sourceUpdated": "2026-10-27T12:18:08Z",
+      "sourceUpdated": "2026-10-27T18:33:29Z",
       "sourceId": "VSYT11V-10-26"
     },
     {
@@ -258,7 +280,7 @@
         -139.84,
         67.57
       ],
-      "sourceUpdated": "2026-10-27T12:18:08Z",
+      "sourceUpdated": "2026-10-27T18:33:29Z",
       "sourceId": "VSYT11V-10-26"
     }
   ],

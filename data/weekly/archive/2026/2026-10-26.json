@@ -14,13 +14,13 @@
   ],
   "daysAvailable": 7,
   "isPartial": false,
-  "generatedAt": "2026-10-27T10:50:30-04:00",
+  "generatedAt": "2026-10-27T16:40:50-04:00",
   "summary": {
-    "totalRecords": 123,
-    "brokenRecords": 113,
+    "totalRecords": 124,
+    "brokenRecords": 114,
     "tiedRecords": 10
   },
-  "summaryText": "113 records broken, 10 tied. Record High Maximum Temperature was the most common category (69 of 123 record events). Manitoba recorded the most events (34).",
+  "summaryText": "114 records broken, 10 tied. Record High Maximum Temperature was the most common category (69 of 124 record events). Manitoba recorded the most events (34).",
   "typeBreakdown": [
     {
       "type": "high_max",
@@ -32,8 +32,8 @@
     {
       "type": "precipitation",
       "label": "Daily Precipitation Record",
-      "total": 24,
-      "broken": 24,
+      "total": 25,
+      "broken": 25,
       "tied": 0
     },
     {
@@ -104,7 +104,7 @@
     {
       "province": "BC",
       "provinceName": "British Columbia",
-      "total": 5
+      "total": 6
     },
     {
       "province": "QC",
