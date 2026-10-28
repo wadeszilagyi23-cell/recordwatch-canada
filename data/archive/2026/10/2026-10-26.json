@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "date": "2026-10-26",
   "latestAvailableDate": "2026-10-26",
-  "generatedAt": "2026-10-28T10:41:08-04:00",
-  "sourceLastUpdated": "2026-10-28T12:18:37Z",
+  "generatedAt": "2026-10-28T16:40:51-04:00",
+  "sourceLastUpdated": "2026-10-28T18:33:45Z",
   "source": "Environment and Climate Change Canada — MSC GeoMet LTCE",
   "isDemo": false,
   "summary": {
@@ -38,7 +38,7 @@
       -139.84,
       67.57
     ],
-    "sourceUpdated": "2026-10-28T12:18:37Z",
+    "sourceUpdated": "2026-10-28T18:33:45Z",
     "sourceId": "VSYT11V-10-26"
   },
   "story": {
@@ -104,7 +104,7 @@
         -128.65,
         54.05
       ],
-      "sourceUpdated": "2026-10-28T12:18:37Z",
+      "sourceUpdated": "2026-10-28T18:33:45Z",
       "sourceId": "VSBC30V-10-26"
     },
     {
@@ -126,7 +126,7 @@
         -128.64,
         66.26
       ],
-      "sourceUpdated": "2026-10-28T12:18:37Z",
+      "sourceUpdated": "2026-10-28T18:33:45Z",
       "sourceId": "VSNT5VV-10-26"
     },
     {
@@ -148,7 +148,7 @@
         -134.88,
         67.44
       ],
-      "sourceUpdated": "2026-10-28T12:18:37Z",
+      "sourceUpdated": "2026-10-28T18:33:45Z",
       "sourceId": "VSNT10V-10-26"
     },
     {
@@ -170,7 +170,7 @@
         -133.72,
         68.36
       ],
-      "sourceUpdated": "2026-10-28T12:18:37Z",
+      "sourceUpdated": "2026-10-28T18:33:45Z",
       "sourceId": "VSNT30V-10-26"
     },
     {
@@ -192,7 +192,7 @@
         -124.07,
         69.35
       ],
-      "sourceUpdated": "2026-10-28T12:18:37Z",
+      "sourceUpdated": "2026-10-28T18:33:45Z",
       "sourceId": "VSNT16V-10-26"
     },
     {
@@ -214,7 +214,7 @@
         -125.57,
         64.9
       ],
-      "sourceUpdated": "2026-10-28T12:18:37Z",
+      "sourceUpdated": "2026-10-28T18:33:45Z",
       "sourceId": "VSNT11V-10-26"
     },
     {
@@ -258,7 +258,7 @@
         -139.84,
         67.57
       ],
-      "sourceUpdated": "2026-10-28T12:18:37Z",
+      "sourceUpdated": "2026-10-28T18:33:45Z",
       "sourceId": "VSYT11V-10-26"
     },
     {
@@ -280,7 +280,7 @@
         -139.84,
         67.57
       ],
-      "sourceUpdated": "2026-10-28T12:18:37Z",
+      "sourceUpdated": "2026-10-28T18:33:45Z",
       "sourceId": "VSYT11V-10-26"
     }
   ],

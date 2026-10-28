@@ -14,13 +14,13 @@
   ],
   "daysAvailable": 7,
   "isPartial": false,
-  "generatedAt": "2026-10-28T10:41:09-04:00",
+  "generatedAt": "2026-10-28T16:40:53-04:00",
   "summary": {
-    "totalRecords": 125,
-    "brokenRecords": 116,
+    "totalRecords": 129,
+    "brokenRecords": 120,
     "tiedRecords": 9
   },
-  "summaryText": "116 records broken, 9 tied. Record High Maximum Temperature was the most common category (68 of 125 record events). Manitoba recorded the most events (33).",
+  "summaryText": "120 records broken, 9 tied. Record High Maximum Temperature was the most common category (68 of 129 record events). Manitoba recorded the most events (33).",
   "typeBreakdown": [
     {
       "type": "high_max",
@@ -32,8 +32,8 @@
     {
       "type": "precipitation",
       "label": "Daily Precipitation Record",
-      "total": 26,
-      "broken": 26,
+      "total": 28,
+      "broken": 28,
       "tied": 0
     },
     {
@@ -44,15 +44,15 @@
       "tied": 0
     },
     {
-      "type": "low_min",
-      "label": "Record Low Minimum Temperature",
-      "total": 4,
-      "broken": 4,
+      "type": "snowfall",
+      "label": "Daily Snowfall Record",
+      "total": 6,
+      "broken": 6,
       "tied": 0
     },
     {
-      "type": "snowfall",
-      "label": "Daily Snowfall Record",
+      "type": "low_min",
+      "label": "Record Low Minimum Temperature",
       "total": 4,
       "broken": 4,
       "tied": 0
@@ -74,17 +74,17 @@
     {
       "province": "SK",
       "provinceName": "Saskatchewan",
-      "total": 20
+      "total": 22
+    },
+    {
+      "province": "AB",
+      "provinceName": "Alberta",
+      "total": 18
     },
     {
       "province": "NT",
       "provinceName": "Northwest Territories",
       "total": 18
-    },
-    {
-      "province": "AB",
-      "provinceName": "Alberta",
-      "total": 16
     },
     {
       "province": "NU",
@@ -206,7 +206,7 @@
         -125.57,
         64.9
       ],
-      "sourceUpdated": "2026-10-28T12:18:37Z",
+      "sourceUpdated": "2026-10-28T18:33:45Z",
       "sourceId": "VSNT11V-10-27",
       "previousRecordAge": 84
     },

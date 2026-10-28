@@ -2,19 +2,19 @@
   "schemaVersion": 1,
   "date": "2026-10-27",
   "latestAvailableDate": "2026-10-27",
-  "generatedAt": "2026-10-28T10:41:07-04:00",
-  "sourceLastUpdated": "2026-10-28T12:18:37Z",
+  "generatedAt": "2026-10-28T16:40:50-04:00",
+  "sourceLastUpdated": "2026-10-28T18:33:45Z",
   "source": "Environment and Climate Change Canada — MSC GeoMet LTCE",
   "isDemo": false,
   "summary": {
-    "totalRecords": 7,
-    "communities": 7,
+    "totalRecords": 11,
+    "communities": 8,
     "tiedRecords": 0,
     "oldestRecordAge": 84
   },
   "validation": {
-    "candidateRecords": 7,
-    "publishedRecords": 7,
+    "candidateRecords": 11,
+    "publishedRecords": 11,
     "withheldRecords": 0,
     "invalidRecords": 0,
     "manualReviewRecords": 0
@@ -38,7 +38,7 @@
       -125.57,
       64.9
     ],
-    "sourceUpdated": "2026-10-28T12:18:37Z",
+    "sourceUpdated": "2026-10-28T18:33:45Z",
     "sourceId": "VSNT11V-10-27"
   },
   "story": {
@@ -46,20 +46,20 @@
   },
   "highlights": [
     {
+      "region": "Prairies",
+      "count": 7,
+      "brokenCount": 7,
+      "tiedCount": 0,
+      "leadingType": "precipitation",
+      "text": "7 records broken. The most common type was daily precipitation record (5 of 7)."
+    },
+    {
       "region": "Northern Canada",
       "count": 4,
       "brokenCount": 4,
       "tiedCount": 0,
       "leadingType": "high_min",
       "text": "4 records broken. The most common type was record high minimum temperature (2 of 4)."
-    },
-    {
-      "region": "Prairies",
-      "count": 3,
-      "brokenCount": 3,
-      "tiedCount": 0,
-      "leadingType": "precipitation",
-      "text": "3 records broken. All 3 were daily precipitation record events."
     }
   ],
   "records": [
@@ -86,6 +86,50 @@
       "sourceId": "VSAB32V-10-27"
     },
     {
+      "id": "VSAB15V-2026-10-27-precipitation",
+      "date": "2026-10-27",
+      "community": "Lloydminster",
+      "province": "AB",
+      "provinceName": "Alberta",
+      "type": "precipitation",
+      "status": "broken",
+      "value": 7.0,
+      "unit": "mm",
+      "previousValue": 2.8,
+      "previousYear": 1991,
+      "difference": 4.2,
+      "recordBeginYear": 1952,
+      "periodYears": 75,
+      "coordinates": [
+        -110.0,
+        53.28
+      ],
+      "sourceUpdated": null,
+      "sourceId": "VSAB15V-10-27"
+    },
+    {
+      "id": "VSAB15V-2026-10-27-snowfall",
+      "date": "2026-10-27",
+      "community": "Lloydminster",
+      "province": "AB",
+      "provinceName": "Alberta",
+      "type": "snowfall",
+      "status": "broken",
+      "value": 6.0,
+      "unit": "cm",
+      "previousValue": 2.8,
+      "previousYear": 1991,
+      "difference": 3.2,
+      "recordBeginYear": 1952,
+      "periodYears": 75,
+      "coordinates": [
+        -110.0,
+        53.28
+      ],
+      "sourceUpdated": null,
+      "sourceId": "VSAB15V-10-27"
+    },
+    {
       "id": "VSNT5VV-2026-10-27-high_min",
       "date": "2026-10-27",
       "community": "Fort Good Hope",
@@ -104,7 +148,7 @@
         -128.64,
         66.26
       ],
-      "sourceUpdated": "2026-10-28T12:18:37Z",
+      "sourceUpdated": "2026-10-28T18:33:45Z",
       "sourceId": "VSNT5VV-10-27"
     },
     {
@@ -126,7 +170,7 @@
         -125.57,
         64.9
       ],
-      "sourceUpdated": "2026-10-28T12:18:37Z",
+      "sourceUpdated": "2026-10-28T18:33:45Z",
       "sourceId": "VSNT11V-10-27"
     },
     {
@@ -150,6 +194,50 @@
       ],
       "sourceUpdated": null,
       "sourceId": "VSSK42V-10-27"
+    },
+    {
+      "id": "VSSK56V-2026-10-27-precipitation",
+      "date": "2026-10-27",
+      "community": "Lloydminster",
+      "province": "SK",
+      "provinceName": "Saskatchewan",
+      "type": "precipitation",
+      "status": "broken",
+      "value": 7.0,
+      "unit": "mm",
+      "previousValue": 2.8,
+      "previousYear": 1991,
+      "difference": 4.2,
+      "recordBeginYear": 1952,
+      "periodYears": 75,
+      "coordinates": [
+        -109.98,
+        53.28
+      ],
+      "sourceUpdated": null,
+      "sourceId": "VSSK56V-10-27"
+    },
+    {
+      "id": "VSSK56V-2026-10-27-snowfall",
+      "date": "2026-10-27",
+      "community": "Lloydminster",
+      "province": "SK",
+      "provinceName": "Saskatchewan",
+      "type": "snowfall",
+      "status": "broken",
+      "value": 6.0,
+      "unit": "cm",
+      "previousValue": 2.8,
+      "previousYear": 1991,
+      "difference": 3.2,
+      "recordBeginYear": 1952,
+      "periodYears": 75,
+      "coordinates": [
+        -109.98,
+        53.28
+      ],
+      "sourceUpdated": null,
+      "sourceId": "VSSK56V-10-27"
     },
     {
       "id": "VSSK54V-2026-10-27-precipitation",
@@ -192,7 +280,7 @@
         -140.88,
         62.38
       ],
-      "sourceUpdated": "2026-10-28T12:18:37Z",
+      "sourceUpdated": "2026-10-28T18:33:45Z",
       "sourceId": "VSYT15V-10-27"
     },
     {
@@ -214,7 +302,7 @@
         -139.84,
         67.57
       ],
-      "sourceUpdated": "2026-10-28T12:18:37Z",
+      "sourceUpdated": "2026-10-28T18:33:45Z",
       "sourceId": "VSYT11V-10-27"
     }
   ],
