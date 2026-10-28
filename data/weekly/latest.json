@@ -1,47 +1,47 @@
 {
   "schemaVersion": 1,
   "title": "This Week in Canadian Extremes",
-  "startDate": "2026-10-20",
-  "endDate": "2026-10-26",
+  "startDate": "2026-10-21",
+  "endDate": "2026-10-27",
   "datesIncluded": [
-    "2026-10-20",
     "2026-10-21",
     "2026-10-22",
     "2026-10-23",
     "2026-10-24",
     "2026-10-25",
-    "2026-10-26"
+    "2026-10-26",
+    "2026-10-27"
   ],
   "daysAvailable": 7,
   "isPartial": false,
-  "generatedAt": "2026-10-27T16:40:50-04:00",
+  "generatedAt": "2026-10-28T10:41:09-04:00",
   "summary": {
-    "totalRecords": 124,
-    "brokenRecords": 114,
-    "tiedRecords": 10
+    "totalRecords": 125,
+    "brokenRecords": 116,
+    "tiedRecords": 9
   },
-  "summaryText": "114 records broken, 10 tied. Record High Maximum Temperature was the most common category (69 of 124 record events). Manitoba recorded the most events (34).",
+  "summaryText": "116 records broken, 9 tied. Record High Maximum Temperature was the most common category (68 of 125 record events). Manitoba recorded the most events (33).",
   "typeBreakdown": [
     {
       "type": "high_max",
       "label": "Record High Maximum Temperature",
-      "total": 69,
-      "broken": 61,
+      "total": 68,
+      "broken": 60,
       "tied": 8
     },
     {
       "type": "precipitation",
       "label": "Daily Precipitation Record",
-      "total": 25,
-      "broken": 25,
+      "total": 26,
+      "broken": 26,
       "tied": 0
     },
     {
       "type": "high_min",
       "label": "Record High Minimum Temperature",
-      "total": 20,
-      "broken": 19,
-      "tied": 1
+      "total": 21,
+      "broken": 21,
+      "tied": 0
     },
     {
       "type": "low_min",
@@ -69,22 +69,22 @@
     {
       "province": "MB",
       "provinceName": "Manitoba",
-      "total": 34
+      "total": 33
     },
     {
       "province": "SK",
       "provinceName": "Saskatchewan",
-      "total": 18
+      "total": 20
     },
     {
       "province": "NT",
       "provinceName": "Northwest Territories",
-      "total": 17
+      "total": 18
     },
     {
       "province": "AB",
       "provinceName": "Alberta",
-      "total": 15
+      "total": 16
     },
     {
       "province": "NU",
@@ -97,13 +97,13 @@
       "total": 10
     },
     {
-      "province": "YT",
-      "provinceName": "Yukon",
-      "total": 8
-    },
-    {
       "province": "BC",
       "provinceName": "British Columbia",
+      "total": 6
+    },
+    {
+      "province": "YT",
+      "provinceName": "Yukon",
       "total": 6
     },
     {
@@ -118,29 +118,6 @@
     }
   ],
   "notableRecords": [
-    {
-      "id": "VSYT6VV-2026-10-20-precipitation",
-      "date": "2026-10-20",
-      "community": "Dawson",
-      "province": "YT",
-      "provinceName": "Yukon",
-      "type": "precipitation",
-      "status": "broken",
-      "value": 18.1,
-      "unit": "mm",
-      "previousValue": 12.7,
-      "previousYear": 1911,
-      "difference": 5.4,
-      "recordBeginYear": 1897,
-      "periodYears": 130,
-      "coordinates": [
-        -139.43,
-        64.06
-      ],
-      "sourceUpdated": null,
-      "sourceId": "VSYT6VV-10-20",
-      "previousRecordAge": 115
-    },
     {
       "id": "VSMB54V-2026-10-23-high_max",
       "date": "2026-10-23",
@@ -209,6 +186,29 @@
       "sourceUpdated": null,
       "sourceId": "VSSK38V-10-23",
       "previousRecordAge": 87
+    },
+    {
+      "id": "VSNT11V-2026-10-27-high_min",
+      "date": "2026-10-27",
+      "community": "Tulita",
+      "province": "NT",
+      "provinceName": "Northwest Territories",
+      "type": "high_min",
+      "status": "broken",
+      "value": -1.4,
+      "unit": "°C",
+      "previousValue": -1.7,
+      "previousYear": 1942,
+      "difference": 0.3,
+      "recordBeginYear": 1908,
+      "periodYears": 119,
+      "coordinates": [
+        -125.57,
+        64.9
+      ],
+      "sourceUpdated": "2026-10-28T12:18:37Z",
+      "sourceId": "VSNT11V-10-27",
+      "previousRecordAge": 84
     },
     {
       "id": "VSON166-2026-10-23-high_min",

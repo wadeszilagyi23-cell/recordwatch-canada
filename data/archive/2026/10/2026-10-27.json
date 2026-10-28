@@ -1,0 +1,226 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-27",
+  "latestAvailableDate": "2026-10-27",
+  "generatedAt": "2026-10-28T10:41:07-04:00",
+  "sourceLastUpdated": "2026-10-28T12:18:37Z",
+  "source": "Environment and Climate Change Canada — MSC GeoMet LTCE",
+  "isDemo": false,
+  "summary": {
+    "totalRecords": 7,
+    "communities": 7,
+    "tiedRecords": 0,
+    "oldestRecordAge": 84
+  },
+  "validation": {
+    "candidateRecords": 7,
+    "publishedRecords": 7,
+    "withheldRecords": 0,
+    "invalidRecords": 0,
+    "manualReviewRecords": 0
+  },
+  "recordOfDay": {
+    "id": "VSNT11V-2026-10-27-high_min",
+    "date": "2026-10-27",
+    "community": "Tulita",
+    "province": "NT",
+    "provinceName": "Northwest Territories",
+    "type": "high_min",
+    "status": "broken",
+    "value": -1.4,
+    "unit": "°C",
+    "previousValue": -1.7,
+    "previousYear": 1942,
+    "difference": 0.3,
+    "recordBeginYear": 1908,
+    "periodYears": 119,
+    "coordinates": [
+      -125.57,
+      64.9
+    ],
+    "sourceUpdated": "2026-10-28T12:18:37Z",
+    "sourceId": "VSNT11V-10-27"
+  },
+  "story": {
+    "description": "Tulita, NT recorded -1.4 °C. It exceeded the previous record high minimum temperature of -1.7 °C from 1942."
+  },
+  "highlights": [
+    {
+      "region": "Northern Canada",
+      "count": 4,
+      "brokenCount": 4,
+      "tiedCount": 0,
+      "leadingType": "high_min",
+      "text": "4 records broken. The most common type was record high minimum temperature (2 of 4)."
+    },
+    {
+      "region": "Prairies",
+      "count": 3,
+      "brokenCount": 3,
+      "tiedCount": 0,
+      "leadingType": "precipitation",
+      "text": "3 records broken. All 3 were daily precipitation record events."
+    }
+  ],
+  "records": [
+    {
+      "id": "VSAB32V-2026-10-27-precipitation",
+      "date": "2026-10-27",
+      "community": "Lac La Biche",
+      "province": "AB",
+      "provinceName": "Alberta",
+      "type": "precipitation",
+      "status": "broken",
+      "value": 9.0,
+      "unit": "mm",
+      "previousValue": 6.5,
+      "previousYear": 2024,
+      "difference": 2.5,
+      "recordBeginYear": 1944,
+      "periodYears": 83,
+      "coordinates": [
+        -111.98,
+        54.77
+      ],
+      "sourceUpdated": null,
+      "sourceId": "VSAB32V-10-27"
+    },
+    {
+      "id": "VSNT5VV-2026-10-27-high_min",
+      "date": "2026-10-27",
+      "community": "Fort Good Hope",
+      "province": "NT",
+      "provinceName": "Northwest Territories",
+      "type": "high_min",
+      "status": "broken",
+      "value": -3.3,
+      "unit": "°C",
+      "previousValue": -4.3,
+      "previousYear": 2009,
+      "difference": 1.0,
+      "recordBeginYear": 1908,
+      "periodYears": 119,
+      "coordinates": [
+        -128.64,
+        66.26
+      ],
+      "sourceUpdated": "2026-10-28T12:18:37Z",
+      "sourceId": "VSNT5VV-10-27"
+    },
+    {
+      "id": "VSNT11V-2026-10-27-high_min",
+      "date": "2026-10-27",
+      "community": "Tulita",
+      "province": "NT",
+      "provinceName": "Northwest Territories",
+      "type": "high_min",
+      "status": "broken",
+      "value": -1.4,
+      "unit": "°C",
+      "previousValue": -1.7,
+      "previousYear": 1942,
+      "difference": 0.3,
+      "recordBeginYear": 1908,
+      "periodYears": 119,
+      "coordinates": [
+        -125.57,
+        64.9
+      ],
+      "sourceUpdated": "2026-10-28T12:18:37Z",
+      "sourceId": "VSNT11V-10-27"
+    },
+    {
+      "id": "VSSK42V-2026-10-27-precipitation",
+      "date": "2026-10-27",
+      "community": "Coronach",
+      "province": "SK",
+      "provinceName": "Saskatchewan",
+      "type": "precipitation",
+      "status": "broken",
+      "value": 11.3,
+      "unit": "mm",
+      "previousValue": 7.6,
+      "previousYear": 1970,
+      "difference": 3.7,
+      "recordBeginYear": 1961,
+      "periodYears": 66,
+      "coordinates": [
+        -105.51,
+        49.11
+      ],
+      "sourceUpdated": null,
+      "sourceId": "VSSK42V-10-27"
+    },
+    {
+      "id": "VSSK54V-2026-10-27-precipitation",
+      "date": "2026-10-27",
+      "community": "Rockglen",
+      "province": "SK",
+      "provinceName": "Saskatchewan",
+      "type": "precipitation",
+      "status": "broken",
+      "value": 4.5,
+      "unit": "mm",
+      "previousValue": 3.4,
+      "previousYear": 2016,
+      "difference": 1.1,
+      "recordBeginYear": 1970,
+      "periodYears": 57,
+      "coordinates": [
+        -105.95,
+        49.18
+      ],
+      "sourceUpdated": null,
+      "sourceId": "VSSK54V-10-27"
+    },
+    {
+      "id": "VSYT15V-2026-10-27-high_max",
+      "date": "2026-10-27",
+      "community": "Beaver Creek",
+      "province": "YT",
+      "provinceName": "Yukon",
+      "type": "high_max",
+      "status": "broken",
+      "value": 3.9,
+      "unit": "°C",
+      "previousValue": 3.0,
+      "previousYear": 2004,
+      "difference": 0.9,
+      "recordBeginYear": 1968,
+      "periodYears": 59,
+      "coordinates": [
+        -140.88,
+        62.38
+      ],
+      "sourceUpdated": "2026-10-28T12:18:37Z",
+      "sourceId": "VSYT15V-10-27"
+    },
+    {
+      "id": "VSYT11V-2026-10-27-high_max",
+      "date": "2026-10-27",
+      "community": "Old Crow",
+      "province": "YT",
+      "provinceName": "Yukon",
+      "type": "high_max",
+      "status": "broken",
+      "value": 1.7,
+      "unit": "°C",
+      "previousValue": 0.0,
+      "previousYear": 2002,
+      "difference": 1.7,
+      "recordBeginYear": 1951,
+      "periodYears": 76,
+      "coordinates": [
+        -139.84,
+        67.57
+      ],
+      "sourceUpdated": "2026-10-28T12:18:37Z",
+      "sourceId": "VSYT11V-10-27"
+    }
+  ],
+  "notes": [
+    "Values may be revised by ECCC after initial publication.",
+    "The archive contains daily snapshots saved by RecordWatch Canada after launch.",
+    "Suspicious or malformed candidate records are automatically withheld pending validation or verification."
+  ]
+}
