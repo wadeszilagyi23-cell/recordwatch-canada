@@ -1,0 +1,610 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-28",
+  "latestAvailableDate": "2026-10-28",
+  "generatedAt": "2026-10-29T10:40:55-04:00",
+  "sourceLastUpdated": "2026-10-29T12:17:53Z",
+  "source": "Environment and Climate Change Canada — MSC GeoMet LTCE",
+  "isDemo": false,
+  "summary": {
+    "totalRecords": 23,
+    "communities": 22,
+    "tiedRecords": 2,
+    "oldestRecordAge": 97
+  },
+  "validation": {
+    "candidateRecords": 23,
+    "publishedRecords": 23,
+    "withheldRecords": 0,
+    "invalidRecords": 0,
+    "manualReviewRecords": 0
+  },
+  "recordOfDay": {
+    "id": "VSSK24V-2026-10-28-precipitation",
+    "date": "2026-10-28",
+    "community": "Moose Jaw",
+    "province": "SK",
+    "provinceName": "Saskatchewan",
+    "type": "precipitation",
+    "status": "broken",
+    "value": 8.6,
+    "unit": "mm",
+    "previousValue": 7.9,
+    "previousYear": 1929,
+    "difference": 0.7,
+    "recordBeginYear": 1908,
+    "periodYears": 119,
+    "coordinates": [
+      -105.55,
+      50.39
+    ],
+    "sourceUpdated": null,
+    "sourceId": "VSSK24V-10-28"
+  },
+  "story": {
+    "description": "Moose Jaw, SK recorded 8.6 mm. It exceeded the previous daily precipitation record of 7.9 mm from 1929."
+  },
+  "highlights": [
+    {
+      "region": "Prairies",
+      "count": 10,
+      "brokenCount": 10,
+      "tiedCount": 0,
+      "leadingType": "precipitation",
+      "text": "10 records broken. The most common type was daily precipitation record (9 of 10)."
+    },
+    {
+      "region": "Ontario",
+      "count": 4,
+      "brokenCount": 4,
+      "tiedCount": 0,
+      "leadingType": "high_max",
+      "text": "4 records broken. The most common type was record high maximum temperature (3 of 4)."
+    },
+    {
+      "region": "Northern Canada",
+      "count": 4,
+      "brokenCount": 3,
+      "tiedCount": 1,
+      "leadingType": "high_max",
+      "text": "3 records broken, 1 tied. The most common type was record high maximum temperature (2 of 4)."
+    },
+    {
+      "region": "Atlantic Canada",
+      "count": 3,
+      "brokenCount": 2,
+      "tiedCount": 1,
+      "leadingType": "low_min",
+      "text": "2 records broken, 1 tied. All 3 were record low minimum temperature events."
+    },
+    {
+      "region": "British Columbia",
+      "count": 1,
+      "brokenCount": 1,
+      "tiedCount": 0,
+      "leadingType": "precipitation",
+      "text": "1 record broken. It was a daily precipitation record."
+    },
+    {
+      "region": "Quebec",
+      "count": 1,
+      "brokenCount": 1,
+      "tiedCount": 0,
+      "leadingType": "low_min",
+      "text": "1 record broken. It was a record low minimum temperature."
+    }
+  ],
+  "records": [
+    {
+      "id": "VSAB23V-2026-10-28-precipitation",
+      "date": "2026-10-28",
+      "community": "Cold Lake",
+      "province": "AB",
+      "provinceName": "Alberta",
+      "type": "precipitation",
+      "status": "broken",
+      "value": 11.0,
+      "unit": "mm",
+      "previousValue": 6.7,
+      "previousYear": 1986,
+      "difference": 4.3,
+      "recordBeginYear": 1953,
+      "periodYears": 74,
+      "coordinates": [
+        -110.17,
+        54.45
+      ],
+      "sourceUpdated": null,
+      "sourceId": "VSAB23V-10-28"
+    },
+    {
+      "id": "VSAB23V-2026-10-28-snowfall",
+      "date": "2026-10-28",
+      "community": "Cold Lake",
+      "province": "AB",
+      "provinceName": "Alberta",
+      "type": "snowfall",
+      "status": "broken",
+      "value": 8.0,
+      "unit": "cm",
+      "previousValue": 7.3,
+      "previousYear": 1986,
+      "difference": 0.7,
+      "recordBeginYear": 1953,
+      "periodYears": 74,
+      "coordinates": [
+        -110.17,
+        54.45
+      ],
+      "sourceUpdated": null,
+      "sourceId": "VSAB23V-10-28"
+    },
+    {
+      "id": "VSAB63V-2026-10-28-precipitation",
+      "date": "2026-10-28",
+      "community": "Elk Island (National Park)",
+      "province": "AB",
+      "provinceName": "Alberta",
+      "type": "precipitation",
+      "status": "broken",
+      "value": 9.2,
+      "unit": "mm",
+      "previousValue": 7.5,
+      "previousYear": 1995,
+      "difference": 1.7,
+      "recordBeginYear": 1966,
+      "periodYears": 61,
+      "coordinates": [
+        -112.87,
+        53.61
+      ],
+      "sourceUpdated": null,
+      "sourceId": "VSAB63V-10-28"
+    },
+    {
+      "id": "VSAB67V-2026-10-28-precipitation",
+      "date": "2026-10-28",
+      "community": "Esther",
+      "province": "AB",
+      "provinceName": "Alberta",
+      "type": "precipitation",
+      "status": "broken",
+      "value": 2.9,
+      "unit": "mm",
+      "previousValue": 2.6,
+      "previousYear": 1996,
+      "difference": 0.3,
+      "recordBeginYear": 1980,
+      "periodYears": 47,
+      "coordinates": [
+        -110.26,
+        51.68
+      ],
+      "sourceUpdated": null,
+      "sourceId": "VSAB67V-10-28"
+    },
+    {
+      "id": "VSAB32V-2026-10-28-precipitation",
+      "date": "2026-10-28",
+      "community": "Lac La Biche",
+      "province": "AB",
+      "provinceName": "Alberta",
+      "type": "precipitation",
+      "status": "broken",
+      "value": 8.3,
+      "unit": "mm",
+      "previousValue": 6.1,
+      "previousYear": 1949,
+      "difference": 2.2,
+      "recordBeginYear": 1944,
+      "periodYears": 83,
+      "coordinates": [
+        -111.98,
+        54.77
+      ],
+      "sourceUpdated": null,
+      "sourceId": "VSAB32V-10-28"
+    },
+    {
+      "id": "VSAB33V-2026-10-28-precipitation",
+      "date": "2026-10-28",
+      "community": "Mildred Lake",
+      "province": "AB",
+      "provinceName": "Alberta",
+      "type": "precipitation",
+      "status": "broken",
+      "value": 6.5,
+      "unit": "mm",
+      "previousValue": 4.9,
+      "previousYear": 2025,
+      "difference": 1.6,
+      "recordBeginYear": 1964,
+      "periodYears": 63,
+      "coordinates": [
+        -111.6,
+        57.03
+      ],
+      "sourceUpdated": null,
+      "sourceId": "VSAB33V-10-28"
+    },
+    {
+      "id": "VSBC12V-2026-10-28-precipitation",
+      "date": "2026-10-28",
+      "community": "Clearwater",
+      "province": "BC",
+      "provinceName": "British Columbia",
+      "type": "precipitation",
+      "status": "broken",
+      "value": 15.0,
+      "unit": "mm",
+      "previousValue": 10.6,
+      "previousYear": 1978,
+      "difference": 4.4,
+      "recordBeginYear": 1913,
+      "periodYears": 114,
+      "coordinates": [
+        -120.03,
+        51.65
+      ],
+      "sourceUpdated": null,
+      "sourceId": "VSBC12V-10-28"
+    },
+    {
+      "id": "VSNB32V-2026-10-28-low_min",
+      "date": "2026-10-28",
+      "community": "Edmundston",
+      "province": "NB",
+      "provinceName": "New Brunswick",
+      "type": "low_min",
+      "status": "broken",
+      "value": -9.3,
+      "unit": "°C",
+      "previousValue": -9.0,
+      "previousYear": 1999,
+      "difference": -0.3,
+      "recordBeginYear": 1918,
+      "periodYears": 109,
+      "coordinates": [
+        -68.29,
+        47.38
+      ],
+      "sourceUpdated": "2026-10-29T12:17:53Z",
+      "sourceId": "VSNB32V-10-28"
+    },
+    {
+      "id": "VSNB23V-2026-10-28-low_min",
+      "date": "2026-10-28",
+      "community": "Saint John",
+      "province": "NB",
+      "provinceName": "New Brunswick",
+      "type": "low_min",
+      "status": "broken",
+      "value": -6.5,
+      "unit": "°C",
+      "previousValue": -5.8,
+      "previousYear": 2015,
+      "difference": -0.7,
+      "recordBeginYear": 1871,
+      "periodYears": 156,
+      "coordinates": [
+        -66.04,
+        45.26
+      ],
+      "sourceUpdated": "2026-10-29T12:17:53Z",
+      "sourceId": "VSNB23V-10-28"
+    },
+    {
+      "id": "VSNB35V-2026-10-28-low_min",
+      "date": "2026-10-28",
+      "community": "St. Stephen",
+      "province": "NB",
+      "provinceName": "New Brunswick",
+      "type": "low_min",
+      "status": "tied",
+      "value": -6.6,
+      "unit": "°C",
+      "previousValue": -6.6,
+      "previousYear": 1999,
+      "difference": 0.0,
+      "recordBeginYear": 1951,
+      "periodYears": 76,
+      "coordinates": [
+        -67.33,
+        45.22
+      ],
+      "sourceUpdated": "2026-10-29T12:17:53Z",
+      "sourceId": "VSNB35V-10-28"
+    },
+    {
+      "id": "VSNT10V-2026-10-28-high_max",
+      "date": "2026-10-28",
+      "community": "Fort Mcpherson",
+      "province": "NT",
+      "provinceName": "Northwest Territories",
+      "type": "high_max",
+      "status": "tied",
+      "value": 6.1,
+      "unit": "°C",
+      "previousValue": 6.1,
+      "previousYear": 1972,
+      "difference": 0.0,
+      "recordBeginYear": 1892,
+      "periodYears": 135,
+      "coordinates": [
+        -134.88,
+        67.44
+      ],
+      "sourceUpdated": "2026-10-29T12:17:53Z",
+      "sourceId": "VSNT10V-10-28"
+    },
+    {
+      "id": "VSNT7VV-2026-10-28-high_min",
+      "date": "2026-10-28",
+      "community": "Ulukhaktok",
+      "province": "NT",
+      "provinceName": "Northwest Territories",
+      "type": "high_min",
+      "status": "broken",
+      "value": -3.0,
+      "unit": "°C",
+      "previousValue": -4.4,
+      "previousYear": 2010,
+      "difference": 1.4,
+      "recordBeginYear": 1941,
+      "periodYears": 86,
+      "coordinates": [
+        -117.75,
+        70.73
+      ],
+      "sourceUpdated": "2026-10-29T12:17:53Z",
+      "sourceId": "VSNT7VV-10-28"
+    },
+    {
+      "id": "VSNU27V-2026-10-28-precipitation",
+      "date": "2026-10-28",
+      "community": "Resolute",
+      "province": "NU",
+      "provinceName": "Nunavut",
+      "type": "precipitation",
+      "status": "broken",
+      "value": 4.4,
+      "unit": "mm",
+      "previousValue": 3.6,
+      "previousYear": 1994,
+      "difference": 0.8,
+      "recordBeginYear": 1947,
+      "periodYears": 80,
+      "coordinates": [
+        -94.83,
+        74.7
+      ],
+      "sourceUpdated": null,
+      "sourceId": "VSNU27V-10-28"
+    },
+    {
+      "id": "VSON147-2026-10-28-high_max",
+      "date": "2026-10-28",
+      "community": "Sarnia",
+      "province": "ON",
+      "provinceName": "Ontario",
+      "type": "high_max",
+      "status": "broken",
+      "value": 22.4,
+      "unit": "°C",
+      "previousValue": 21.9,
+      "previousYear": 1989,
+      "difference": 0.5,
+      "recordBeginYear": 1948,
+      "periodYears": 79,
+      "coordinates": [
+        -82.32,
+        42.98
+      ],
+      "sourceUpdated": "2026-10-29T12:17:53Z",
+      "sourceId": "VSON147-10-28"
+    },
+    {
+      "id": "VSON162-2026-10-28-high_max",
+      "date": "2026-10-28",
+      "community": "Sault Ste. Marie",
+      "province": "ON",
+      "provinceName": "Ontario",
+      "type": "high_max",
+      "status": "broken",
+      "value": 20.3,
+      "unit": "°C",
+      "previousValue": 18.3,
+      "previousYear": 1955,
+      "difference": 2.0,
+      "recordBeginYear": 1921,
+      "periodYears": 106,
+      "coordinates": [
+        -84.35,
+        46.56
+      ],
+      "sourceUpdated": "2026-10-29T12:17:53Z",
+      "sourceId": "VSON162-10-28"
+    },
+    {
+      "id": "VSON123-2026-10-28-high_min",
+      "date": "2026-10-28",
+      "community": "Terrace Bay",
+      "province": "ON",
+      "provinceName": "Ontario",
+      "type": "high_min",
+      "status": "broken",
+      "value": 8.3,
+      "unit": "°C",
+      "previousValue": 7.2,
+      "previousYear": 1970,
+      "difference": 1.1,
+      "recordBeginYear": 1909,
+      "periodYears": 118,
+      "coordinates": [
+        -87.1,
+        48.8
+      ],
+      "sourceUpdated": "2026-10-29T12:17:53Z",
+      "sourceId": "VSON123-10-28"
+    },
+    {
+      "id": "VSON127-2026-10-28-high_max",
+      "date": "2026-10-28",
+      "community": "Timmins",
+      "province": "ON",
+      "provinceName": "Ontario",
+      "type": "high_max",
+      "status": "broken",
+      "value": 18.1,
+      "unit": "°C",
+      "previousValue": 17.0,
+      "previousYear": 1989,
+      "difference": 1.1,
+      "recordBeginYear": 1913,
+      "periodYears": 114,
+      "coordinates": [
+        -81.33,
+        48.47
+      ],
+      "sourceUpdated": "2026-10-29T12:17:53Z",
+      "sourceId": "VSON127-10-28"
+    },
+    {
+      "id": "VSQC133-2026-10-28-low_min",
+      "date": "2026-10-28",
+      "community": "Québec",
+      "province": "QC",
+      "provinceName": "Quebec",
+      "type": "low_min",
+      "status": "broken",
+      "value": -7.2,
+      "unit": "°C",
+      "previousValue": -6.7,
+      "previousYear": 1974,
+      "difference": -0.5,
+      "recordBeginYear": 1875,
+      "periodYears": 152,
+      "coordinates": [
+        -71.22,
+        46.82
+      ],
+      "sourceUpdated": "2026-10-29T12:17:53Z",
+      "sourceId": "VSQC133-10-28"
+    },
+    {
+      "id": "VSSK21V-2026-10-28-precipitation",
+      "date": "2026-10-28",
+      "community": "Kindersley",
+      "province": "SK",
+      "provinceName": "Saskatchewan",
+      "type": "precipitation",
+      "status": "broken",
+      "value": 3.0,
+      "unit": "mm",
+      "previousValue": 2.8,
+      "previousYear": 1984,
+      "difference": 0.2,
+      "recordBeginYear": 1942,
+      "periodYears": 85,
+      "coordinates": [
+        -109.16,
+        51.47
+      ],
+      "sourceUpdated": null,
+      "sourceId": "VSSK21V-10-28"
+    },
+    {
+      "id": "VSSK22V-2026-10-28-precipitation",
+      "date": "2026-10-28",
+      "community": "Meadow Lake",
+      "province": "SK",
+      "provinceName": "Saskatchewan",
+      "type": "precipitation",
+      "status": "broken",
+      "value": 3.4,
+      "unit": "mm",
+      "previousValue": 2.0,
+      "previousYear": 1986,
+      "difference": 1.4,
+      "recordBeginYear": 1959,
+      "periodYears": 68,
+      "coordinates": [
+        -108.44,
+        54.12
+      ],
+      "sourceUpdated": null,
+      "sourceId": "VSSK22V-10-28"
+    },
+    {
+      "id": "VSSK24V-2026-10-28-precipitation",
+      "date": "2026-10-28",
+      "community": "Moose Jaw",
+      "province": "SK",
+      "provinceName": "Saskatchewan",
+      "type": "precipitation",
+      "status": "broken",
+      "value": 8.6,
+      "unit": "mm",
+      "previousValue": 7.9,
+      "previousYear": 1929,
+      "difference": 0.7,
+      "recordBeginYear": 1908,
+      "periodYears": 119,
+      "coordinates": [
+        -105.55,
+        50.39
+      ],
+      "sourceUpdated": null,
+      "sourceId": "VSSK24V-10-28"
+    },
+    {
+      "id": "VSSK23V-2026-10-28-precipitation",
+      "date": "2026-10-28",
+      "community": "Rosetown",
+      "province": "SK",
+      "provinceName": "Saskatchewan",
+      "type": "precipitation",
+      "status": "broken",
+      "value": 6.8,
+      "unit": "mm",
+      "previousValue": 3.0,
+      "previousYear": 1984,
+      "difference": 3.8,
+      "recordBeginYear": 1913,
+      "periodYears": 114,
+      "coordinates": [
+        -107.99,
+        51.55
+      ],
+      "sourceUpdated": null,
+      "sourceId": "VSSK23V-10-28"
+    },
+    {
+      "id": "VSYT11V-2026-10-28-high_max",
+      "date": "2026-10-28",
+      "community": "Old Crow",
+      "province": "YT",
+      "provinceName": "Yukon",
+      "type": "high_max",
+      "status": "broken",
+      "value": 2.0,
+      "unit": "°C",
+      "previousValue": 1.6,
+      "previousYear": 2017,
+      "difference": 0.4,
+      "recordBeginYear": 1951,
+      "periodYears": 76,
+      "coordinates": [
+        -139.84,
+        67.57
+      ],
+      "sourceUpdated": "2026-10-29T12:17:53Z",
+      "sourceId": "VSYT11V-10-28"
+    }
+  ],
+  "notes": [
+    "Values may be revised by ECCC after initial publication.",
+    "The archive contains daily snapshots saved by RecordWatch Canada after launch.",
+    "Suspicious or malformed candidate records are automatically withheld pending validation or verification."
+  ]
+}

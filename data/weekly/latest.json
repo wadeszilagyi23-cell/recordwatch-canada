@@ -1,39 +1,39 @@
 {
   "schemaVersion": 1,
   "title": "This Week in Canadian Extremes",
-  "startDate": "2026-10-21",
-  "endDate": "2026-10-27",
+  "startDate": "2026-10-22",
+  "endDate": "2026-10-28",
   "datesIncluded": [
-    "2026-10-21",
     "2026-10-22",
     "2026-10-23",
     "2026-10-24",
     "2026-10-25",
     "2026-10-26",
-    "2026-10-27"
+    "2026-10-27",
+    "2026-10-28"
   ],
   "daysAvailable": 7,
   "isPartial": false,
-  "generatedAt": "2026-10-28T16:40:53-04:00",
+  "generatedAt": "2026-10-29T10:40:57-04:00",
   "summary": {
-    "totalRecords": 129,
-    "brokenRecords": 120,
-    "tiedRecords": 9
+    "totalRecords": 127,
+    "brokenRecords": 119,
+    "tiedRecords": 8
   },
-  "summaryText": "120 records broken, 9 tied. Record High Maximum Temperature was the most common category (68 of 129 record events). Manitoba recorded the most events (33).",
+  "summaryText": "119 records broken, 8 tied. Record High Maximum Temperature was the most common category (54 of 127 record events). Manitoba recorded the most events (31).",
   "typeBreakdown": [
     {
       "type": "high_max",
       "label": "Record High Maximum Temperature",
-      "total": 68,
-      "broken": 60,
-      "tied": 8
+      "total": 54,
+      "broken": 48,
+      "tied": 6
     },
     {
       "type": "precipitation",
       "label": "Daily Precipitation Record",
-      "total": 28,
-      "broken": 28,
+      "total": 37,
+      "broken": 37,
       "tied": 0
     },
     {
@@ -46,16 +46,16 @@
     {
       "type": "snowfall",
       "label": "Daily Snowfall Record",
-      "total": 6,
-      "broken": 6,
+      "total": 7,
+      "broken": 7,
       "tied": 0
     },
     {
       "type": "low_min",
       "label": "Record Low Minimum Temperature",
-      "total": 4,
-      "broken": 4,
-      "tied": 0
+      "total": 6,
+      "broken": 5,
+      "tied": 1
     },
     {
       "type": "low_max",
@@ -69,22 +69,22 @@
     {
       "province": "MB",
       "provinceName": "Manitoba",
-      "total": 33
-    },
-    {
-      "province": "SK",
-      "provinceName": "Saskatchewan",
-      "total": 22
+      "total": 31
     },
     {
       "province": "AB",
       "provinceName": "Alberta",
-      "total": 18
+      "total": 21
     },
     {
-      "province": "NT",
-      "provinceName": "Northwest Territories",
-      "total": 18
+      "province": "SK",
+      "provinceName": "Saskatchewan",
+      "total": 20
+    },
+    {
+      "province": "ON",
+      "provinceName": "Ontario",
+      "total": 13
     },
     {
       "province": "NU",
@@ -92,9 +92,9 @@
       "total": 12
     },
     {
-      "province": "ON",
-      "provinceName": "Ontario",
-      "total": 10
+      "province": "NT",
+      "provinceName": "Northwest Territories",
+      "total": 11
     },
     {
       "province": "BC",
@@ -104,11 +104,16 @@
     {
       "province": "YT",
       "provinceName": "Yukon",
-      "total": 6
+      "total": 5
     },
     {
       "province": "QC",
       "provinceName": "Quebec",
+      "total": 4
+    },
+    {
+      "province": "NB",
+      "provinceName": "New Brunswick",
       "total": 3
     },
     {
@@ -140,6 +145,29 @@
       "sourceUpdated": "2026-10-26T18:33:55Z",
       "sourceId": "VSMB54V-10-23",
       "previousRecordAge": 103
+    },
+    {
+      "id": "VSSK24V-2026-10-28-precipitation",
+      "date": "2026-10-28",
+      "community": "Moose Jaw",
+      "province": "SK",
+      "provinceName": "Saskatchewan",
+      "type": "precipitation",
+      "status": "broken",
+      "value": 8.6,
+      "unit": "mm",
+      "previousValue": 7.9,
+      "previousYear": 1929,
+      "difference": 0.7,
+      "recordBeginYear": 1908,
+      "periodYears": 119,
+      "coordinates": [
+        -105.55,
+        50.39
+      ],
+      "sourceUpdated": null,
+      "sourceId": "VSSK24V-10-28",
+      "previousRecordAge": 97
     },
     {
       "id": "VSSK50V-2026-10-24-precipitation",
@@ -206,7 +234,7 @@
         -125.57,
         64.9
       ],
-      "sourceUpdated": "2026-10-28T18:33:45Z",
+      "sourceUpdated": "2026-10-29T12:17:53Z",
       "sourceId": "VSNT11V-10-27",
       "previousRecordAge": 84
     },
@@ -232,29 +260,6 @@
       "sourceUpdated": "2026-10-26T18:33:55Z",
       "sourceId": "VSON166-10-23",
       "previousRecordAge": 80
-    },
-    {
-      "id": "VSMB21V-2026-10-23-high_max",
-      "date": "2026-10-23",
-      "community": "Arnes",
-      "province": "MB",
-      "provinceName": "Manitoba",
-      "type": "high_max",
-      "status": "broken",
-      "value": 22.5,
-      "unit": "°C",
-      "previousValue": 21.1,
-      "previousYear": 1952,
-      "difference": 1.4,
-      "recordBeginYear": 1944,
-      "periodYears": 83,
-      "coordinates": [
-        -96.99,
-        50.8
-      ],
-      "sourceUpdated": "2026-10-26T18:33:55Z",
-      "sourceId": "VSMB21V-10-23",
-      "previousRecordAge": 74
     }
   ],
   "notes": [
