@@ -14,19 +14,19 @@
   ],
   "daysAvailable": 7,
   "isPartial": false,
-  "generatedAt": "2026-10-30T10:40:53-04:00",
+  "generatedAt": "2026-10-30T16:40:39-04:00",
   "summary": {
-    "totalRecords": 147,
-    "brokenRecords": 139,
+    "totalRecords": 148,
+    "brokenRecords": 140,
     "tiedRecords": 8
   },
-  "summaryText": "139 records broken, 8 tied. Record High Maximum Temperature was the most common category (68 of 147 record events). Ontario recorded the most events (31).",
+  "summaryText": "140 records broken, 8 tied. Record High Maximum Temperature was the most common category (69 of 148 record events). Ontario recorded the most events (32).",
   "typeBreakdown": [
     {
       "type": "high_max",
       "label": "Record High Maximum Temperature",
-      "total": 68,
-      "broken": 63,
+      "total": 69,
+      "broken": 64,
       "tied": 5
     },
     {
@@ -69,7 +69,7 @@
     {
       "province": "ON",
       "provinceName": "Ontario",
-      "total": 31
+      "total": 32
     },
     {
       "province": "MB",
@@ -142,7 +142,7 @@
         -74.04,
         45.29
       ],
-      "sourceUpdated": "2026-10-30T12:18:28Z",
+      "sourceUpdated": "2026-10-30T18:33:39Z",
       "sourceId": "VSQCC4V-10-29",
       "previousRecordAge": 108
     },
@@ -165,7 +165,7 @@
         -74.13,
         45.25
       ],
-      "sourceUpdated": "2026-10-30T12:18:28Z",
+      "sourceUpdated": "2026-10-30T18:33:39Z",
       "sourceId": "VSQC143-10-29",
       "previousRecordAge": 108
     },
@@ -188,7 +188,7 @@
         -88.33,
         48.98
       ],
-      "sourceUpdated": "2026-10-30T12:18:28Z",
+      "sourceUpdated": "2026-10-30T18:33:39Z",
       "sourceId": "VSON26V-10-28",
       "previousRecordAge": 105
     },
@@ -257,7 +257,7 @@
         -70.88,
         48.35
       ],
-      "sourceUpdated": "2026-10-30T12:18:28Z",
+      "sourceUpdated": "2026-10-30T18:33:39Z",
       "sourceId": "VSQC161-10-29",
       "previousRecordAge": 91
     }
