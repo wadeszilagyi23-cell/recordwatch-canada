@@ -2,64 +2,64 @@
   "schemaVersion": 1,
   "date": "2026-10-28",
   "latestAvailableDate": "2026-10-28",
-  "generatedAt": "2026-10-29T16:40:38-04:00",
-  "sourceLastUpdated": "2026-10-29T18:33:11Z",
+  "generatedAt": "2026-10-30T10:40:51-04:00",
+  "sourceLastUpdated": "2026-10-30T12:18:28Z",
   "source": "Environment and Climate Change Canada — MSC GeoMet LTCE",
   "isDemo": false,
   "summary": {
-    "totalRecords": 23,
-    "communities": 22,
+    "totalRecords": 28,
+    "communities": 24,
     "tiedRecords": 2,
-    "oldestRecordAge": 97
+    "oldestRecordAge": 105
   },
   "validation": {
-    "candidateRecords": 23,
-    "publishedRecords": 23,
+    "candidateRecords": 28,
+    "publishedRecords": 28,
     "withheldRecords": 0,
     "invalidRecords": 0,
     "manualReviewRecords": 0
   },
   "recordOfDay": {
-    "id": "VSSK24V-2026-10-28-precipitation",
+    "id": "VSON26V-2026-10-28-high_min",
     "date": "2026-10-28",
-    "community": "Moose Jaw",
-    "province": "SK",
-    "provinceName": "Saskatchewan",
-    "type": "precipitation",
+    "community": "Nipigon",
+    "province": "ON",
+    "provinceName": "Ontario",
+    "type": "high_min",
     "status": "broken",
-    "value": 8.6,
-    "unit": "mm",
-    "previousValue": 7.9,
-    "previousYear": 1929,
-    "difference": 0.7,
-    "recordBeginYear": 1908,
-    "periodYears": 119,
+    "value": 8.5,
+    "unit": "°C",
+    "previousValue": 8.3,
+    "previousYear": 1921,
+    "difference": 0.2,
+    "recordBeginYear": 1914,
+    "periodYears": 113,
     "coordinates": [
-      -105.55,
-      50.39
+      -88.33,
+      48.98
     ],
-    "sourceUpdated": null,
-    "sourceId": "VSSK24V-10-28"
+    "sourceUpdated": "2026-10-30T12:18:28Z",
+    "sourceId": "VSON26V-10-28"
   },
   "story": {
-    "description": "Moose Jaw, SK recorded 8.6 mm. It exceeded the previous daily precipitation record of 7.9 mm from 1929."
+    "description": "Nipigon, ON recorded 8.5 °C. It exceeded the previous record high minimum temperature of 8.3 °C from 1921."
   },
   "highlights": [
     {
       "region": "Prairies",
-      "count": 10,
-      "brokenCount": 10,
+      "count": 14,
+      "brokenCount": 14,
       "tiedCount": 0,
       "leadingType": "precipitation",
-      "text": "10 records broken. The most common type was daily precipitation record (9 of 10)."
+      "text": "14 records broken. The most common type was daily precipitation record (11 of 14)."
     },
     {
       "region": "Ontario",
-      "count": 4,
-      "brokenCount": 4,
+      "count": 5,
+      "brokenCount": 5,
       "tiedCount": 0,
       "leadingType": "high_max",
-      "text": "4 records broken. The most common type was record high maximum temperature (3 of 4)."
+      "text": "5 records broken. The most common type was record high maximum temperature (3 of 5)."
     },
     {
       "region": "Northern Canada",
@@ -206,6 +206,50 @@
       "sourceId": "VSAB32V-10-28"
     },
     {
+      "id": "VSAB15V-2026-10-28-precipitation",
+      "date": "2026-10-28",
+      "community": "Lloydminster",
+      "province": "AB",
+      "provinceName": "Alberta",
+      "type": "precipitation",
+      "status": "broken",
+      "value": 7.0,
+      "unit": "mm",
+      "previousValue": 5.8,
+      "previousYear": 1986,
+      "difference": 1.2,
+      "recordBeginYear": 1952,
+      "periodYears": 75,
+      "coordinates": [
+        -110.0,
+        53.28
+      ],
+      "sourceUpdated": null,
+      "sourceId": "VSAB15V-10-28"
+    },
+    {
+      "id": "VSAB15V-2026-10-28-snowfall",
+      "date": "2026-10-28",
+      "community": "Lloydminster",
+      "province": "AB",
+      "provinceName": "Alberta",
+      "type": "snowfall",
+      "status": "broken",
+      "value": 7.0,
+      "unit": "cm",
+      "previousValue": 5.8,
+      "previousYear": 1986,
+      "difference": 1.2,
+      "recordBeginYear": 1952,
+      "periodYears": 75,
+      "coordinates": [
+        -110.0,
+        53.28
+      ],
+      "sourceUpdated": null,
+      "sourceId": "VSAB15V-10-28"
+    },
+    {
       "id": "VSAB33V-2026-10-28-precipitation",
       "date": "2026-10-28",
       "community": "Mildred Lake",
@@ -268,7 +312,7 @@
         -68.29,
         47.38
       ],
-      "sourceUpdated": "2026-10-29T18:33:11Z",
+      "sourceUpdated": "2026-10-30T12:18:28Z",
       "sourceId": "VSNB32V-10-28"
     },
     {
@@ -290,7 +334,7 @@
         -66.04,
         45.26
       ],
-      "sourceUpdated": "2026-10-29T18:33:11Z",
+      "sourceUpdated": "2026-10-30T12:18:28Z",
       "sourceId": "VSNB23V-10-28"
     },
     {
@@ -312,7 +356,7 @@
         -67.33,
         45.22
       ],
-      "sourceUpdated": "2026-10-29T18:33:11Z",
+      "sourceUpdated": "2026-10-30T12:18:28Z",
       "sourceId": "VSNB35V-10-28"
     },
     {
@@ -334,7 +378,7 @@
         -134.88,
         67.44
       ],
-      "sourceUpdated": "2026-10-29T18:33:11Z",
+      "sourceUpdated": "2026-10-30T12:18:28Z",
       "sourceId": "VSNT10V-10-28"
     },
     {
@@ -356,7 +400,7 @@
         -117.75,
         70.73
       ],
-      "sourceUpdated": "2026-10-29T18:33:11Z",
+      "sourceUpdated": "2026-10-30T12:18:28Z",
       "sourceId": "VSNT7VV-10-28"
     },
     {
@@ -382,6 +426,28 @@
       "sourceId": "VSNU27V-10-28"
     },
     {
+      "id": "VSON26V-2026-10-28-high_min",
+      "date": "2026-10-28",
+      "community": "Nipigon",
+      "province": "ON",
+      "provinceName": "Ontario",
+      "type": "high_min",
+      "status": "broken",
+      "value": 8.5,
+      "unit": "°C",
+      "previousValue": 8.3,
+      "previousYear": 1921,
+      "difference": 0.2,
+      "recordBeginYear": 1914,
+      "periodYears": 113,
+      "coordinates": [
+        -88.33,
+        48.98
+      ],
+      "sourceUpdated": "2026-10-30T12:18:28Z",
+      "sourceId": "VSON26V-10-28"
+    },
+    {
       "id": "VSON147-2026-10-28-high_max",
       "date": "2026-10-28",
       "community": "Sarnia",
@@ -400,7 +466,7 @@
         -82.32,
         42.98
       ],
-      "sourceUpdated": "2026-10-29T18:33:11Z",
+      "sourceUpdated": "2026-10-30T12:18:28Z",
       "sourceId": "VSON147-10-28"
     },
     {
@@ -422,7 +488,7 @@
         -84.35,
         46.56
       ],
-      "sourceUpdated": "2026-10-29T18:33:11Z",
+      "sourceUpdated": "2026-10-30T12:18:28Z",
       "sourceId": "VSON162-10-28"
     },
     {
@@ -444,7 +510,7 @@
         -87.1,
         48.8
       ],
-      "sourceUpdated": "2026-10-29T18:33:11Z",
+      "sourceUpdated": "2026-10-30T12:18:28Z",
       "sourceId": "VSON123-10-28"
     },
     {
@@ -466,7 +532,7 @@
         -81.33,
         48.47
       ],
-      "sourceUpdated": "2026-10-29T18:33:11Z",
+      "sourceUpdated": "2026-10-30T12:18:28Z",
       "sourceId": "VSON127-10-28"
     },
     {
@@ -488,7 +554,7 @@
         -71.22,
         46.82
       ],
-      "sourceUpdated": "2026-10-29T18:33:11Z",
+      "sourceUpdated": "2026-10-30T12:18:28Z",
       "sourceId": "VSQC133-10-28"
     },
     {
@@ -512,6 +578,50 @@
       ],
       "sourceUpdated": null,
       "sourceId": "VSSK21V-10-28"
+    },
+    {
+      "id": "VSSK56V-2026-10-28-precipitation",
+      "date": "2026-10-28",
+      "community": "Lloydminster",
+      "province": "SK",
+      "provinceName": "Saskatchewan",
+      "type": "precipitation",
+      "status": "broken",
+      "value": 7.0,
+      "unit": "mm",
+      "previousValue": 5.8,
+      "previousYear": 1986,
+      "difference": 1.2,
+      "recordBeginYear": 1952,
+      "periodYears": 75,
+      "coordinates": [
+        -109.98,
+        53.28
+      ],
+      "sourceUpdated": null,
+      "sourceId": "VSSK56V-10-28"
+    },
+    {
+      "id": "VSSK56V-2026-10-28-snowfall",
+      "date": "2026-10-28",
+      "community": "Lloydminster",
+      "province": "SK",
+      "provinceName": "Saskatchewan",
+      "type": "snowfall",
+      "status": "broken",
+      "value": 7.0,
+      "unit": "cm",
+      "previousValue": 5.8,
+      "previousYear": 1986,
+      "difference": 1.2,
+      "recordBeginYear": 1952,
+      "periodYears": 75,
+      "coordinates": [
+        -109.98,
+        53.28
+      ],
+      "sourceUpdated": null,
+      "sourceId": "VSSK56V-10-28"
     },
     {
       "id": "VSSK22V-2026-10-28-precipitation",
@@ -598,7 +708,7 @@
         -139.84,
         67.57
       ],
-      "sourceUpdated": "2026-10-29T18:33:11Z",
+      "sourceUpdated": "2026-10-30T12:18:28Z",
       "sourceId": "VSYT11V-10-28"
     }
   ],

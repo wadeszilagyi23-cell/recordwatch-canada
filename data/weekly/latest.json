@@ -1,39 +1,39 @@
 {
   "schemaVersion": 1,
   "title": "This Week in Canadian Extremes",
-  "startDate": "2026-10-22",
-  "endDate": "2026-10-28",
+  "startDate": "2026-10-23",
+  "endDate": "2026-10-29",
   "datesIncluded": [
-    "2026-10-22",
     "2026-10-23",
     "2026-10-24",
     "2026-10-25",
     "2026-10-26",
     "2026-10-27",
-    "2026-10-28"
+    "2026-10-28",
+    "2026-10-29"
   ],
   "daysAvailable": 7,
   "isPartial": false,
-  "generatedAt": "2026-10-29T16:40:42-04:00",
+  "generatedAt": "2026-10-30T10:40:53-04:00",
   "summary": {
-    "totalRecords": 127,
-    "brokenRecords": 119,
+    "totalRecords": 147,
+    "brokenRecords": 139,
     "tiedRecords": 8
   },
-  "summaryText": "119 records broken, 8 tied. Record High Maximum Temperature was the most common category (54 of 127 record events). Manitoba recorded the most events (31).",
+  "summaryText": "139 records broken, 8 tied. Record High Maximum Temperature was the most common category (68 of 147 record events). Ontario recorded the most events (31).",
   "typeBreakdown": [
     {
       "type": "high_max",
       "label": "Record High Maximum Temperature",
-      "total": 54,
-      "broken": 48,
-      "tied": 6
+      "total": 68,
+      "broken": 63,
+      "tied": 5
     },
     {
       "type": "precipitation",
       "label": "Daily Precipitation Record",
-      "total": 37,
-      "broken": 37,
+      "total": 39,
+      "broken": 39,
       "tied": 0
     },
     {
@@ -46,8 +46,8 @@
     {
       "type": "snowfall",
       "label": "Daily Snowfall Record",
-      "total": 7,
-      "broken": 7,
+      "total": 10,
+      "broken": 10,
       "tied": 0
     },
     {
@@ -60,46 +60,51 @@
     {
       "type": "low_max",
       "label": "Record Low Maximum Temperature",
-      "total": 2,
+      "total": 3,
       "broken": 1,
-      "tied": 1
+      "tied": 2
     }
   ],
   "provinceBreakdown": [
     {
+      "province": "ON",
+      "provinceName": "Ontario",
+      "total": 31
+    },
+    {
       "province": "MB",
       "provinceName": "Manitoba",
-      "total": 31
+      "total": 27
+    },
+    {
+      "province": "QC",
+      "provinceName": "Quebec",
+      "total": 18
     },
     {
       "province": "AB",
       "provinceName": "Alberta",
-      "total": 21
+      "total": 17
     },
     {
       "province": "SK",
       "provinceName": "Saskatchewan",
-      "total": 20
-    },
-    {
-      "province": "ON",
-      "provinceName": "Ontario",
-      "total": 13
-    },
-    {
-      "province": "NU",
-      "provinceName": "Nunavut",
-      "total": 12
+      "total": 17
     },
     {
       "province": "NT",
       "provinceName": "Northwest Territories",
-      "total": 11
+      "total": 12
+    },
+    {
+      "province": "NU",
+      "provinceName": "Nunavut",
+      "total": 8
     },
     {
       "province": "BC",
       "provinceName": "British Columbia",
-      "total": 6
+      "total": 7
     },
     {
       "province": "YT",
@@ -107,14 +112,9 @@
       "total": 5
     },
     {
-      "province": "QC",
-      "provinceName": "Quebec",
-      "total": 4
-    },
-    {
       "province": "NB",
       "provinceName": "New Brunswick",
-      "total": 3
+      "total": 4
     },
     {
       "province": "NS",
@@ -123,6 +123,75 @@
     }
   ],
   "notableRecords": [
+    {
+      "id": "VSQCC4V-2026-10-29-high_max",
+      "date": "2026-10-29",
+      "community": "Saint-Timothée",
+      "province": "QC",
+      "provinceName": "Quebec",
+      "type": "high_max",
+      "status": "broken",
+      "value": 22.6,
+      "unit": "°C",
+      "previousValue": 20.6,
+      "previousYear": 1918,
+      "difference": 2.0,
+      "recordBeginYear": 1906,
+      "periodYears": 121,
+      "coordinates": [
+        -74.04,
+        45.29
+      ],
+      "sourceUpdated": "2026-10-30T12:18:28Z",
+      "sourceId": "VSQCC4V-10-29",
+      "previousRecordAge": 108
+    },
+    {
+      "id": "VSQC143-2026-10-29-high_max",
+      "date": "2026-10-29",
+      "community": "Salaberry-De-Valleyfield",
+      "province": "QC",
+      "provinceName": "Quebec",
+      "type": "high_max",
+      "status": "broken",
+      "value": 22.6,
+      "unit": "°C",
+      "previousValue": 20.6,
+      "previousYear": 1918,
+      "difference": 2.0,
+      "recordBeginYear": 1913,
+      "periodYears": 114,
+      "coordinates": [
+        -74.13,
+        45.25
+      ],
+      "sourceUpdated": "2026-10-30T12:18:28Z",
+      "sourceId": "VSQC143-10-29",
+      "previousRecordAge": 108
+    },
+    {
+      "id": "VSON26V-2026-10-28-high_min",
+      "date": "2026-10-28",
+      "community": "Nipigon",
+      "province": "ON",
+      "provinceName": "Ontario",
+      "type": "high_min",
+      "status": "broken",
+      "value": 8.5,
+      "unit": "°C",
+      "previousValue": 8.3,
+      "previousYear": 1921,
+      "difference": 0.2,
+      "recordBeginYear": 1914,
+      "periodYears": 113,
+      "coordinates": [
+        -88.33,
+        48.98
+      ],
+      "sourceUpdated": "2026-10-30T12:18:28Z",
+      "sourceId": "VSON26V-10-28",
+      "previousRecordAge": 105
+    },
     {
       "id": "VSMB54V-2026-10-23-high_max",
       "date": "2026-10-23",
@@ -170,96 +239,27 @@
       "previousRecordAge": 97
     },
     {
-      "id": "VSSK50V-2026-10-24-precipitation",
-      "date": "2026-10-24",
-      "community": "Southend Reindeer",
-      "province": "SK",
-      "provinceName": "Saskatchewan",
-      "type": "precipitation",
+      "id": "VSQC161-2026-10-29-high_max",
+      "date": "2026-10-29",
+      "community": "Bagotville",
+      "province": "QC",
+      "provinceName": "Quebec",
+      "type": "high_max",
       "status": "broken",
-      "value": 32.6,
-      "unit": "mm",
-      "previousValue": 15.2,
-      "previousYear": 1939,
-      "difference": 17.4,
-      "recordBeginYear": 1937,
-      "periodYears": 90,
-      "coordinates": [
-        -103.27,
-        56.32
-      ],
-      "sourceUpdated": null,
-      "sourceId": "VSSK50V-10-24",
-      "previousRecordAge": 87
-    },
-    {
-      "id": "VSSK38V-2026-10-23-precipitation",
-      "date": "2026-10-23",
-      "community": "La Ronge",
-      "province": "SK",
-      "provinceName": "Saskatchewan",
-      "type": "precipitation",
-      "status": "broken",
-      "value": 11.2,
-      "unit": "mm",
-      "previousValue": 7.6,
-      "previousYear": 1939,
-      "difference": 3.6,
-      "recordBeginYear": 1921,
-      "periodYears": 106,
-      "coordinates": [
-        -105.29,
-        55.12
-      ],
-      "sourceUpdated": null,
-      "sourceId": "VSSK38V-10-23",
-      "previousRecordAge": 87
-    },
-    {
-      "id": "VSNT11V-2026-10-27-high_min",
-      "date": "2026-10-27",
-      "community": "Tulita",
-      "province": "NT",
-      "provinceName": "Northwest Territories",
-      "type": "high_min",
-      "status": "broken",
-      "value": -1.4,
+      "value": 18.7,
       "unit": "°C",
-      "previousValue": -1.7,
-      "previousYear": 1942,
-      "difference": 0.3,
-      "recordBeginYear": 1908,
-      "periodYears": 119,
+      "previousValue": 17.2,
+      "previousYear": 1935,
+      "difference": 1.5,
+      "recordBeginYear": 1880,
+      "periodYears": 147,
       "coordinates": [
-        -125.57,
-        64.9
+        -70.88,
+        48.35
       ],
-      "sourceUpdated": "2026-10-29T18:33:11Z",
-      "sourceId": "VSNT11V-10-27",
-      "previousRecordAge": 84
-    },
-    {
-      "id": "VSON166-2026-10-23-high_min",
-      "date": "2026-10-23",
-      "community": "Sioux Narrows",
-      "province": "ON",
-      "provinceName": "Ontario",
-      "type": "high_min",
-      "status": "broken",
-      "value": 10.5,
-      "unit": "°C",
-      "previousValue": 10.0,
-      "previousYear": 1946,
-      "difference": 0.5,
-      "recordBeginYear": 1933,
-      "periodYears": 94,
-      "coordinates": [
-        -94.1,
-        49.41
-      ],
-      "sourceUpdated": "2026-10-26T18:33:55Z",
-      "sourceId": "VSON166-10-23",
-      "previousRecordAge": 80
+      "sourceUpdated": "2026-10-30T12:18:28Z",
+      "sourceId": "VSQC161-10-29",
+      "previousRecordAge": 91
     }
   ],
   "notes": [
