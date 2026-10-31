@@ -1,0 +1,212 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-30",
+  "latestAvailableDate": "2026-10-30",
+  "generatedAt": "2026-10-31T10:40:42-04:00",
+  "sourceLastUpdated": "2026-10-31T12:17:51Z",
+  "source": "Environment and Climate Change Canada — MSC GeoMet LTCE",
+  "isDemo": false,
+  "summary": {
+    "totalRecords": 6,
+    "communities": 6,
+    "tiedRecords": 1,
+    "oldestRecordAge": 63
+  },
+  "validation": {
+    "candidateRecords": 6,
+    "publishedRecords": 6,
+    "withheldRecords": 0,
+    "invalidRecords": 0,
+    "manualReviewRecords": 0
+  },
+  "recordOfDay": {
+    "id": "VSQCD4V-2026-10-30-high_max",
+    "date": "2026-10-30",
+    "community": "Chandler",
+    "province": "QC",
+    "provinceName": "Quebec",
+    "type": "high_max",
+    "status": "broken",
+    "value": 13.7,
+    "unit": "°C",
+    "previousValue": 13.0,
+    "previousYear": 1982,
+    "difference": 0.7,
+    "recordBeginYear": 1963,
+    "periodYears": 64,
+    "coordinates": [
+      -64.68,
+      48.35
+    ],
+    "sourceUpdated": "2026-10-31T12:17:51Z",
+    "sourceId": "VSQCD4V-10-30"
+  },
+  "story": {
+    "description": "Chandler, QC recorded 13.7 °C. It exceeded the previous record high maximum temperature of 13.0 °C from 1982."
+  },
+  "highlights": [
+    {
+      "region": "Atlantic Canada",
+      "count": 3,
+      "brokenCount": 3,
+      "tiedCount": 0,
+      "leadingType": "high_max",
+      "text": "3 records broken. The most common type was record high maximum temperature (2 of 3)."
+    },
+    {
+      "region": "Northern Canada",
+      "count": 2,
+      "brokenCount": 1,
+      "tiedCount": 1,
+      "leadingType": "high_max",
+      "text": "1 record broken, 1 tied. The most common type was record high maximum temperature (1 of 2)."
+    },
+    {
+      "region": "Quebec",
+      "count": 1,
+      "brokenCount": 1,
+      "tiedCount": 0,
+      "leadingType": "high_max",
+      "text": "1 record broken. It was a record high maximum temperature."
+    }
+  ],
+  "records": [
+    {
+      "id": "VSNB8VV-2026-10-30-high_max",
+      "date": "2026-10-30",
+      "community": "Hopewell",
+      "province": "NB",
+      "provinceName": "New Brunswick",
+      "type": "high_max",
+      "status": "broken",
+      "value": 18.5,
+      "unit": "°C",
+      "previousValue": 17.8,
+      "previousYear": 2017,
+      "difference": 0.7,
+      "recordBeginYear": 1934,
+      "periodYears": 93,
+      "coordinates": [
+        -64.72,
+        45.83
+      ],
+      "sourceUpdated": "2026-10-31T12:17:51Z",
+      "sourceId": "VSNB8VV-10-30"
+    },
+    {
+      "id": "VSNB35V-2026-10-30-high_max",
+      "date": "2026-10-30",
+      "community": "St. Stephen",
+      "province": "NB",
+      "provinceName": "New Brunswick",
+      "type": "high_max",
+      "status": "broken",
+      "value": 19.3,
+      "unit": "°C",
+      "previousValue": 18.3,
+      "previousYear": 2022,
+      "difference": 1.0,
+      "recordBeginYear": 1951,
+      "periodYears": 76,
+      "coordinates": [
+        -67.33,
+        45.22
+      ],
+      "sourceUpdated": "2026-10-31T12:17:51Z",
+      "sourceId": "VSNB35V-10-30"
+    },
+    {
+      "id": "VSNS11V-2026-10-30-high_min",
+      "date": "2026-10-30",
+      "community": "Shelburne",
+      "province": "NS",
+      "provinceName": "Nova Scotia",
+      "type": "high_min",
+      "status": "broken",
+      "value": 9.8,
+      "unit": "°C",
+      "previousValue": 9.0,
+      "previousYear": 1986,
+      "difference": 0.8,
+      "recordBeginYear": 1955,
+      "periodYears": 72,
+      "coordinates": [
+        -65.32,
+        43.76
+      ],
+      "sourceUpdated": "2026-10-31T12:17:51Z",
+      "sourceId": "VSNS11V-10-30"
+    },
+    {
+      "id": "VSNT19V-2026-10-30-high_max",
+      "date": "2026-10-30",
+      "community": "Sachs Harbour",
+      "province": "NT",
+      "provinceName": "Northwest Territories",
+      "type": "high_max",
+      "status": "broken",
+      "value": -2.3,
+      "unit": "°C",
+      "previousValue": -3.1,
+      "previousYear": 2010,
+      "difference": 0.8,
+      "recordBeginYear": 1955,
+      "periodYears": 72,
+      "coordinates": [
+        -125.24,
+        71.98
+      ],
+      "sourceUpdated": "2026-10-31T12:17:51Z",
+      "sourceId": "VSNT19V-10-30"
+    },
+    {
+      "id": "VSNU27V-2026-10-30-precipitation",
+      "date": "2026-10-30",
+      "community": "Resolute",
+      "province": "NU",
+      "provinceName": "Nunavut",
+      "type": "precipitation",
+      "status": "tied",
+      "value": 2.5,
+      "unit": "mm",
+      "previousValue": 2.5,
+      "previousYear": 1963,
+      "difference": 0.0,
+      "recordBeginYear": 1947,
+      "periodYears": 80,
+      "coordinates": [
+        -94.83,
+        74.7
+      ],
+      "sourceUpdated": null,
+      "sourceId": "VSNU27V-10-30"
+    },
+    {
+      "id": "VSQCD4V-2026-10-30-high_max",
+      "date": "2026-10-30",
+      "community": "Chandler",
+      "province": "QC",
+      "provinceName": "Quebec",
+      "type": "high_max",
+      "status": "broken",
+      "value": 13.7,
+      "unit": "°C",
+      "previousValue": 13.0,
+      "previousYear": 1982,
+      "difference": 0.7,
+      "recordBeginYear": 1963,
+      "periodYears": 64,
+      "coordinates": [
+        -64.68,
+        48.35
+      ],
+      "sourceUpdated": "2026-10-31T12:17:51Z",
+      "sourceId": "VSQCD4V-10-30"
+    }
+  ],
+  "notes": [
+    "Values may be revised by ECCC after initial publication.",
+    "The archive contains daily snapshots saved by RecordWatch Canada after launch.",
+    "Suspicious or malformed candidate records are automatically withheld pending validation or verification."
+  ]
+}
