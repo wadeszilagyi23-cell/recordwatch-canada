@@ -14,7 +14,7 @@
   ],
   "daysAvailable": 7,
   "isPartial": false,
-  "generatedAt": "2026-10-31T10:40:45-04:00",
+  "generatedAt": "2026-10-31T16:40:40-04:00",
   "summary": {
     "totalRecords": 106,
     "brokenRecords": 99,
@@ -142,7 +142,7 @@
         -74.04,
         45.29
       ],
-      "sourceUpdated": "2026-10-31T12:17:51Z",
+      "sourceUpdated": "2026-10-31T18:33:31Z",
       "sourceId": "VSQCC4V-10-29",
       "previousRecordAge": 108
     },
@@ -165,7 +165,7 @@
         -74.13,
         45.25
       ],
-      "sourceUpdated": "2026-10-31T12:17:51Z",
+      "sourceUpdated": "2026-10-31T18:33:31Z",
       "sourceId": "VSQC143-10-29",
       "previousRecordAge": 108
     },
@@ -188,7 +188,7 @@
         -88.33,
         48.98
       ],
-      "sourceUpdated": "2026-10-31T12:17:51Z",
+      "sourceUpdated": "2026-10-31T18:33:31Z",
       "sourceId": "VSON26V-10-28",
       "previousRecordAge": 105
     },
@@ -234,7 +234,7 @@
         -70.88,
         48.35
       ],
-      "sourceUpdated": "2026-10-31T12:17:51Z",
+      "sourceUpdated": "2026-10-31T18:33:31Z",
       "sourceId": "VSQC161-10-29",
       "previousRecordAge": 91
     },
@@ -257,7 +257,7 @@
         -71.07,
         48.42
       ],
-      "sourceUpdated": "2026-10-31T12:17:51Z",
+      "sourceUpdated": "2026-10-31T18:33:31Z",
       "sourceId": "VSQC166-10-29",
       "previousRecordAge": 91
     }
