@@ -14,13 +14,13 @@
   ],
   "daysAvailable": 7,
   "isPartial": false,
-  "generatedAt": "2026-11-04T10:40:48-05:00",
+  "generatedAt": "2026-11-04T16:41:01-05:00",
   "summary": {
-    "totalRecords": 291,
-    "brokenRecords": 274,
+    "totalRecords": 292,
+    "brokenRecords": 275,
     "tiedRecords": 17
   },
-  "summaryText": "274 records broken, 17 tied. Record High Minimum Temperature was the most common category (154 of 291 record events). Quebec recorded the most events (94).",
+  "summaryText": "275 records broken, 17 tied. Record High Minimum Temperature was the most common category (154 of 292 record events). Quebec recorded the most events (94).",
   "typeBreakdown": [
     {
       "type": "high_min",
@@ -32,8 +32,8 @@
     {
       "type": "high_max",
       "label": "Record High Maximum Temperature",
-      "total": 84,
-      "broken": 77,
+      "total": 85,
+      "broken": 78,
       "tied": 7
     },
     {
@@ -74,7 +74,7 @@
     {
       "province": "ON",
       "provinceName": "Ontario",
-      "total": 85
+      "total": 86
     },
     {
       "province": "MB",
@@ -147,7 +147,7 @@
         -103.67,
         50.53
       ],
-      "sourceUpdated": "2026-11-04T12:18:23Z",
+      "sourceUpdated": "2026-11-04T18:33:23Z",
       "sourceId": "VSSK43V-11-1",
       "previousRecordAge": 139
     },
