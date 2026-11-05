@@ -1,60 +1,53 @@
 {
   "schemaVersion": 1,
   "title": "This Week in Canadian Extremes",
-  "startDate": "2026-10-28",
-  "endDate": "2026-11-03",
+  "startDate": "2026-10-29",
+  "endDate": "2026-11-04",
   "datesIncluded": [
-    "2026-10-28",
     "2026-10-29",
     "2026-10-30",
     "2026-10-31",
     "2026-11-01",
     "2026-11-02",
-    "2026-11-03"
+    "2026-11-03",
+    "2026-11-04"
   ],
   "daysAvailable": 7,
   "isPartial": false,
-  "generatedAt": "2026-11-04T16:41:01-05:00",
+  "generatedAt": "2026-11-05T10:40:57-05:00",
   "summary": {
-    "totalRecords": 292,
-    "brokenRecords": 275,
-    "tiedRecords": 17
+    "totalRecords": 480,
+    "brokenRecords": 460,
+    "tiedRecords": 20
   },
-  "summaryText": "275 records broken, 17 tied. Record High Minimum Temperature was the most common category (154 of 292 record events). Quebec recorded the most events (94).",
+  "summaryText": "460 records broken, 20 tied. Record High Minimum Temperature was the most common category (231 of 480 record events). Quebec recorded the most events (190).",
   "typeBreakdown": [
     {
       "type": "high_min",
       "label": "Record High Minimum Temperature",
-      "total": 154,
-      "broken": 147,
-      "tied": 7
+      "total": 231,
+      "broken": 223,
+      "tied": 8
     },
     {
       "type": "high_max",
       "label": "Record High Maximum Temperature",
-      "total": 85,
-      "broken": 78,
-      "tied": 7
+      "total": 191,
+      "broken": 181,
+      "tied": 10
     },
     {
       "type": "precipitation",
       "label": "Daily Precipitation Record",
-      "total": 41,
-      "broken": 40,
+      "total": 50,
+      "broken": 49,
       "tied": 1
     },
     {
       "type": "low_min",
       "label": "Record Low Minimum Temperature",
-      "total": 7,
+      "total": 6,
       "broken": 6,
-      "tied": 1
-    },
-    {
-      "type": "snowfall",
-      "label": "Daily Snowfall Record",
-      "total": 4,
-      "broken": 4,
       "tied": 0
     },
     {
@@ -63,18 +56,25 @@
       "total": 1,
       "broken": 0,
       "tied": 1
+    },
+    {
+      "type": "snowfall",
+      "label": "Daily Snowfall Record",
+      "total": 1,
+      "broken": 1,
+      "tied": 0
     }
   ],
   "provinceBreakdown": [
     {
       "province": "QC",
       "provinceName": "Quebec",
-      "total": 94
+      "total": 190
     },
     {
       "province": "ON",
       "provinceName": "Ontario",
-      "total": 86
+      "total": 183
     },
     {
       "province": "MB",
@@ -84,42 +84,47 @@
     {
       "province": "SK",
       "provinceName": "Saskatchewan",
-      "total": 23
-    },
-    {
-      "province": "NT",
-      "provinceName": "Northwest Territories",
-      "total": 13
-    },
-    {
-      "province": "AB",
-      "provinceName": "Alberta",
-      "total": 12
+      "total": 17
     },
     {
       "province": "NU",
       "provinceName": "Nunavut",
-      "total": 10
+      "total": 14
+    },
+    {
+      "province": "NT",
+      "provinceName": "Northwest Territories",
+      "total": 11
     },
     {
       "province": "NB",
       "provinceName": "New Brunswick",
-      "total": 6
+      "total": 9
     },
     {
       "province": "NS",
       "provinceName": "Nova Scotia",
-      "total": 3
+      "total": 5
     },
     {
-      "province": "BC",
-      "provinceName": "British Columbia",
-      "total": 2
+      "province": "AB",
+      "provinceName": "Alberta",
+      "total": 4
     },
     {
       "province": "NL",
       "provinceName": "Newfoundland and Labrador",
-      "total": 2
+      "total": 4
+    },
+    {
+      "province": "BC",
+      "provinceName": "British Columbia",
+      "total": 1
+    },
+    {
+      "province": "PE",
+      "provinceName": "Prince Edward Island",
+      "total": 1
     },
     {
       "province": "YT",
@@ -198,50 +203,50 @@
       "previousRecordAge": 108
     },
     {
-      "id": "VSON26V-2026-10-28-high_min",
-      "date": "2026-10-28",
-      "community": "Nipigon",
+      "id": "VSON102-2026-11-04-high_min",
+      "date": "2026-11-04",
+      "community": "Bancroft",
       "province": "ON",
       "provinceName": "Ontario",
       "type": "high_min",
       "status": "broken",
-      "value": 8.5,
+      "value": 11.6,
       "unit": "°C",
-      "previousValue": 8.3,
-      "previousYear": 1921,
-      "difference": 0.2,
+      "previousValue": 7.2,
+      "previousYear": 1922,
+      "difference": 4.4,
+      "recordBeginYear": 1882,
+      "periodYears": 145,
+      "coordinates": [
+        -77.76,
+        45.06
+      ],
+      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceId": "VSON102-11-4",
+      "previousRecordAge": 104
+    },
+    {
+      "id": "VSON148-2026-11-04-precipitation",
+      "date": "2026-11-04",
+      "community": "Atikokan",
+      "province": "ON",
+      "provinceName": "Ontario",
+      "type": "precipitation",
+      "status": "broken",
+      "value": 29.6,
+      "unit": "mm",
+      "previousValue": 16.5,
+      "previousYear": 1925,
+      "difference": 13.1,
       "recordBeginYear": 1914,
       "periodYears": 113,
       "coordinates": [
-        -88.33,
-        48.98
-      ],
-      "sourceUpdated": "2026-10-31T18:33:31Z",
-      "sourceId": "VSON26V-10-28",
-      "previousRecordAge": 105
-    },
-    {
-      "id": "VSSK24V-2026-10-28-precipitation",
-      "date": "2026-10-28",
-      "community": "Moose Jaw",
-      "province": "SK",
-      "provinceName": "Saskatchewan",
-      "type": "precipitation",
-      "status": "broken",
-      "value": 8.6,
-      "unit": "mm",
-      "previousValue": 7.9,
-      "previousYear": 1929,
-      "difference": 0.7,
-      "recordBeginYear": 1908,
-      "periodYears": 119,
-      "coordinates": [
-        -105.55,
-        50.39
+        -91.61,
+        48.76
       ],
       "sourceUpdated": null,
-      "sourceId": "VSSK24V-10-28",
-      "previousRecordAge": 97
+      "sourceId": "VSON148-11-4",
+      "previousRecordAge": 101
     },
     {
       "id": "VSAB35V-2026-11-01-precipitation",
