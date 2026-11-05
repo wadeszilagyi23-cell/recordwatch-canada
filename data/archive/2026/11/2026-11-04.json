@@ -2,19 +2,19 @@
   "schemaVersion": 1,
   "date": "2026-11-04",
   "latestAvailableDate": "2026-11-04",
-  "generatedAt": "2026-11-05T10:40:53-05:00",
-  "sourceLastUpdated": "2026-11-05T12:17:48Z",
+  "generatedAt": "2026-11-05T16:41:03-05:00",
+  "sourceLastUpdated": "2026-11-05T18:33:15Z",
   "source": "Environment and Climate Change Canada — MSC GeoMet LTCE",
   "isDemo": false,
   "summary": {
-    "totalRecords": 216,
-    "communities": 170,
+    "totalRecords": 220,
+    "communities": 171,
     "tiedRecords": 5,
     "oldestRecordAge": 123
   },
   "validation": {
-    "candidateRecords": 216,
-    "publishedRecords": 216,
+    "candidateRecords": 220,
+    "publishedRecords": 220,
     "withheldRecords": 0,
     "invalidRecords": 0,
     "manualReviewRecords": 0
@@ -38,7 +38,7 @@
       -77.76,
       45.06
     ],
-    "sourceUpdated": "2026-11-05T12:17:48Z",
+    "sourceUpdated": "2026-11-05T18:33:15Z",
     "sourceId": "VSON102-11-4"
   },
   "story": {
@@ -47,11 +47,11 @@
   "highlights": [
     {
       "region": "Ontario",
-      "count": 102,
-      "brokenCount": 98,
+      "count": 105,
+      "brokenCount": 101,
       "tiedCount": 4,
       "leadingType": "high_min",
-      "text": "98 records broken, 4 tied. The most common type was record high minimum temperature (54 of 102)."
+      "text": "101 records broken, 4 tied. The most common type was record high minimum temperature (54 of 105)."
     },
     {
       "region": "Quebec",
@@ -63,11 +63,11 @@
     },
     {
       "region": "Atlantic Canada",
-      "count": 11,
-      "brokenCount": 11,
+      "count": 12,
+      "brokenCount": 12,
       "tiedCount": 0,
       "leadingType": "precipitation",
-      "text": "11 records broken. The most common type was daily precipitation record (8 of 11)."
+      "text": "12 records broken. The most common type was daily precipitation record (8 of 12)."
     },
     {
       "region": "Northern Canada",
@@ -212,6 +212,28 @@
       "sourceId": "VSNB17V-11-4"
     },
     {
+      "id": "VSNL1VV-2026-11-04-low_min",
+      "date": "2026-11-04",
+      "community": "Clarenville",
+      "province": "NL",
+      "provinceName": "Newfoundland and Labrador",
+      "type": "low_min",
+      "status": "broken",
+      "value": -7.0,
+      "unit": "°C",
+      "previousValue": -5.0,
+      "previousYear": 1986,
+      "difference": -2.0,
+      "recordBeginYear": 1978,
+      "periodYears": 49,
+      "coordinates": [
+        -53.98,
+        48.16
+      ],
+      "sourceUpdated": "2026-11-05T18:33:15Z",
+      "sourceId": "VSNL1VV-11-4"
+    },
+    {
       "id": "VSNL3VV-2026-11-04-low_min",
       "date": "2026-11-04",
       "community": "Marystown",
@@ -230,7 +252,7 @@
         -55.17,
         47.17
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSNL3VV-11-4"
     },
     {
@@ -252,7 +274,7 @@
         -55.31,
         47.16
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSNL19V-11-4"
     },
     {
@@ -274,7 +296,7 @@
         -60.2,
         46.14
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSNS31V-11-4"
     },
     {
@@ -318,7 +340,7 @@
         -105.05,
         69.11
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSNU15V-11-4"
     },
     {
@@ -362,7 +384,7 @@
         -95.88,
         68.63
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSNU24V-11-4"
     },
     {
@@ -384,7 +406,7 @@
         -95.88,
         68.63
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSNU24V-11-4"
     },
     {
@@ -428,7 +450,7 @@
         -78.48,
         45.58
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSON29V-11-4"
     },
     {
@@ -472,7 +494,7 @@
         -77.76,
         45.06
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSON102-11-4"
     },
     {
@@ -494,7 +516,7 @@
         -77.76,
         45.06
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSON102-11-4"
     },
     {
@@ -516,7 +538,7 @@
         -79.68,
         44.37
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSON151-11-4"
     },
     {
@@ -538,7 +560,7 @@
         -79.19,
         45.03
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSON9VV-11-4"
     },
     {
@@ -560,7 +582,7 @@
         -79.19,
         45.03
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSON9VV-11-4"
     },
     {
@@ -582,7 +604,7 @@
         -79.76,
         43.69
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSON4VV-11-4"
     },
     {
@@ -604,7 +626,7 @@
         -75.69,
         44.6
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSON8VV-11-4"
     },
     {
@@ -626,7 +648,7 @@
         -79.81,
         43.37
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSON95V-11-4"
     },
     {
@@ -648,7 +670,7 @@
         -83.4,
         47.84
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSON91V-11-4"
     },
     {
@@ -670,7 +692,7 @@
         -82.13,
         42.43
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSON11V-11-4"
     },
     {
@@ -714,7 +736,7 @@
         -78.16,
         43.96
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSON75V-11-4"
     },
     {
@@ -736,8 +758,30 @@
         -80.24,
         44.5
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSON150-11-4"
+    },
+    {
+      "id": "VSON152-2026-11-04-high_max",
+      "date": "2026-11-04",
+      "community": "Cornwall",
+      "province": "ON",
+      "provinceName": "Ontario",
+      "type": "high_max",
+      "status": "broken",
+      "value": 25.0,
+      "unit": "°C",
+      "previousValue": 22.0,
+      "previousYear": 2022,
+      "difference": 3.0,
+      "recordBeginYear": 1950,
+      "periodYears": 77,
+      "coordinates": [
+        -74.73,
+        45.03
+      ],
+      "sourceUpdated": "2026-11-05T18:33:15Z",
+      "sourceId": "VSON152-11-4"
     },
     {
       "id": "VSON152-2026-11-04-high_min",
@@ -758,7 +802,7 @@
         -74.73,
         45.03
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSON152-11-4"
     },
     {
@@ -780,7 +824,7 @@
         -79.82,
         47.71
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSON136-11-4"
     },
     {
@@ -802,7 +846,7 @@
         -81.7,
         43.74
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSON160-11-4"
     },
     {
@@ -824,7 +868,7 @@
         -82.46,
         45.92
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSON144-11-4"
     },
     {
@@ -846,7 +890,7 @@
         -79.34,
         44.87
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSON38V-11-4"
     },
     {
@@ -868,7 +912,7 @@
         -79.34,
         44.87
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSON38V-11-4"
     },
     {
@@ -890,7 +934,7 @@
         -76.97,
         44.24
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSON39V-11-4"
     },
     {
@@ -912,7 +956,7 @@
         -76.97,
         44.24
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSON39V-11-4"
     },
     {
@@ -934,7 +978,7 @@
         -81.07,
         46.58
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSON40V-11-4"
     },
     {
@@ -956,7 +1000,7 @@
         -81.07,
         46.58
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSON40V-11-4"
     },
     {
@@ -1000,7 +1044,7 @@
         -79.95,
         43.63
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSON68V-11-4"
     },
     {
@@ -1022,7 +1066,7 @@
         -79.99,
         43.24
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSON77V-11-4"
     },
     {
@@ -1066,7 +1110,7 @@
         -82.42,
         49.42
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSON142-11-4"
     },
     {
@@ -1110,7 +1154,7 @@
         -78.74,
         44.36
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSON168-11-4"
     },
     {
@@ -1132,7 +1176,7 @@
         -75.64,
         45.02
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSON74V-11-4"
     },
     {
@@ -1154,7 +1198,7 @@
         -75.64,
         45.02
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSON74V-11-4"
     },
     {
@@ -1176,7 +1220,7 @@
         -76.42,
         44.31
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSON69V-11-4"
     },
     {
@@ -1198,7 +1242,7 @@
         -76.42,
         44.31
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSON69V-11-4"
     },
     {
@@ -1220,7 +1264,7 @@
         -80.03,
         48.15
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSON76V-11-4"
     },
     {
@@ -1242,7 +1286,7 @@
         -80.03,
         48.15
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSON76V-11-4"
     },
     {
@@ -1264,7 +1308,7 @@
         -84.74,
         47.6
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSON45V-11-4"
     },
     {
@@ -1308,7 +1352,7 @@
         -79.42,
         43.15
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSON47V-11-4"
     },
     {
@@ -1330,7 +1374,7 @@
         -79.42,
         43.15
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSON47V-11-4"
     },
     {
@@ -1352,7 +1396,7 @@
         -81.23,
         42.97
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSON137-11-4"
     },
     {
@@ -1374,7 +1418,7 @@
         -86.38,
         48.72
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSON108-11-4"
     },
     {
@@ -1418,7 +1462,7 @@
         -79.66,
         43.59
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSON24V-11-4"
     },
     {
@@ -1462,7 +1506,7 @@
         -80.74,
         43.98
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSON89V-11-4"
     },
     {
@@ -1484,7 +1528,7 @@
         -79.37,
         44.91
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSON93V-11-4"
     },
     {
@@ -1506,7 +1550,7 @@
         -79.37,
         44.91
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSON93V-11-4"
     },
     {
@@ -1528,7 +1572,7 @@
         -79.46,
         44.06
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSON25V-11-4"
     },
     {
@@ -1550,7 +1594,7 @@
         -79.46,
         44.06
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSON25V-11-4"
     },
     {
@@ -1572,7 +1616,7 @@
         -79.46,
         46.31
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSON139-11-4"
     },
     {
@@ -1594,7 +1638,7 @@
         -80.97,
         43.73
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSON51V-11-4"
     },
     {
@@ -1616,7 +1660,7 @@
         -79.42,
         44.6
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSON13V-11-4"
     },
     {
@@ -1638,7 +1682,7 @@
         -78.86,
         43.9
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSON117-11-4"
     },
     {
@@ -1660,7 +1704,7 @@
         -75.58,
         45.33
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSON118-11-4"
     },
     {
@@ -1682,7 +1726,7 @@
         -75.47,
         45.24
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSON52V-11-4"
     },
     {
@@ -1704,7 +1748,7 @@
         -75.47,
         45.24
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSON52V-11-4"
     },
     {
@@ -1726,7 +1770,7 @@
         -80.04,
         45.35
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSON103-11-4"
     },
     {
@@ -1748,7 +1792,7 @@
         -77.11,
         45.82
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSON131-11-4"
     },
     {
@@ -1770,7 +1814,7 @@
         -77.11,
         45.82
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSON131-11-4"
     },
     {
@@ -1792,7 +1836,7 @@
         -77.27,
         45.91
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSON112-11-4"
     },
     {
@@ -1814,7 +1858,7 @@
         -78.33,
         44.3
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSON121-11-4"
     },
     {
@@ -1836,7 +1880,7 @@
         -79.13,
         43.91
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSON54V-11-4"
     },
     {
@@ -1858,8 +1902,30 @@
         -79.58,
         45.12
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSON56V-11-4"
+    },
+    {
+      "id": "VSON80V-2026-11-04-high_max",
+      "date": "2026-11-04",
+      "community": "Port Colborne",
+      "province": "ON",
+      "provinceName": "Ontario",
+      "type": "high_max",
+      "status": "broken",
+      "value": 24.0,
+      "unit": "°C",
+      "previousValue": 22.0,
+      "previousYear": 2015,
+      "difference": 2.0,
+      "recordBeginYear": 1964,
+      "periodYears": 63,
+      "coordinates": [
+        -79.19,
+        42.92
+      ],
+      "sourceUpdated": "2026-11-05T18:33:15Z",
+      "sourceId": "VSON80V-11-4"
     },
     {
       "id": "VSON80V-2026-11-04-high_min",
@@ -1880,7 +1946,7 @@
         -79.19,
         42.92
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSON80V-11-4"
     },
     {
@@ -1902,7 +1968,7 @@
         -78.95,
         44.1
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSON149-11-4"
     },
     {
@@ -1924,7 +1990,7 @@
         -78.95,
         44.1
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSON149-11-4"
     },
     {
@@ -1946,7 +2012,7 @@
         -77.26,
         44.02
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSON27V-11-4"
     },
     {
@@ -1968,7 +2034,7 @@
         -77.58,
         44.2
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSON57V-11-4"
     },
     {
@@ -1990,7 +2056,7 @@
         -79.44,
         43.87
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSON59V-11-4"
     },
     {
@@ -2012,7 +2078,29 @@
         -81.68,
         42.57
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
+      "sourceId": "VSON172-11-4"
+    },
+    {
+      "id": "VSON172-2026-11-04-precipitation",
+      "date": "2026-11-04",
+      "community": "Rodney",
+      "province": "ON",
+      "provinceName": "Ontario",
+      "type": "precipitation",
+      "status": "broken",
+      "value": 31.0,
+      "unit": "mm",
+      "previousValue": 25.0,
+      "previousYear": 1985,
+      "difference": 6.0,
+      "recordBeginYear": 1883,
+      "periodYears": 144,
+      "coordinates": [
+        -81.68,
+        42.57
+      ],
+      "sourceUpdated": null,
       "sourceId": "VSON172-11-4"
     },
     {
@@ -2034,7 +2122,7 @@
         -82.32,
         42.98
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSON147-11-4"
     },
     {
@@ -2056,7 +2144,7 @@
         -84.35,
         46.56
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSON162-11-4"
     },
     {
@@ -2078,7 +2166,7 @@
         -76.02,
         44.9
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSON106-11-4"
     },
     {
@@ -2100,7 +2188,7 @@
         -76.02,
         44.9
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSON106-11-4"
     },
     {
@@ -2122,7 +2210,7 @@
         -79.25,
         43.17
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSON107-11-4"
     },
     {
@@ -2144,7 +2232,7 @@
         -79.25,
         43.17
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSON107-11-4"
     },
     {
@@ -2166,7 +2254,7 @@
         -77.55,
         44.3
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSON115-11-4"
     },
     {
@@ -2188,7 +2276,7 @@
         -81.07,
         46.58
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSON174-11-4"
     },
     {
@@ -2210,7 +2298,7 @@
         -81.07,
         46.58
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSON174-11-4"
     },
     {
@@ -2232,7 +2320,7 @@
         -79.72,
         47.49
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSON22V-11-4"
     },
     {
@@ -2298,7 +2386,7 @@
         -81.33,
         48.47
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSON127-11-4"
     },
     {
@@ -2320,7 +2408,7 @@
         -81.33,
         48.47
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSON127-11-4"
     },
     {
@@ -2342,7 +2430,7 @@
         -81.66,
         45.25
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSON157-11-4"
     },
     {
@@ -2364,7 +2452,7 @@
         -81.66,
         45.25
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSON157-11-4"
     },
     {
@@ -2386,7 +2474,7 @@
         -79.37,
         43.74
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSON143-11-4"
     },
     {
@@ -2408,7 +2496,7 @@
         -77.58,
         44.11
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSON126-11-4"
     },
     {
@@ -2452,7 +2540,7 @@
         -79.54,
         43.85
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSON64V-11-4"
     },
     {
@@ -2474,7 +2562,7 @@
         -79.39,
         43.15
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSON109-11-4"
     },
     {
@@ -2496,7 +2584,7 @@
         -79.39,
         43.15
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSON109-11-4"
     },
     {
@@ -2518,7 +2606,7 @@
         -84.77,
         47.99
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSON138-11-4"
     },
     {
@@ -2540,7 +2628,7 @@
         -79.23,
         43.0
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSON14V-11-4"
     },
     {
@@ -2562,7 +2650,7 @@
         -78.95,
         43.93
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSON119-11-4"
     },
     {
@@ -2584,7 +2672,7 @@
         -75.35,
         45.09
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSON155-11-4"
     },
     {
@@ -2606,7 +2694,7 @@
         -75.35,
         45.09
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSON155-11-4"
     },
     {
@@ -2628,7 +2716,7 @@
         -82.99,
         42.3
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSON94V-11-4"
     },
     {
@@ -2650,7 +2738,7 @@
         -80.74,
         43.14
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSON15V-11-4"
     },
     {
@@ -2694,7 +2782,7 @@
         -73.87,
         45.32
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSQC49V-11-4"
     },
     {
@@ -2716,7 +2804,7 @@
         -73.87,
         45.32
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSQC49V-11-4"
     },
     {
@@ -2738,7 +2826,7 @@
         -73.88,
         45.67
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSQC52V-11-4"
     },
     {
@@ -2760,7 +2848,7 @@
         -73.83,
         45.62
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSQC53V-11-4"
     },
     {
@@ -2782,7 +2870,7 @@
         -73.83,
         45.62
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSQC53V-11-4"
     },
     {
@@ -2804,7 +2892,7 @@
         -72.43,
         46.33
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSQC50V-11-4"
     },
     {
@@ -2826,7 +2914,7 @@
         -73.52,
         45.38
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSQC55V-11-4"
     },
     {
@@ -2848,7 +2936,7 @@
         -73.3,
         45.45
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSQC56V-11-4"
     },
     {
@@ -2870,7 +2958,7 @@
         -73.3,
         45.45
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSQC56V-11-4"
     },
     {
@@ -2892,7 +2980,7 @@
         -73.28,
         45.45
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSQC58V-11-4"
     },
     {
@@ -2914,7 +3002,7 @@
         -73.28,
         45.45
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSQC58V-11-4"
     },
     {
@@ -2936,7 +3024,7 @@
         -73.23,
         45.85
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSQC46V-11-4"
     },
     {
@@ -2958,7 +3046,7 @@
         -72.75,
         45.2
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSQC61V-11-4"
     },
     {
@@ -2980,7 +3068,7 @@
         -72.75,
         45.2
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSQC61V-11-4"
     },
     {
@@ -3002,7 +3090,7 @@
         -73.55,
         45.37
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSQC62V-11-4"
     },
     {
@@ -3024,7 +3112,7 @@
         -73.88,
         45.53
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSQC63V-11-4"
     },
     {
@@ -3046,7 +3134,7 @@
         -72.48,
         45.88
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSQC2VV-11-4"
     },
     {
@@ -3068,7 +3156,7 @@
         -72.98,
         45.28
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSQC140-11-4"
     },
     {
@@ -3090,7 +3178,7 @@
         -75.65,
         45.48
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSQC126-11-4"
     },
     {
@@ -3112,7 +3200,7 @@
         -75.65,
         45.48
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSQC126-11-4"
     },
     {
@@ -3134,7 +3222,7 @@
         -72.73,
         45.4
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSQC5VV-11-4"
     },
     {
@@ -3156,7 +3244,7 @@
         -74.17,
         45.08
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSQC68V-11-4"
     },
     {
@@ -3178,7 +3266,7 @@
         -73.45,
         46.02
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSQC137-11-4"
     },
     {
@@ -3200,7 +3288,7 @@
         -77.75,
         55.28
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSQC105-11-4"
     },
     {
@@ -3222,7 +3310,7 @@
         -73.42,
         45.83
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSQC156-11-4"
     },
     {
@@ -3244,7 +3332,7 @@
         -77.7,
         53.63
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSQC158-11-4"
     },
     {
@@ -3266,7 +3354,7 @@
         -73.5,
         45.42
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSQC71V-11-4"
     },
     {
@@ -3288,7 +3376,7 @@
         -74.33,
         45.65
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSQC14V-11-4"
     },
     {
@@ -3310,7 +3398,7 @@
         -73.75,
         45.58
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSQC76V-11-4"
     },
     {
@@ -3332,7 +3420,7 @@
         -73.75,
         45.58
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSQC76V-11-4"
     },
     {
@@ -3354,7 +3442,7 @@
         -73.47,
         45.75
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSQCD3V-11-4"
     },
     {
@@ -3376,7 +3464,7 @@
         -73.52,
         45.53
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSQC109-11-4"
     },
     {
@@ -3398,7 +3486,7 @@
         -73.52,
         45.53
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSQC109-11-4"
     },
     {
@@ -3420,7 +3508,7 @@
         -73.78,
         45.68
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSQC81V-11-4"
     },
     {
@@ -3442,7 +3530,7 @@
         -72.95,
         46.25
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSQCD2V-11-4"
     },
     {
@@ -3464,7 +3552,7 @@
         -72.15,
         45.27
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSQC83V-11-4"
     },
     {
@@ -3486,7 +3574,7 @@
         -75.97,
         46.38
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSQC102-11-4"
     },
     {
@@ -3508,7 +3596,7 @@
         -73.17,
         45.43
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSQC84V-11-4"
     },
     {
@@ -3530,7 +3618,7 @@
         -73.17,
         45.43
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSQC84V-11-4"
     },
     {
@@ -3552,7 +3640,7 @@
         -73.6,
         45.75
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSQC85V-11-4"
     },
     {
@@ -3574,7 +3662,7 @@
         -77.63,
         49.75
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSQC129-11-4"
     },
     {
@@ -3596,7 +3684,7 @@
         -77.63,
         49.75
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSQC129-11-4"
     },
     {
@@ -3618,7 +3706,7 @@
         -72.97,
         46.8
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSQC89V-11-4"
     },
     {
@@ -3640,7 +3728,7 @@
         -74.08,
         45.65
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSQC123-11-4"
     },
     {
@@ -3662,7 +3750,7 @@
         -73.2,
         45.57
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSQC92V-11-4"
     },
     {
@@ -3684,7 +3772,7 @@
         -73.2,
         45.57
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSQC92V-11-4"
     },
     {
@@ -3706,7 +3794,7 @@
         -74.6,
         46.12
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSQC167-11-4"
     },
     {
@@ -3728,7 +3816,7 @@
         -73.65,
         45.52
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSQC147-11-4"
     },
     {
@@ -3750,7 +3838,7 @@
         -73.65,
         45.52
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSQC147-11-4"
     },
     {
@@ -3794,7 +3882,7 @@
         -72.62,
         46.22
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSQC110-11-4"
     },
     {
@@ -3816,7 +3904,7 @@
         -73.22,
         45.53
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSQC93V-11-4"
     },
     {
@@ -3838,7 +3926,7 @@
         -73.22,
         45.53
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSQC93V-11-4"
     },
     {
@@ -3860,7 +3948,7 @@
         -74.62,
         47.92
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSQC114-11-4"
     },
     {
@@ -3882,7 +3970,7 @@
         -73.98,
         45.38
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSQC96V-11-4"
     },
     {
@@ -3904,7 +3992,7 @@
         -74.08,
         45.87
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSQC98V-11-4"
     },
     {
@@ -3926,7 +4014,7 @@
         -73.47,
         45.73
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSQCA0V-11-4"
     },
     {
@@ -3948,7 +4036,7 @@
         -73.25,
         45.45
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSQC21V-11-4"
     },
     {
@@ -3970,7 +4058,7 @@
         -73.25,
         45.45
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSQC21V-11-4"
     },
     {
@@ -3992,7 +4080,7 @@
         -74.3,
         45.48
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSQCA2V-11-4"
     },
     {
@@ -4014,7 +4102,7 @@
         -73.8,
         45.63
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSQCA3V-11-4"
     },
     {
@@ -4036,7 +4124,7 @@
         -73.8,
         45.63
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSQCA3V-11-4"
     },
     {
@@ -4058,7 +4146,7 @@
         -79.02,
         48.23
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSQC148-11-4"
     },
     {
@@ -4080,7 +4168,7 @@
         -73.3,
         45.65
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSQCA5V-11-4"
     },
     {
@@ -4102,7 +4190,7 @@
         -73.28,
         45.53
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSQCA6V-11-4"
     },
     {
@@ -4124,7 +4212,7 @@
         -73.57,
         45.37
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSQCA7V-11-4"
     },
     {
@@ -4146,7 +4234,7 @@
         -73.9,
         45.57
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSQCB4V-11-4"
     },
     {
@@ -4168,7 +4256,7 @@
         -73.27,
         45.32
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSQC28V-11-4"
     },
     {
@@ -4190,7 +4278,7 @@
         -73.27,
         45.32
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSQC28V-11-4"
     },
     {
@@ -4212,7 +4300,7 @@
         -74.0,
         45.78
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSQC13V-11-4"
     },
     {
@@ -4234,7 +4322,7 @@
         -74.13,
         45.4
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSQCB7V-11-4"
     },
     {
@@ -4256,7 +4344,7 @@
         -73.77,
         45.85
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSQCB8V-11-4"
     },
     {
@@ -4278,7 +4366,7 @@
         -73.3,
         45.35
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSQCB9V-11-4"
     },
     {
@@ -4300,7 +4388,7 @@
         -73.3,
         45.35
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSQCB9V-11-4"
     },
     {
@@ -4322,7 +4410,7 @@
         -72.42,
         45.83
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSQCC1V-11-4"
     },
     {
@@ -4344,7 +4432,7 @@
         -73.62,
         45.27
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSQCC2V-11-4"
     },
     {
@@ -4366,7 +4454,7 @@
         -74.04,
         45.29
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSQCC4V-11-4"
     },
     {
@@ -4388,7 +4476,7 @@
         -74.28,
         46.05
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSQC33V-11-4"
     },
     {
@@ -4410,7 +4498,7 @@
         -74.28,
         46.05
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSQC33V-11-4"
     },
     {
@@ -4432,7 +4520,7 @@
         -73.82,
         45.77
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSQCA9V-11-4"
     },
     {
@@ -4454,7 +4542,7 @@
         -73.58,
         45.4
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSQCB0V-11-4"
     },
     {
@@ -4476,7 +4564,7 @@
         -73.33,
         45.58
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSQCB1V-11-4"
     },
     {
@@ -4498,7 +4586,7 @@
         -73.33,
         45.58
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSQCB1V-11-4"
     },
     {
@@ -4520,7 +4608,7 @@
         -73.9,
         45.82
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSQCB2V-11-4"
     },
     {
@@ -4542,7 +4630,7 @@
         -73.85,
         45.63
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSQCB3V-11-4"
     },
     {
@@ -4564,7 +4652,7 @@
         -74.13,
         45.25
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSQC143-11-4"
     },
     {
@@ -4586,7 +4674,7 @@
         -72.75,
         46.57
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSQC132-11-4"
     },
     {
@@ -4608,7 +4696,7 @@
         -71.9,
         45.4
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSQC136-11-4"
     },
     {
@@ -4630,7 +4718,7 @@
         -73.12,
         46.03
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSQCC6V-11-4"
     },
     {
@@ -4652,7 +4740,7 @@
         -72.62,
         45.1
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSQC135-11-4"
     },
     {
@@ -4674,7 +4762,7 @@
         -72.62,
         45.1
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSQC135-11-4"
     },
     {
@@ -4696,7 +4784,7 @@
         -73.63,
         45.7
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSQCC7V-11-4"
     },
     {
@@ -4718,7 +4806,7 @@
         -73.14,
         46.03
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSQCC9V-11-4"
     },
     {
@@ -4740,7 +4828,7 @@
         -77.78,
         48.1
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSQC149-11-4"
     },
     {
@@ -4762,7 +4850,7 @@
         -73.43,
         45.68
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSQC162-11-4"
     },
     {
@@ -4784,7 +4872,7 @@
         -74.03,
         45.4
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSQC66V-11-4"
     },
     {
@@ -4806,7 +4894,7 @@
         -71.97,
         46.05
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSQC157-11-4"
     },
     {
@@ -4828,7 +4916,7 @@
         -136.3,
         62.09
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSYT17V-11-4"
     }
   ],

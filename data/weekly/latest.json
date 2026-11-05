@@ -14,13 +14,13 @@
   ],
   "daysAvailable": 7,
   "isPartial": false,
-  "generatedAt": "2026-11-05T10:40:57-05:00",
+  "generatedAt": "2026-11-05T16:41:06-05:00",
   "summary": {
-    "totalRecords": 480,
-    "brokenRecords": 460,
+    "totalRecords": 484,
+    "brokenRecords": 464,
     "tiedRecords": 20
   },
-  "summaryText": "460 records broken, 20 tied. Record High Minimum Temperature was the most common category (231 of 480 record events). Quebec recorded the most events (190).",
+  "summaryText": "464 records broken, 20 tied. Record High Minimum Temperature was the most common category (231 of 484 record events). Quebec recorded the most events (190).",
   "typeBreakdown": [
     {
       "type": "high_min",
@@ -32,22 +32,22 @@
     {
       "type": "high_max",
       "label": "Record High Maximum Temperature",
-      "total": 191,
-      "broken": 181,
+      "total": 193,
+      "broken": 183,
       "tied": 10
     },
     {
       "type": "precipitation",
       "label": "Daily Precipitation Record",
-      "total": 50,
-      "broken": 49,
+      "total": 51,
+      "broken": 50,
       "tied": 1
     },
     {
       "type": "low_min",
       "label": "Record Low Minimum Temperature",
-      "total": 6,
-      "broken": 6,
+      "total": 7,
+      "broken": 7,
       "tied": 0
     },
     {
@@ -74,7 +74,7 @@
     {
       "province": "ON",
       "provinceName": "Ontario",
-      "total": 183
+      "total": 186
     },
     {
       "province": "MB",
@@ -107,13 +107,13 @@
       "total": 5
     },
     {
-      "province": "AB",
-      "provinceName": "Alberta",
-      "total": 4
-    },
-    {
       "province": "NL",
       "provinceName": "Newfoundland and Labrador",
+      "total": 5
+    },
+    {
+      "province": "AB",
+      "provinceName": "Alberta",
       "total": 4
     },
     {
@@ -221,7 +221,7 @@
         -77.76,
         45.06
       ],
-      "sourceUpdated": "2026-11-05T12:17:48Z",
+      "sourceUpdated": "2026-11-05T18:33:15Z",
       "sourceId": "VSON102-11-4",
       "previousRecordAge": 104
     },
