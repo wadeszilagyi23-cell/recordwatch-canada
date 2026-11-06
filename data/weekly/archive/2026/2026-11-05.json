@@ -14,13 +14,13 @@
   ],
   "daysAvailable": 7,
   "isPartial": false,
-  "generatedAt": "2026-11-06T10:40:47-05:00",
+  "generatedAt": "2026-11-06T16:40:44-05:00",
   "summary": {
-    "totalRecords": 515,
-    "brokenRecords": 494,
+    "totalRecords": 517,
+    "brokenRecords": 496,
     "tiedRecords": 21
   },
-  "summaryText": "494 records broken, 21 tied. Record High Minimum Temperature was the most common category (290 of 515 record events). Quebec recorded the most events (218).",
+  "summaryText": "496 records broken, 21 tied. Record High Minimum Temperature was the most common category (290 of 517 record events). Quebec recorded the most events (218).",
   "typeBreakdown": [
     {
       "type": "high_min",
@@ -39,15 +39,15 @@
     {
       "type": "precipitation",
       "label": "Daily Precipitation Record",
-      "total": 52,
-      "broken": 51,
+      "total": 53,
+      "broken": 52,
       "tied": 1
     },
     {
       "type": "low_min",
       "label": "Record Low Minimum Temperature",
-      "total": 9,
-      "broken": 9,
+      "total": 10,
+      "broken": 10,
       "tied": 0
     }
   ],
@@ -85,7 +85,7 @@
     {
       "province": "NL",
       "provinceName": "Newfoundland and Labrador",
-      "total": 10
+      "total": 11
     },
     {
       "province": "NB",
@@ -110,6 +110,11 @@
     {
       "province": "PE",
       "provinceName": "Prince Edward Island",
+      "total": 1
+    },
+    {
+      "province": "BC",
+      "provinceName": "British Columbia",
       "total": 1
     }
   ],
@@ -156,7 +161,7 @@
         -77.76,
         45.06
       ],
-      "sourceUpdated": "2026-11-06T12:18:29Z",
+      "sourceUpdated": "2026-11-06T18:33:05Z",
       "sourceId": "VSON102-11-4",
       "previousRecordAge": 104
     },
@@ -248,7 +253,7 @@
         -73.88,
         45.67
       ],
-      "sourceUpdated": "2026-11-06T12:18:29Z",
+      "sourceUpdated": "2026-11-06T18:33:05Z",
       "sourceId": "VSQC52V-11-5",
       "previousRecordAge": 91
     }
