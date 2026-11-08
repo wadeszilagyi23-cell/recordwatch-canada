@@ -1,46 +1,46 @@
 {
   "schemaVersion": 1,
   "title": "This Week in Canadian Extremes",
-  "startDate": "2026-10-31",
-  "endDate": "2026-11-06",
+  "startDate": "2026-11-01",
+  "endDate": "2026-11-07",
   "datesIncluded": [
-    "2026-10-31",
     "2026-11-01",
     "2026-11-02",
     "2026-11-03",
     "2026-11-04",
     "2026-11-05",
-    "2026-11-06"
+    "2026-11-06",
+    "2026-11-07"
   ],
   "daysAvailable": 7,
   "isPartial": false,
-  "generatedAt": "2026-11-07T16:40:52-05:00",
+  "generatedAt": "2026-11-08T10:40:40-05:00",
   "summary": {
-    "totalRecords": 551,
-    "brokenRecords": 529,
-    "tiedRecords": 22
+    "totalRecords": 604,
+    "brokenRecords": 579,
+    "tiedRecords": 25
   },
-  "summaryText": "529 records broken, 22 tied. Record High Minimum Temperature was the most common category (309 of 551 record events). Quebec recorded the most events (217).",
+  "summaryText": "579 records broken, 25 tied. Record High Minimum Temperature was the most common category (332 of 604 record events). Quebec recorded the most events (220).",
   "typeBreakdown": [
     {
       "type": "high_min",
       "label": "Record High Minimum Temperature",
-      "total": 309,
-      "broken": 298,
-      "tied": 11
+      "total": 332,
+      "broken": 318,
+      "tied": 14
     },
     {
       "type": "high_max",
       "label": "Record High Maximum Temperature",
-      "total": 175,
-      "broken": 164,
+      "total": 196,
+      "broken": 185,
       "tied": 11
     },
     {
       "type": "precipitation",
       "label": "Daily Precipitation Record",
-      "total": 57,
-      "broken": 57,
+      "total": 66,
+      "broken": 66,
       "tied": 0
     },
     {
@@ -55,7 +55,7 @@
     {
       "province": "QC",
       "provinceName": "Quebec",
-      "total": 217
+      "total": 220
     },
     {
       "province": "ON",
@@ -65,22 +65,37 @@
     {
       "province": "MB",
       "provinceName": "Manitoba",
-      "total": 42
+      "total": 49
     },
     {
       "province": "NU",
       "provinceName": "Nunavut",
-      "total": 25
+      "total": 31
     },
     {
       "province": "SK",
       "provinceName": "Saskatchewan",
-      "total": 23
+      "total": 26
     },
     {
       "province": "NT",
       "provinceName": "Northwest Territories",
+      "total": 21
+    },
+    {
+      "province": "BC",
+      "provinceName": "British Columbia",
       "total": 19
+    },
+    {
+      "province": "AB",
+      "provinceName": "Alberta",
+      "total": 16
+    },
+    {
+      "province": "NS",
+      "provinceName": "Nova Scotia",
+      "total": 14
     },
     {
       "province": "NL",
@@ -88,24 +103,9 @@
       "total": 11
     },
     {
-      "province": "NS",
-      "provinceName": "Nova Scotia",
-      "total": 9
-    },
-    {
-      "province": "AB",
-      "provinceName": "Alberta",
-      "total": 7
-    },
-    {
-      "province": "BC",
-      "provinceName": "British Columbia",
-      "total": 7
-    },
-    {
       "province": "NB",
       "provinceName": "New Brunswick",
-      "total": 6
+      "total": 10
     },
     {
       "province": "YT",
@@ -115,7 +115,7 @@
     {
       "province": "PE",
       "provinceName": "Prince Edward Island",
-      "total": 1
+      "total": 3
     }
   ],
   "notableRecords": [
@@ -212,50 +212,50 @@
       "previousRecordAge": 101
     },
     {
-      "id": "VSAB35V-2026-11-01-precipitation",
-      "date": "2026-11-01",
-      "community": "Onefour",
-      "province": "AB",
-      "provinceName": "Alberta",
-      "type": "precipitation",
+      "id": "VSQC106-2026-11-07-high_max",
+      "date": "2026-11-07",
+      "community": "Quaqtaq",
+      "province": "QC",
+      "provinceName": "Quebec",
+      "type": "high_max",
       "status": "broken",
-      "value": 9.4,
-      "unit": "mm",
-      "previousValue": 5.1,
-      "previousYear": 1933,
-      "difference": 4.3,
+      "value": 1.8,
+      "unit": "°C",
+      "previousValue": 1.7,
+      "previousYear": 1928,
+      "difference": 0.1,
       "recordBeginYear": 1928,
       "periodYears": 99,
       "coordinates": [
-        -110.47,
-        49.12
+        -69.63,
+        61.05
       ],
-      "sourceUpdated": null,
-      "sourceId": "VSAB35V-11-1",
-      "previousRecordAge": 93
+      "sourceUpdated": "2026-11-08T12:21:42Z",
+      "sourceId": "VSQC106-11-7",
+      "previousRecordAge": 98
     },
     {
-      "id": "VSQC52V-2026-11-05-high_min",
-      "date": "2026-11-05",
-      "community": "Blainville",
-      "province": "QC",
-      "provinceName": "Quebec",
-      "type": "high_min",
+      "id": "VSBC35V-2026-11-07-high_max",
+      "date": "2026-11-07",
+      "community": "Pitt Meadows",
+      "province": "BC",
+      "provinceName": "British Columbia",
+      "type": "high_max",
       "status": "broken",
-      "value": 9.2,
+      "value": 18.2,
       "unit": "°C",
-      "previousValue": 7.2,
-      "previousYear": 1935,
-      "difference": 2.0,
-      "recordBeginYear": 1932,
-      "periodYears": 95,
+      "previousValue": 15.6,
+      "previousYear": 1930,
+      "difference": 2.6,
+      "recordBeginYear": 1874,
+      "periodYears": 153,
       "coordinates": [
-        -73.88,
-        45.67
+        -122.69,
+        49.22
       ],
-      "sourceUpdated": "2026-11-07T18:33:31Z",
-      "sourceId": "VSQC52V-11-5",
-      "previousRecordAge": 91
+      "sourceUpdated": "2026-11-08T12:21:42Z",
+      "sourceId": "VSBC35V-11-7",
+      "previousRecordAge": 96
     }
   ],
   "notes": [
