@@ -14,13 +14,13 @@
   ],
   "daysAvailable": 7,
   "isPartial": false,
-  "generatedAt": "2026-11-08T10:40:40-05:00",
+  "generatedAt": "2026-11-08T16:40:53-05:00",
   "summary": {
-    "totalRecords": 604,
-    "brokenRecords": 579,
+    "totalRecords": 605,
+    "brokenRecords": 580,
     "tiedRecords": 25
   },
-  "summaryText": "579 records broken, 25 tied. Record High Minimum Temperature was the most common category (332 of 604 record events). Quebec recorded the most events (220).",
+  "summaryText": "580 records broken, 25 tied. Record High Minimum Temperature was the most common category (332 of 605 record events). Quebec recorded the most events (220).",
   "typeBreakdown": [
     {
       "type": "high_min",
@@ -32,8 +32,8 @@
     {
       "type": "high_max",
       "label": "Record High Maximum Temperature",
-      "total": 196,
-      "broken": 185,
+      "total": 197,
+      "broken": 186,
       "tied": 11
     },
     {
@@ -85,7 +85,7 @@
     {
       "province": "BC",
       "provinceName": "British Columbia",
-      "total": 19
+      "total": 20
     },
     {
       "province": "AB",
@@ -230,7 +230,7 @@
         -69.63,
         61.05
       ],
-      "sourceUpdated": "2026-11-08T12:21:42Z",
+      "sourceUpdated": "2026-11-08T18:36:51Z",
       "sourceId": "VSQC106-11-7",
       "previousRecordAge": 98
     },
@@ -253,7 +253,7 @@
         -122.69,
         49.22
       ],
-      "sourceUpdated": "2026-11-08T12:21:42Z",
+      "sourceUpdated": "2026-11-08T18:36:51Z",
       "sourceId": "VSBC35V-11-7",
       "previousRecordAge": 96
     }
