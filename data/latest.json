@@ -2,19 +2,19 @@
   "schemaVersion": 1,
   "date": "2026-11-08",
   "latestAvailableDate": "2026-11-08",
-  "generatedAt": "2026-11-09T10:40:37-05:00",
-  "sourceLastUpdated": "2026-11-09T12:17:41Z",
+  "generatedAt": "2026-11-09T16:40:48-05:00",
+  "sourceLastUpdated": "2026-11-09T18:32:39Z",
   "source": "Environment and Climate Change Canada — MSC GeoMet LTCE",
   "isDemo": false,
   "summary": {
-    "totalRecords": 47,
-    "communities": 45,
+    "totalRecords": 46,
+    "communities": 44,
     "tiedRecords": 0,
     "oldestRecordAge": 103
   },
   "validation": {
-    "candidateRecords": 47,
-    "publishedRecords": 47,
+    "candidateRecords": 46,
+    "publishedRecords": 46,
     "withheldRecords": 0,
     "invalidRecords": 0,
     "manualReviewRecords": 0
@@ -38,7 +38,7 @@
       -106.69,
       52.14
     ],
-    "sourceUpdated": "2026-11-09T12:17:41Z",
+    "sourceUpdated": "2026-11-09T18:32:39Z",
     "sourceId": "VSSK40V-11-8"
   },
   "story": {
@@ -84,14 +84,6 @@
       "tiedCount": 0,
       "leadingType": "precipitation",
       "text": "3 records broken. All 3 were daily precipitation record events."
-    },
-    {
-      "region": "Ontario",
-      "count": 1,
-      "brokenCount": 1,
-      "tiedCount": 0,
-      "leadingType": "high_max",
-      "text": "1 record broken. It was a record high maximum temperature."
     }
   ],
   "records": [
@@ -114,7 +106,7 @@
         -111.45,
         52.09
       ],
-      "sourceUpdated": "2026-11-09T12:17:41Z",
+      "sourceUpdated": "2026-11-09T18:32:39Z",
       "sourceId": "VSAB59V-11-8"
     },
     {
@@ -136,7 +128,7 @@
         -112.72,
         51.46
       ],
-      "sourceUpdated": "2026-11-09T12:17:41Z",
+      "sourceUpdated": "2026-11-09T18:32:39Z",
       "sourceId": "VSAB62V-11-8"
     },
     {
@@ -158,7 +150,7 @@
         -113.49,
         53.53
       ],
-      "sourceUpdated": "2026-11-09T12:17:41Z",
+      "sourceUpdated": "2026-11-09T18:32:39Z",
       "sourceId": "VSAB50V-11-8"
     },
     {
@@ -180,7 +172,7 @@
         -113.54,
         53.34
       ],
-      "sourceUpdated": "2026-11-09T12:17:41Z",
+      "sourceUpdated": "2026-11-09T18:32:39Z",
       "sourceId": "VSAB71V-11-8"
     },
     {
@@ -202,7 +194,7 @@
         -112.87,
         53.61
       ],
-      "sourceUpdated": "2026-11-09T12:17:41Z",
+      "sourceUpdated": "2026-11-09T18:32:39Z",
       "sourceId": "VSAB63V-11-8"
     },
     {
@@ -224,7 +216,7 @@
         -117.3,
         56.24
       ],
-      "sourceUpdated": "2026-11-09T12:17:41Z",
+      "sourceUpdated": "2026-11-09T18:32:39Z",
       "sourceId": "VSAB25V-11-8"
     },
     {
@@ -246,7 +238,7 @@
         -114.01,
         53.53
       ],
-      "sourceUpdated": "2026-11-09T12:17:41Z",
+      "sourceUpdated": "2026-11-09T18:32:39Z",
       "sourceId": "VSAB22V-11-8"
     },
     {
@@ -268,7 +260,7 @@
         -121.32,
         50.81
       ],
-      "sourceUpdated": "2026-11-09T12:17:41Z",
+      "sourceUpdated": "2026-11-09T18:32:39Z",
       "sourceId": "VSBC55V-11-8"
     },
     {
@@ -290,7 +282,7 @@
         -117.67,
         49.3
       ],
-      "sourceUpdated": "2026-11-09T12:17:41Z",
+      "sourceUpdated": "2026-11-09T18:32:39Z",
       "sourceId": "VSBC21V-11-8"
     },
     {
@@ -312,7 +304,7 @@
         -116.5,
         49.1
       ],
-      "sourceUpdated": "2026-11-09T12:17:41Z",
+      "sourceUpdated": "2026-11-09T18:32:39Z",
       "sourceId": "VSBC26V-11-8"
     },
     {
@@ -356,7 +348,7 @@
         -117.28,
         49.5
       ],
-      "sourceUpdated": "2026-11-09T12:17:41Z",
+      "sourceUpdated": "2026-11-09T18:32:39Z",
       "sourceId": "VSBC37V-11-8"
     },
     {
@@ -378,7 +370,7 @@
         -97.03,
         52.37
       ],
-      "sourceUpdated": "2026-11-09T12:17:41Z",
+      "sourceUpdated": "2026-11-09T18:32:39Z",
       "sourceId": "VSMB54V-11-8"
     },
     {
@@ -400,7 +392,7 @@
         -97.82,
         53.99
       ],
-      "sourceUpdated": "2026-11-09T12:17:41Z",
+      "sourceUpdated": "2026-11-09T18:32:39Z",
       "sourceId": "VSMB25V-11-8"
     },
     {
@@ -422,7 +414,7 @@
         -97.86,
         55.74
       ],
-      "sourceUpdated": "2026-11-09T12:17:41Z",
+      "sourceUpdated": "2026-11-09T18:32:39Z",
       "sourceId": "VSMB34V-11-8"
     },
     {
@@ -532,7 +524,7 @@
         -121.35,
         61.86
       ],
-      "sourceUpdated": "2026-11-09T12:17:41Z",
+      "sourceUpdated": "2026-11-09T18:32:39Z",
       "sourceId": "VSNT4VV-11-8"
     },
     {
@@ -576,7 +568,7 @@
         -68.52,
         63.75
       ],
-      "sourceUpdated": "2026-11-09T12:17:41Z",
+      "sourceUpdated": "2026-11-09T18:32:39Z",
       "sourceId": "VSNU21V-11-8"
     },
     {
@@ -598,7 +590,7 @@
         -76.54,
         64.23
       ],
-      "sourceUpdated": "2026-11-09T12:17:41Z",
+      "sourceUpdated": "2026-11-09T18:32:39Z",
       "sourceId": "VSNU2VV-11-8"
     },
     {
@@ -620,7 +612,7 @@
         -64.03,
         67.55
       ],
-      "sourceUpdated": "2026-11-09T12:17:41Z",
+      "sourceUpdated": "2026-11-09T18:32:39Z",
       "sourceId": "VSNU5VV-11-8"
     },
     {
@@ -644,28 +636,6 @@
       ],
       "sourceUpdated": null,
       "sourceId": "VSNU27V-11-8"
-    },
-    {
-      "id": "VSON152-2026-11-08-high_max",
-      "date": "2026-11-08",
-      "community": "Cornwall",
-      "province": "ON",
-      "provinceName": "Ontario",
-      "type": "high_max",
-      "status": "broken",
-      "value": 23.5,
-      "unit": "°C",
-      "previousValue": 21.0,
-      "previousYear": 2020,
-      "difference": 2.5,
-      "recordBeginYear": 1950,
-      "periodYears": 77,
-      "coordinates": [
-        -74.73,
-        45.03
-      ],
-      "sourceUpdated": "2026-11-09T12:17:41Z",
-      "sourceId": "VSON152-11-8"
     },
     {
       "id": "VSPE1VV-2026-11-08-precipitation",
@@ -884,7 +854,7 @@
         -103.63,
         58.28
       ],
-      "sourceUpdated": "2026-11-09T12:17:41Z",
+      "sourceUpdated": "2026-11-09T18:32:39Z",
       "sourceId": "VSSK30V-11-8"
     },
     {
@@ -928,7 +898,7 @@
         -108.82,
         49.52
       ],
-      "sourceUpdated": "2026-11-09T12:17:41Z",
+      "sourceUpdated": "2026-11-09T18:32:39Z",
       "sourceId": "VSSK45V-11-8"
     },
     {
@@ -950,7 +920,7 @@
         -106.6,
         51.12
       ],
-      "sourceUpdated": "2026-11-09T12:17:41Z",
+      "sourceUpdated": "2026-11-09T18:32:39Z",
       "sourceId": "VSSK18V-11-8"
     },
     {
@@ -972,7 +942,7 @@
         -107.13,
         50.99
       ],
-      "sourceUpdated": "2026-11-09T12:17:41Z",
+      "sourceUpdated": "2026-11-09T18:32:39Z",
       "sourceId": "VSSK14V-11-8"
     },
     {
@@ -994,7 +964,7 @@
         -108.29,
         52.76
       ],
-      "sourceUpdated": "2026-11-09T12:17:41Z",
+      "sourceUpdated": "2026-11-09T18:32:39Z",
       "sourceId": "VSSK34V-11-8"
     },
     {
@@ -1016,7 +986,7 @@
         -107.05,
         51.49
       ],
-      "sourceUpdated": "2026-11-09T12:17:41Z",
+      "sourceUpdated": "2026-11-09T18:32:39Z",
       "sourceId": "VSSK37V-11-8"
     },
     {
@@ -1038,7 +1008,7 @@
         -107.99,
         51.55
       ],
-      "sourceUpdated": "2026-11-09T12:17:41Z",
+      "sourceUpdated": "2026-11-09T18:32:39Z",
       "sourceId": "VSSK23V-11-8"
     },
     {
@@ -1060,7 +1030,7 @@
         -106.69,
         52.14
       ],
-      "sourceUpdated": "2026-11-09T12:17:41Z",
+      "sourceUpdated": "2026-11-09T18:32:39Z",
       "sourceId": "VSSK40V-11-8"
     },
     {
@@ -1082,7 +1052,7 @@
         -108.83,
         52.37
       ],
-      "sourceUpdated": "2026-11-09T12:17:41Z",
+      "sourceUpdated": "2026-11-09T18:32:39Z",
       "sourceId": "VSSK26V-11-8"
     },
     {
@@ -1104,7 +1074,7 @@
         -108.61,
         59.57
       ],
-      "sourceUpdated": "2026-11-09T12:17:41Z",
+      "sourceUpdated": "2026-11-09T18:32:39Z",
       "sourceId": "VSSK44V-11-8"
     },
     {
