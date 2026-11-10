@@ -1,0 +1,292 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-11-09",
+  "latestAvailableDate": "2026-11-09",
+  "generatedAt": "2026-11-10T10:40:47-05:00",
+  "sourceLastUpdated": "2026-11-10T12:17:38Z",
+  "source": "Environment and Climate Change Canada — MSC GeoMet LTCE",
+  "isDemo": false,
+  "summary": {
+    "totalRecords": 10,
+    "communities": 10,
+    "tiedRecords": 0,
+    "oldestRecordAge": 103
+  },
+  "validation": {
+    "candidateRecords": 10,
+    "publishedRecords": 10,
+    "withheldRecords": 0,
+    "invalidRecords": 0,
+    "manualReviewRecords": 0
+  },
+  "recordOfDay": {
+    "id": "VSMB65V-2026-11-09-high_min",
+    "date": "2026-11-09",
+    "community": "Carman",
+    "province": "MB",
+    "provinceName": "Manitoba",
+    "type": "high_min",
+    "status": "broken",
+    "value": 3.5,
+    "unit": "°C",
+    "previousValue": 2.8,
+    "previousYear": 1923,
+    "difference": 0.7,
+    "recordBeginYear": 1895,
+    "periodYears": 132,
+    "coordinates": [
+      -98.0,
+      49.5
+    ],
+    "sourceUpdated": "2026-11-10T12:17:38Z",
+    "sourceId": "VSMB65V-11-9"
+  },
+  "story": {
+    "description": "Carman, MB recorded 3.5 °C. It exceeded the previous record high minimum temperature of 2.8 °C from 1923."
+  },
+  "highlights": [
+    {
+      "region": "Prairies",
+      "count": 8,
+      "brokenCount": 8,
+      "tiedCount": 0,
+      "leadingType": "high_min",
+      "text": "8 records broken. The most common type was record high minimum temperature (6 of 8)."
+    },
+    {
+      "region": "Northern Canada",
+      "count": 2,
+      "brokenCount": 2,
+      "tiedCount": 0,
+      "leadingType": "high_min",
+      "text": "2 records broken. The most common type was record high minimum temperature (1 of 2)."
+    }
+  ],
+  "records": [
+    {
+      "id": "VSAB24V-2026-11-09-high_min",
+      "date": "2026-11-09",
+      "community": "High Level",
+      "province": "AB",
+      "provinceName": "Alberta",
+      "type": "high_min",
+      "status": "broken",
+      "value": -0.6,
+      "unit": "°C",
+      "previousValue": -0.8,
+      "previousYear": 2016,
+      "difference": 0.2,
+      "recordBeginYear": 1962,
+      "periodYears": 65,
+      "coordinates": [
+        -117.13,
+        58.52
+      ],
+      "sourceUpdated": "2026-11-10T12:17:38Z",
+      "sourceId": "VSAB24V-11-9"
+    },
+    {
+      "id": "VSMB3VV-2026-11-09-high_min",
+      "date": "2026-11-09",
+      "community": "Altona",
+      "province": "MB",
+      "provinceName": "Manitoba",
+      "type": "high_min",
+      "status": "broken",
+      "value": 3.0,
+      "unit": "°C",
+      "previousValue": 2.5,
+      "previousYear": 2016,
+      "difference": 0.5,
+      "recordBeginYear": 1949,
+      "periodYears": 78,
+      "coordinates": [
+        -97.56,
+        49.1
+      ],
+      "sourceUpdated": "2026-11-10T12:17:38Z",
+      "sourceId": "VSMB3VV-11-9"
+    },
+    {
+      "id": "VSMB65V-2026-11-09-high_min",
+      "date": "2026-11-09",
+      "community": "Carman",
+      "province": "MB",
+      "provinceName": "Manitoba",
+      "type": "high_min",
+      "status": "broken",
+      "value": 3.5,
+      "unit": "°C",
+      "previousValue": 2.8,
+      "previousYear": 1923,
+      "difference": 0.7,
+      "recordBeginYear": 1895,
+      "periodYears": 132,
+      "coordinates": [
+        -98.0,
+        49.5
+      ],
+      "sourceUpdated": "2026-11-10T12:17:38Z",
+      "sourceId": "VSMB65V-11-9"
+    },
+    {
+      "id": "VSMB48V-2026-11-09-high_min",
+      "date": "2026-11-09",
+      "community": "Gretna",
+      "province": "MB",
+      "provinceName": "Manitoba",
+      "type": "high_min",
+      "status": "broken",
+      "value": 3.0,
+      "unit": "°C",
+      "previousValue": 2.5,
+      "previousYear": 2016,
+      "difference": 0.5,
+      "recordBeginYear": 1949,
+      "periodYears": 78,
+      "coordinates": [
+        -97.56,
+        49.01
+      ],
+      "sourceUpdated": "2026-11-10T12:17:38Z",
+      "sourceId": "VSMB48V-11-9"
+    },
+    {
+      "id": "VSMB32V-2026-11-09-high_max",
+      "date": "2026-11-09",
+      "community": "Roblin",
+      "province": "MB",
+      "provinceName": "Manitoba",
+      "type": "high_max",
+      "status": "broken",
+      "value": 12.6,
+      "unit": "°C",
+      "previousValue": 11.7,
+      "previousYear": 1969,
+      "difference": 0.9,
+      "recordBeginYear": 1969,
+      "periodYears": 58,
+      "coordinates": [
+        -101.36,
+        51.23
+      ],
+      "sourceUpdated": "2026-11-10T12:17:38Z",
+      "sourceId": "VSMB32V-11-9"
+    },
+    {
+      "id": "VSNU20V-2026-11-09-high_min",
+      "date": "2026-11-09",
+      "community": "Arviat",
+      "province": "NU",
+      "provinceName": "Nunavut",
+      "type": "high_min",
+      "status": "broken",
+      "value": -3.2,
+      "unit": "°C",
+      "previousValue": -3.5,
+      "previousYear": 1992,
+      "difference": 0.3,
+      "recordBeginYear": 1973,
+      "periodYears": 54,
+      "coordinates": [
+        -94.06,
+        61.11
+      ],
+      "sourceUpdated": "2026-11-10T12:17:38Z",
+      "sourceId": "VSNU20V-11-9"
+    },
+    {
+      "id": "VSNU27V-2026-11-09-precipitation",
+      "date": "2026-11-09",
+      "community": "Resolute",
+      "province": "NU",
+      "provinceName": "Nunavut",
+      "type": "precipitation",
+      "status": "broken",
+      "value": 13.1,
+      "unit": "mm",
+      "previousValue": 10.2,
+      "previousYear": 2003,
+      "difference": 2.9,
+      "recordBeginYear": 1947,
+      "periodYears": 80,
+      "coordinates": [
+        -94.83,
+        74.7
+      ],
+      "sourceUpdated": null,
+      "sourceId": "VSNU27V-11-9"
+    },
+    {
+      "id": "VSSK30V-2026-11-09-precipitation",
+      "date": "2026-11-09",
+      "community": "Collins Bay",
+      "province": "SK",
+      "provinceName": "Saskatchewan",
+      "type": "precipitation",
+      "status": "broken",
+      "value": 4.1,
+      "unit": "mm",
+      "previousValue": 3.8,
+      "previousYear": 1981,
+      "difference": 0.3,
+      "recordBeginYear": 1972,
+      "periodYears": 55,
+      "coordinates": [
+        -103.63,
+        58.28
+      ],
+      "sourceUpdated": null,
+      "sourceId": "VSSK30V-11-9"
+    },
+    {
+      "id": "VSSK50V-2026-11-09-high_min",
+      "date": "2026-11-09",
+      "community": "Southend Reindeer",
+      "province": "SK",
+      "provinceName": "Saskatchewan",
+      "type": "high_min",
+      "status": "broken",
+      "value": -0.1,
+      "unit": "°C",
+      "previousValue": -1.1,
+      "previousYear": 1955,
+      "difference": 1.0,
+      "recordBeginYear": 1938,
+      "periodYears": 89,
+      "coordinates": [
+        -103.27,
+        56.32
+      ],
+      "sourceUpdated": "2026-11-10T12:17:38Z",
+      "sourceId": "VSSK50V-11-9"
+    },
+    {
+      "id": "VSSK36V-2026-11-09-high_min",
+      "date": "2026-11-09",
+      "community": "Stony Rapids",
+      "province": "SK",
+      "provinceName": "Saskatchewan",
+      "type": "high_min",
+      "status": "broken",
+      "value": -2.4,
+      "unit": "°C",
+      "previousValue": -3.3,
+      "previousYear": 1963,
+      "difference": 0.9,
+      "recordBeginYear": 1960,
+      "periodYears": 67,
+      "coordinates": [
+        -105.84,
+        59.25
+      ],
+      "sourceUpdated": "2026-11-10T12:17:38Z",
+      "sourceId": "VSSK36V-11-9"
+    }
+  ],
+  "notes": [
+    "Values may be revised by ECCC after initial publication.",
+    "The archive contains daily snapshots saved by RecordWatch Canada after launch.",
+    "Suspicious or malformed candidate records are automatically withheld pending validation or verification."
+  ]
+}

@@ -1,46 +1,46 @@
 {
   "schemaVersion": 1,
   "title": "This Week in Canadian Extremes",
-  "startDate": "2026-11-02",
-  "endDate": "2026-11-08",
+  "startDate": "2026-11-03",
+  "endDate": "2026-11-09",
   "datesIncluded": [
-    "2026-11-02",
     "2026-11-03",
     "2026-11-04",
     "2026-11-05",
     "2026-11-06",
     "2026-11-07",
-    "2026-11-08"
+    "2026-11-08",
+    "2026-11-09"
   ],
   "daysAvailable": 7,
   "isPartial": false,
-  "generatedAt": "2026-11-09T16:40:50-05:00",
+  "generatedAt": "2026-11-10T10:40:50-05:00",
   "summary": {
-    "totalRecords": 614,
-    "brokenRecords": 592,
-    "tiedRecords": 22
+    "totalRecords": 534,
+    "brokenRecords": 517,
+    "tiedRecords": 17
   },
-  "summaryText": "592 records broken, 22 tied. Record High Minimum Temperature was the most common category (317 of 614 record events). Quebec recorded the most events (227).",
+  "summaryText": "517 records broken, 17 tied. Record High Minimum Temperature was the most common category (266 of 534 record events). Quebec recorded the most events (176).",
   "typeBreakdown": [
     {
       "type": "high_min",
       "label": "Record High Minimum Temperature",
-      "total": 317,
-      "broken": 304,
-      "tied": 13
+      "total": 266,
+      "broken": 257,
+      "tied": 9
     },
     {
       "type": "high_max",
       "label": "Record High Maximum Temperature",
-      "total": 206,
-      "broken": 197,
-      "tied": 9
+      "total": 185,
+      "broken": 177,
+      "tied": 8
     },
     {
       "type": "precipitation",
       "label": "Daily Precipitation Record",
-      "total": 81,
-      "broken": 81,
+      "total": 73,
+      "broken": 73,
       "tied": 0
     },
     {
@@ -55,22 +55,22 @@
     {
       "province": "QC",
       "provinceName": "Quebec",
-      "total": 227
+      "total": 176
     },
     {
       "province": "ON",
       "provinceName": "Ontario",
-      "total": 180
-    },
-    {
-      "province": "MB",
-      "provinceName": "Manitoba",
-      "total": 35
+      "total": 167
     },
     {
       "province": "NU",
       "provinceName": "Nunavut",
-      "total": 35
+      "total": 37
+    },
+    {
+      "province": "SK",
+      "provinceName": "Saskatchewan",
+      "total": 26
     },
     {
       "province": "BC",
@@ -78,28 +78,28 @@
       "total": 25
     },
     {
-      "province": "SK",
-      "provinceName": "Saskatchewan",
-      "total": 24
+      "province": "AB",
+      "provinceName": "Alberta",
+      "total": 22
     },
     {
       "province": "NT",
       "provinceName": "Northwest Territories",
-      "total": 22
+      "total": 19
     },
     {
-      "province": "AB",
-      "provinceName": "Alberta",
-      "total": 21
-    },
-    {
-      "province": "NS",
-      "provinceName": "Nova Scotia",
-      "total": 14
+      "province": "MB",
+      "provinceName": "Manitoba",
+      "total": 18
     },
     {
       "province": "NL",
       "provinceName": "Newfoundland and Labrador",
+      "total": 13
+    },
+    {
+      "province": "NS",
+      "provinceName": "Nova Scotia",
       "total": 13
     },
     {
@@ -161,8 +161,31 @@
         -106.69,
         52.14
       ],
-      "sourceUpdated": "2026-11-09T18:32:39Z",
+      "sourceUpdated": "2026-11-10T12:17:38Z",
       "sourceId": "VSSK40V-11-8",
+      "previousRecordAge": 103
+    },
+    {
+      "id": "VSMB65V-2026-11-09-high_min",
+      "date": "2026-11-09",
+      "community": "Carman",
+      "province": "MB",
+      "provinceName": "Manitoba",
+      "type": "high_min",
+      "status": "broken",
+      "value": 3.5,
+      "unit": "°C",
+      "previousValue": 2.8,
+      "previousYear": 1923,
+      "difference": 0.7,
+      "recordBeginYear": 1895,
+      "periodYears": 132,
+      "coordinates": [
+        -98.0,
+        49.5
+      ],
+      "sourceUpdated": "2026-11-10T12:17:38Z",
+      "sourceId": "VSMB65V-11-9",
       "previousRecordAge": 103
     },
     {
@@ -230,32 +253,9 @@
         -69.63,
         61.05
       ],
-      "sourceUpdated": "2026-11-09T18:32:39Z",
+      "sourceUpdated": "2026-11-10T12:17:38Z",
       "sourceId": "VSQC106-11-7",
       "previousRecordAge": 98
-    },
-    {
-      "id": "VSSK34V-2026-11-08-high_max",
-      "date": "2026-11-08",
-      "community": "North Battleford",
-      "province": "SK",
-      "provinceName": "Saskatchewan",
-      "type": "high_max",
-      "status": "broken",
-      "value": 18.9,
-      "unit": "°C",
-      "previousValue": 16.7,
-      "previousYear": 1929,
-      "difference": 2.2,
-      "recordBeginYear": 1879,
-      "periodYears": 148,
-      "coordinates": [
-        -108.29,
-        52.76
-      ],
-      "sourceUpdated": "2026-11-09T18:32:39Z",
-      "sourceId": "VSSK34V-11-8",
-      "previousRecordAge": 97
     }
   ],
   "notes": [
