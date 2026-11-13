@@ -1,0 +1,258 @@
+{
+  "schemaVersion": 1,
+  "title": "This Week in Canadian Extremes",
+  "startDate": "2026-11-06",
+  "endDate": "2026-11-12",
+  "datesIncluded": [
+    "2026-11-06",
+    "2026-11-07",
+    "2026-11-08",
+    "2026-11-09",
+    "2026-11-10",
+    "2026-11-11",
+    "2026-11-12"
+  ],
+  "daysAvailable": 7,
+  "isPartial": false,
+  "generatedAt": "2026-11-13T10:40:42-05:00",
+  "summary": {
+    "totalRecords": 343,
+    "brokenRecords": 322,
+    "tiedRecords": 21
+  },
+  "summaryText": "322 records broken, 21 tied. Record High Minimum Temperature was the most common category (155 of 343 record events). British Columbia recorded the most events (127).",
+  "typeBreakdown": [
+    {
+      "type": "high_min",
+      "label": "Record High Minimum Temperature",
+      "total": 155,
+      "broken": 141,
+      "tied": 14
+    },
+    {
+      "type": "high_max",
+      "label": "Record High Maximum Temperature",
+      "total": 140,
+      "broken": 134,
+      "tied": 6
+    },
+    {
+      "type": "precipitation",
+      "label": "Daily Precipitation Record",
+      "total": 48,
+      "broken": 47,
+      "tied": 1
+    }
+  ],
+  "provinceBreakdown": [
+    {
+      "province": "BC",
+      "provinceName": "British Columbia",
+      "total": 127
+    },
+    {
+      "province": "AB",
+      "provinceName": "Alberta",
+      "total": 55
+    },
+    {
+      "province": "NT",
+      "provinceName": "Northwest Territories",
+      "total": 40
+    },
+    {
+      "province": "NU",
+      "provinceName": "Nunavut",
+      "total": 39
+    },
+    {
+      "province": "SK",
+      "provinceName": "Saskatchewan",
+      "total": 27
+    },
+    {
+      "province": "MB",
+      "provinceName": "Manitoba",
+      "total": 16
+    },
+    {
+      "province": "QC",
+      "provinceName": "Quebec",
+      "total": 14
+    },
+    {
+      "province": "NS",
+      "provinceName": "Nova Scotia",
+      "total": 10
+    },
+    {
+      "province": "NL",
+      "provinceName": "Newfoundland and Labrador",
+      "total": 6
+    },
+    {
+      "province": "NB",
+      "provinceName": "New Brunswick",
+      "total": 4
+    },
+    {
+      "province": "PE",
+      "provinceName": "Prince Edward Island",
+      "total": 3
+    },
+    {
+      "province": "ON",
+      "provinceName": "Ontario",
+      "total": 1
+    },
+    {
+      "province": "YT",
+      "provinceName": "Yukon",
+      "total": 1
+    }
+  ],
+  "notableRecords": [
+    {
+      "id": "VSBC35V-2026-11-12-high_max",
+      "date": "2026-11-12",
+      "community": "Pitt Meadows",
+      "province": "BC",
+      "provinceName": "British Columbia",
+      "type": "high_max",
+      "status": "broken",
+      "value": 17.1,
+      "unit": "°C",
+      "previousValue": 16.1,
+      "previousYear": 1905,
+      "difference": 1.0,
+      "recordBeginYear": 1874,
+      "periodYears": 153,
+      "coordinates": [
+        -122.69,
+        49.22
+      ],
+      "sourceUpdated": "2026-11-13T12:17:59Z",
+      "sourceId": "VSBC35V-11-12",
+      "previousRecordAge": 121
+    },
+    {
+      "id": "VSBC28V-2026-11-11-high_max",
+      "date": "2026-11-11",
+      "community": "Lillooet",
+      "province": "BC",
+      "provinceName": "British Columbia",
+      "type": "high_max",
+      "status": "broken",
+      "value": 20.3,
+      "unit": "°C",
+      "previousValue": 19.4,
+      "previousYear": 1917,
+      "difference": 0.9,
+      "recordBeginYear": 1917,
+      "periodYears": 110,
+      "coordinates": [
+        -121.93,
+        50.68
+      ],
+      "sourceUpdated": "2026-11-13T12:17:59Z",
+      "sourceId": "VSBC28V-11-11",
+      "previousRecordAge": 109
+    },
+    {
+      "id": "VSBC68V-2026-11-12-high_max",
+      "date": "2026-11-12",
+      "community": "Yoho (National Park)",
+      "province": "BC",
+      "provinceName": "British Columbia",
+      "type": "high_max",
+      "status": "broken",
+      "value": 6.2,
+      "unit": "°C",
+      "previousValue": 6.1,
+      "previousYear": 1917,
+      "difference": 0.1,
+      "recordBeginYear": 1915,
+      "periodYears": 112,
+      "coordinates": [
+        -116.5,
+        51.5
+      ],
+      "sourceUpdated": "2026-11-13T12:17:59Z",
+      "sourceId": "VSBC68V-11-12",
+      "previousRecordAge": 109
+    },
+    {
+      "id": "VSBC51V-2026-11-11-high_max",
+      "date": "2026-11-11",
+      "community": "Salmon Arm",
+      "province": "BC",
+      "provinceName": "British Columbia",
+      "type": "high_max",
+      "status": "broken",
+      "value": 15.8,
+      "unit": "°C",
+      "previousValue": 14.4,
+      "previousYear": 1921,
+      "difference": 1.4,
+      "recordBeginYear": 1893,
+      "periodYears": 134,
+      "coordinates": [
+        -119.27,
+        50.7
+      ],
+      "sourceUpdated": "2026-11-13T12:17:59Z",
+      "sourceId": "VSBC51V-11-11",
+      "previousRecordAge": 105
+    },
+    {
+      "id": "VSNT3VV-2026-11-12-high_max",
+      "date": "2026-11-12",
+      "community": "Fort Resolution",
+      "province": "NT",
+      "provinceName": "Northwest Territories",
+      "type": "high_max",
+      "status": "broken",
+      "value": 6.7,
+      "unit": "°C",
+      "previousValue": 1.7,
+      "previousYear": 1922,
+      "difference": 5.0,
+      "recordBeginYear": 1911,
+      "periodYears": 116,
+      "coordinates": [
+        -113.67,
+        61.17
+      ],
+      "sourceUpdated": "2026-11-13T12:17:59Z",
+      "sourceId": "VSNT3VV-11-12",
+      "previousRecordAge": 104
+    },
+    {
+      "id": "VSAB57V-2026-11-11-high_max",
+      "date": "2026-11-11",
+      "community": "Beaverlodge",
+      "province": "AB",
+      "provinceName": "Alberta",
+      "type": "high_max",
+      "status": "broken",
+      "value": 16.5,
+      "unit": "°C",
+      "previousValue": 12.8,
+      "previousYear": 1923,
+      "difference": 3.7,
+      "recordBeginYear": 1913,
+      "periodYears": 114,
+      "coordinates": [
+        -119.43,
+        55.21
+      ],
+      "sourceUpdated": "2026-11-13T12:17:59Z",
+      "sourceId": "VSAB57V-11-11",
+      "previousRecordAge": 103
+    }
+  ],
+  "notes": [
+    "This recap covers the latest seven completed climate dates.",
+    "Values are preliminary and may be revised by Environment and Climate Change Canada."
+  ]
+}
